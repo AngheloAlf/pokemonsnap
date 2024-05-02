@@ -394,7 +394,7 @@ segments:
     start: 0x5F050
     vram: 0x800E18A0
     bss_size: 0x390
-    exclusive_ram_id: level
+    exclusive_ram_id: level_800Eish
     subsegments:
     - [0x5F050, asm]
     - [0x617A0, c]
@@ -609,7 +609,7 @@ segments:
     start: 0x55C110
     vram: 0x802C40A0
     bss_size: 0x140
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x55C110, c]
     - [0x55C870, c]
@@ -646,7 +646,7 @@ segments:
     start: 0x5DF5D0
     vram: 0x802E2500
     bss_size: 0x1690
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x5DF5D0, c]
     - [0x5E0A70, c]
@@ -684,7 +684,7 @@ segments:
     start: 0x6401B0
     vram: 0x802BDD00
     bss_size: 0x1580
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x6401B0, c]
     - [0x640900, c]
@@ -724,7 +724,7 @@ segments:
     start: 0x6C05E0
     vram: 0x802D8800
     bss_size: 0x1B0
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x6C05E0, c]
     - [0x6C1090, c]
@@ -770,7 +770,7 @@ segments:
     start: 0x7272E0
     vram: 0x802D60E0
     bss_size: 0x170
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x7272E0, c]
     - [0x728490, c]
@@ -816,7 +816,7 @@ segments:
     start: 0x79F1B0
     vram: 0x802C5C20
     bss_size: 0x1880
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x79F1B0, c]
     - [0x79FB70, c]
@@ -867,7 +867,7 @@ segments:
     start: 0x825E30
     vram: 0x803466C0
     bss_size: 0x80
-    exclusive_ram_id: level
+    exclusive_ram_id: level_802Cish
     subsegments:
     - [0x825E30, c]
     - [0x826710, c]
@@ -913,7 +913,7 @@ segments:
     start: 0x83D730
     vram: 0x80369F80
     bss_size: 0x8A0
-    exclusive_ram_id: level
+    exclusive_ram_id: level_end
     subsegments:
     - [0x83D730, c]
     - [0x83DC20, c]
@@ -946,7 +946,7 @@ segments:
     start: 0x87A0B0
     vram: 0x801DC8C0
     bss_size: 0x408F0
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0x87A0B0, c]
     - [0x87A320, pad] # padding
@@ -967,7 +967,7 @@ segments:
     start: 0x8A70E0
     vram: 0x800E18C0
     bss_size: 0x40080
-    exclusive_ram_id: level
+    exclusive_ram_id: level_800Eish
     subsegments:
     - [0x8A70E0, c]
     - [0x8A7360, c]
@@ -993,7 +993,7 @@ segments:
     start: 0x98C330
     vram: 0x801DC8C0
     bss_size: 0x327A0
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0x98C330, c]
     - [auto, c, 98D0F0]
@@ -1010,7 +1010,7 @@ segments:
     start: 0x9A6B10
     vram: 0x801DC8C0
     bss_size: 0x47970
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0x9A6B10, c]
     - [0x9A6F70, c]
@@ -1027,7 +1027,7 @@ segments:
     start: 0x9D3230
     vram: 0x801DC8C0
     bss_size: 0x2D210
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0x9D3230, c]
     - [0x9D3660, c]
@@ -1043,7 +1043,7 @@ segments:
     start: 0x9FA580
     vram: 0x801DC8C0
     bss_size: 0x46300
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0x9FA580, c]
     - [0x9FAC10, c]
@@ -1060,7 +1060,7 @@ segments:
     start: 0xA084B0
     vram: 0x801DC8C0
     bss_size: 0x32020
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0xA084B0, c]
     - [0xA08D10, bin] # , data]
@@ -1070,7 +1070,7 @@ segments:
     start: 0xA08E30
     vram: 0x800E18A0
     bss_size: 0x100
-    exclusive_ram_id: level
+    exclusive_ram_id: level_800Eish
     subsegments:
     - [0xA08E30, c]
     - [0xA0BE70, c]
@@ -1102,7 +1102,7 @@ segments:
     - { start: 0xA84C80, type: data, name: sprite_card, linker_section_order: .rodata }
     - { start: 0xA93390, type: data, name: sprite_cursor, linker_section_order: .rodata }
     - { start: auto, name: A5CC50, type: .bss, vram: 0x801180B0 }
-    - { start: auto, name: A5D5B0, type: .bss, vram: 0x80118110 }
+    - { start: auto, name: A5D5B0, type: .bss, vram: 0x80168120 }
     - { start: auto, name: sprite_bss, type: bss, vram: 0x80168150 }
 
   - name: credits
@@ -1112,7 +1112,7 @@ segments:
     start: 0xA93460
     vram: 0x801DC8A0
     bss_size: 0x3590
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     subsegments:
     - [0xA93460, c]
     - [0xA937B0, asm] # nops
@@ -1136,7 +1136,7 @@ segments:
     start: 0xAA0650
     vram: 0x800E18A0
     bss_size: 0x10
-    exclusive_ram_id: level
+    exclusive_ram_id: level_800Eish
     subsegments:
     - [0xAA0650, c]
     - [0xAA0A60, .data, AA0650]
@@ -1147,7 +1147,7 @@ segments:
   - type: code
     start: 0xAA18E0
     vram: 0x801DC8A0
-    exclusive_ram_id: level
+    exclusive_ram_id: ovl_801DC8C0ish
     bss_size: 0x20
     subsegments:
     - [0xAA18E0, c]

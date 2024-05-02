@@ -674,17 +674,25 @@ gspL3DEX2_fifoDataStart = 0x80045280;
 aspMainTextStart = 0x8003D980;
 aspMainDataStart = 0x80044BA0;
 
+D_800E823C_A0F7CC = 0x800E823C; // rom:0xA0F7CC force_migration:True
+
+D_801180B0_A93460 = 0x801180B0; // segment:menu_new_game size:0x4
+D_801180B4_A93464 = 0x801180B4; // segment:menu_new_game size:0x4
+D_801180B8_A93468 = 0x801180B8; // segment:menu_new_game size:0x4
+D_801180C0_A93470 = 0x801180C0; // segment:menu_new_game size:0x50
+D_80118110_A934C0 = 0x80118110; // segment:menu_new_game size:0x4
+D_80118114_A934C4 = 0x80118114; // segment:menu_new_game size:0x4
+D_80118118_A934C8 = 0x80118118; // segment:menu_new_game size:0x50000
+
 // Unreferenced strings
 D_801C5EDC_98B6FC = 0x801C5EDC; // rom:0x98B6FC type:asciz
 D_801C6054_98B874 = 0x801C6054; // rom:0x98B874 type:asciz
 D_801C6090_98B8B0 = 0x801C6090; // rom:0x98B8B0 type:asciz
-
-D_80208DD8_9D3028 = 0x80208DD8; // rom:0x9D3028 type:asciz
-D_80208E80_9D30D0 = 0x80208E80; // rom:0x9D30D0 type:asciz
 
 D_801EA2C0_A07F80 = 0x801EA2C0; // rom:0xA07F80 type:asciz
 D_801EA4DC_A0819C = 0x801EA4DC; // rom:0xA0819C type:asciz
 D_801EA584_A08244 = 0x801EA584; // rom:0xA08244 type:asciz
 D_801EA68C_A0834C = 0x801EA68C; // rom:0xA0834C type:asciz
 
-D_800E823C_A0F7CC = 0x800E823C; // rom:0xA0F7CC force_migration:True
+D_80208DD8_9D3028 = 0x80208DD8; // rom:0x9D3028 type:asciz
+D_80208E80_9D30D0 = 0x80208E80; // rom:0x9D30D0 type:asciz

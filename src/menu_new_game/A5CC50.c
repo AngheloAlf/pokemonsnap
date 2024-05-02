@@ -109,13 +109,13 @@ Gfx D_800E35B0[] = {
 };
 
 // BSS
-static GObj* D_801180B0;
-static GObj* D_801180B4;
-static GObj* D_801180B8;
-static s32 D_801180C0[20];
-s32 D_80118110;
-s32 D_80118114;
-static u8 D_80118118[0x50000];
+static GObj* D_801180B0_A93460;
+static GObj* D_801180B4_A93464;
+static GObj* D_801180B8_A93468;
+static s32 D_801180C0_A93470[20];
+s32 D_80118110_A934C0;
+s32 D_80118114_A934C4;
+u8 D_80118118_A934C8[0x50000];
 
 void func_800E2ED0_A5E280(void);
 
@@ -136,16 +136,16 @@ void func_800E18C4_A5CC74(void) {
 void func_800E18CC_A5CC7C(void) {
     SObj* sobj;
 
-    D_801180B4 = ohCreateSprite(14, ohUpdateDefault, 0, 0x80000000, renDrawSprite, 1, 0x80000000, -1, &D_80109880_A84C30, 0, 0, 1);
-    sobj = D_801180B4->data.sobj;
+    D_801180B4_A93464 = ohCreateSprite(14, ohUpdateDefault, 0, 0x80000000, renDrawSprite, 1, 0x80000000, -1, &D_80109880_A84C30, 0, 0, 1);
+    sobj = D_801180B4_A93464->data.sobj;
     sobj->sprite.attr = SP_TEXSHUF | SP_TRANSPARENT;
 }
 
 void func_800E1950_A5CD00(void) {
     SObj* sobj;
 
-    D_801180B8 = ohCreateSprite(14, ohUpdateDefault, 0, 0x80000000, renDrawSprite, 1, 0x80000000, -1, &D_80117F98_A93348, 0, 0, 1);
-    sobj = D_801180B8->data.sobj;
+    D_801180B8_A93468 = ohCreateSprite(14, ohUpdateDefault, 0, 0x80000000, renDrawSprite, 1, 0x80000000, -1, &D_80117F98_A93348, 0, 0, 1);
+    sobj = D_801180B8_A93468->data.sobj;
     SET_SPRITE_POS(sobj->sprite, 96, 21);
     sobj->sprite.attr = SP_TEXSHUF | SP_TRANSPARENT;
 }
@@ -183,7 +183,7 @@ void func_800E1A0C_A5CDBC(void) {
                              "and select with the \\a Button!");
 
     // character grid
-    for (i = 0; i < ARRAY_COUNT(D_801180C0); i++) {
+    for (i = 0; i < ARRAY_COUNT(D_801180C0_A93470); i++) {
         func_8036D4A0_840C50(0);
         func_8036D448_840BF8(1);
         func_8036D3E8_840B98(-1, 3);
@@ -191,7 +191,7 @@ void func_800E1A0C_A5CDBC(void) {
         func_8036CB58_840308(id, 8);
         func_8036B870_83F020(id, 0, 0, 0, 0, 0);
         func_8036B734_83EEE4(id);
-        D_801180C0[i] = id;
+        D_801180C0_A93470[i] = id;
     }
 
     func_8036D4A0_840C50(0);
@@ -204,7 +204,7 @@ void func_800E1A0C_A5CDBC(void) {
     func_8036B870_83F020(id, 0, 0, 0, 0, 0);
     func_8036B870_83F020(id, 1, 0, 0, 0, 255);
     func_8036B734_83EEE4(id);
-    D_80118110 = id;
+    D_80118110_A934C0 = id;
 
     func_8036D4A0_840C50(0);
     func_8036D448_840BF8(0);
@@ -215,7 +215,7 @@ void func_800E1A0C_A5CDBC(void) {
     func_8036B870_83F020(id, 0, 0, 0, 0, 0);
     func_8036B870_83F020(id, 1, 255, 0, 0, 255);
     func_8036B734_83EEE4(id);
-    D_80118114 = id;
+    D_80118114_A934C4 = id;
 }
 
 void func_800E1CF8_A5D0A8(s8 arg0) {
@@ -225,15 +225,15 @@ void func_800E1CF8_A5D0A8(s8 arg0) {
     s16 temp_s1;
     char** temp_s4 = func_800E18B4_A5CC64(arg0);
 
-    for (i = 0; i < ARRAY_COUNT(D_801180C0); i++) {
-        func_8036A8E4_83E094(D_801180C0[i]);
+    for (i = 0; i < ARRAY_COUNT(D_801180C0_A93470); i++) {
+        func_8036A8E4_83E094(D_801180C0_A93470[i]);
     }
 
     temp_s1 = 0;
     func_8036D4B4_840C64(1, 0);
 
-    for (i = 0; i < ARRAY_COUNT(D_801180C0) - 1; i++) {
-        temp_s2 = D_801180C0[i];
+    for (i = 0; i < ARRAY_COUNT(D_801180C0_A93470) - 1; i++) {
+        temp_s2 = D_801180C0_A93470[i];
         for (j = 0; j < 5; j++) {
             func_8036B9EC_83F19C(temp_s2, j * 13, 0);
             func_8036C898_840048(temp_s2, temp_s4[temp_s1++]);
@@ -242,7 +242,7 @@ void func_800E1CF8_A5D0A8(s8 arg0) {
 
     func_8036D4B4_840C64(1, 1);
     temp_s1 = 0;
-    temp_s2 = D_801180C0[i];
+    temp_s2 = D_801180C0_A93470[i];
     for (j = 0; j < 4; j++) {
         func_8036B9EC_83F19C(temp_s2, j * 13, 0);
         func_8036C898_840048(temp_s2, D_800E356C[temp_s1++]);
@@ -262,10 +262,10 @@ void func_800E1EE4_A5D294(void) {
     u8 var_a1;
 
     for (var_a1 = 255; var_a1 > 128; var_a1 -= 5) {
-        func_800E18A0_A5CC50(D_801180B4->data.sobj, var_a1);
+        func_800E18A0_A5CC50(D_801180B4_A93464->data.sobj, var_a1);
         ohWait(1);
     }
-    func_800E18A0_A5CC50(D_801180B4->data.sobj, 128);
+    func_800E18A0_A5CC50(D_801180B4_A93464->data.sobj, 128);
     ohWait(1);
 }
 
@@ -302,14 +302,14 @@ void func_800E2054_A5D404(Gfx** gfxPtr) {
 }
 
 void new_game_init(void) {
-    func_8036A3F8_83DBA8(D_80118118, sizeof(D_80118118));
+    func_8036A3F8_83DBA8(D_80118118_A934C8, sizeof(D_80118118_A934C8));
     func_800AAE28();
     func_800AA85C(24, 6);
     func_800AA870(0xF0000);
     func_8036EB98();
     ohCreateCameraWrapper(0, 0x80000000, 100, 6, 0);
-    D_801180B0 = ohCreateCamera(3, ohUpdateDefault, 0, 0x80000000, renSpriteCameraRender, 3, 2, -1, TRUE, 1, NULL, 1, TRUE);
-    D_801180B0->data.cam->flags = 8;
+    D_801180B0_A93460 = ohCreateCamera(3, ohUpdateDefault, 0, 0x80000000, renSpriteCameraRender, 3, 2, -1, TRUE, 1, NULL, 1, TRUE);
+    D_801180B0_A93460->data.cam->flags = 8;
     func_800A7F68(0, 0x101);
     omCreateProcess(omAddGObj(0xE, NULL, 0, 0x80000000), func_800E1F58_A5D308, 0, 1);
 }

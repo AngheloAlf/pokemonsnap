@@ -20,7 +20,7 @@ extern Sprite D_80312238;
 extern Sprite D_803128E0;
 extern Sprite D_80316230;
 extern Sprite D_80319B80;
-extern Sprite D_8031D4D0;
+extern Sprite D_8031D4D0_76E6D0;
 extern Sprite D_80320E20;
 extern Sprite D_80324770;
 extern Sprite D_803280C0;
@@ -289,7 +289,7 @@ void func_800E6880_A0DE10(void) {
     sobj->sprite.attr = SP_TEXSHUF | SP_HIDDEN | SP_TRANSPARENT;
 
     gobj = D_800E8354_A0F8E4 = ohCreateSprite(0xE, ohUpdateDefault, 0, 0x80000000, renDrawSprite, 1, 0x80000000, -1,
-                                              &D_8031D4D0, 0, NULL, 1);
+                                              &D_8031D4D0_76E6D0, 0, NULL, 1);
     sobj = gobj->data.sobj;
     SET_SPRITE_POS(sobj->sprite, 41, 168);
     sobj->sprite.attr = SP_TEXSHUF | SP_HIDDEN | SP_TRANSPARENT;
