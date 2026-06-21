@@ -751,6 +751,7 @@ segments:
       - { start: 0x9B4F0, type: i8, name: tex_shine, flip_y: true, width: 64, height: 64 }
     # Animation data
     - [0x9C4F0, bin]
+
   - type: code
     name: beach_assets
     start: 0xA74E0
@@ -759,14 +760,42 @@ segments:
     exclusive_ram_id: unk8011B050
     subsegments:
     - [0xA74E0, c]
-    - [0xA74F0, bin] # , data]
+    - [0xA74F0]
+
+    - [auto, c, A74F0]
+    - [auto, c, butterfree/textures]
+    - [auto, c, doduo/textures]
+    - [auto, c, eevee/textures]
+    - [auto, c, kangaskhan/textures]
+    - [auto, c, snorlax/textures]
+    - [auto, c, lapras/textures]
+    - [auto, c, chansey/textures]
+    - [auto, c, meowth/textures]
+    - [auto, c, pidgey/textures]
+    - [auto, c, scyther/textures]
+
+    - [0xA74F0, bin, A74F0] # , data]
+    - [0xDEDB0, bin, butterfree/textures]
+    - [0xE4E98, bin, doduo/textures]
+    - [0xEDF88, bin, eevee/textures]
+    - [0xF7AD8, bin, kangaskhan/textures]
+    - [0x105E88, bin, snorlax/textures]
+    - [0x10E9A8, bin, lapras/textures]
+    - [0x110970, bin, chansey/textures]
+    - [0x116A38, bin, meowth/textures]
+    - [0x12A988, bin, pidgey/textures]
+    - [0x135318, bin, scyther/textures]
+
     - { name: bss_801B02F0, type: bss, vram: 0x801B02F0 }
+
   - type: code
     name: beach_extra
     dir: beach
     start: 0x13C780
     vram: 0x801B0310
     exclusive_ram_id: unk8011CB50
+    prioritized_segments:
+    - beach_assets
     subsegments:
     - [auto, c, butterfree/model_hd]
     - [auto, c, doduo/model_hd]
@@ -5845,6 +5874,8 @@ segments:
     vram: 0x802C40A0
     bss_size: 0x140
     exclusive_ram_id: level
+    prioritized_segments:
+    - beach_assets
     subsegments:
     - [0x55C110, c]
     - [0x55C870, c]
