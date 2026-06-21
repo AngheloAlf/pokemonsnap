@@ -7,8 +7,6 @@ D_0E000028 = 0xE000028;
 
 game_main = 0x80000870;
 
-osTvType = 0x80000300;
-osRomBase = 0x80000308;
 scMain = 0x80002510;
 dmaLoadOverlay = 0x80002B64;
 dmaReadRom = 0x80002C20;

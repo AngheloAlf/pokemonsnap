@@ -19,6 +19,7 @@ options:
   rodata_string_guesser_level: 3
   create_undefined_funcs_auto: false
   subalign: 16
+  libultra_symbols: True
 segments:
   - [0x000000, header, header]
   - [0x000040, bin, boot]

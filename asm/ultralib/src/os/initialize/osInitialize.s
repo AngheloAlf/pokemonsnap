@@ -135,14 +135,14 @@ glabel osInitialize
     /* 35C28 80035028 24060000 */  addiu      $a2, $zero, 0x0
     /* 35C2C 8003502C 0C00CC12 */  jal        __ull_div
     /* 35C30 80035030 24070004 */   addiu     $a3, $zero, 0x4
-    /* 35C34 80035034 3C098000 */  lui        $t1, %hi(D_8000030C)
-    /* 35C38 80035038 8D29030C */  lw         $t1, %lo(D_8000030C)($t1)
+    /* 35C34 80035034 3C098000 */  lui        $t1, %hi(osResetType)
+    /* 35C38 80035038 8D29030C */  lw         $t1, %lo(osResetType)($t1)
     /* 35C3C 8003503C 3C018004 */  lui        $at, %hi(D_80042CF0)
     /* 35C40 80035040 AC222CF0 */  sw         $v0, %lo(D_80042CF0)($at)
     /* 35C44 80035044 15200005 */  bnez       $t1, .L8003505C
     /* 35C48 80035048 AC232CF4 */   sw        $v1, %lo(D_80042CF4)($at)
-    /* 35C4C 8003504C 3C048000 */  lui        $a0, %hi(D_8000031C)
-    /* 35C50 80035050 2484031C */  addiu      $a0, $a0, %lo(D_8000031C)
+    /* 35C4C 8003504C 3C048000 */  lui        $a0, %hi(osAppNMIBuffer)
+    /* 35C50 80035050 2484031C */  addiu      $a0, $a0, %lo(osAppNMIBuffer)
     /* 35C54 80035054 0C00CEF8 */  jal        bzero
     /* 35C58 80035058 24050040 */   addiu     $a1, $zero, 0x40
   .L8003505C:
