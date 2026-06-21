@@ -1,10 +1,10 @@
 splat 0.42.0 (powered by spimdisasm 1.42.0)
-  0%|          | 0/7798 [00:00<?, ?it/s]Loading symbols (symbol_addrs):   0%|          | 0/7798 [00:00<?, ?it/s]
+  0%|          | 0/7773 [00:00<?, ?it/s]Loading symbols (symbol_addrs):   0%|          | 0/7773 [00:00<?, ?it/s]
 error reading tools/symbol_addrs.txt, line 763:
 	setPlayerFlag = 0x800BFEBC; // segment:app_render
 Warning: User-declared symbol 'setPlayerFlag' was associated to segment 'app_render', but its address is outside the segment's vram range.
   The symbol's Vram 0x800BFEBC is outside from the segment's Vram range 0x8009A8C0 ~ 0x800BF060
-
+Loading symbols (symbol_addrs):  40%|███▉      | 3104/7773 [00:00<00:00, 30571.22it/s]
 error reading tools/symbol_addrs.txt, line 3537:
 	bulbasaur_hd_materials = 0x803A6A80; // segment:bulbasaur_model_hd
 Warning: User-declared symbol 'bulbasaur_hd_materials' was associated to segment 'bulbasaur_model_hd', but its address is outside the segment's vram range.
@@ -14,7 +14,7 @@ error reading tools/symbol_addrs.txt, line 4160:
 	diglett_part10_draw_near = 0x032E2E0; // segment:tunnel_code
 Warning: User-declared symbol 'diglett_part10_draw_near' was associated to segment 'tunnel_code', but its address is outside the segment's vram range.
   The symbol's Vram 0x0032E2E0 is outside from the segment's Vram range 0x802E2500 ~ 0x80344770
-Loading symbols (symbol_addrs):  67%|██████▋   | 5243/7798 [00:00<00:00, 52426.05it/s]
+
 error reading tools/symbol_addrs.txt, line 6046:
 	metapod_tex_80331DC8 = 0x80331DC8; // segment:river_assets
 Warning: User-declared symbol 'metapod_tex_80331DC8' was associated to segment 'river_assets', but its address is outside the segment's vram range.
@@ -464,7 +464,7 @@ error reading tools/symbol_addrs.txt, line 6685:
 	geodude_tex_80140318_png = 0x80140318; // segment:valley_extra allow_duplicated:true
 Warning: User-declared symbol 'geodude_tex_80140318_png' was associated to segment 'valley_extra', but its address is outside the segment's vram range.
   The symbol's Vram 0x80140318 is outside from the segment's Vram range 0x80186B10 ~ 0x801B1D40
-
+Loading symbols (symbol_addrs):  86%|████████▌ | 6685/7773 [00:00<00:00, 33613.49it/s]
 error reading tools/symbol_addrs.txt, line 6786:
 	dragonite_tex_80142AE0 = 0x80142AE0; // segment:valley_code allow_duplicated:true
 Warning: User-declared symbol 'dragonite_tex_80142AE0' was associated to segment 'valley_code', but its address is outside the segment's vram range.
@@ -1754,247 +1754,7 @@ error reading tools/symbol_addrs.txt, line 7577:
 	squirtle_tex_8017E4C0_png = 0x8017E4C0; // segment:valley_extra allow_duplicated:true
 Warning: User-declared symbol 'squirtle_tex_8017E4C0_png' was associated to segment 'valley_extra', but its address is outside the segment's vram range.
   The symbol's Vram 0x8017E4C0 is outside from the segment's Vram range 0x80186B10 ~ 0x801B1D40
-
-error reading tools/symbol_addrs.txt, line 7715:
-	mew_tex_80126918 = 0x80126918; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80126918' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80126918 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7716:
-	mew_tex_80126B20 = 0x80126B20; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80126B20' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80126B20 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7717:
-	mew_tex_801274B0 = 0x801274B0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_801274B0' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x801274B0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7718:
-	mew_tex_80127E40 = 0x80127E40; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80127E40' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80127E40 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7719:
-	mew_tex_801287D0 = 0x801287D0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_801287D0' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x801287D0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7720:
-	mew_tex_80129160 = 0x80129160; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80129160' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80129160 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7721:
-	mew_tex_80129AF0 = 0x80129AF0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80129AF0' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80129AF0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7722:
-	mew_tex_8012A278 = 0x8012A278; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A278' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A278 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7723:
-	mew_tex_8012A2A0_png = 0x8012A2A0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A2A0_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A2A0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7724:
-	mew_tex_8012A6A8 = 0x8012A6A8; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A6A8' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A6A8 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7725:
-	mew_tex_8012B6B0 = 0x8012B6B0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B6B0' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B6B0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7726:
-	mew_tex_8012B6D0_png = 0x8012B6D0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B6D0_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B6D0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7727:
-	mew_tex_8012B8D8 = 0x8012B8D8; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B8D8' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B8D8 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7728:
-	mew_tex_8012B900_png = 0x8012B900; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B900_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B900 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7729:
-	mew_tex_8012BD08 = 0x8012BD08; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BD08' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BD08 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7730:
-	mew_tex_8012BD30_png = 0x8012BD30; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BD30_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BD30 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7731:
-	mew_tex_8012BF38 = 0x8012BF38; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BF38' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BF38 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7732:
-	mew_tex_8012BF60_png = 0x8012BF60; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BF60_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BF60 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7733:
-	mew_tex_8012C168 = 0x8012C168; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C168' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C168 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7734:
-	mew_tex_8012C180_png = 0x8012C180; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C180_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C180 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7735:
-	mew_tex_8012C388 = 0x8012C388; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C388' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C388 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7736:
-	mew_tex_8012C3B0_png = 0x8012C3B0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C3B0_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C3B0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7737:
-	mew_tex_8012C7B8 = 0x8012C7B8; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C7B8' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C7B8 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7738:
-	mew_tex_8012C7E0_png = 0x8012C7E0; // segment:rainbow_code allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C7E0_png' was associated to segment 'rainbow_code', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C7E0 is outside from the segment's Vram range 0x803466C0 ~ 0x803501F0
-
-error reading tools/symbol_addrs.txt, line 7740:
-	mew_tex_80126918 = 0x80126918; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80126918' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80126918 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7741:
-	mew_tex_80126B20 = 0x80126B20; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80126B20' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80126B20 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7742:
-	mew_tex_801274B0 = 0x801274B0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_801274B0' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x801274B0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7743:
-	mew_tex_80127E40 = 0x80127E40; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80127E40' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80127E40 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7744:
-	mew_tex_801287D0 = 0x801287D0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_801287D0' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x801287D0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7745:
-	mew_tex_80129160 = 0x80129160; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80129160' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80129160 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7746:
-	mew_tex_80129AF0 = 0x80129AF0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_80129AF0' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x80129AF0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7747:
-	mew_tex_8012A278 = 0x8012A278; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A278' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A278 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7748:
-	mew_tex_8012A2A0_png = 0x8012A2A0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A2A0_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A2A0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7749:
-	mew_tex_8012A6A8 = 0x8012A6A8; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012A6A8' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012A6A8 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7750:
-	mew_tex_8012B6B0 = 0x8012B6B0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B6B0' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B6B0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7751:
-	mew_tex_8012B6D0_png = 0x8012B6D0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B6D0_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B6D0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7752:
-	mew_tex_8012B8D8 = 0x8012B8D8; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B8D8' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B8D8 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7753:
-	mew_tex_8012B900_png = 0x8012B900; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012B900_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012B900 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7754:
-	mew_tex_8012BD08 = 0x8012BD08; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BD08' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BD08 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7755:
-	mew_tex_8012BD30_png = 0x8012BD30; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BD30_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BD30 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7756:
-	mew_tex_8012BF38 = 0x8012BF38; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BF38' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BF38 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7757:
-	mew_tex_8012BF60_png = 0x8012BF60; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012BF60_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012BF60 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7758:
-	mew_tex_8012C168 = 0x8012C168; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C168' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C168 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7759:
-	mew_tex_8012C180_png = 0x8012C180; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C180_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C180 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7760:
-	mew_tex_8012C388 = 0x8012C388; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C388' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C388 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7761:
-	mew_tex_8012C3B0_png = 0x8012C3B0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C3B0_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C3B0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7762:
-	mew_tex_8012C7B8 = 0x8012C7B8; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C7B8' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C7B8 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-
-error reading tools/symbol_addrs.txt, line 7763:
-	mew_tex_8012C7E0_png = 0x8012C7E0; // segment:rainbow_extra allow_duplicated:true
-Warning: User-declared symbol 'mew_tex_8012C7E0_png' was associated to segment 'rainbow_extra', but its address is outside the segment's vram range.
-  The symbol's Vram 0x8012C7E0 is outside from the segment's Vram range 0x80139C50 ~ 0x8013E260
-Loading symbols (symbol_addrs): 100%|██████████| 7798/7798 [00:00<00:00, 41888.46it/s]
+Loading symbols (symbol_addrs): 100%|██████████| 7773/7773 [00:00<00:00, 30734.09it/s]
 
 WARNING: Adding user-declared symbol 'setPlayerFlag' (0x800BFEBC) to segment 'app_render' (SegmentKind.Global),
 but the address of the symbol is outside the segment vram range (0x8009A8C0 ~ 0x800BF060)
@@ -3751,246 +3511,6 @@ but the address of the symbol is outside the segment vram range (0x80186B10 ~ 0x
 This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
 
 
-WARNING: Adding user-declared symbol 'mew_tex_80126918' (0x80126918) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80126B20' (0x80126B20) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_801274B0' (0x801274B0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80127E40' (0x80127E40) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_801287D0' (0x801287D0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80129160' (0x80129160) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80129AF0' (0x80129AF0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A278' (0x8012A278) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A2A0_png' (0x8012A2A0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A6A8' (0x8012A6A8) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B6B0' (0x8012B6B0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B6D0_png' (0x8012B6D0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B8D8' (0x8012B8D8) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B900_png' (0x8012B900) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BD08' (0x8012BD08) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BD30_png' (0x8012BD30) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BF38' (0x8012BF38) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BF60_png' (0x8012BF60) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C168' (0x8012C168) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C180_png' (0x8012C180) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C388' (0x8012C388) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C3B0_png' (0x8012C3B0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C7B8' (0x8012C7B8) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C7E0_png' (0x8012C7E0) to segment 'rainbow_code' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80126918' (0x80126918) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80126B20' (0x80126B20) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_801274B0' (0x801274B0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80127E40' (0x80127E40) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_801287D0' (0x801287D0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80129160' (0x80129160) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_80129AF0' (0x80129AF0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A278' (0x8012A278) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A2A0_png' (0x8012A2A0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012A6A8' (0x8012A6A8) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B6B0' (0x8012B6B0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B6D0_png' (0x8012B6D0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B8D8' (0x8012B8D8) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012B900_png' (0x8012B900) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BD08' (0x8012BD08) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BD30_png' (0x8012BD30) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BF38' (0x8012BF38) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012BF60_png' (0x8012BF60) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C168' (0x8012C168) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C180_png' (0x8012C180) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C388' (0x8012C388) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C3B0_png' (0x8012C3B0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C7B8' (0x8012C7B8) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
-WARNING: Adding user-declared symbol 'mew_tex_8012C7E0_png' (0x8012C7E0) to segment 'rainbow_extra' (SegmentKind.Overlay),
-but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
-This is accepted for now, but may become a hard error in the future. Expect buggy symbol references.
-
-
 Error: Unable to determine a segment for the following user-declared symbols.
   Try specifying the segment they belong to with 'segment:segment_name' in your symbol_addrs file.
   If the address of this symbol is not part of any segment, or if you believe this symbol should be
@@ -4026,7 +3546,7 @@ Error: Unable to determine a segment for the following user-declared symbols.
     setSkyBoxAnimationSpeed (Vram: 0x800E1A78). Suspected segments: [world (Vram: 0x800E18A0, Rom: 0x5F050), oaks_lab (Vram: 0x800E18C0, Rom: 0x8A70E0), main_menu (Vram: 0x800E18A0, Rom: 0xA08E30), menu_new_game (Vram: 0x800E18A0, Rom: 0xA5CC50), intro_code (Vram: 0x800E18A0, Rom: 0xAA0650)]
 
 
-  0%|          | 0/121 [00:00<?, ?it/s]Scanning header:   0%|          | 0/121 [00:00<?, ?it/s]Scanning boot:   0%|          | 0/121 [00:00<?, ?it/s]  Scanning main:   0%|          | 0/121 [00:00<?, ?it/s]Scanning main:   2%|▏         | 3/121 [00:02<01:32,  1.28it/s]Scanning app_render:   2%|▏         | 3/121 [00:02<01:32,  1.28it/s]Scanning app_render:   3%|▎         | 4/121 [00:03<01:31,  1.27it/s]Scanning more_funcs:   3%|▎         | 4/121 [00:03<01:31,  1.27it/s]Scanning world:   3%|▎         | 4/121 [00:03<01:31,  1.27it/s]     
+  0%|          | 0/121 [00:00<?, ?it/s]Scanning header:   0%|          | 0/121 [00:00<?, ?it/s]Scanning boot:   0%|          | 0/121 [00:00<?, ?it/s]  Scanning main:   0%|          | 0/121 [00:00<?, ?it/s]Scanning main:   2%|▏         | 3/121 [00:02<01:22,  1.44it/s]Scanning app_render:   2%|▏         | 3/121 [00:02<01:22,  1.44it/s]Scanning app_render:   3%|▎         | 4/121 [00:02<01:23,  1.39it/s]Scanning more_funcs:   3%|▎         | 4/121 [00:02<01:23,  1.39it/s]Scanning world:   3%|▎         | 4/121 [00:02<01:23,  1.39it/s]     
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'world' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x800E18A0 ~ 0x800F5D90)
 
@@ -4062,7 +3582,7 @@ WARNING: Bug! Adding symbol 0x0E000000 to segment 'world' (SegmentKind.Overlay),
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'world' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x800E18A0 ~ 0x800F5D90)
 
-Scanning world:   5%|▍         | 6/121 [00:03<01:08,  1.68it/s]Scanning magikarp_textures:   5%|▍         | 6/121 [00:03<01:08,  1.68it/s]Scanning magikarp_textures:   6%|▌         | 7/121 [00:04<00:56,  2.02it/s]Scanning pikachu1:   6%|▌         | 7/121 [00:04<00:56,  2.02it/s]         Scanning pikachu1:   7%|▋         | 8/121 [00:04<00:50,  2.24it/s]Scanning zubat1:   7%|▋         | 8/121 [00:04<00:50,  2.24it/s]  Scanning bulbasaur1:   7%|▋         | 8/121 [00:04<00:50,  2.24it/s]Scanning bulbasaur1:   8%|▊         | 10/121 [00:04<00:31,  3.51it/s]Scanning beach_assets:   8%|▊         | 10/121 [00:04<00:31,  3.51it/s]Scanning beach_extra:   8%|▊         | 10/121 [00:04<00:31,  3.51it/s] 
+Scanning world:   5%|▍         | 6/121 [00:03<01:02,  1.83it/s]Scanning magikarp_textures:   5%|▍         | 6/121 [00:03<01:02,  1.83it/s]Scanning magikarp_textures:   6%|▌         | 7/121 [00:03<00:51,  2.21it/s]Scanning pikachu1:   6%|▌         | 7/121 [00:03<00:51,  2.21it/s]         Scanning pikachu1:   7%|▋         | 8/121 [00:04<00:46,  2.42it/s]Scanning zubat1:   7%|▋         | 8/121 [00:04<00:46,  2.42it/s]  Scanning bulbasaur1:   7%|▋         | 8/121 [00:04<00:46,  2.42it/s]Scanning bulbasaur1:   8%|▊         | 10/121 [00:04<00:28,  3.83it/s]Scanning beach_assets:   8%|▊         | 10/121 [00:04<00:28,  3.83it/s]Scanning beach_extra:   8%|▊         | 10/121 [00:04<00:28,  3.83it/s] 
 WARNING: Bug! Adding symbol 0x80153A88 to segment 'beach_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801B0310 ~ 0x801D6840)
 
@@ -5514,11 +5034,11 @@ WARNING: Bug! Adding symbol 0x801AA4E8 to segment 'beach_extra' (SegmentKind.Ove
 WARNING: Bug! Adding symbol 0x801AA5C8 to segment 'beach_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801B0310 ~ 0x801D6840)
 
-Scanning beach_extra:  10%|▉         | 12/121 [00:06<01:03,  1.70it/s]Scanning tunnel_assets:  10%|▉         | 12/121 [00:06<01:03,  1.70it/s]
+Scanning beach_extra:  10%|▉         | 12/121 [00:05<00:51,  2.11it/s]Scanning tunnel_assets:  10%|▉         | 12/121 [00:05<00:51,  2.11it/s]
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'tunnel_assets' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8011CB50 ~ 0x8018BC50)
 
-Scanning tunnel_assets:  11%|█         | 13/121 [00:08<01:36,  1.12it/s]Scanning tunnel_extra:  11%|█         | 13/121 [00:08<01:36,  1.12it/s] 
+Scanning tunnel_assets:  11%|█         | 13/121 [00:07<01:17,  1.39it/s]Scanning tunnel_extra:  11%|█         | 13/121 [00:07<01:17,  1.39it/s] 
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'tunnel_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8018BC50 ~ 0x801AFD30)
 
@@ -6494,7 +6014,7 @@ WARNING: Bug! Adding symbol 0x801833F8 to segment 'tunnel_extra' (SegmentKind.Ov
 WARNING: Bug! Adding symbol 0x80183420 to segment 'tunnel_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8018BC50 ~ 0x801AFD30)
 
-Scanning tunnel_extra:  12%|█▏        | 14/121 [00:10<01:52,  1.05s/it]Scanning cave_assets:  12%|█▏        | 14/121 [00:10<01:52,  1.05s/it] Scanning cave_assets:  12%|█▏        | 15/121 [00:10<01:28,  1.19it/s]Scanning cave_extra:  12%|█▏        | 15/121 [00:10<01:28,  1.19it/s] 
+Scanning tunnel_extra:  12%|█▏        | 14/121 [00:08<01:35,  1.12it/s]Scanning cave_assets:  12%|█▏        | 14/121 [00:08<01:35,  1.12it/s] Scanning cave_assets:  12%|█▏        | 15/121 [00:09<01:15,  1.40it/s]Scanning cave_extra:  12%|█▏        | 15/121 [00:09<01:15,  1.40it/s] 
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'cave_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801AEDF0 ~ 0x801CE400)
 
@@ -7214,7 +6734,7 @@ WARNING: Bug! Adding symbol 0x0E000000 to segment 'cave_extra' (SegmentKind.Over
 WARNING: Bug! Adding symbol 0x801A04B8 to segment 'cave_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801AEDF0 ~ 0x801CE400)
 
-Scanning cave_extra:  13%|█▎        | 16/121 [00:11<01:42,  1.02it/s]Scanning river_assets:  13%|█▎        | 16/121 [00:11<01:42,  1.02it/s]Scanning river_extra:  13%|█▎        | 16/121 [00:11<01:42,  1.02it/s] 
+Scanning cave_extra:  13%|█▎        | 16/121 [00:10<01:31,  1.15it/s]Scanning river_assets:  13%|█▎        | 16/121 [00:10<01:31,  1.15it/s]Scanning river_extra:  13%|█▎        | 16/121 [00:10<01:31,  1.15it/s] 
 WARNING: Bug! Adding symbol 0x80160A28 to segment 'river_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8019AEE0 ~ 0x801B6B60)
 
@@ -7970,7 +7490,7 @@ WARNING: Bug! Adding symbol 0x80193D68 to segment 'river_extra' (SegmentKind.Ove
 WARNING: Bug! Adding symbol 0x80193D90 to segment 'river_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8019AEE0 ~ 0x801B6B60)
 
-Scanning river_extra:  15%|█▍        | 18/121 [00:12<01:21,  1.26it/s]Scanning volcano_assets:  15%|█▍        | 18/121 [00:12<01:21,  1.26it/s]
+Scanning river_extra:  15%|█▍        | 18/121 [00:11<01:16,  1.35it/s]Scanning volcano_assets:  15%|█▍        | 18/121 [00:11<01:16,  1.35it/s]
 WARNING: Bug! Adding symbol 0x0E000008 to segment 'volcano_assets' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x800FFF90 ~ 0x801A9900)
 
@@ -8070,7 +7590,7 @@ WARNING: Bug! Adding symbol 0x0E000000 to segment 'volcano_assets' (SegmentKind.
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'volcano_assets' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x800FFF90 ~ 0x801A9900)
 
-Scanning volcano_assets:  16%|█▌        | 19/121 [00:20<03:50,  2.26s/it]Scanning volcano_extra:  16%|█▌        | 19/121 [00:20<03:50,  2.26s/it] 
+Scanning volcano_assets:  16%|█▌        | 19/121 [00:17<03:28,  2.04s/it]Scanning volcano_extra:  16%|█▌        | 19/121 [00:17<03:28,  2.04s/it] 
 WARNING: Bug! Adding symbol 0x801325C8 to segment 'volcano_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801A9900 ~ 0x801CF770)
 
@@ -9602,7 +9122,7 @@ WARNING: Bug! Adding symbol 0x80197748 to segment 'volcano_extra' (SegmentKind.O
 WARNING: Bug! Adding symbol 0x80197770 to segment 'volcano_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x801A9900 ~ 0x801CF770)
 
-Scanning volcano_extra:  17%|█▋        | 20/121 [00:21<03:31,  2.10s/it]Scanning valley_assets:  17%|█▋        | 20/121 [00:21<03:31,  2.10s/it]Scanning valley_extra:  17%|█▋        | 20/121 [00:21<03:31,  2.10s/it] 
+Scanning volcano_extra:  17%|█▋        | 20/121 [00:19<03:14,  1.93s/it]Scanning valley_assets:  17%|█▋        | 20/121 [00:19<03:14,  1.93s/it]Scanning valley_extra:  17%|█▋        | 20/121 [00:19<03:14,  1.93s/it] 
 WARNING: Bug! Adding symbol 0x8012FB78 to segment 'valley_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80186B10 ~ 0x801B1D40)
 
@@ -10858,7 +10378,7 @@ WARNING: Bug! Adding symbol 0x8017E498 to segment 'valley_extra' (SegmentKind.Ov
 WARNING: Bug! Adding symbol 0x8017E4C0 to segment 'valley_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80186B10 ~ 0x801B1D40)
 
-Scanning valley_extra:  18%|█▊        | 22/121 [00:23<02:37,  1.60s/it]Scanning rainbow_assets:  18%|█▊        | 22/121 [00:23<02:37,  1.60s/it]Scanning rainbow_extra:  18%|█▊        | 22/121 [00:23<02:37,  1.60s/it] 
+Scanning valley_extra:  18%|█▊        | 22/121 [00:21<02:26,  1.48s/it]Scanning rainbow_assets:  18%|█▊        | 22/121 [00:21<02:26,  1.48s/it]Scanning rainbow_extra:  18%|█▊        | 22/121 [00:21<02:26,  1.48s/it] 
 WARNING: Bug! Adding symbol 0x8012C168 to segment 'rainbow_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
 
@@ -10998,7 +10518,7 @@ WARNING: Bug! Adding symbol 0x8012A278 to segment 'rainbow_extra' (SegmentKind.O
 WARNING: Bug! Adding symbol 0x8012A2A0 to segment 'rainbow_extra' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80139C50 ~ 0x8013E260)
 
-Scanning rainbow_extra:  20%|█▉        | 24/121 [00:23<01:40,  1.04s/it]Scanning app_level:  20%|█▉        | 24/121 [00:23<01:40,  1.04s/it]    Scanning app_level:  21%|██        | 25/121 [00:27<02:29,  1.56s/it]Scanning magikarp_model:  21%|██        | 25/121 [00:27<02:29,  1.56s/it]
+Scanning rainbow_extra:  20%|█▉        | 24/121 [00:21<01:32,  1.04it/s]Scanning app_level:  20%|█▉        | 24/121 [00:21<01:32,  1.04it/s]    Scanning app_level:  21%|██        | 25/121 [00:24<02:14,  1.40s/it]Scanning magikarp_model:  21%|██        | 25/121 [00:24<02:14,  1.40s/it]
 WARNING: Bug! Adding symbol 0x800F8CB0 to segment 'magikarp_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8034E130 ~ 0x80350200)
 
@@ -11074,7 +10594,7 @@ WARNING: Bug! Adding symbol 0x800F7FB8 to segment 'magikarp_model' (SegmentKind.
 WARNING: Bug! Adding symbol 0x800F9170 to segment 'magikarp_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8034E130 ~ 0x80350200)
 
-Scanning pikachu_model:  21%|██        | 25/121 [00:27<02:29,  1.56s/it] 
+Scanning pikachu_model:  21%|██        | 25/121 [00:24<02:14,  1.40s/it] 
 WARNING: Bug! Adding symbol 0x80109090 to segment 'pikachu_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803476A0 ~ 0x8034E130)
 
@@ -11382,7 +10902,7 @@ WARNING: Bug! Adding symbol 0x0E000008 to segment 'pikachu_model' (SegmentKind.O
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'pikachu_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803476A0 ~ 0x8034E130)
 
-Scanning pikachu_model:  22%|██▏       | 27/121 [00:27<01:37,  1.04s/it]Scanning zubat_model:  22%|██▏       | 27/121 [00:27<01:37,  1.04s/it]  
+Scanning pikachu_model:  22%|██▏       | 27/121 [00:24<01:28,  1.06it/s]Scanning zubat_model:  22%|██▏       | 27/121 [00:24<01:28,  1.06it/s]  
 WARNING: Bug! Adding symbol 0x8011B058 to segment 'zubat_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80344780 ~ 0x803476A0)
 
@@ -11590,7 +11110,7 @@ WARNING: Bug! Adding symbol 0x8011B288 to segment 'zubat_model' (SegmentKind.Ove
 WARNING: Bug! Adding symbol 0x8011B2B0 to segment 'zubat_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x80344780 ~ 0x803476A0)
 
-Scanning zubat_model:  23%|██▎       | 28/121 [00:27<01:19,  1.18it/s]Scanning bulbasaur_model:  23%|██▎       | 28/121 [00:27<01:19,  1.18it/s]
+Scanning zubat_model:  23%|██▎       | 28/121 [00:24<01:11,  1.30it/s]Scanning bulbasaur_model:  23%|██▎       | 28/121 [00:24<01:11,  1.30it/s]
 WARNING: Bug! Adding symbol 0x8011CD88 to segment 'bulbasaur_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8033F6C0 ~ 0x80344780)
 
@@ -11878,7 +11398,7 @@ WARNING: Bug! Adding symbol 0x8011E0D0 to segment 'bulbasaur_model' (SegmentKind
 WARNING: Bug! Adding symbol 0x8011E0D0 to segment 'bulbasaur_model' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x8033F6C0 ~ 0x80344780)
 
-Scanning bulbasaur_model:  24%|██▍       | 29/121 [00:27<01:04,  1.42it/s]Scanning beach_code:  24%|██▍       | 29/121 [00:27<01:04,  1.42it/s]     
+Scanning bulbasaur_model:  24%|██▍       | 29/121 [00:25<01:00,  1.52it/s]Scanning beach_code:  24%|██▍       | 29/121 [00:25<01:00,  1.52it/s]     
 WARNING: Bug! Adding symbol 0x80153A88 to segment 'beach_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802C40A0 ~ 0x803476A0)
 
@@ -14878,7 +14398,7 @@ WARNING: Bug! Adding symbol 0x801AA4E8 to segment 'beach_code' (SegmentKind.Over
 WARNING: Bug! Adding symbol 0x801AA5C8 to segment 'beach_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802C40A0 ~ 0x803476A0)
 
-Scanning beach_code:  25%|██▍       | 30/121 [00:30<01:39,  1.09s/it]Scanning tunnel_code:  25%|██▍       | 30/121 [00:30<01:39,  1.09s/it]
+Scanning beach_code:  25%|██▍       | 30/121 [00:27<01:32,  1.02s/it]Scanning tunnel_code:  25%|██▍       | 30/121 [00:27<01:32,  1.02s/it]
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'tunnel_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802E2500 ~ 0x80344770)
 
@@ -16314,7 +15834,7 @@ WARNING: Bug! Adding symbol 0x801833F8 to segment 'tunnel_code' (SegmentKind.Ove
 WARNING: Bug! Adding symbol 0x80183420 to segment 'tunnel_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802E2500 ~ 0x80344770)
 
-Scanning tunnel_code:  26%|██▌       | 31/121 [00:34<02:46,  1.85s/it]Scanning cave_code:  26%|██▌       | 31/121 [00:34<02:46,  1.85s/it]  
+Scanning tunnel_code:  26%|██▌       | 31/121 [00:30<02:24,  1.61s/it]Scanning cave_code:  26%|██▌       | 31/121 [00:30<02:24,  1.61s/it]  
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'cave_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802BDD00 ~ 0x8033F6B0)
 
@@ -17806,7 +17326,7 @@ WARNING: Bug! Adding symbol 0x801A7A20 to segment 'cave_code' (SegmentKind.Overl
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'cave_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802BDD00 ~ 0x8033F6B0)
 
-Scanning cave_code:  26%|██▋       | 32/121 [00:35<02:42,  1.82s/it]Scanning river_code:  26%|██▋       | 32/121 [00:35<02:42,  1.82s/it]
+Scanning cave_code:  26%|██▋       | 32/121 [00:32<02:27,  1.66s/it]Scanning river_code:  26%|██▋       | 32/121 [00:32<02:27,  1.66s/it]
 WARNING: Bug! Adding symbol 0x80160A28 to segment 'river_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802D8800 ~ 0x8033F6B0)
 
@@ -19154,7 +18674,7 @@ WARNING: Bug! Adding symbol 0x80193D68 to segment 'river_code' (SegmentKind.Over
 WARNING: Bug! Adding symbol 0x80193D90 to segment 'river_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802D8800 ~ 0x8033F6B0)
 
-Scanning river_code:  27%|██▋       | 33/121 [00:37<02:29,  1.70s/it]Scanning volcano_code:  27%|██▋       | 33/121 [00:37<02:29,  1.70s/it]
+Scanning river_code:  27%|██▋       | 33/121 [00:33<02:22,  1.62s/it]Scanning volcano_code:  27%|██▋       | 33/121 [00:33<02:22,  1.62s/it]
 WARNING: Bug! Adding symbol 0x801325C8 to segment 'volcano_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802D60E0 ~ 0x8034E120)
 
@@ -22162,7 +21682,7 @@ WARNING: Bug! Adding symbol 0x80197748 to segment 'volcano_code' (SegmentKind.Ov
 WARNING: Bug! Adding symbol 0x80197770 to segment 'volcano_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802D60E0 ~ 0x8034E120)
 
-Scanning volcano_code:  28%|██▊       | 34/121 [00:41<03:43,  2.57s/it]Scanning valley_code:  28%|██▊       | 34/121 [00:41<03:43,  2.57s/it] 
+Scanning volcano_code:  28%|██▊       | 34/121 [00:37<03:21,  2.31s/it]Scanning valley_code:  28%|██▊       | 34/121 [00:37<03:21,  2.31s/it] 
 WARNING: Bug! Adding symbol 0x8012FB78 to segment 'valley_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802C5C20 ~ 0x8034E120)
 
@@ -24362,7 +23882,7 @@ WARNING: Bug! Adding symbol 0x8017E498 to segment 'valley_code' (SegmentKind.Ove
 WARNING: Bug! Adding symbol 0x8017E4C0 to segment 'valley_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x802C5C20 ~ 0x8034E120)
 
-Scanning valley_code:  29%|██▉       | 35/121 [00:44<03:38,  2.54s/it]Scanning rainbow_code:  29%|██▉       | 35/121 [00:44<03:38,  2.54s/it]
+Scanning valley_code:  29%|██▉       | 35/121 [00:40<03:16,  2.29s/it]Scanning rainbow_code:  29%|██▉       | 35/121 [00:40<03:16,  2.29s/it]
 WARNING: Bug! Adding symbol 0x8012C168 to segment 'rainbow_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
 
@@ -24502,7 +24022,7 @@ WARNING: Bug! Adding symbol 0x8012A278 to segment 'rainbow_code' (SegmentKind.Ov
 WARNING: Bug! Adding symbol 0x8012A2A0 to segment 'rainbow_code' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803466C0 ~ 0x803501F0)
 
-Scanning rainbow_code:  30%|██▉       | 36/121 [00:44<02:41,  1.90s/it]Scanning magikarp_model_hd:  30%|██▉       | 36/121 [00:44<02:41,  1.90s/it]
+Scanning rainbow_code:  30%|██▉       | 36/121 [00:40<02:25,  1.71s/it]Scanning magikarp_model_hd:  30%|██▉       | 36/121 [00:40<02:25,  1.71s/it]
 WARNING: Bug! Adding symbol 0x800F8CB0 to segment 'magikarp_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803B1F80 ~ 0x803B5000)
 
@@ -24578,7 +24098,7 @@ WARNING: Bug! Adding symbol 0x800F7FB8 to segment 'magikarp_model_hd' (SegmentKi
 WARNING: Bug! Adding symbol 0x800F9170 to segment 'magikarp_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803B1F80 ~ 0x803B5000)
 
-Scanning magikarp_model_hd:  31%|███       | 37/121 [00:44<01:55,  1.38s/it]Scanning pikachu_model_hd:  31%|███       | 37/121 [00:44<01:55,  1.38s/it] 
+Scanning magikarp_model_hd:  31%|███       | 37/121 [00:40<01:44,  1.24s/it]Scanning pikachu_model_hd:  31%|███       | 37/121 [00:40<01:44,  1.24s/it] 
 WARNING: Bug! Adding symbol 0x80109090 to segment 'pikachu_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803AD580 ~ 0x803B1F80)
 
@@ -24686,7 +24206,7 @@ WARNING: Bug! Adding symbol 0x0E000008 to segment 'pikachu_model_hd' (SegmentKin
 WARNING: Bug! Adding symbol 0x0E000000 to segment 'pikachu_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803AD580 ~ 0x803B1F80)
 
-Scanning pikachu_model_hd:  31%|███▏      | 38/121 [00:45<01:25,  1.03s/it]Scanning zubat_model_hd:  31%|███▏      | 38/121 [00:45<01:25,  1.03s/it]  
+Scanning pikachu_model_hd:  31%|███▏      | 38/121 [00:40<01:17,  1.08it/s]Scanning zubat_model_hd:  31%|███▏      | 38/121 [00:40<01:17,  1.08it/s]  
 WARNING: Bug! Adding symbol 0x8011B058 to segment 'zubat_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803AA700 ~ 0x803AD580)
 
@@ -24790,7 +24310,7 @@ WARNING: Bug! Adding symbol 0x8011B288 to segment 'zubat_model_hd' (SegmentKind.
 WARNING: Bug! Adding symbol 0x8011B2B0 to segment 'zubat_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803AA700 ~ 0x803AD580)
 
-Scanning zubat_model_hd:  32%|███▏      | 39/121 [00:45<01:02,  1.31it/s]Scanning bulbasaur_model_hd:  32%|███▏      | 39/121 [00:45<01:02,  1.31it/s]
+Scanning zubat_model_hd:  32%|███▏      | 39/121 [00:40<00:56,  1.45it/s]Scanning bulbasaur_model_hd:  32%|███▏      | 39/121 [00:40<00:56,  1.45it/s]
 WARNING: Bug! Adding symbol 0x8011CD88 to segment 'bulbasaur_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803A71B0 ~ 0x803AA700)
 
@@ -24890,18 +24410,18 @@ WARNING: Bug! Adding symbol 0x8011CB80 to segment 'bulbasaur_model_hd' (SegmentK
 WARNING: Bug! Adding symbol 0x8011E0D0 to segment 'bulbasaur_model_hd' (SegmentKind.Overlay),
   but the address of the symbol is outside the segment vram range (0x803A71B0 ~ 0x803AA700)
 
-Scanning bulbasaur_model_hd:  33%|███▎      | 40/121 [00:45<00:46,  1.74it/s]Scanning window:  33%|███▎      | 40/121 [00:45<00:46,  1.74it/s]            Scanning window:  34%|███▍      | 41/121 [00:47<01:22,  1.03s/it]Scanning camera_check:  34%|███▍      | 41/121 [00:47<01:22,  1.03s/it]Scanning camera_check:  35%|███▍      | 42/121 [00:49<01:39,  1.26s/it]Scanning oaks_lab:  35%|███▍      | 42/121 [00:49<01:39,  1.26s/it]    Scanning oaks_lab:  36%|███▌      | 43/121 [00:57<04:15,  3.27s/it]Scanning photo_check:  36%|███▌      | 43/121 [00:57<04:15,  3.27s/it]Scanning photo_check:  36%|███▋      | 44/121 [00:58<03:18,  2.58s/it]Scanning pokemon_album:  36%|███▋      | 44/121 [00:58<03:18,  2.58s/it]Scanning pokemon_album:  37%|███▋      | 45/121 [00:58<02:22,  1.87s/it]Scanning pokemon_report:  37%|███▋      | 45/121 [00:58<02:22,  1.87s/it]Scanning pokemon_report:  38%|███▊      | 46/121 [00:58<01:44,  1.39s/it]Scanning gallery:  38%|███▊      | 46/121 [00:58<01:44,  1.39s/it]       Scanning gallery:  39%|███▉      | 47/121 [00:59<01:29,  1.21s/it]Scanning unk_end_level_8:  39%|███▉      | 47/121 [00:59<01:29,  1.21s/it]Scanning main_menu:  39%|███▉      | 47/121 [00:59<01:29,  1.21s/it]      Scanning main_menu:  40%|████      | 49/121 [00:59<00:50,  1.44it/s]Scanning A0F830:  40%|████      | 49/121 [00:59<00:50,  1.44it/s]   Scanning menu_new_game:  40%|████      | 49/121 [00:59<00:50,  1.44it/s]Scanning menu_new_game:  42%|████▏     | 51/121 [01:01<00:54,  1.30it/s]Scanning credits:  42%|████▏     | 51/121 [01:01<00:54,  1.30it/s]      Scanning credits:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning intro_code:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning AA0B80:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]    Scanning AA18E0:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning AAA610:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning idle_script_beach:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning idle_script_tunnel:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/script/common:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]  Scanning fx/img/common:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/beach:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/beach:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/tunnel:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/tunnel:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/cave:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/cave:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/river:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/river:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/volcano:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/volcano:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/valley:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/valley:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/rainbow:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/rainbow:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning fx/script/intro:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning fx/img/intro:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]   Scanning AE0510:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]      Scanning audio/sbk:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AEFD3C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF0A94:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF0C30:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF0DF4:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF0FC4:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF15BC:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF1F70:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF2B34:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF383C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF3D74:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF444C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF4918:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF5A8C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF5F4C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF6E84:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF7D3C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF7F88:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF8A10:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF8C88:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF9508:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF9938:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF9AC8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF9BE4:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AF9C5C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFA7F8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFA96C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFB44C:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFB914:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFBEF0:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFC2D8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFCCE8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFD194:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFD298:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFD3A4:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFD494:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFDCD8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/seq/AFDDC4:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning AFEED8:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]          Scanning audio/bank1:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/table1:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning audio/bank2:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s] Scanning audio/table2:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]Scanning padding:  43%|████▎     | 52/121 [01:01<00:48,  1.42it/s]     Scanning padding: 100%|██████████| 121/121 [01:01<00:00,  1.95it/s]
+Scanning bulbasaur_model_hd:  33%|███▎      | 40/121 [00:40<00:42,  1.91it/s]Scanning window:  33%|███▎      | 40/121 [00:40<00:42,  1.91it/s]            Scanning window:  34%|███▍      | 41/121 [00:42<01:14,  1.07it/s]Scanning camera_check:  34%|███▍      | 41/121 [00:42<01:14,  1.07it/s]Scanning camera_check:  35%|███▍      | 42/121 [00:44<01:24,  1.07s/it]Scanning oaks_lab:  35%|███▍      | 42/121 [00:44<01:24,  1.07s/it]    Scanning oaks_lab:  36%|███▌      | 43/121 [00:51<03:47,  2.92s/it]Scanning photo_check:  36%|███▌      | 43/121 [00:51<03:47,  2.92s/it]Scanning photo_check:  36%|███▋      | 44/121 [00:52<02:59,  2.33s/it]Scanning pokemon_album:  36%|███▋      | 44/121 [00:52<02:59,  2.33s/it]Scanning pokemon_album:  37%|███▋      | 45/121 [00:52<02:08,  1.70s/it]Scanning pokemon_report:  37%|███▋      | 45/121 [00:52<02:08,  1.70s/it]Scanning pokemon_report:  38%|███▊      | 46/121 [00:52<01:34,  1.26s/it]Scanning gallery:  38%|███▊      | 46/121 [00:52<01:34,  1.26s/it]       Scanning gallery:  39%|███▉      | 47/121 [00:53<01:19,  1.08s/it]Scanning unk_end_level_8:  39%|███▉      | 47/121 [00:53<01:19,  1.08s/it]Scanning main_menu:  39%|███▉      | 47/121 [00:53<01:19,  1.08s/it]      Scanning main_menu:  40%|████      | 49/121 [00:53<00:44,  1.61it/s]Scanning A0F830:  40%|████      | 49/121 [00:53<00:44,  1.61it/s]   Scanning menu_new_game:  40%|████      | 49/121 [00:53<00:44,  1.61it/s]Scanning menu_new_game:  42%|████▏     | 51/121 [00:55<00:50,  1.40it/s]Scanning credits:  42%|████▏     | 51/121 [00:55<00:50,  1.40it/s]      Scanning credits:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning intro_code:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning AA0B80:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]    Scanning AA18E0:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning AAA610:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning idle_script_beach:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning idle_script_tunnel:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/script/common:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]  Scanning fx/img/common:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/beach:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/beach:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/tunnel:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/tunnel:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/cave:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/cave:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/river:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/river:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/volcano:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/volcano:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/valley:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/valley:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/rainbow:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/rainbow:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning fx/script/intro:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning fx/img/intro:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]   Scanning AE0510:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]      Scanning audio/sbk:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AEFD3C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF0A94:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF0C30:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF0DF4:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF0FC4:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF15BC:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF1F70:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF2B34:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF383C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF3D74:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF444C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF4918:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF5A8C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF5F4C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF6E84:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF7D3C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF7F88:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF8A10:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF8C88:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF9508:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF9938:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF9AC8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF9BE4:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AF9C5C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFA7F8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFA96C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFB44C:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFB914:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFBEF0:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFC2D8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFCCE8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFD194:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFD298:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFD3A4:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFD494:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFDCD8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/seq/AFDDC4:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning AFEED8:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]          Scanning audio/bank1:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/table1:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning audio/bank2:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s] Scanning audio/table2:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]Scanning padding:  43%|████▎     | 52/121 [00:55<00:44,  1.54it/s]     Scanning padding: 100%|██████████| 121/121 [00:55<00:00,  2.17it/s]
   0%|          | 0/121 [00:00<?, ?it/s]Splitting header:   0%|          | 0/121 [00:00<?, ?it/s]Splitting boot:   0%|          | 0/121 [00:00<?, ?it/s]  Splitting main:   0%|          | 0/121 [00:00<?, ?it/s]
 Segment ../ultralib/src/gu/cosf, symbol at vram 80044B10 ends with extra nops, indicating a likely file split.
 File split suggestions for this segment will follow in config yaml format:
       - [0x45720, .rodata]
-Splitting main:   2%|▏         | 3/121 [00:01<00:55,  2.11it/s]Splitting app_render:   2%|▏         | 3/121 [00:01<00:55,  2.11it/s]Splitting app_render:   3%|▎         | 4/121 [00:02<01:02,  1.87it/s]Splitting more_funcs:   3%|▎         | 4/121 [00:02<01:02,  1.87it/s]Splitting world:   3%|▎         | 4/121 [00:02<01:02,  1.87it/s]     Splitting world:   5%|▍         | 6/121 [00:03<01:02,  1.84it/s]Splitting magikarp_textures:   5%|▍         | 6/121 [00:03<01:02,  1.84it/s]Splitting magikarp_textures:   6%|▌         | 7/121 [00:03<00:55,  2.04it/s]Splitting pikachu1:   6%|▌         | 7/121 [00:03<00:55,  2.04it/s]         Splitting pikachu1:   7%|▋         | 8/121 [00:04<01:00,  1.87it/s]Splitting zubat1:   7%|▋         | 8/121 [00:04<01:00,  1.87it/s]  Splitting bulbasaur1:   7%|▋         | 8/121 [00:04<01:00,  1.87it/s]Splitting bulbasaur1:   8%|▊         | 10/121 [00:04<00:39,  2.84it/s]Splitting beach_assets:   8%|▊         | 10/121 [00:04<00:39,  2.84it/s]Splitting beach_extra:   8%|▊         | 10/121 [00:04<00:39,  2.84it/s] Splitting beach_extra:  10%|▉         | 12/121 [00:06<01:13,  1.47it/s]Splitting tunnel_assets:  10%|▉         | 12/121 [00:06<01:13,  1.47it/s]Splitting tunnel_assets:  11%|█         | 13/121 [00:09<02:03,  1.14s/it]Splitting tunnel_extra:  11%|█         | 13/121 [00:09<02:03,  1.14s/it] Splitting tunnel_extra:  12%|█▏        | 14/121 [00:11<02:30,  1.40s/it]Splitting cave_assets:  12%|█▏        | 14/121 [00:11<02:30,  1.40s/it] Splitting cave_assets:  12%|█▏        | 15/121 [00:12<01:59,  1.13s/it]Splitting cave_extra:  12%|█▏        | 15/121 [00:12<01:59,  1.13s/it] Splitting cave_extra:  13%|█▎        | 16/121 [00:14<02:21,  1.35s/it]Splitting river_assets:  13%|█▎        | 16/121 [00:14<02:21,  1.35s/it]Splitting river_extra:  13%|█▎        | 16/121 [00:14<02:21,  1.35s/it] Splitting river_extra:  15%|█▍        | 18/121 [00:15<01:57,  1.14s/it]Splitting volcano_assets:  15%|█▍        | 18/121 [00:15<01:57,  1.14s/it]Splitting volcano_assets:  16%|█▌        | 19/121 [00:27<06:00,  3.53s/it]Splitting volcano_extra:  16%|█▌        | 19/121 [00:27<06:00,  3.53s/it] Splitting volcano_extra:  17%|█▋        | 20/121 [00:29<05:27,  3.25s/it]Splitting valley_assets:  17%|█▋        | 20/121 [00:29<05:27,  3.25s/it]Splitting valley_extra:  17%|█▋        | 20/121 [00:29<05:27,  3.25s/it] Splitting valley_extra:  18%|█▊        | 22/121 [00:32<04:02,  2.45s/it]Splitting rainbow_assets:  18%|█▊        | 22/121 [00:32<04:02,  2.45s/it]Splitting rainbow_extra:  18%|█▊        | 22/121 [00:32<04:02,  2.45s/it] Splitting rainbow_extra:  20%|█▉        | 24/121 [00:32<02:36,  1.61s/it]Splitting app_level:  20%|█▉        | 24/121 [00:32<02:36,  1.61s/it]    Splitting app_level:  21%|██        | 25/121 [00:37<03:45,  2.35s/it]Splitting magikarp_model:  21%|██        | 25/121 [00:37<03:45,  2.35s/it]Splitting magikarp_model:  21%|██▏       | 26/121 [00:37<02:54,  1.84s/it]Splitting pikachu_model:  21%|██▏       | 26/121 [00:37<02:54,  1.84s/it] Splitting pikachu_model:  22%|██▏       | 27/121 [00:38<02:20,  1.49s/it]Splitting zubat_model:  22%|██▏       | 27/121 [00:38<02:20,  1.49s/it]  Splitting zubat_model:  23%|██▎       | 28/121 [00:38<01:47,  1.16s/it]Splitting bulbasaur_model:  23%|██▎       | 28/121 [00:38<01:47,  1.16s/it]Splitting bulbasaur_model:  24%|██▍       | 29/121 [00:39<01:26,  1.06it/s]Splitting beach_code:  24%|██▍       | 29/121 [00:39<01:26,  1.06it/s]     Splitting beach_code:  25%|██▍       | 30/121 [00:42<02:25,  1.60s/it]Splitting tunnel_code:  25%|██▍       | 30/121 [00:42<02:25,  1.60s/it]Splitting tunnel_code:  26%|██▌       | 31/121 [00:47<03:55,  2.62s/it]Splitting cave_code:  26%|██▌       | 31/121 [00:47<03:55,  2.62s/it]  Splitting cave_code:  26%|██▋       | 32/121 [00:50<03:52,  2.61s/it]Splitting river_code:  26%|██▋       | 32/121 [00:50<03:52,  2.61s/it]Splitting river_code:  27%|██▋       | 33/121 [00:52<03:39,  2.49s/it]Splitting volcano_code:  27%|██▋       | 33/121 [00:52<03:39,  2.49s/it]Splitting volcano_code:  28%|██▊       | 34/121 [00:59<05:27,  3.76s/it]Splitting valley_code:  28%|██▊       | 34/121 [00:59<05:27,  3.76s/it] Splitting valley_code:  29%|██▉       | 35/121 [01:02<05:06,  3.56s/it]Splitting rainbow_code:  29%|██▉       | 35/121 [01:02<05:06,  3.56s/it]Splitting rainbow_code:  30%|██▉       | 36/121 [01:02<03:43,  2.63s/it]Splitting magikarp_model_hd:  30%|██▉       | 36/121 [01:02<03:43,  2.63s/it]Splitting magikarp_model_hd:  31%|███       | 37/121 [01:02<02:41,  1.92s/it]Splitting pikachu_model_hd:  31%|███       | 37/121 [01:02<02:41,  1.92s/it] Splitting pikachu_model_hd:  31%|███▏      | 38/121 [01:03<01:59,  1.43s/it]Splitting zubat_model_hd:  31%|███▏      | 38/121 [01:03<01:59,  1.43s/it]  Splitting zubat_model_hd:  32%|███▏      | 39/121 [01:03<01:26,  1.06s/it]Splitting bulbasaur_model_hd:  32%|███▏      | 39/121 [01:03<01:26,  1.06s/it]Splitting bulbasaur_model_hd:  33%|███▎      | 40/121 [01:03<01:05,  1.24it/s]Splitting window:  33%|███▎      | 40/121 [01:03<01:05,  1.24it/s]            Splitting window:  34%|███▍      | 41/121 [01:07<02:09,  1.61s/it]Splitting camera_check:  34%|███▍      | 41/121 [01:07<02:09,  1.61s/it]Splitting camera_check:  35%|███▍      | 42/121 [01:09<02:21,  1.79s/it]Splitting oaks_lab:  35%|███▍      | 42/121 [01:09<02:21,  1.79s/it]    Splitting oaks_lab:  36%|███▌      | 43/121 [01:23<07:12,  5.55s/it]Splitting photo_check:  36%|███▌      | 43/121 [01:23<07:12,  5.55s/it]Splitting photo_check:  36%|███▋      | 44/121 [01:24<05:25,  4.23s/it]Splitting pokemon_album:  36%|███▋      | 44/121 [01:24<05:25,  4.23s/it]Splitting pokemon_album:  37%|███▋      | 45/121 [01:24<03:51,  3.05s/it]Splitting pokemon_report:  37%|███▋      | 45/121 [01:24<03:51,  3.05s/it]Splitting pokemon_report:  38%|███▊      | 46/121 [01:25<02:45,  2.20s/it]Splitting gallery:  38%|███▊      | 46/121 [01:25<02:45,  2.20s/it]       Splitting gallery:  39%|███▉      | 47/121 [01:25<02:10,  1.76s/it]Splitting unk_end_level_8:  39%|███▉      | 47/121 [01:25<02:10,  1.76s/it]Splitting main_menu:  39%|███▉      | 47/121 [01:25<02:10,  1.76s/it]      Splitting main_menu:  40%|████      | 49/121 [01:26<01:10,  1.02it/s]Splitting A0F830:  40%|████      | 49/121 [01:26<01:10,  1.02it/s]   Splitting A0F830:  41%|████▏     | 50/121 [01:28<01:31,  1.28s/it]Splitting menu_new_game:  41%|████▏     | 50/121 [01:28<01:31,  1.28s/it]Splitting menu_new_game:  42%|████▏     | 51/121 [01:31<02:07,  1.82s/it]Splitting credits:  42%|████▏     | 51/121 [01:31<02:07,  1.82s/it]      Splitting credits:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting intro_code:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting AA0B80:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]    Splitting AA18E0:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting AAA610:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting idle_script_beach:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting idle_script_tunnel:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting fx/script/common:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]  Splitting fx/img/common:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]   Splitting fx/script/beach:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting fx/img/beach:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]   Splitting fx/script/tunnel:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting fx/img/tunnel:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]   Splitting fx/script/cave:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting fx/img/cave:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]   Splitting fx/script/river:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]Splitting fx/img/river:  43%|████▎     | 52/121 [01:32<01:45,  1.53s/it]   Splitting fx/img/river:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting fx/script/volcano:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting fx/img/volcano:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]   Splitting fx/script/valley:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting fx/img/valley:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]   Splitting fx/script/rainbow:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting fx/img/rainbow:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]   Splitting fx/script/intro:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting fx/img/intro:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]   Splitting AE0510:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]      Splitting audio/sbk:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AEFD3C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF0A94:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF0C30:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF0DF4:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF0FC4:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF15BC:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF1F70:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF2B34:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF383C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF3D74:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF444C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF4918:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF5A8C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF5F4C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF6E84:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF7D3C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF7F88:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF8A10:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF8C88:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF9508:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF9938:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF9AC8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF9BE4:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AF9C5C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFA7F8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFA96C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFB44C:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFB914:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFBEF0:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFC2D8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFCCE8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFD194:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFD298:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFD3A4:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFD494:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFDCD8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/seq/AFDDC4:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting AFEED8:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]          Splitting audio/bank1:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/table1:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting audio/bank2:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s] Splitting audio/table2:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]Splitting padding:  56%|█████▌    | 68/121 [01:32<00:11,  4.57it/s]     Splitting padding: 100%|██████████| 121/121 [01:32<00:00,  1.31it/s]
-  0%|          | 0/121 [00:00<?, ?it/s]Linker script header:   0%|          | 0/121 [00:00<?, ?it/s]Linker script boot:   0%|          | 0/121 [00:00<?, ?it/s]  Linker script main:   0%|          | 0/121 [00:00<?, ?it/s]Linker script app_render:   0%|          | 0/121 [00:00<?, ?it/s]Linker script more_funcs:   0%|          | 0/121 [00:00<?, ?it/s]Linker script world:   0%|          | 0/121 [00:00<?, ?it/s]     Linker script magikarp_textures:   0%|          | 0/121 [00:00<?, ?it/s]Linker script pikachu1:   0%|          | 0/121 [00:00<?, ?it/s]         Linker script zubat1:   0%|          | 0/121 [00:00<?, ?it/s]  Linker script bulbasaur1:   0%|          | 0/121 [00:00<?, ?it/s]Linker script beach_assets:   0%|          | 0/121 [00:00<?, ?it/s]Linker script beach_extra:   0%|          | 0/121 [00:00<?, ?it/s] Linker script tunnel_assets:   0%|          | 0/121 [00:00<?, ?it/s]Linker script tunnel_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script tunnel_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script cave_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script cave_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script river_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script river_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script volcano_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script volcano_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script valley_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script valley_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script rainbow_assets:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script rainbow_extra:  11%|█         | 13/121 [00:00<00:00, 124.60it/s] Linker script app_level:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]    Linker script magikarp_model:  11%|█         | 13/121 [00:00<00:00, 124.60it/s]Linker script magikarp_model:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script pikachu_model:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s] Linker script zubat_model:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]  Linker script bulbasaur_model:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script beach_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]     Linker script tunnel_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script cave_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]  Linker script river_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script volcano_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script valley_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s] Linker script rainbow_code:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script magikarp_model_hd:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]Linker script pikachu_model_hd:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s] Linker script zubat_model_hd:  21%|██▏       | 26/121 [00:00<00:00, 120.89it/s]  Linker script zubat_model_hd:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script bulbasaur_model_hd:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script window:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]            Linker script camera_check:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script oaks_lab:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]    Linker script photo_check:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script pokemon_album:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script pokemon_report:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script gallery:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]       Linker script unk_end_level_8:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script main_menu:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]      Linker script A0F830:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script menu_new_game:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script credits:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]      Linker script intro_code:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script AA0B80:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]    Linker script AA18E0:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script AAA610:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script idle_script_beach:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script idle_script_tunnel:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/script/common:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]  Linker script fx/img/common:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/beach:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/beach:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/tunnel:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/tunnel:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/cave:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/cave:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/river:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/river:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/volcano:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/volcano:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/valley:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/valley:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/rainbow:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/rainbow:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script fx/script/intro:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script fx/img/intro:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]   Linker script AE0510:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]      Linker script audio/sbk:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AEFD3C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF0A94:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF0C30:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF0DF4:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF0FC4:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF15BC:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF1F70:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF2B34:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF383C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF3D74:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF444C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF4918:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF5A8C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF5F4C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF6E84:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF7D3C:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF7F88:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF8A10:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF8C88:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF9508:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF9938:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF9AC8:  32%|███▏      | 39/121 [00:00<00:00, 103.15it/s]Linker script audio/seq/AF9AC8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AF9BE4:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AF9C5C:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFA7F8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFA96C:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFB44C:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFB914:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFBEF0:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFC2D8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFCCE8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFD194:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFD298:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFD3A4:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFD494:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFDCD8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/seq/AFDDC4:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script AFEED8:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]          Linker script audio/bank1:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/table1:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script audio/bank2:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s] Linker script audio/table2:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]Linker script padding:  83%|████████▎ | 100/121 [00:00<00:00, 274.08it/s]     Linker script padding: 100%|██████████| 121/121 [00:00<00:00, 255.70it/s]
-Split 11 MB (67.35%) in defined segments
+Splitting main:   2%|▏         | 3/121 [00:01<00:48,  2.43it/s]Splitting app_render:   2%|▏         | 3/121 [00:01<00:48,  2.43it/s]Splitting app_render:   3%|▎         | 4/121 [00:01<00:54,  2.16it/s]Splitting more_funcs:   3%|▎         | 4/121 [00:01<00:54,  2.16it/s]Splitting world:   3%|▎         | 4/121 [00:01<00:54,  2.16it/s]     Splitting world:   5%|▍         | 6/121 [00:02<00:54,  2.09it/s]Splitting magikarp_textures:   5%|▍         | 6/121 [00:02<00:54,  2.09it/s]Splitting magikarp_textures:   6%|▌         | 7/121 [00:03<00:49,  2.31it/s]Splitting pikachu1:   6%|▌         | 7/121 [00:03<00:49,  2.31it/s]         Splitting pikachu1:   7%|▋         | 8/121 [00:03<00:51,  2.19it/s]Splitting zubat1:   7%|▋         | 8/121 [00:03<00:51,  2.19it/s]  Splitting bulbasaur1:   7%|▋         | 8/121 [00:03<00:51,  2.19it/s]Splitting bulbasaur1:   8%|▊         | 10/121 [00:03<00:33,  3.29it/s]Splitting beach_assets:   8%|▊         | 10/121 [00:03<00:33,  3.29it/s]Splitting beach_extra:   8%|▊         | 10/121 [00:03<00:33,  3.29it/s] Splitting beach_extra:  10%|▉         | 12/121 [00:06<01:06,  1.63it/s]Splitting tunnel_assets:  10%|▉         | 12/121 [00:06<01:06,  1.63it/s]Splitting tunnel_assets:  11%|█         | 13/121 [00:08<01:51,  1.04s/it]Splitting tunnel_extra:  11%|█         | 13/121 [00:08<01:51,  1.04s/it] Splitting tunnel_extra:  12%|█▏        | 14/121 [00:10<02:20,  1.32s/it]Splitting cave_assets:  12%|█▏        | 14/121 [00:10<02:20,  1.32s/it] Splitting cave_assets:  12%|█▏        | 15/121 [00:11<01:53,  1.07s/it]Splitting cave_extra:  12%|█▏        | 15/121 [00:11<01:53,  1.07s/it] Splitting cave_extra:  13%|█▎        | 16/121 [00:13<02:12,  1.27s/it]Splitting river_assets:  13%|█▎        | 16/121 [00:13<02:12,  1.27s/it]Splitting river_extra:  13%|█▎        | 16/121 [00:13<02:12,  1.27s/it] Splitting river_extra:  15%|█▍        | 18/121 [00:14<01:50,  1.07s/it]Splitting volcano_assets:  15%|█▍        | 18/121 [00:14<01:50,  1.07s/it]Splitting volcano_assets:  16%|█▌        | 19/121 [00:24<05:20,  3.15s/it]Splitting volcano_extra:  16%|█▌        | 19/121 [00:24<05:20,  3.15s/it] Splitting volcano_extra:  17%|█▋        | 20/121 [00:26<04:54,  2.92s/it]Splitting valley_assets:  17%|█▋        | 20/121 [00:26<04:54,  2.92s/it]Splitting valley_extra:  17%|█▋        | 20/121 [00:26<04:54,  2.92s/it] Splitting valley_extra:  18%|█▊        | 22/121 [00:29<03:41,  2.23s/it]Splitting rainbow_assets:  18%|█▊        | 22/121 [00:29<03:41,  2.23s/it]Splitting rainbow_extra:  18%|█▊        | 22/121 [00:29<03:41,  2.23s/it] Splitting rainbow_extra:  20%|█▉        | 24/121 [00:29<02:20,  1.45s/it]Splitting app_level:  20%|█▉        | 24/121 [00:29<02:20,  1.45s/it]    Splitting app_level:  21%|██        | 25/121 [00:33<03:18,  2.07s/it]Splitting magikarp_model:  21%|██        | 25/121 [00:33<03:18,  2.07s/it]Splitting magikarp_model:  21%|██▏       | 26/121 [00:34<02:33,  1.62s/it]Splitting pikachu_model:  21%|██▏       | 26/121 [00:34<02:33,  1.62s/it] Splitting pikachu_model:  22%|██▏       | 27/121 [00:34<02:03,  1.31s/it]Splitting zubat_model:  22%|██▏       | 27/121 [00:34<02:03,  1.31s/it]  Splitting zubat_model:  23%|██▎       | 28/121 [00:34<01:35,  1.02s/it]Splitting bulbasaur_model:  23%|██▎       | 28/121 [00:34<01:35,  1.02s/it]Splitting bulbasaur_model:  24%|██▍       | 29/121 [00:35<01:17,  1.19it/s]Splitting beach_code:  24%|██▍       | 29/121 [00:35<01:17,  1.19it/s]     Splitting beach_code:  25%|██▍       | 30/121 [00:38<02:13,  1.46s/it]Splitting tunnel_code:  25%|██▍       | 30/121 [00:38<02:13,  1.46s/it]Splitting tunnel_code:  26%|██▌       | 31/121 [00:42<03:38,  2.42s/it]Splitting cave_code:  26%|██▌       | 31/121 [00:42<03:38,  2.42s/it]  Splitting cave_code:  26%|██▋       | 32/121 [00:45<03:36,  2.43s/it]Splitting river_code:  26%|██▋       | 32/121 [00:45<03:36,  2.43s/it]Splitting river_code:  27%|██▋       | 33/121 [00:47<03:23,  2.32s/it]Splitting volcano_code:  27%|██▋       | 33/121 [00:47<03:23,  2.32s/it]Splitting volcano_code:  28%|██▊       | 34/121 [00:53<05:02,  3.47s/it]Splitting valley_code:  28%|██▊       | 34/121 [00:53<05:02,  3.47s/it] Splitting valley_code:  29%|██▉       | 35/121 [00:56<04:46,  3.33s/it]Splitting rainbow_code:  29%|██▉       | 35/121 [00:56<04:46,  3.33s/it]Splitting rainbow_code:  30%|██▉       | 36/121 [00:57<03:28,  2.46s/it]Splitting magikarp_model_hd:  30%|██▉       | 36/121 [00:57<03:28,  2.46s/it]Splitting magikarp_model_hd:  31%|███       | 37/121 [00:57<02:29,  1.78s/it]Splitting pikachu_model_hd:  31%|███       | 37/121 [00:57<02:29,  1.78s/it] Splitting pikachu_model_hd:  31%|███▏      | 38/121 [00:57<01:49,  1.33s/it]Splitting zubat_model_hd:  31%|███▏      | 38/121 [00:57<01:49,  1.33s/it]  Splitting zubat_model_hd:  32%|███▏      | 39/121 [00:57<01:20,  1.02it/s]Splitting bulbasaur_model_hd:  32%|███▏      | 39/121 [00:57<01:20,  1.02it/s]Splitting bulbasaur_model_hd:  33%|███▎      | 40/121 [00:57<01:00,  1.34it/s]Splitting window:  33%|███▎      | 40/121 [00:57<01:00,  1.34it/s]            Splitting window:  34%|███▍      | 41/121 [01:00<01:50,  1.38s/it]Splitting camera_check:  34%|███▍      | 41/121 [01:00<01:50,  1.38s/it]Splitting camera_check:  35%|███▍      | 42/121 [01:02<02:08,  1.62s/it]Splitting oaks_lab:  35%|███▍      | 42/121 [01:02<02:08,  1.62s/it]    Splitting oaks_lab:  36%|███▌      | 43/121 [01:14<06:06,  4.69s/it]Splitting photo_check:  36%|███▌      | 43/121 [01:14<06:06,  4.69s/it]Splitting photo_check:  36%|███▋      | 44/121 [01:15<04:37,  3.61s/it]Splitting pokemon_album:  36%|███▋      | 44/121 [01:15<04:37,  3.61s/it]Splitting pokemon_album:  37%|███▋      | 45/121 [01:16<03:16,  2.58s/it]Splitting pokemon_report:  37%|███▋      | 45/121 [01:16<03:16,  2.58s/it]Splitting pokemon_report:  38%|███▊      | 46/121 [01:16<02:19,  1.87s/it]Splitting gallery:  38%|███▊      | 46/121 [01:16<02:19,  1.87s/it]       Splitting gallery:  39%|███▉      | 47/121 [01:16<01:49,  1.48s/it]Splitting unk_end_level_8:  39%|███▉      | 47/121 [01:16<01:49,  1.48s/it]Splitting main_menu:  39%|███▉      | 47/121 [01:16<01:49,  1.48s/it]      Splitting main_menu:  40%|████      | 49/121 [01:16<00:59,  1.20it/s]Splitting A0F830:  40%|████      | 49/121 [01:16<00:59,  1.20it/s]   Splitting A0F830:  41%|████▏     | 50/121 [01:18<01:18,  1.11s/it]Splitting menu_new_game:  41%|████▏     | 50/121 [01:18<01:18,  1.11s/it]Splitting menu_new_game:  42%|████▏     | 51/121 [01:21<01:51,  1.59s/it]Splitting credits:  42%|████▏     | 51/121 [01:21<01:51,  1.59s/it]      Splitting credits:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting intro_code:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting AA0B80:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]    Splitting AA18E0:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting AAA610:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting idle_script_beach:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting idle_script_tunnel:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting fx/script/common:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]  Splitting fx/img/common:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]   Splitting fx/script/beach:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting fx/img/beach:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]   Splitting fx/script/tunnel:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting fx/img/tunnel:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]   Splitting fx/script/cave:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting fx/img/cave:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]   Splitting fx/script/river:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]Splitting fx/img/river:  43%|████▎     | 52/121 [01:22<01:31,  1.33s/it]   Splitting fx/img/river:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting fx/script/volcano:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting fx/img/volcano:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]   Splitting fx/script/valley:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting fx/img/valley:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]   Splitting fx/script/rainbow:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting fx/img/rainbow:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]   Splitting fx/script/intro:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting fx/img/intro:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]   Splitting AE0510:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]      Splitting audio/sbk:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AEFD3C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF0A94:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF0C30:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF0DF4:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF0FC4:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF15BC:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF1F70:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF2B34:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF383C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF3D74:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF444C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF4918:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF5A8C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF5F4C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF6E84:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF7D3C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF7F88:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF8A10:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF8C88:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF9508:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF9938:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF9AC8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF9BE4:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AF9C5C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFA7F8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFA96C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFB44C:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFB914:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFBEF0:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFC2D8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFCCE8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFD194:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFD298:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFD3A4:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFD494:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFDCD8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/seq/AFDDC4:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting AFEED8:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]          Splitting audio/bank1:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/table1:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting audio/bank2:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s] Splitting audio/table2:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]Splitting padding:  56%|█████▌    | 68/121 [01:22<00:10,  5.25it/s]     Splitting padding: 100%|██████████| 121/121 [01:22<00:00,  1.46it/s]
+  0%|          | 0/121 [00:00<?, ?it/s]Linker script header:   0%|          | 0/121 [00:00<?, ?it/s]Linker script boot:   0%|          | 0/121 [00:00<?, ?it/s]  Linker script main:   0%|          | 0/121 [00:00<?, ?it/s]Linker script app_render:   0%|          | 0/121 [00:00<?, ?it/s]Linker script more_funcs:   0%|          | 0/121 [00:00<?, ?it/s]Linker script world:   0%|          | 0/121 [00:00<?, ?it/s]     Linker script magikarp_textures:   0%|          | 0/121 [00:00<?, ?it/s]Linker script pikachu1:   0%|          | 0/121 [00:00<?, ?it/s]         Linker script zubat1:   0%|          | 0/121 [00:00<?, ?it/s]  Linker script bulbasaur1:   0%|          | 0/121 [00:00<?, ?it/s]Linker script beach_assets:   0%|          | 0/121 [00:00<?, ?it/s]Linker script beach_extra:   0%|          | 0/121 [00:00<?, ?it/s] Linker script tunnel_assets:   0%|          | 0/121 [00:00<?, ?it/s]Linker script tunnel_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script tunnel_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script cave_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script cave_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script river_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script river_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script volcano_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script volcano_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script valley_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script valley_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script rainbow_assets:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script rainbow_extra:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script app_level:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]    Linker script magikarp_model:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script pikachu_model:  11%|█         | 13/121 [00:00<00:00, 128.00it/s] Linker script zubat_model:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]  Linker script bulbasaur_model:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]Linker script beach_code:  11%|█         | 13/121 [00:00<00:00, 128.00it/s]     Linker script beach_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script tunnel_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script cave_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]  Linker script river_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script volcano_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script valley_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s] Linker script rainbow_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script magikarp_model_hd:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script pikachu_model_hd:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s] Linker script zubat_model_hd:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]  Linker script bulbasaur_model_hd:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script window:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]            Linker script camera_check:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script oaks_lab:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]    Linker script photo_check:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script pokemon_album:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script pokemon_report:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script gallery:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]       Linker script unk_end_level_8:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script main_menu:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]      Linker script A0F830:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script menu_new_game:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script credits:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]      Linker script intro_code:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script AA0B80:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]    Linker script AA18E0:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script AAA610:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script idle_script_beach:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script idle_script_tunnel:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/script/common:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]  Linker script fx/img/common:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/beach:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/beach:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/tunnel:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/tunnel:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/cave:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/cave:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/river:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/river:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/volcano:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/volcano:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/valley:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/valley:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/rainbow:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/rainbow:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script fx/script/intro:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script fx/img/intro:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]   Linker script AE0510:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]      Linker script audio/sbk:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AEFD3C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF0A94:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF0C30:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF0DF4:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF0FC4:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF15BC:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF1F70:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF2B34:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF383C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF3D74:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF444C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF4918:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF5A8C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF5F4C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF6E84:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF7D3C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF7F88:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF8A10:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF8C88:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9508:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9938:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9AC8:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9BE4:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9C5C:  25%|██▍       | 30/121 [00:00<00:00, 148.03it/s]Linker script audio/seq/AF9C5C:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFA7F8:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFA96C:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFB44C:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFB914:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFBEF0:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFC2D8:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFCCE8:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFD194:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFD298:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFD3A4:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFD494:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFDCD8:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/seq/AFDDC4:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script AFEED8:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]          Linker script audio/bank1:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/table1:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script audio/bank2:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s] Linker script audio/table2:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]Linker script padding:  84%|████████▍ | 102/121 [00:00<00:00, 403.97it/s]     Linker script padding: 100%|██████████| 121/121 [00:00<00:00, 384.50it/s]
+Split 11 MB (67.82%) in defined segments
               header:     64 B (0.00%) 1 split, 0 cached
-                 bin:     6 MB (39.56%) 87 split, 0 cached
+                 bin:     6 MB (40.03%) 88 split, 0 cached
                 hasm:     4 KB (0.03%) 23 split, 0 cached
-                   c:   969 KB (5.78%) 825 split, 0 cached
+                   c:   969 KB (5.78%) 827 split, 0 cached
                  pad:    528 B (0.00%) 32 split, 0 cached
              textbin:    13 KB (0.08%) 4 split, 0 cached
              databin:     2 KB (0.02%) 3 split, 0 cached
@@ -24922,4 +24442,4 @@ snap_height_map_patches:    98 KB (0.59%) 1 split, 0 cached
 snap_height_map_tree:   137 KB (0.82%) 1 split, 0 cached
                 vpk0:   319 KB (1.91%) 3 split, 0 cached
  snap_effect_sprites:   168 KB (1.00%) 9 split, 0 cached
-             unknown:     3 MB (18.82%) from unknown bin files
+             unknown:     3 MB (18.35%) from unknown bin files

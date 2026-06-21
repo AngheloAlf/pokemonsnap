@@ -5214,6 +5214,7 @@ segments:
       - [0x4A7CD8, gfx, hd_part6_draw]
       - [0x4A7D48, gfx, hd_part7_draw]
       - [0x4A7E18, gfx, hd_part8_draw]
+
   - type: code
     name: rainbow_assets
     start: 0x4A8160
@@ -5222,14 +5223,23 @@ segments:
     exclusive_ram_id: unk800F5D90
     subsegments:
     - [0x4A8160, c]
+    - [0x4A8170]
+    - [auto, c, 4A8170]
+    - [auto, c, mew/textures]
+
     - [0x4A8170, bin] # , data]
+    - [0x4D8CE8, bin, mew/textures]
+
     - { name: bss_80139C30, type: bss, vram: 0x80139C30 }
+
   - type: code
     name: rainbow_extra
     dir: rainbow
     start: 0x4EC000
     vram: 0x80139C50
     exclusive_ram_id: unk4EC000
+    prioritized_segments:
+    - rainbow_assets
     subsegments:
     - [auto, c, mew/model_hd]
     - start: 0x4EC000
@@ -9769,6 +9779,8 @@ segments:
     vram: 0x803466C0
     bss_size: 0x80
     exclusive_ram_id: level
+    prioritized_segments:
+    - rainbow_assets
     subsegments:
     - [0x825E30, c, main]
     - [0x826700, pad]
