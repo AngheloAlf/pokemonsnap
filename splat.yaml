@@ -4877,14 +4877,45 @@ segments:
     exclusive_ram_id: unk800FFF90
     subsegments:
     - [0x3F63D0, c]
+    - [0x3F63E0]
+    - [auto, c, 3F63E0]
+    - [auto, c, graveler/textures]
+    - [auto, c, gyarados/textures]
+    - [auto, c, staryu/textures]
+    - [auto, c, geodude/textures]
+    - [auto, c, dragonite/textures]
+    - [auto, c, mankey/textures]
+    - [auto, c, dratini/textures]
+    - [auto, c, sandshrew/textures]
+    - [auto, c, sandslash/textures]
+    - [auto, c, starmie/textures]
+    - [auto, c, goldeen/textures]
+    - [auto, c, squirtle/textures]
+
     - [0x3F63E0, bin] # , data]
+    - [0x425530, bin, graveler/textures]
+    - [0x42AC10, bin, gyarados/textures]
+    - [0x432D60, bin, staryu/textures]
+    - [0x435AA0, bin, geodude/textures]
+    - [0x438F20, bin, dragonite/textures]
+    - [0x443F40, bin, mankey/textures]
+    - [0x44FE20, bin, dratini/textures]
+    - [0x454C90, bin, sandshrew/textures]
+    - [0x460130, bin, sandslash/textures]
+    - [0x467C98, bin, starmie/textures]
+    - [0x46B500, bin, goldeen/textures]
+    - [0x471E98, bin, squirtle/textures]
+
     - { name: bss_80186AF0, type: bss, vram: 0x80186AF0 }
+
   - type: code
     name: valley_extra
     start: 0x47CF30
     vram: 0x80186B10
     exclusive_ram_id: unk47CF30
     dir: valley
+    prioritized_segments:
+    - valley_assets
     subsegments:
     - [auto, c, graveler/model_hd]
     - [auto, c, gyarados/model_hd]
@@ -9031,6 +9062,8 @@ segments:
     vram: 0x802C5C20
     bss_size: 0x1880
     exclusive_ram_id: level
+    prioritized_segments:
+    - valley_assets
     subsegments:
     - [0x79F1B0, c]
     - [0x79FB70, c]
