@@ -2277,9 +2277,29 @@ segments:
     - [0x29A190, c]
     - [0x29A1A0]
 
-    - [auto, c, 29A1A]
+    - [auto, c, 29A1A0]
+    - [auto, c, psyduck/textures]
+    - [auto, c, poliwag/textures]
+    - [auto, c, cloyster/textures]
+    - [auto, c, porygon/textures]
+    - [auto, c, vileplume/textures]
+    - [auto, c, shellder/textures]
+    - [auto, c, shellder2/textures]
+    - [auto, c, metapod/textures]
+    - [auto, c, slowpoke/textures]
+    - [auto, c, slowbro/textures]
 
     - [0x29A1A0, bin] # , data]
+    - [0x2D0AF0, bin, psyduck/textures]
+    - [0x2D74E0, bin, poliwag/textures]
+    - [0x2E0600, bin, cloyster/textures]
+    - [0x2E1D20, bin, porygon/textures]
+    - [0x2EBF80, bin, vileplume/textures]
+    - [0x2F1DE0, bin, shellder/textures]
+    - [0x2F2F20, bin, shellder2/textures]
+    - [0x2F42F0, bin, metapod/textures]
+    - [0x2F5A30, bin, slowpoke/textures]
+    - [0x301E58, bin, slowbro/textures]
 
     - { name: bss_8019AEC0, type: bss, vram: 0x8019AEC0 }
 
@@ -2289,6 +2309,8 @@ segments:
     start: 0x30AF90
     vram: 0x8019AEE0
     exclusive_ram_id: unk30AF90
+    prioritized_segments:
+    - river_assets
     subsegments:
     - [auto, c, psyduck/model_hd]
     - [auto, c, poliwag/model_hd]
@@ -7709,6 +7731,8 @@ segments:
     vram: 0x802D8800
     bss_size: 0x1B0
     exclusive_ram_id: level
+    prioritized_segments:
+    - river_assets
     subsegments:
     - [0x6C05E0, c]
     - [0x6C1090, c]

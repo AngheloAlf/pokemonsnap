@@ -396,7 +396,7 @@ dlabel D_beach_802CC1C0
     /* 3E4CCCCD41000000 */
 .align 2
     /* 564238 802CC1C8 8017E2E0 */ .word 0x8017E2E0
-    /* 56423C 802CC1CC 80182150 */ .word 0x80182150
+    /* 56423C 802CC1CC 80182150 */ .word shellder_tex_80182150
     /* 564240 802CC1D0 00000000 */ .word 0x00000000
 enddlabel D_beach_802CC1C0
 
