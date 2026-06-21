@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6028_98B848
+
+dlabel D_801C6028_98B848
+    /* 98B848 801C6028 */ .asciz "First of all, see the\n\\hPKMN Sign\\p page!"
+    /* 4669727374206F6620616C6C2C20736565207468650A5C68504B4D4E205369676E5C70207061676521000000 */
+.align 2
+enddlabel D_801C6028_98B848

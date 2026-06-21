@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C5E04_98B624
+
+dlabel D_801C5E04_98B624
+    /* 98B624 801C5E04 */ .asciz "I saved those pictures in\nthe PKMN Report."
+    /* 492073617665642074686F736520706963747572657320696E0A74686520504B4D4E205265706F72742E0000 */
+.align 2
+enddlabel D_801C5E04_98B624

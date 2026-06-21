@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6A18_98C238
+
+dlabel D_801C6A18_98C238
+    /* 98C238 801C6A18 */ .asciz "It was so nice to find a\nphotographer as good as you."
+    /* 49742077617320736F206E69636520746F2066696E6420610A70686F746F6772617068657220617320676F6F6420617320796F752E000000 */
+.align 2
+enddlabel D_801C6A18_98C238

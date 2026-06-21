@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C62BC_98BADC
+
+dlabel D_801C62BC_98BADC
+    /* 98BADC 801C62BC */ .asciz "I have made a new path\nto the Rainbow Cloud."
+    /* 492068617665206D6164652061206E657720706174680A746F20746865205261696E626F7720436C6F75642E00000000 */
+.align 2
+enddlabel D_801C62BC_98BADC

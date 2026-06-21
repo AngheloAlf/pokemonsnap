@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C5E30_98B650
+
+dlabel D_801C5E30_98B650
+    /* 98B650 801C5E30 */ .asciz "I'll help you out once you have\nmore Pokεmon pictures."
+    /* 49276C6C2068656C7020796F75206F7574206F6E636520796F7520686176650A6D6F726520506F6BA6C56D6F6E2070696374757265732E00 */
+.align 2
+enddlabel D_801C5E30_98B650

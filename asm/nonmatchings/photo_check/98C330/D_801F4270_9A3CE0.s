@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F4270_9A3CE0
+
+dlabel D_801F4270_9A3CE0
+    /* 9A3CE0 801F4270 */ .asciz "JIGGLYPUFF TRIO on Stage"
+    /* 4A4947474C5950554646205452494F206F6E20537461676500000000 */
+.align 2
+enddlabel D_801F4270_9A3CE0

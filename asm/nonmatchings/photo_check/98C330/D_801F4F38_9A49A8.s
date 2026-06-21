@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F4F38_9A49A8
+
+dlabel D_801F4F38_9A49A8
+    /* 9A49A8 801F4F38 */ .asciz "That's SNORLAX for sure!"
+    /* 54686174277320534E4F524C415820666F7220737572652100000000 */
+.align 2
+enddlabel D_801F4F38_9A49A8

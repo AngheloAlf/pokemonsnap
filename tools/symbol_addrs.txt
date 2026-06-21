@@ -759,7 +759,7 @@ D_803867A8_526BB8 = 0x803867A8; // segment:app_level
 D_80387448_527858 = 0x80387448; // segment:app_level
 D_803880E8_5284F8 = 0x803880E8; // segment:app_level
 
-checkPlayerFlag = 0x800BFCA0; // segment:app_render
+checkPlayerFlag = 0x800BFCA0; // segment:more_funcs
 setPlayerFlag = 0x800BFEBC; // segment:app_render
 makePhoto = 0x8009C9E8; // segment:app_render
 getIdleScript = 0x8009A8CC; // segment:app_render

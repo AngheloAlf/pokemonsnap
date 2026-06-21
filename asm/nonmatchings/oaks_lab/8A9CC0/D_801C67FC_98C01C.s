@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C67FC_98C01C
+
+dlabel D_801C67FC_98C01C
+    /* 98C01C 801C67FC */ .asciz "You have completed the\nPKMN Report!"
+    /* 596F75206861766520636F6D706C65746564207468650A504B4D4E205265706F72742100 */
+.align 2
+enddlabel D_801C67FC_98C01C

@@ -1,7 +1,7 @@
 
 .splat/
 __pycache__/
-asm/
+
 assets/
 build/
 expected/
@@ -20,8 +20,6 @@ build.ninja
 ctx.c
 ctx.c.m2c
 permuter_settings.toml
-undefined_funcs_auto.txt
-undefined_syms_auto.txt
 
 venv/
 .venv/

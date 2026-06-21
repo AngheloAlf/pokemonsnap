@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C66C0_98BEE0
+
+dlabel D_801C66C0_98BEE0
+    /* 98BEE0 801C66C0 */ .asciz "Would you like to see rare\nPokεmon poses?"
+    /* 576F756C6420796F75206C696B6520746F2073656520726172650A506F6BA6C56D6F6E20706F7365733F0000 */
+.align 2
+enddlabel D_801C66C0_98BEE0

@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C63F4_98BC14
+
+dlabel D_801C63F4_98BC14
+    /* 98BC14 801C63F4 */ .asciz "It will come in handy for taking\nPokεmon pictures."
+    /* 49742077696C6C20636F6D6520696E2068616E647920666F722074616B696E670A506F6BA6C56D6F6E2070696374757265732E00 */
+.align 2
+enddlabel D_801C63F4_98BC14

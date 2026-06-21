@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F43BC_9A3E2C
+
+dlabel D_801F43BC_9A3E2C
+    /* 9A3E2C 801F43BC */ .asciz "\\BOh! It's DRAGONITE!"
+    /* 5C424F6821204974277320445241474F4E49544521000000 */
+.align 2
+enddlabel D_801F43BC_9A3E2C

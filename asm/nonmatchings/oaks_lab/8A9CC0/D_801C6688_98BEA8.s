@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6688_98BEA8
+
+dlabel D_801C6688_98BEA8
+    /* 98BEA8 801C6688 */ .asciz "This will make hidden Pokεmon\ncome out into the open."
+    /* 546869732077696C6C206D616B652068696464656E20506F6BA6C56D6F6E0A636F6D65206F757420696E746F20746865206F70656E2E0000 */
+.align 2
+enddlabel D_801C6688_98BEA8

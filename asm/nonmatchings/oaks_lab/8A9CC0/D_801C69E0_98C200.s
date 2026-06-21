@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C69E0_98C200
+
+dlabel D_801C69E0_98C200
+    /* 98C200 801C69E0 */ .asciz "Thank you, %s.\nThis is all because of your\nhard work."
+    /* 5468616E6B20796F752C2025732E0A5468697320697320616C6C2062656361757365206F6620796F75720A6861726420776F726B2E000000 */
+.align 2
+enddlabel D_801C69E0_98C200

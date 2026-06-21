@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C5D10_98B530
+
+dlabel D_801C5D10_98B530
+    /* 98B530 801C5D10 */ .asciz "Are you going to take\nPokεmon pictures?\nGood luck, %s!"
+    /* 41726520796F7520676F696E6720746F2074616B650A506F6BA6C56D6F6E2070696374757265733F0A476F6F64206C75636B2C2025732100 */
+.align 2
+enddlabel D_801C5D10_98B530

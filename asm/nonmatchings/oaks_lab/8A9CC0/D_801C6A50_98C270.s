@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6A50_98C270
+
+dlabel D_801C6A50_98C270
+    /* 98C270 801C6A50 */ .asciz "Bye for now, but I'll see you\nlater, %s!"
+    /* 42796520666F72206E6F772C206275742049276C6C2073656520796F750A6C617465722C2025732100000000 */
+.align 2
+enddlabel D_801C6A50_98C270

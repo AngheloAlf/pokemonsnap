@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C5BBC_98B3DC
+
+dlabel D_801C5BBC_98B3DC
+    /* 98B3DC 801C5BBC */ .asciz "announced the record for the\nhighest photo score!"
+    /* 616E6E6F756E63656420746865207265636F726420666F72207468650A686967686573742070686F746F2073636F726521000000 */
+.align 2
+enddlabel D_801C5BBC_98B3DC

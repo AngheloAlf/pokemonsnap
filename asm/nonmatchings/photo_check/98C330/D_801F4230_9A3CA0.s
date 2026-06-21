@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F4230_9A3CA0
+
+dlabel D_801F4230_9A3CA0
+    /* 9A3CA0 801F4230 */ .asciz "GRAVELER's Group Dance"
+    /* 47524156454C455227732047726F75702044616E63650000 */
+.align 2
+enddlabel D_801F4230_9A3CA0

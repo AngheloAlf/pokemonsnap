@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F4DD4_9A4844
+
+dlabel D_801F4DD4_9A4844
+    /* 9A4844 801F4DD4 */ .asciz "You've thrown a PESTER BALL."
+    /* 596F75277665207468726F776E2061205045535445522042414C4C2E00000000 */
+.align 2
+enddlabel D_801F4DD4_9A4844

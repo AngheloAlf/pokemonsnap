@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F46CC_9A413C
+
+dlabel D_801F46CC_9A413C
+    /* 9A413C 801F46CC */ .asciz "\\BOh! MANKEY got blasted!"
+    /* 5C424F6821204D414E4B455920676F7420626C617374656421000000 */
+.align 2
+enddlabel D_801F46CC_9A413C

@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F46AC_9A411C
+
+dlabel D_801F46AC_9A411C
+    /* 9A411C 801F46AC */ .asciz "\\BOh! It's MANKEY in the sky!"
+    /* 5C424F68212049742773204D414E4B455920696E2074686520736B7921000000 */
+.align 2
+enddlabel D_801F46AC_9A411C

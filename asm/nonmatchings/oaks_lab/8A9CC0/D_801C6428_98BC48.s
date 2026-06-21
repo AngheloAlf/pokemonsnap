@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6428_98BC48
+
+dlabel D_801C6428_98BC48
+    /* 98BC48 801C6428 */ .asciz "Would you like to be\ncloser with Pokεmon?"
+    /* 576F756C6420796F75206C696B6520746F2062650A636C6F736572207769746820506F6BA6C56D6F6E3F0000 */
+.align 2
+enddlabel D_801C6428_98BC48

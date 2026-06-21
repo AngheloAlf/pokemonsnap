@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801F44D0_9A3F40
+
+dlabel D_801F44D0_9A3F40
+    /* 9A3F40 801F44D0 */ .asciz "JIGGLYPUFF's dance is great!"
+    /* 4A4947474C595055464627732064616E63652069732067726561742100000000 */
+.align 2
+enddlabel D_801F44D0_9A3F40

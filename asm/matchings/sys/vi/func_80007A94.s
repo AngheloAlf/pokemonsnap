@@ -1,0 +1,30 @@
+nonmatching func_80007A94, 0x68
+
+glabel func_80007A94
+    /* 8694 80007A94 3C0E8005 */  lui        $t6, %hi(viScreenWidth)
+    /* 8698 80007A98 8DCEA958 */  lw         $t6, %lo(viScreenWidth)($t6)
+    /* 869C 80007A9C 3C0F8005 */  lui        $t7, %hi(viScreenHeight)
+    /* 86A0 80007AA0 3C028005 */  lui        $v0, %hi(D_8004A960)
+    /* 86A4 80007AA4 AC8E0024 */  sw         $t6, 0x24($a0)
+    /* 86A8 80007AA8 8DEFA95C */  lw         $t7, %lo(viScreenHeight)($t7)
+    /* 86AC 80007AAC 2442A960 */  addiu      $v0, $v0, %lo(D_8004A960)
+    /* 86B0 80007AB0 3C198005 */  lui        $t9, %hi(viEdgeOffsetLeft)
+    /* 86B4 80007AB4 AC8F0028 */  sw         $t7, 0x28($a0)
+    /* 86B8 80007AB8 8C580000 */  lw         $t8, 0x0($v0)
+    /* 86BC 80007ABC 3C088005 */  lui        $t0, %hi(viEdgeOffsetRight)
+    /* 86C0 80007AC0 3C098005 */  lui        $t1, %hi(viEdgeOffsetTop)
+    /* 86C4 80007AC4 AC98002C */  sw         $t8, 0x2C($a0)
+    /* 86C8 80007AC8 8739A974 */  lh         $t9, %lo(viEdgeOffsetLeft)($t9)
+    /* 86CC 80007ACC 3C0A8005 */  lui        $t2, %hi(viEdgeOffsetBottom)
+    /* 86D0 80007AD0 3C018005 */  lui        $at, %hi(D_8004A964)
+    /* 86D4 80007AD4 A4990030 */  sh         $t9, 0x30($a0)
+    /* 86D8 80007AD8 8508A976 */  lh         $t0, %lo(viEdgeOffsetRight)($t0)
+    /* 86DC 80007ADC A4880032 */  sh         $t0, 0x32($a0)
+    /* 86E0 80007AE0 8529A978 */  lh         $t1, %lo(viEdgeOffsetTop)($t1)
+    /* 86E4 80007AE4 A4890034 */  sh         $t1, 0x34($a0)
+    /* 86E8 80007AE8 854AA97A */  lh         $t2, %lo(viEdgeOffsetBottom)($t2)
+    /* 86EC 80007AEC A48A0036 */  sh         $t2, 0x36($a0)
+    /* 86F0 80007AF0 AC400000 */  sw         $zero, 0x0($v0)
+    /* 86F4 80007AF4 03E00008 */  jr         $ra
+    /* 86F8 80007AF8 AC20A964 */   sw        $zero, %lo(D_8004A964)($at)
+endlabel func_80007A94

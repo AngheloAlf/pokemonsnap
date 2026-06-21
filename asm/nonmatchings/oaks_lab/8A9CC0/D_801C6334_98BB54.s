@@ -1,0 +1,10 @@
+.section .rodata
+
+.align 2
+nonmatching D_801C6334_98BB54
+
+dlabel D_801C6334_98BB54
+    /* 98BB54 801C6334 */ .asciz "I've seen your \\hPKMN Sign\\p in\npictures!"
+    /* 49277665207365656E20796F7572205C68504B4D4E205369676E5C7020696E0A706963747572657321000000 */
+.align 2
+enddlabel D_801C6334_98BB54

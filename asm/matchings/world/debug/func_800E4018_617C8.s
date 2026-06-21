@@ -1,0 +1,15 @@
+nonmatching notNull_DEBUG, 0x1C
+
+glabel notNull_DEBUG
+    /* 617C8 800E4018 14800003 */  bnez       $a0, .L800E4028_617D8
+    /* 617CC 800E401C AFA50004 */   sw        $a1, 0x4($sp)
+    /* 617D0 800E4020 03E00008 */  jr         $ra
+    /* 617D4 800E4024 00001025 */   or        $v0, $zero, $zero
+  .L800E4028_617D8:
+    /* 617D8 800E4028 24020001 */  addiu      $v0, $zero, 0x1
+    /* 617DC 800E402C 03E00008 */  jr         $ra
+    /* 617E0 800E4030 00000000 */   nop
+endlabel notNull_DEBUG
+    /* 617E4 800E4034 00000000 */  nop
+    /* 617E8 800E4038 00000000 */  nop
+    /* 617EC 800E403C 00000000 */  nop
