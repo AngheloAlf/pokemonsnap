@@ -5634,6 +5634,8 @@ segments:
     start: 0x54D6A0
     vram: 0x803476A0
     exclusive_ram_id: unk803476A0
+    prioritized_segments:
+    - pikachu1
     subsegments:
     - [auto, c, pikachu/model]
     - start: 0x54D6A0
@@ -5737,6 +5739,8 @@ segments:
     start: 0x554130
     vram: 0x80344780
     exclusive_ram_id: unk80344780
+    prioritized_segments:
+    - zubat1
     subsegments:
     - [auto, c, zubat/model]
     - start: 0x554130
@@ -5796,6 +5800,8 @@ segments:
     start: 0x557050
     vram: 0x8033F6C0
     exclusive_ram_id: unk80344780
+    prioritized_segments:
+    - bulbasaur1
     subsegments:
     - [auto, c, bulbasaur/model]
     - start: 0x557050
@@ -9860,6 +9866,8 @@ segments:
     start: 0x832960
     vram: 0x803AD580
     exclusive_ram_id: unk832960
+    prioritized_segments:
+    - pikachu1
     subsegments:
     - [auto, c, pikachu/model_hd]
     - start: 0x832960
@@ -9905,6 +9913,8 @@ segments:
     start: 0x837360
     vram: 0x803AA700
     exclusive_ram_id: unk837360
+    prioritized_segments:
+    - zubat1
     subsegments:
     - [auto, c, zubat/model_hd]
     - start: 0x837360
@@ -9936,6 +9946,8 @@ segments:
     start: 0x83A1E0
     vram: 0x803A71B0
     exclusive_ram_id: unk83A1E0
+    prioritized_segments:
+    - bulbasaur1
     subsegments:
     - [auto, c, bulbasaur/model_hd]
     - start: 0x83A1E0

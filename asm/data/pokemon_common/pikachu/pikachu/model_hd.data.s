@@ -34,76 +34,76 @@ enddlabel D_803AD580_832960
 nonmatching D_803AD5D8_8329B8
 
 dlabel D_803AD5D8_8329B8
-    /* 8329B8 803AD5D8 801045D8 */ .word volcano_block1_vtx + 0x328
-    /* 8329BC 803AD5DC 801049E0 */ .word volcano_block1_vtx + 0x730
+    /* 8329B8 803AD5D8 801045D8 */ .word pikachu_tex_07_png
+    /* 8329BC 803AD5DC 801049E0 */ .word pikachu_tex_08_png
 enddlabel D_803AD5D8_8329B8
 
 nonmatching D_803AD5E0_8329C0
 
 dlabel D_803AD5E0_8329C0
-    /* 8329C0 803AD5E0 801049E0 */ .word volcano_block1_vtx + 0x730
-    /* 8329C4 803AD5E4 801045D8 */ .word volcano_block1_vtx + 0x328
+    /* 8329C0 803AD5E0 801049E0 */ .word pikachu_tex_08_png
+    /* 8329C4 803AD5E4 801045D8 */ .word pikachu_tex_07_png
 enddlabel D_803AD5E0_8329C0
 
 nonmatching D_803AD5E8_8329C8
 
 dlabel D_803AD5E8_8329C8
-    /* 8329C8 803AD5E8 800FFF98 */ .word 0x800FFF98
-    /* 8329CC 803AD5EC 801007A0 */ .word 0x801007A0
-    /* 8329D0 803AD5F0 80100FA8 */ .word 0x80100FA8
-    /* 8329D4 803AD5F4 801017B0 */ .word 0x801017B0
-    /* 8329D8 803AD5F8 801017B0 */ .word 0x801017B0
+    /* 8329C8 803AD5E8 800FFF98 */ .word pikachu_tex_lightning0_png
+    /* 8329CC 803AD5EC 801007A0 */ .word pikachu_tex_lightning1_png
+    /* 8329D0 803AD5F0 80100FA8 */ .word pikachu_tex_lightning2_png
+    /* 8329D4 803AD5F4 801017B0 */ .word pikachu_tex_lightning3_png
+    /* 8329D8 803AD5F8 801017B0 */ .word pikachu_tex_lightning3_png
 enddlabel D_803AD5E8_8329C8
 
 nonmatching D_803AD5FC_8329DC
 
 dlabel D_803AD5FC_8329DC
-    /* 8329DC 803AD5FC 800FFF98 */ .word 0x800FFF98
-    /* 8329E0 803AD600 801007A0 */ .word 0x801007A0
-    /* 8329E4 803AD604 80100FA8 */ .word 0x80100FA8
-    /* 8329E8 803AD608 801017B0 */ .word 0x801017B0
-    /* 8329EC 803AD60C 801017B0 */ .word 0x801017B0
+    /* 8329DC 803AD5FC 800FFF98 */ .word pikachu_tex_lightning0_png
+    /* 8329E0 803AD600 801007A0 */ .word pikachu_tex_lightning1_png
+    /* 8329E4 803AD604 80100FA8 */ .word pikachu_tex_lightning2_png
+    /* 8329E8 803AD608 801017B0 */ .word pikachu_tex_lightning3_png
+    /* 8329EC 803AD60C 801017B0 */ .word pikachu_tex_lightning3_png
 enddlabel D_803AD5FC_8329DC
 
 nonmatching D_803AD610_8329F0
 
 dlabel D_803AD610_8329F0
-    /* 8329F0 803AD610 801054D8 */ .word 0x801054D8
-    /* 8329F4 803AD614 80105AE8 */ .word 0x80105AE8
-    /* 8329F8 803AD618 801060F8 */ .word volcano_block2_vtx + 0x548
-    /* 8329FC 803AD61C 80106708 */ .word 0x80106708
-    /* 832A00 803AD620 80106D18 */ .word 0x80106D18
+    /* 8329F0 803AD610 801054D8 */ .word pikachu_tex_mouth0_png
+    /* 8329F4 803AD614 80105AE8 */ .word pikachu_tex_mouth1_png
+    /* 8329F8 803AD618 801060F8 */ .word pikachu_tex_mouth2_png
+    /* 8329FC 803AD61C 80106708 */ .word pikachu_tex_mouth3_png
+    /* 832A00 803AD620 80106D18 */ .word pikachu_tex_mouth4_png
 enddlabel D_803AD610_8329F0
 
 nonmatching D_803AD624_832A04
 
 dlabel D_803AD624_832A04
-    /* 832A04 803AD624 80104E98 */ .word volcano_block1_vtx + 0xBE8
-    /* 832A08 803AD628 801050C8 */ .word volcano_block1_vtx + 0xE18
+    /* 832A04 803AD624 80104E98 */ .word pikachu_tex_cheek0_png
+    /* 832A08 803AD628 801050C8 */ .word pikachu_tex_cheek1_png
 enddlabel D_803AD624_832A04
 
 nonmatching D_803AD62C_832A0C
 
 dlabel D_803AD62C_832A0C
-    /* 832A0C 803AD62C 80107328 */ .word volcano_block3_vtx + 0x2E8
-    /* 832A10 803AD630 80107938 */ .word volcano_block3_vtx + 0x8F8
-    /* 832A14 803AD634 80107F48 */ .word volcano_block3_vtx + 0xF08
-    /* 832A18 803AD638 80108558 */ .word volcano_block3_vtx + 0x1518
-    /* 832A1C 803AD63C 80108B68 */ .word volcano_block3_vtx + 0x1B28
+    /* 832A0C 803AD62C 80107328 */ .word pikachu_tex_eye0_png
+    /* 832A10 803AD630 80107938 */ .word pikachu_tex_eye1_png
+    /* 832A14 803AD634 80107F48 */ .word pikachu_tex_eye2_png
+    /* 832A18 803AD638 80108558 */ .word pikachu_tex_eye3_png
+    /* 832A1C 803AD63C 80108B68 */ .word pikachu_tex_eye4_png
 enddlabel D_803AD62C_832A0C
 
 nonmatching D_803AD640_832A20
 
 dlabel D_803AD640_832A20
-    /* 832A20 803AD640 801045D8 */ .word volcano_block1_vtx + 0x328
-    /* 832A24 803AD644 801049E0 */ .word volcano_block1_vtx + 0x730
+    /* 832A20 803AD640 801045D8 */ .word pikachu_tex_07_png
+    /* 832A24 803AD644 801049E0 */ .word pikachu_tex_08_png
 enddlabel D_803AD640_832A20
 
 nonmatching D_803AD648_832A28
 
 dlabel D_803AD648_832A28
-    /* 832A28 803AD648 801049E0 */ .word volcano_block1_vtx + 0x730
-    /* 832A2C 803AD64C 801045D8 */ .word volcano_block1_vtx + 0x328
+    /* 832A28 803AD648 801049E0 */ .word pikachu_tex_08_png
+    /* 832A2C 803AD64C 801045D8 */ .word pikachu_tex_07_png
 enddlabel D_803AD648_832A28
 
 nonmatching D_803AD650_832A30
@@ -2575,7 +2575,7 @@ dlabel pikachu_hd_part2_draw
     /* 834F68 803AFB88 F5400400 */ .word 0xF5400400
     /* 834F6C 803AFB8C 00090350 */ .word 0x00090350
     /* 834F70 803AFB90 FD100000 */ .word 0xFD100000
-    /* 834F74 803AFB94 80109090 */ .word volcano_block3_vtx + 0x2050
+    /* 834F74 803AFB94 80109090 */ .word pikachu_tex_back_pal
     /* 834F78 803AFB98 E6000000 */ .word 0xE6000000
     /* 834F7C 803AFB9C 00000000 */ .word 0x00000000
     /* 834F80 803AFBA0 F0000000 */ .word 0xF0000000
@@ -2587,7 +2587,7 @@ dlabel pikachu_hd_part2_draw
     /* 834F98 803AFBB8 F2000000 */ .word 0xF2000000
     /* 834F9C 803AFBBC 000FC03C */ .word 0x000FC03C
     /* 834FA0 803AFBC0 FD500000 */ .word 0xFD500000
-    /* 834FA4 803AFBC4 801090B8 */ .word volcano_block3_vtx + 0x2078
+    /* 834FA4 803AFBC4 801090B8 */ .word pikachu_tex_back_png
     /* 834FA8 803AFBC8 E6000000 */ .word 0xE6000000
     /* 834FAC 803AFBCC 00000000 */ .word 0x00000000
     /* 834FB0 803AFBD0 F3000000 */ .word 0xF3000000
@@ -2629,7 +2629,7 @@ dlabel pikachu_hd_part2_draw
     /* 835040 803AFC60 F2000000 */ .word 0xF2000000
     /* 835044 803AFC64 0001C01C */ .word 0x0001C01C
     /* 835048 803AFC68 FD100000 */ .word 0xFD100000
-    /* 83504C 803AFC6C 80104DE8 */ .word volcano_block1_vtx + 0xB38
+    /* 83504C 803AFC6C 80104DE8 */ .word pikachu_tex_body_png
     /* 835050 803AFC70 E6000000 */ .word 0xE6000000
     /* 835054 803AFC74 00000000 */ .word 0x00000000
     /* 835058 803AFC78 F3000000 */ .word 0xF3000000
@@ -3179,7 +3179,7 @@ dlabel pikachu_hd_part9_draw
     /* 835810 803B0430 F2000000 */ .word 0xF2000000
     /* 835814 803B0434 000FC03C */ .word 0x000FC03C
     /* 835818 803B0438 FD500000 */ .word 0xFD500000
-    /* 83581C 803B043C 801090B8 */ .word volcano_block3_vtx + 0x2078
+    /* 83581C 803B043C 801090B8 */ .word pikachu_tex_back_png
     /* 835820 803B0440 E6000000 */ .word 0xE6000000
     /* 835824 803B0444 00000000 */ .word 0x00000000
     /* 835828 803B0448 F3000000 */ .word 0xF3000000
@@ -3227,7 +3227,7 @@ dlabel pikachu_hd_part9_draw
     /* 8358D0 803B04F0 F2000000 */ .word 0xF2000000
     /* 8358D4 803B04F4 0001C01C */ .word 0x0001C01C
     /* 8358D8 803B04F8 FD100000 */ .word 0xFD100000
-    /* 8358DC 803B04FC 80104DE8 */ .word volcano_block1_vtx + 0xB38
+    /* 8358DC 803B04FC 80104DE8 */ .word pikachu_tex_body_png
     /* 8358E0 803B0500 E6000000 */ .word 0xE6000000
     /* 8358E4 803B0504 00000000 */ .word 0x00000000
     /* 8358E8 803B0508 F3000000 */ .word 0xF3000000
@@ -3345,7 +3345,7 @@ dlabel pikachu_hd_part10_draw
     /* 835A80 803B06A0 F5480800 */ .word 0xF5480800
     /* 835A84 803B06A4 00094250 */ .word 0x00094250
     /* 835A88 803B06A8 FD100000 */ .word 0xFD100000
-    /* 835A8C 803B06AC 80107120 */ .word volcano_block3_vtx + 0xE0
+    /* 835A8C 803B06AC 80107120 */ .word pikachu_tex_eye0_pal
     /* 835A90 803B06B0 E6000000 */ .word 0xE6000000
     /* 835A94 803B06B4 00000000 */ .word 0x00000000
     /* 835A98 803B06B8 F0000000 */ .word 0xF0000000
@@ -3387,7 +3387,7 @@ dlabel pikachu_hd_part10_draw
     /* 835B28 803B0748 F5400400 */ .word 0xF5400400
     /* 835B2C 803B074C 00094250 */ .word 0x00094250
     /* 835B30 803B0750 FD100000 */ .word 0xFD100000
-    /* 835B34 803B0754 80104E70 */ .word volcano_block1_vtx + 0xBC0
+    /* 835B34 803B0754 80104E70 */ .word pikachu_tex_cheek0_pal
     /* 835B38 803B0758 E6000000 */ .word 0xE6000000
     /* 835B3C 803B075C 00000000 */ .word 0x00000000
     /* 835B40 803B0760 F0000000 */ .word 0xF0000000
@@ -3433,7 +3433,7 @@ dlabel pikachu_hd_part10_draw
     /* 835BE0 803B0800 F5480800 */ .word 0xF5480800
     /* 835BE4 803B0804 00094250 */ .word 0x00094250
     /* 835BE8 803B0808 FD100000 */ .word 0xFD100000
-    /* 835BEC 803B080C 801052D0 */ .word volcano_block1_vtx + 0x1020
+    /* 835BEC 803B080C 801052D0 */ .word pikachu_tex_mouth0_pal
     /* 835BF0 803B0810 E6000000 */ .word 0xE6000000
     /* 835BF4 803B0814 00000000 */ .word 0x00000000
     /* 835BF8 803B0818 F0000000 */ .word 0xF0000000
@@ -3477,7 +3477,7 @@ dlabel pikachu_hd_part10_draw
     /* 835C90 803B08B0 F2000000 */ .word 0xF2000000
     /* 835C94 803B08B4 0001C01C */ .word 0x0001C01C
     /* 835C98 803B08B8 FD100000 */ .word 0xFD100000
-    /* 835C9C 803B08BC 80104DE8 */ .word volcano_block1_vtx + 0xB38
+    /* 835C9C 803B08BC 80104DE8 */ .word pikachu_tex_body_png
     /* 835CA0 803B08C0 E6000000 */ .word 0xE6000000
     /* 835CA4 803B08C4 00000000 */ .word 0x00000000
     /* 835CA8 803B08C8 F3000000 */ .word 0xF3000000
@@ -3709,7 +3709,7 @@ dlabel pikachu_hd_part11_draw
     /* 836008 803B0C28 F5400200 */ .word 0xF5400200
     /* 83600C 803B0C2C 00094230 */ .word 0x00094230
     /* 836010 803B0C30 FD100000 */ .word 0xFD100000
-    /* 836014 803B0C34 80108F70 */ .word volcano_block3_vtx + 0x1F30
+    /* 836014 803B0C34 80108F70 */ .word pikachu_tex_ear_pal
     /* 836018 803B0C38 E6000000 */ .word 0xE6000000
     /* 83601C 803B0C3C 00000000 */ .word 0x00000000
     /* 836020 803B0C40 F0000000 */ .word 0xF0000000
@@ -3721,7 +3721,7 @@ dlabel pikachu_hd_part11_draw
     /* 836038 803B0C58 F2000000 */ .word 0xF2000000
     /* 83603C 803B0C5C 0001C07C */ .word 0x0001C07C
     /* 836040 803B0C60 FD500000 */ .word 0xFD500000
-    /* 836044 803B0C64 80108F88 */ .word volcano_block3_vtx + 0x1F48
+    /* 836044 803B0C64 80108F88 */ .word pikachu_tex_ear_png
     /* 836048 803B0C68 E6000000 */ .word 0xE6000000
     /* 83604C 803B0C6C 00000000 */ .word 0x00000000
     /* 836050 803B0C70 F3000000 */ .word 0xF3000000
@@ -3945,7 +3945,7 @@ dlabel pikachu_hd_part14_draw
     /* 836368 803B0F88 F2000000 */ .word 0xF2000000
     /* 83636C 803B0F8C 0007C0FC */ .word 0x0007C0FC
     /* 836370 803B0F90 FD100000 */ .word 0xFD100000
-    /* 836374 803B0F94 80102FC0 */ .word volcano_block0_vtx + 0x1170
+    /* 836374 803B0F94 80102FC0 */ .word pikachu_tex_balloon1_png
     /* 836378 803B0F98 E6000000 */ .word 0xE6000000
     /* 83637C 803B0F9C 00000000 */ .word 0x00000000
     /* 836380 803B0FA0 F3000000 */ .word 0xF3000000
@@ -3959,7 +3959,7 @@ dlabel pikachu_hd_part14_draw
     /* 8363A0 803B0FC0 E7000000 */ .word 0xE7000000
     /* 8363A4 803B0FC4 00000000 */ .word 0x00000000
     /* 8363A8 803B0FC8 FD100000 */ .word 0xFD100000
-    /* 8363AC 803B0FCC 80101FB8 */ .word volcano_block0_vtx + 0x168
+    /* 8363AC 803B0FCC 80101FB8 */ .word pikachu_tex_balloon0_png
     /* 8363B0 803B0FD0 E6000000 */ .word 0xE6000000
     /* 8363B4 803B0FD4 00000000 */ .word 0x00000000
     /* 8363B8 803B0FD8 F3000000 */ .word 0xF3000000
@@ -4031,7 +4031,7 @@ dlabel pikachu_hd_part15_draw
     /* 836498 803B10B8 F2000000 */ .word 0xF2000000
     /* 83649C 803B10BC 0001C01C */ .word 0x0001C01C
     /* 8364A0 803B10C0 FD100000 */ .word 0xFD100000
-    /* 8364A4 803B10C4 80104DE8 */ .word volcano_block1_vtx + 0xB38
+    /* 8364A4 803B10C4 80104DE8 */ .word pikachu_tex_body_png
     /* 8364A8 803B10C8 E6000000 */ .word 0xE6000000
     /* 8364AC 803B10CC 00000000 */ .word 0x00000000
     /* 8364B0 803B10D0 F3000000 */ .word 0xF3000000
@@ -4344,7 +4344,7 @@ dlabel pikachu_hd_part19_draw
     /* 836918 803B1538 F5480800 */ .word 0xF5480800
     /* 83691C 803B153C 00094250 */ .word 0x00094250
     /* 836920 803B1540 FD100000 */ .word 0xFD100000
-    /* 836924 803B1544 80103FC8 */ .word 0x80103FC8
+    /* 836924 803B1544 80103FC8 */ .word pikachu_tex_apple_pal
     /* 836928 803B1548 E6000000 */ .word 0xE6000000
     /* 83692C 803B154C 00000000 */ .word 0x00000000
     /* 836930 803B1550 F0000000 */ .word 0xF0000000
@@ -4395,7 +4395,7 @@ dlabel pikachu_hd_part20_draw
     /* 8369D0 803B15F0 F5400200 */ .word 0xF5400200
     /* 8369D4 803B15F4 00094230 */ .word 0x00094230
     /* 8369D8 803B15F8 FD100000 */ .word 0xFD100000
-    /* 8369DC 803B15FC 801091C0 */ .word volcano_block3_vtx + 0x2180
+    /* 8369DC 803B15FC 801091C0 */ .word pikachu_tex_tail_pal
     /* 8369E0 803B1600 E6000000 */ .word 0xE6000000
     /* 8369E4 803B1604 00000000 */ .word 0x00000000
     /* 8369E8 803B1608 F0000000 */ .word 0xF0000000
@@ -4405,7 +4405,7 @@ dlabel pikachu_hd_part20_draw
     /* 8369F8 803B1618 F2000000 */ .word 0xF2000000
     /* 8369FC 803B161C 0001C07C */ .word 0x0001C07C
     /* 836A00 803B1620 FD500000 */ .word 0xFD500000
-    /* 836A04 803B1624 801091E8 */ .word volcano_block3_vtx + 0x21A8
+    /* 836A04 803B1624 801091E8 */ .word pikachu_tex_tail_png
     /* 836A08 803B1628 E6000000 */ .word 0xE6000000
     /* 836A0C 803B162C 00000000 */ .word 0x00000000
     /* 836A10 803B1630 F3000000 */ .word 0xF3000000

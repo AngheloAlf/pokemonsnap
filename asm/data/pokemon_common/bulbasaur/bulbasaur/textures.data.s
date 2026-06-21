@@ -9,6 +9,11 @@ nonmatching D_8011CB50_99F70
 dlabel D_8011CB50_99F70
     /* 99F70 8011CB50 00000000 */ .word 0x00000000
     /* 99F74 8011CB54 00000000 */ .word 0x00000000
+enddlabel D_8011CB50_99F70
+
+nonmatching bulbasaur_tex_face_spots_pal
+
+dlabel bulbasaur_tex_face_spots_pal
     /* 99F78 8011CB58 FFFF449B */ .word 0xFFFF449B
     /* 99F7C 8011CB5C 5E653395 */ .word 0x5E653395
     /* 99F80 8011CB60 55E34DA1 */ .word 0x55E34DA1
@@ -19,6 +24,11 @@ dlabel D_8011CB50_99F70
     /* 99F94 8011CB74 00010001 */ .word 0x00010001
     /* 99F98 8011CB78 00000000 */ .word 0x00000000
     /* 99F9C 8011CB7C 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_face_spots_pal
+
+nonmatching bulbasaur_tex_face_spots_png
+
+dlabel bulbasaur_tex_face_spots_png
     /* 99FA0 8011CB80 22222222 */ .word 0x22222222
     /* 99FA4 8011CB84 22222222 */ .word 0x22222222
     /* 99FA8 8011CB88 22222222 */ .word 0x22222222
@@ -149,6 +159,11 @@ dlabel D_8011CB50_99F70
     /* 9A19C 8011CD7C 22222222 */ .word 0x22222222
     /* 9A1A0 8011CD80 00000000 */ .word 0x00000000
     /* 9A1A4 8011CD84 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_face_spots_png
+
+nonmatching bulbasaur_tex_spots_pal
+
+dlabel bulbasaur_tex_spots_pal
     /* 9A1A8 8011CD88 FFFF5E65 */ .word 0xFFFF5E65
     /* 9A1AC 8011CD8C 339555E3 */ .word 0x339555E3
     /* 9A1B0 8011CD90 4DA13C9B */ .word 0x4DA13C9B
@@ -159,6 +174,11 @@ dlabel D_8011CB50_99F70
     /* 9A1C4 8011CDA4 00010001 */ .word 0x00010001
     /* 9A1C8 8011CDA8 00000000 */ .word 0x00000000
     /* 9A1CC 8011CDAC 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_spots_pal
+
+nonmatching bulbasaur_tex_spots_png
+
+dlabel bulbasaur_tex_spots_png
     /* 9A1D0 8011CDB0 11111111 */ .word 0x11111111
     /* 9A1D4 8011CDB4 11111111 */ .word 0x11111111
     /* 9A1D8 8011CDB8 11111111 */ .word 0x11111111
@@ -289,6 +309,11 @@ dlabel D_8011CB50_99F70
     /* 9A3CC 8011CFAC 11111111 */ .word 0x11111111
     /* 9A3D0 8011CFB0 00000000 */ .word 0x00000000
     /* 9A3D4 8011CFB4 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_spots_png
+
+nonmatching bulbasaur_tex_eye0_pal
+
+dlabel bulbasaur_tex_eye0_pal
     /* 9A3D8 8011CFB8 FFFF1001 */ .word 0xFFFF1001
     /* 9A3DC 8011CFBC 76A95E65 */ .word 0x76A95E65
     /* 9A3E0 8011CFC0 96EF7629 */ .word 0x96EF7629
@@ -299,6 +324,11 @@ dlabel D_8011CB50_99F70
     /* 9A3F4 8011CFD4 E4670000 */ .word 0xE4670000
     /* 9A3F8 8011CFD8 00000000 */ .word 0x00000000
     /* 9A3FC 8011CFDC 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye0_pal
+
+nonmatching bulbasaur_tex_eye0_png
+
+dlabel bulbasaur_tex_eye0_png
     /* 9A400 8011CFE0 33333333 */ .word 0x33333333
     /* 9A404 8011CFE4 33333333 */ .word 0x33333333
     /* 9A408 8011CFE8 33333333 */ .word 0x33333333
@@ -429,6 +459,11 @@ dlabel D_8011CB50_99F70
     /* 9A5FC 8011D1DC 33333333 */ .word 0x33333333
     /* 9A600 8011D1E0 00000000 */ .word 0x00000000
     /* 9A604 8011D1E4 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye0_png
+
+nonmatching bulbasaur_tex_eye1_pal
+
+dlabel bulbasaur_tex_eye1_pal
     /* 9A608 8011D1E8 FFFF1001 */ .word 0xFFFF1001
     /* 9A60C 8011D1EC 76A95E65 */ .word 0x76A95E65
     /* 9A610 8011D1F0 96EF7629 */ .word 0x96EF7629
@@ -439,6 +474,11 @@ dlabel D_8011CB50_99F70
     /* 9A624 8011D204 E4670000 */ .word 0xE4670000
     /* 9A628 8011D208 00000000 */ .word 0x00000000
     /* 9A62C 8011D20C 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye1_pal
+
+nonmatching bulbasaur_tex_eye1_png
+
+dlabel bulbasaur_tex_eye1_png
     /* 9A630 8011D210 33333333 */ .word 0x33333333
     /* 9A634 8011D214 33333333 */ .word 0x33333333
     /* 9A638 8011D218 33333333 */ .word 0x33333333
@@ -569,6 +609,11 @@ dlabel D_8011CB50_99F70
     /* 9A82C 8011D40C 33333333 */ .word 0x33333333
     /* 9A830 8011D410 00000000 */ .word 0x00000000
     /* 9A834 8011D414 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye1_png
+
+nonmatching bulbasaur_tex_eye2_pal
+
+dlabel bulbasaur_tex_eye2_pal
     /* 9A838 8011D418 FFFF1001 */ .word 0xFFFF1001
     /* 9A83C 8011D41C 76A95E65 */ .word 0x76A95E65
     /* 9A840 8011D420 96EF7629 */ .word 0x96EF7629
@@ -577,6 +622,11 @@ dlabel D_8011CB50_99F70
     /* 9A84C 8011D42C 00000000 */ .word 0x00000000
     /* 9A850 8011D430 00000000 */ .word 0x00000000
     /* 9A854 8011D434 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye2_pal
+
+nonmatching bulbasaur_tex_eye2_png
+
+dlabel bulbasaur_tex_eye2_png
     /* 9A858 8011D438 33333333 */ .word 0x33333333
     /* 9A85C 8011D43C 33333333 */ .word 0x33333333
     /* 9A860 8011D440 33333333 */ .word 0x33333333
@@ -707,6 +757,11 @@ dlabel D_8011CB50_99F70
     /* 9AA54 8011D634 33333333 */ .word 0x33333333
     /* 9AA58 8011D638 00000000 */ .word 0x00000000
     /* 9AA5C 8011D63C 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye2_png
+
+nonmatching bulbasaur_tex_eye3_pal
+
+dlabel bulbasaur_tex_eye3_pal
     /* 9AA60 8011D640 FFFF1001 */ .word 0xFFFF1001
     /* 9AA64 8011D644 76A95E65 */ .word 0x76A95E65
     /* 9AA68 8011D648 96EF7629 */ .word 0x96EF7629
@@ -717,6 +772,11 @@ dlabel D_8011CB50_99F70
     /* 9AA7C 8011D65C E4670001 */ .word 0xE4670001
     /* 9AA80 8011D660 00000000 */ .word 0x00000000
     /* 9AA84 8011D664 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye3_pal
+
+nonmatching bulbasaur_tex_eye3_png
+
+dlabel bulbasaur_tex_eye3_png
     /* 9AA88 8011D668 33333333 */ .word 0x33333333
     /* 9AA8C 8011D66C 33333333 */ .word 0x33333333
     /* 9AA90 8011D670 33333333 */ .word 0x33333333
@@ -847,6 +907,11 @@ dlabel D_8011CB50_99F70
     /* 9AC84 8011D864 33333333 */ .word 0x33333333
     /* 9AC88 8011D868 00000000 */ .word 0x00000000
     /* 9AC8C 8011D86C 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye3_png
+
+nonmatching bulbasaur_tex_bud_pal
+
+dlabel bulbasaur_tex_bud_pal
     /* 9AC90 8011D870 FFFFC7E1 */ .word 0xFFFFC7E1
     /* 9AC94 8011D874 BFE1BFE1 */ .word 0xBFE1BFE1
     /* 9AC98 8011D878 BFDFBF9F */ .word 0xBFDFBF9F
@@ -977,6 +1042,11 @@ dlabel D_8011CB50_99F70
     /* 9AE8C 8011DA6C 00010001 */ .word 0x00010001
     /* 9AE90 8011DA70 00000000 */ .word 0x00000000
     /* 9AE94 8011DA74 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_bud_pal
+
+nonmatching bulbasaur_tex_bud_png
+
+dlabel bulbasaur_tex_bud_png
     /* 9AE98 8011DA78 E0E3DDDD */ .word 0xE0E3DDDD
     /* 9AE9C 8011DA7C DAD8D8D8 */ .word 0xDAD8D8D8
     /* 9AEA0 8011DA80 D3D9D9D3 */ .word 0xD3D9D9D3
@@ -1107,6 +1177,11 @@ dlabel D_8011CB50_99F70
     /* 9B094 8011DC74 44404242 */ .word 0x44404242
     /* 9B098 8011DC78 00000000 */ .word 0x00000000
     /* 9B09C 8011DC7C 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_bud_png
+
+nonmatching bulbasaur_tex_eye4_pal
+
+dlabel bulbasaur_tex_eye4_pal
     /* 9B0A0 8011DC80 FFFF1001 */ .word 0xFFFF1001
     /* 9B0A4 8011DC84 76A95E65 */ .word 0x76A95E65
     /* 9B0A8 8011DC88 96EF7629 */ .word 0x96EF7629
@@ -1117,6 +1192,11 @@ dlabel D_8011CB50_99F70
     /* 9B0BC 8011DC9C E4670001 */ .word 0xE4670001
     /* 9B0C0 8011DCA0 00000000 */ .word 0x00000000
     /* 9B0C4 8011DCA4 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye4_pal
+
+nonmatching bulbasaur_tex_eye4_png
+
+dlabel bulbasaur_tex_eye4_png
     /* 9B0C8 8011DCA8 33333333 */ .word 0x33333333
     /* 9B0CC 8011DCAC 33333333 */ .word 0x33333333
     /* 9B0D0 8011DCB0 33333333 */ .word 0x33333333
@@ -1247,6 +1327,11 @@ dlabel D_8011CB50_99F70
     /* 9B2C4 8011DEA4 33333333 */ .word 0x33333333
     /* 9B2C8 8011DEA8 00000000 */ .word 0x00000000
     /* 9B2CC 8011DEAC 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_eye4_png
+
+nonmatching bulbasaur_tex_mouth_pal
+
+dlabel bulbasaur_tex_mouth_pal
     /* 9B2D0 8011DEB0 FFFF8A11 */ .word 0xFFFF8A11
     /* 9B2D4 8011DEB4 914BA085 */ .word 0x914BA085
     /* 9B2D8 8011DEB8 A949D147 */ .word 0xA949D147
@@ -1257,6 +1342,11 @@ dlabel D_8011CB50_99F70
     /* 9B2EC 8011DECC 78050001 */ .word 0x78050001
     /* 9B2F0 8011DED0 00000000 */ .word 0x00000000
     /* 9B2F4 8011DED4 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_mouth_pal
+
+nonmatching bulbasaur_tex_mouth_png
+
+dlabel bulbasaur_tex_mouth_png
     /* 9B2F8 8011DED8 D6336557 */ .word 0xD6336557
     /* 9B2FC 8011DEDC 57777776 */ .word 0x57777776
     /* 9B300 8011DEE0 D4336577 */ .word 0xD4336577
@@ -1323,6 +1413,11 @@ dlabel D_8011CB50_99F70
     /* 9B3F4 8011DFD4 DDDDDDDD */ .word 0xDDDDDDDD
     /* 9B3F8 8011DFD8 00000000 */ .word 0x00000000
     /* 9B3FC 8011DFDC 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_mouth_png
+
+nonmatching bulbasaur_tex_nostrils_pal
+
+dlabel bulbasaur_tex_nostrils_pal
     /* 9B400 8011DFE0 FFFF11C9 */ .word 0xFFFF11C9
     /* 9B404 8011DFE4 5E654D5F */ .word 0x5E654D5F
     /* 9B408 8011DFE8 56233C59 */ .word 0x56233C59
@@ -1333,6 +1428,11 @@ dlabel D_8011CB50_99F70
     /* 9B41C 8011DFFC 09490001 */ .word 0x09490001
     /* 9B420 8011E000 00000000 */ .word 0x00000000
     /* 9B424 8011E004 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_nostrils_pal
+
+nonmatching bulbasaur_tex_nostrils_png
+
+dlabel bulbasaur_tex_nostrils_png
     /* 9B428 8011E008 22222222 */ .word 0x22222222
     /* 9B42C 8011E00C 22222222 */ .word 0x22222222
     /* 9B430 8011E010 22222222 */ .word 0x22222222
@@ -1383,6 +1483,11 @@ dlabel D_8011CB50_99F70
     /* 9B4E4 8011E0C4 22222222 */ .word 0x22222222
     /* 9B4E8 8011E0C8 00000000 */ .word 0x00000000
     /* 9B4EC 8011E0CC 00000000 */ .word 0x00000000
+enddlabel bulbasaur_tex_nostrils_png
+
+nonmatching bulbasaur_tex_shine_png
+
+dlabel bulbasaur_tex_shine_png
     /* 9B4F0 8011E0D0 00000000 */ .word 0x00000000
     /* 9B4F4 8011E0D4 00010B14 */ .word 0x00010B14
     /* 9B4F8 8011E0D8 191D1E20 */ .word 0x191D1E20
@@ -2407,4 +2512,4 @@ dlabel D_8011CB50_99F70
     /* 9C4E4 8011F0C4 00000000 */ .word 0x00000000
     /* 9C4E8 8011F0C8 00000000 */ .word 0x00000000
     /* 9C4EC 8011F0CC 00000000 */ .word 0x00000000
-enddlabel D_8011CB50_99F70
+enddlabel bulbasaur_tex_shine_png

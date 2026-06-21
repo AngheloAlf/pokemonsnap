@@ -9,6 +9,11 @@ nonmatching D_8011B050_98470
 dlabel D_8011B050_98470
     /* 98470 8011B050 00000000 */ .word 0x00000000
     /* 98474 8011B054 00000000 */ .word 0x00000000
+enddlabel D_8011B050_98470
+
+nonmatching zubat_tex_ear_pal
+
+dlabel zubat_tex_ear_pal
     /* 98478 8011B058 34377BF3 */ .word 0x34377BF3
     /* 9847C 8011B05C 62EF826B */ .word 0x62EF826B
     /* 98480 8011B060 A3F1CBF1 */ .word 0xA3F1CBF1
@@ -19,6 +24,11 @@ dlabel D_8011B050_98470
     /* 98494 8011B074 78637021 */ .word 0x78637021
     /* 98498 8011B078 00000000 */ .word 0x00000000
     /* 9849C 8011B07C 00000000 */ .word 0x00000000
+enddlabel zubat_tex_ear_pal
+
+nonmatching zubat_tex_ear_png
+
+dlabel zubat_tex_ear_png
     /* 984A0 8011B080 00000000 */ .word 0x00000000
     /* 984A4 8011B084 00000000 */ .word 0x00000000
     /* 984A8 8011B088 00000000 */ .word 0x00000000
@@ -149,6 +159,11 @@ dlabel D_8011B050_98470
     /* 9869C 8011B27C 00000000 */ .word 0x00000000
     /* 986A0 8011B280 00000000 */ .word 0x00000000
     /* 986A4 8011B284 00000000 */ .word 0x00000000
+enddlabel zubat_tex_ear_png
+
+nonmatching zubat_tex_wing_inside_pal
+
+dlabel zubat_tex_wing_inside_pal
     /* 986A8 8011B288 89A589E7 */ .word 0x89A589E7
     /* 986AC 8011B28C 7A696AAB */ .word 0x7A696AAB
     /* 986B0 8011B290 92695331 */ .word 0x92695331
@@ -159,6 +174,11 @@ dlabel D_8011B050_98470
     /* 986C4 8011B2A4 ABAFABEF */ .word 0xABAFABEF
     /* 986C8 8011B2A8 00000000 */ .word 0x00000000
     /* 986CC 8011B2AC 00000000 */ .word 0x00000000
+enddlabel zubat_tex_wing_inside_pal
+
+nonmatching zubat_tex_wing_inside_png
+
+dlabel zubat_tex_wing_inside_png
     /* 986D0 8011B2B0 726EFFFF */ .word 0x726EFFFF
     /* 986D4 8011B2B4 FFFFFFFF */ .word 0xFFFFFFFF
     /* 986D8 8011B2B8 FFFFFFFF */ .word 0xFFFFFFFF
@@ -673,6 +693,11 @@ dlabel D_8011B050_98470
     /* 98ECC 8011BAAC 88888888 */ .word 0x88888888
     /* 98ED0 8011BAB0 00000000 */ .word 0x00000000
     /* 98ED4 8011BAB4 00000000 */ .word 0x00000000
+enddlabel zubat_tex_wing_inside_png
+
+nonmatching zubat_tex_wing_outside_pal
+
+dlabel zubat_tex_wing_outside_pal
     /* 98ED8 8011BAB8 19DD1A1F */ .word 0x19DD1A1F
     /* 98EDC 8011BABC 1A211A63 */ .word 0x1A211A63
     /* 98EE0 8011BAC0 22A522A7 */ .word 0x22A522A7
@@ -683,6 +708,11 @@ dlabel D_8011B050_98470
     /* 98EF4 8011BAD4 2BF53437 */ .word 0x2BF53437
     /* 98EF8 8011BAD8 00000000 */ .word 0x00000000
     /* 98EFC 8011BADC 00000000 */ .word 0x00000000
+enddlabel zubat_tex_wing_outside_pal
+
+nonmatching zubat_tex_wing_outside_png
+
+dlabel zubat_tex_wing_outside_png
     /* 98F00 8011BAE0 FFFFFFFF */ .word 0xFFFFFFFF
     /* 98F04 8011BAE4 FFFFFFFF */ .word 0xFFFFFFFF
     /* 98F08 8011BAE8 FFFFFFFF */ .word 0xFFFFFFFF
@@ -1195,4 +1225,4 @@ dlabel D_8011B050_98470
     /* 996F4 8011C2D4 FFFFFFFF */ .word 0xFFFFFFFF
     /* 996F8 8011C2D8 FFFFFFFF */ .word 0xFFFFFFFF
     /* 996FC 8011C2DC FFFFFFFF */ .word 0xFFFFFFFF
-enddlabel D_8011B050_98470
+enddlabel zubat_tex_wing_outside_png
