@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx goldeen_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, goldeen_tex_80176B40),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 188),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x00FC, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, goldeen_tex_80176CC8_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_CULL_BACK),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0xFFE30053),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0xFFE4036F),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0xFFE501D4),
+    gsSPVertex(&goldeen_hd_vtx[248], 1, 3),
+    gsSPVertex(&goldeen_hd_vtx[249], 3, 29),
+    gsSP2Triangles(3, 31, 1, 0, 3, 2, 0, 0),
+    gsSP2Triangles(0, 29, 3, 0, 31, 3, 30, 0),
+    gsSP2Triangles(30, 3, 29, 0, 1, 2, 3, 0),
+    gsSPEndDisplayList(),
+};

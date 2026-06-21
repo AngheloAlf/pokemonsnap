@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx gyarados_hd_part1_draw[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x040101F3),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x040905A7),
+    gsSPVertex(&gyarados_hd_vtx[22], 3, 6),
+    gsSPVertex(&gyarados_hd_vtx[25], 6, 26),
+    gsSP1Triangle(1, 0, 8, 0),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x04060206),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x040E05A7),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x04080000),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x040907F7),
+    gsSP2Triangles(30, 0, 2, 0, 5, 1, 7, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x040905A7),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x040A0201),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x040905AC),
+    gsSP2Triangles(31, 1, 8, 0, 29, 5, 7, 0),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x040507FC),
+    gsSP2Triangles(4, 5, 29, 0, 27, 30, 2, 0),
+    gsSP1Triangle(3, 28, 2, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x040601F3),
+    gsSP2Triangles(26, 4, 29, 0, 28, 6, 2, 0),
+    gsSP2Triangles(28, 3, 4, 0, 26, 28, 4, 0),
+    gsSPEndDisplayList(),
+};

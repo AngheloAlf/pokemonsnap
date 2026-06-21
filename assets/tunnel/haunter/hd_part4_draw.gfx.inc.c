@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx haunter_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 4, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x003C, 0x003C),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, haunter_tex_hd_8019B6B8),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 512),
+    gsDPPipeSync(),
+    gsSPVertex(&haunter_hd_vtx[204], 16, 0),
+    gsSP2Triangles(6, 4, 15, 0, 4, 14, 15, 0),
+    gsSP2Triangles(15, 14, 13, 0, 6, 15, 12, 0),
+    gsSP2Triangles(14, 4, 3, 0, 12, 15, 13, 0),
+    gsSP2Triangles(3, 13, 14, 0, 5, 6, 12, 0),
+    gsSP2Triangles(12, 13, 11, 0, 13, 3, 2, 0),
+    gsSP2Triangles(2, 11, 13, 0, 12, 11, 10, 0),
+    gsSP2Triangles(9, 12, 10, 0, 5, 12, 7, 0),
+    gsSP2Triangles(12, 9, 7, 0, 8, 9, 10, 0),
+    gsSP2Triangles(2, 1, 10, 0, 1, 0, 8, 0),
+    gsSP2Triangles(10, 11, 2, 0, 8, 10, 1, 0),
+    gsSP2Triangles(9, 8, 0, 0, 7, 9, 0, 0),
+    gsSPEndDisplayList(),
+};

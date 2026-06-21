@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx muk_part4_pre_near[] = {
+    gsDPPipeSync(),
+    gsDPSetAlphaCompare(G_AC_NONE),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&muk_vtx[94], 1, 0),
+    gsSPVertex(&muk_vtx[91], 1, 2),
+    gsSPVertex(&muk_vtx[88], 1, 3),
+    gsSPVertex(&muk_vtx[64], 1, 4),
+    gsSPVertex(&muk_vtx[61], 1, 5),
+    gsSPVertex(&muk_vtx[59], 1, 6),
+    gsSPVertex(&muk_vtx[101], 1, 7),
+    gsSPVertex(&muk_vtx[103], 1, 8),
+    gsSPVertex(&muk_vtx[62], 1, 9),
+    gsSPVertex(&muk_vtx[65], 1, 10),
+    gsSPVertex(&muk_vtx[95], 1, 11),
+    gsSPVertex(&muk_vtx[107], 1, 12),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(0x07C0, 0x0FC0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&muk_vtx[112], 1, 1),
+    gsSPEndDisplayList(),
+};

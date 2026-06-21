@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx ditto_part11_draw_near[] = {
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_TEXTURE_GEN),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&ditto_vtx[189], 12, 0),
+    gsSP2Triangles(27, 11, 28, 0, 25, 28, 10, 0),
+    gsSP2Triangles(11, 10, 28, 0, 9, 25, 10, 0),
+    gsSP2Triangles(8, 11, 27, 0, 26, 8, 27, 0),
+    gsSP2Triangles(25, 9, 7, 0, 29, 25, 7, 0),
+    gsSP2Triangles(10, 11, 6, 0, 10, 5, 9, 0),
+    gsSP2Triangles(6, 5, 10, 0, 8, 26, 30, 0),
+    gsSP2Triangles(5, 4, 9, 0, 9, 4, 7, 0),
+    gsSP2Triangles(29, 3, 30, 0, 2, 6, 11, 0),
+    gsSP2Triangles(7, 3, 29, 0, 11, 8, 2, 0),
+    gsSP2Triangles(5, 6, 1, 0, 3, 8, 30, 0),
+    gsSP2Triangles(7, 4, 0, 0, 0, 3, 7, 0),
+    gsSP2Triangles(6, 2, 1, 0, 2, 8, 3, 0),
+    gsSP2Triangles(0, 4, 1, 0, 3, 0, 2, 0),
+    gsSP2Triangles(2, 0, 1, 0, 5, 1, 4, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_TEXTURE_GEN),
+    gsSPEndDisplayList(),
+};

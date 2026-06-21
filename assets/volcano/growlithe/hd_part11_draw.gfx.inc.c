@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx growlithe_hd_part11_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&growlithe_hd_vtx[350], 4, 4),
+    gsSP2Triangles(0, 7, 1, 0, 6, 1, 7, 0),
+    gsSP2Triangles(7, 5, 6, 0, 7, 0, 4, 0),
+    gsSP2Triangles(7, 4, 5, 0, 1, 6, 2, 0),
+    gsSP2Triangles(3, 4, 0, 0, 5, 4, 2, 0),
+    gsSP2Triangles(4, 3, 2, 0, 5, 2, 6, 0),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsSPVertex(&growlithe_hd_vtx[354], 8, 4),
+    gsSP2Triangles(11, 10, 9, 0, 10, 11, 8, 0),
+    gsSP2Triangles(9, 10, 8, 0, 8, 11, 9, 0),
+    gsSP2Triangles(7, 6, 5, 0, 5, 6, 4, 0),
+    gsSP2Triangles(4, 7, 5, 0, 6, 7, 4, 0),
+    gsSPEndDisplayList(),
+};

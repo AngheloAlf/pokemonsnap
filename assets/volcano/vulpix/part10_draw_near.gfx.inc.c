@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx vulpix_part10_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&vulpix_vtx[282], 5, 5),
+    gsSPVertex(&vulpix_vtx[287], 4, 27),
+    gsSP2Triangles(9, 27, 28, 0, 30, 27, 9, 0),
+    gsSP2Triangles(3, 9, 8, 0, 28, 8, 9, 0),
+    gsSP2Triangles(7, 9, 3, 0, 8, 28, 29, 0),
+    gsSP2Triangles(9, 7, 30, 0, 29, 6, 8, 0),
+    gsSP2Triangles(3, 0, 7, 0, 5, 29, 30, 0),
+    gsSP2Triangles(1, 8, 6, 0, 30, 7, 5, 0),
+    gsSP2Triangles(5, 6, 29, 0, 6, 4, 1, 0),
+    gsSP2Triangles(7, 2, 5, 0, 4, 6, 5, 0),
+    gsSP2Triangles(7, 0, 2, 0, 5, 2, 4, 0),
+    gsSP1Triangle(8, 1, 3, 0),
+    gsSPEndDisplayList(),
+};

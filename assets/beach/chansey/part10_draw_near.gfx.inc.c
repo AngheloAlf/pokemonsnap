@@ -1,0 +1,23 @@
+#include "common.h"
+
+Gfx chansey_part10_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xF8, 0xD8, 0xE8, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPVertex(&chansey_vtx[94], 14, 0),
+    gsSP2Triangles(13, 12, 11, 0, 11, 12, 10, 0),
+    gsSP2Triangles(9, 12, 13, 0, 11, 8, 13, 0),
+    gsSP2Triangles(7, 11, 10, 0, 8, 11, 7, 0),
+    gsSP2Triangles(13, 8, 9, 0, 7, 10, 6, 0),
+    gsSP2Triangles(5, 8, 7, 0, 8, 5, 9, 0),
+    gsSP2Triangles(6, 10, 4, 0, 5, 4, 9, 0),
+    gsSP2Triangles(3, 7, 6, 0, 5, 2, 4, 0),
+    gsSP2Triangles(1, 6, 4, 0, 3, 6, 0, 0),
+    gsSP2Triangles(2, 1, 4, 0, 0, 6, 1, 0),
+    gsSP2Triangles(0, 2, 3, 0, 4, 10, 9, 0),
+    gsSP2Triangles(10, 12, 9, 0, 5, 7, 3, 0),
+    gsSP2Triangles(2, 5, 3, 0, 1, 2, 0, 0),
+    gsSPEndDisplayList(),
+};

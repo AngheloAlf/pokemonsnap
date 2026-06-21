@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx psyduck_hd_part13_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&psyduck_hd_vtx[370], 6, 6),
+    gsSPVertex(&psyduck_hd_vtx[376], 6, 26),
+    gsSP2Triangles(31, 30, 11, 0, 31, 11, 10, 0),
+    gsSP2Triangles(0, 10, 11, 0, 31, 10, 9, 0),
+    gsSP2Triangles(9, 26, 31, 0, 2, 0, 11, 0),
+    gsSP2Triangles(11, 8, 2, 0, 0, 1, 10, 0),
+    gsSP2Triangles(1, 9, 10, 0, 27, 26, 9, 0),
+    gsSP2Triangles(2, 8, 4, 0, 28, 7, 8, 0),
+    gsSP2Triangles(7, 4, 8, 0, 27, 9, 6, 0),
+    gsSP2Triangles(5, 9, 1, 0, 9, 5, 6, 0),
+    gsSP2Triangles(7, 3, 4, 0, 3, 7, 6, 0),
+    gsSP2Triangles(6, 5, 3, 0, 28, 27, 6, 0),
+    gsSP2Triangles(30, 8, 11, 0, 30, 29, 8, 0),
+    gsSP2Triangles(8, 29, 28, 0, 28, 6, 7, 0),
+    gsSPEndDisplayList(),
+};

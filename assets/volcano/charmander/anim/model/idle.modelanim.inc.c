@@ -1,0 +1,143 @@
+#undef __ANIMFILE
+#define __ANIMFILE charmander_modelanim_idle
+
+#include <anim_script.h>
+
+static AnimLine4 charmander_modelanim_idle_0;
+static AnimLine2 charmander_modelanim_idle_1;
+static AnimLine2 charmander_modelanim_idle_3;
+static AnimLine4 charmander_modelanim_idle_5;
+static AnimLine4 charmander_modelanim_idle_7;
+static AnimLine2 charmander_modelanim_idle_8;
+static AnimLine4 charmander_modelanim_idle_9;
+static AnimLine6 charmander_modelanim_idle_10;
+static AnimLine4 charmander_modelanim_idle_11;
+static AnimLine4 charmander_modelanim_idle_12;
+
+AnimCmd* charmander_modelanim_idle[] = {
+    NULL,
+    (AnimCmd*)&charmander_modelanim_idle_0,
+    (AnimCmd*)&charmander_modelanim_idle_1,
+    NULL,
+    (AnimCmd*)&charmander_modelanim_idle_3,
+    NULL,
+    (AnimCmd*)&charmander_modelanim_idle_5,
+    NULL,
+    (AnimCmd*)&charmander_modelanim_idle_7,
+    (AnimCmd*)&charmander_modelanim_idle_8,
+    (AnimCmd*)&charmander_modelanim_idle_9,
+    (AnimCmd*)&charmander_modelanim_idle_10,
+    (AnimCmd*)&charmander_modelanim_idle_11,
+    (AnimCmd*)&charmander_modelanim_idle_12,
+    NULL,
+};
+
+asBegin_4(charmander_modelanim_idle_0)
+    asSetWithRate_4f(0, ROTY, 0.0, -0.02327105589210987, ROTZ, 0.0, 0.005817763973027468);
+    asSetZeroRateBlock_1(0, ROTX, 0.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.2617993950843811, ROTY, -0.3490658402442932, ROTZ, 0.0872664600610733);
+    asSetWithRate_4(15, ROTY, 0.0, 0.02327105589210987, ROTZ, 0.0, -0.005817763973027468);
+    asSetZeroRateBlock_1(15, ROTX, 0.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.2617993950843811, ROTY, 0.3490658402442932, ROTZ, -0.0872664600610733);
+    asSetWithRate_4(15, ROTY, 0.0, -0.02327105589210987, ROTZ, 0.0, 0.005817763973027468);
+    asSetZeroRateBlock_1(15, ROTX, 0.0);
+asRestart(charmander_modelanim_idle_0);
+
+asBegin_2(charmander_modelanim_idle_1)
+    asSetWithRate_2f(0, ROTY, 0.009318486787378788, -0.023892395198345184);
+    asSetAfterBlock_2(0, ROTX, 0.6482023596763611, ROTZ, -0.8015775084495544);
+    asSetZeroRateBlock_1(20, ROTY, -0.3583841621875763);
+    asSetWithRateBlock_2(10, ROTY, 0.009318504482507706, 0.02389228343963623);
+    asSetZeroRateBlock_1(20, ROTY, 0.3583841621875763);
+    asSetWithRateBlock_2(10, ROTY, 0.009318486787378788, -0.023892395198345184);
+asRestart(charmander_modelanim_idle_1);
+
+asBegin_2(charmander_modelanim_idle_3)
+    asSetWithRate_2f(0, ROTY, 3.1322741508483887, -0.02327105589210987);
+    asSetAfterBlock_2(0, ROTX, -0.6482023596763611, ROTZ, 0.798960268497467);
+    asSetZeroRateBlock_1(20, ROTY, 2.7832083702087402);
+    asSetWithRateBlock_2(10, ROTY, 3.1322741508483887, 0.023271063342690468);
+    asSetZeroRateBlock_1(20, ROTY, 3.481340169906616);
+    asSetWithRateBlock_2(10, ROTY, 3.1322741508483887, -0.02327105589210987);
+asRestart(charmander_modelanim_idle_3);
+
+asBegin_4(charmander_modelanim_idle_5)
+    asSetWithRate_4f(0, ROTY, 3.1415927410125732, 0.03490658476948738, ROTZ, 0.0, -0.01745329238474369);
+    asSetZeroRateBlock_1(0, ROTX, 0.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.2617993950843811, ROTY, 3.665191411972046, ROTZ, -0.2617993950843811);
+    asSetWithRate_4(15, ROTY, 3.1415927410125732, -0.03490658476948738, ROTZ, 0.0, 0.01745329238474369);
+    asSetZeroRateBlock_1(15, ROTX, 0.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.2617993950843811, ROTY, 2.6179938316345215, ROTZ, 0.2617993950843811);
+    asSetWithRate_4(15, ROTY, 3.1415927410125732, 0.03490658476948738, ROTZ, 0.0, -0.01745329238474369);
+    asSetZeroRateBlock_1(15, ROTX, 0.0);
+asRestart(charmander_modelanim_idle_5);
+
+asBegin_4(charmander_modelanim_idle_7)
+    asSetWithRate_4f(0, ROTY, 0.0, 0.020771164447069168, ROTZ, 0.0, -0.012139346450567245);
+    asSetZeroRateBlock_3(0, ROTX, 0.0, POSY, -83.53791046142578, POSZ, -14.114409446716309);
+    asSetZeroRate_2(30, POSY, -83.53790283203125, POSZ, -14.114400863647461);
+    asSetZeroRateBlock_3(15, ROTX, -0.3058726191520691, ROTY, 0.3115677237510681, ROTZ, -0.1820937693119049);
+    asSetWithRateBlock_6(15, ROTX, 0.0, -1.1096504826113573e-09, ROTY, 0.0, -0.02077118307352066, ROTZ, 0.0, 0.012139585800468922);
+    asSetWithRate_4(15, POSY, -69.53791046142578, -3.97364289028701e-07, POSZ, 35.88559341430664, -2.980232238769531e-07);
+    asSetZeroRateBlock_3(15, ROTX, -0.3058726489543915, ROTY, -0.3115677833557129, ROTZ, 0.1820937991142273);
+    asSetWithRate_4(15, ROTY, 0.0, 0.020771164447069168, ROTZ, 0.0, -0.012139346450567245);
+    asSetZeroRateBlock_3(15, ROTX, 0.0, POSY, -83.53791046142578, POSZ, -14.114409446716309);
+asRestart(charmander_modelanim_idle_7);
+
+asBegin_2(charmander_modelanim_idle_8)
+    asSetWithRate_2f(0, POSX, 32.596797943115234, -0.8596462607383728);
+    asSetZeroRateBlock_5(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSY, -72.57569122314453, POSZ, 49.054359436035156);
+    asSetWithRate_4(15, POSY, -86.10697937011719, -3.97364289028701e-07, POSZ, 44.31634521484375, -3.97364289028701e-07);
+    asSetZeroRateBlock_4(15, ROTX, -2.9802322387695312e-08, ROTY, 1.4901162614933128e-07, ROTZ, 2.2351741790771484e-08, POSX, 18.307018280029297);
+    asSetWithRateBlock_12(15, ROTX, 0.0, 1.9868215961338365e-09, ROTY, 0.0, -6.95387525340152e-09, ROTZ, 0.0, -1.4901161415892261e-09, POSX, 32.596797943115234, 0.6570581197738647, POSY, -72.57569885253906, 0.4114401638507843, POSZ, 49.05434799194336, -0.042809247970581055);
+    asSetWithRate_4(15, POSY, -73.76377868652344, 3.97364289028701e-07, POSZ, 43.032066345214844, 3.97364289028701e-07);
+    asSetZeroRateBlock_4(15, ROTX, 2.9802322387695312e-08, ROTY, -5.960464477539063e-08, ROTZ, -2.2351741790771484e-08, POSX, 38.01876449584961);
+    asSetZeroRateBlock_6(15, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 32.596797943115234, POSY, -72.57569122314453, POSZ, 49.054359436035156);
+asRestart(charmander_modelanim_idle_8);
+
+asBegin_4(charmander_modelanim_idle_9)
+    asSetWithRate_4f(0, ROTY, 3.141592502593994, 0.020771164447069168, ROTZ, 0.0, -0.012139346450567245);
+    asSetZeroRateBlock_3(0, ROTX, 0.0, POSY, -83.53791046142578, POSZ, -14.114409446716309);
+    asSetWithRate_4(15, POSY, -71.53791809082031, 3.97364289028701e-07, POSZ, 35.885589599609375, 2.980232238769531e-07);
+    asSetZeroRateBlock_3(15, ROTX, 0.30587244033813477, ROTY, 3.4531588554382324, ROTZ, -0.18209326267242432);
+    asSetWithRate_6(15, ROTX, 0.0, 4.438601930445429e-09, ROTY, 3.141592502593994, -0.02077113837003708, ROTZ, 0.0, 0.012139569967985153);
+    asSetZeroRateBlock_2(15, POSY, -83.53790283203125, POSZ, -14.114400863647461);
+    asSetZeroRate_2(30, POSY, -83.53791046142578, POSZ, -14.114409446716309);
+    asSetZeroRateBlock_3(15, ROTX, 0.3058725595474243, ROTY, 2.8300247192382812, ROTZ, 0.18209382891654968);
+    asSetWithRate_4(15, ROTY, 3.141592502593994, 0.020771164447069168, ROTZ, 0.0, -0.012139346450567245);
+    asSetZeroRateBlock_1(15, ROTX, 0.0);
+asRestart(charmander_modelanim_idle_9);
+
+asBegin_6(charmander_modelanim_idle_10)
+    asSetWithRate_6f(0, ROTY, 4.76837158203125e-07, 6.129558727252515e-08, POSX, 32.5967903137207, 0.5858908891677856, POSY, -72.57569122314453, 0.02882983349263668);
+    asSetZeroRateBlock_3(0, ROTX, 0.0, ROTZ, 0.0, POSZ, -49.05436706542969);
+    asSetWithRate_4(15, POSY, -71.85470581054688, -3.97364289028701e-07, POSZ, -43.518550872802734, 3.97364289028701e-07);
+    asSetZeroRateBlock_4(15, ROTX, 5.960464477539063e-08, ROTY, 2.1139808268344495e-06, ROTZ, -1.490115142388504e-08, POSX, 38.36344528198242);
+    asSetWithRateBlock_12(15, ROTX, 0.0, 9.934109090892207e-10, ROTY, 4.76837158203125e-07, -5.8611242081951787e-08, ROTZ, 0.0, 4.967057321003665e-10, POSX, 32.5967903137207, -0.6685479283332825, POSY, -72.57569885253906, -0.4750756621360779, POSZ, -49.05435562133789, -0.02659340761601925);
+    asSetWithRate_4(15, POSY, -86.10697174072266, 3.97364289028701e-07, POSZ, -44.31635284423828, -3.97364289028701e-07);
+    asSetZeroRateBlock_4(15, ROTX, 8.940696716308594e-08, ROTY, 3.5564366385187896e-07, ROTZ, 1.942165910517532e-14, POSX, 18.3070068359375);
+    asSetZeroRateBlock_6(15, ROTX, 0.0, ROTY, 4.76837158203125e-07, ROTZ, 0.0, POSX, 32.5967903137207, POSY, -72.57569122314453, POSZ, -49.05436706542969);
+asRestart(charmander_modelanim_idle_10);
+
+asBegin_4(charmander_modelanim_idle_11)
+    asSetWithRate_4f(0, ROTY, 0.0, -0.0290888212621212, ROTZ, 0.0, -0.02327105589210987);
+    asSetZeroRateBlock_1(0, ROTX, 0.0);
+    asSetZeroRateBlock_3(20, ROTX, 0.2617993950843811, ROTY, -0.4363323152065277, ROTZ, -0.3490658402442932);
+    asSetWithRate_4(10, ROTY, 0.0, 0.0290888249874115, ROTZ, 0.0, 0.02327105775475502);
+    asSetZeroRateBlock_1(10, ROTX, 0.0);
+    asSetZeroRateBlock_3(20, ROTX, 0.2617993950843811, ROTY, 0.4363323152065277, ROTZ, 0.3490658402442932);
+    asSetWithRate_4(10, ROTY, 0.0, -0.0290888212621212, ROTZ, 0.0, -0.02327105589210987);
+    asSetZeroRateBlock_1(10, ROTX, 0.0);
+asRestart(charmander_modelanim_idle_11);
+
+asBegin_4(charmander_modelanim_idle_12)
+    asSetWithRate_4f(0, ROTY, 0.0, -0.0290888212621212, ROTZ, 0.0, -0.02327105589210987);
+    asSetZeroRateBlock_1(0, ROTX, 0.0);
+    asSetZeroRateBlock_3(25, ROTX, 0.2617993950843811, ROTY, -0.4363323152065277, ROTZ, -0.3490658402442932);
+    asSetWithRate_4(5, ROTY, 0.0, 0.029088828712701797, ROTZ, 0.0, 0.02327105775475502);
+    asSetZeroRateBlock_1(5, ROTX, 0.0);
+    asSetZeroRateBlock_3(25, ROTX, 0.2617993950843811, ROTY, 0.4363323152065277, ROTZ, 0.3490658402442932);
+    asSetWithRate_4(5, ROTY, 0.0, -0.0290888212621212, ROTZ, 0.0, -0.02327105589210987);
+    asSetZeroRateBlock_1(5, ROTX, 0.0);
+asRestart(charmander_modelanim_idle_12);
+

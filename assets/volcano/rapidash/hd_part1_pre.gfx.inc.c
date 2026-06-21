@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx rapidash_hd_part1_pre[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_FOG | G_LIGHTING),
+    gsDPSetCycleType(G_CYC_1CYCLE),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetRenderMode(G_RM_AA_ZB_TEX_EDGE, G_RM_AA_ZB_TEX_EDGE2),
+    gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, PRIMITIVE, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, PRIMITIVE, 0),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&rapidash_hd_vtx[2], 2, 0),
+    gsSPVertex(&rapidash_hd_vtx[0], 1, 2),
+    gsSPVertex(&rapidash_hd_vtx[11], 1, 3),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_FOG | G_LIGHTING),
+    gsDPSetCycleType(G_CYC_2CYCLE),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xF8, 0x81, 0xFF),
+    gsSPVertex(&rapidash_hd_vtx[56], 1, 4),
+    gsSPVertex(&rapidash_hd_vtx[20], 1, 5),
+    gsSPVertex(&rapidash_hd_vtx[18], 1, 6),
+    gsSPVertex(&rapidash_hd_vtx[51], 1, 7),
+    gsSPEndDisplayList(),
+};

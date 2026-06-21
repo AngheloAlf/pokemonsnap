@@ -1,0 +1,16 @@
+#include "common.h"
+
+Gfx charmander_part4_draw_far[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x044307CC),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x03FE079A),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x0409085D),
+    gsSPVertex(&charmander_vtx[283], 2, 0),
+    gsSP1Triangle(1, 29, 28, 0),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x03FE079A),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x03F9078A),
+    gsSP1Triangle(30, 0, 28, 0),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x041807FC),
+    gsSP1Triangle(30, 29, 0, 0),
+    gsSPEndDisplayList(),
+};

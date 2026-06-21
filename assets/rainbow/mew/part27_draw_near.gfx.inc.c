@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx mew_part27_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, mew_tex_8012A278),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, mew_tex_8012A2A0_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x03A106E4),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x03A706E4),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x005C06E4),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x005606E4),
+    gsSPVertex(&mew_vtx[409], 4, 0),
+    gsSP2Triangles(0, 1, 30, 0, 3, 27, 1, 0),
+    gsSP2Triangles(0, 30, 2, 0, 1, 29, 30, 0),
+    gsSP2Triangles(1, 27, 29, 0, 2, 28, 3, 0),
+    gsSP2Triangles(3, 28, 27, 0, 2, 30, 28, 0),
+    gsSPEndDisplayList(),
+};

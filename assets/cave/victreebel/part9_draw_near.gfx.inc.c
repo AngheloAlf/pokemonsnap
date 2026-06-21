@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx victreebel_part9_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, victreebel_tex_801A26F0),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPVertex(&victreebel_vtx[171], 28, 0),
+    gsSP2Triangles(27, 7, 6, 0, 6, 26, 27, 0),
+    gsSP2Triangles(25, 5, 4, 0, 25, 24, 5, 0),
+    gsSP2Triangles(4, 23, 25, 0, 0, 7, 27, 0),
+    gsSP2Triangles(3, 22, 23, 0, 23, 4, 3, 0),
+    gsSP2Triangles(22, 3, 2, 0, 2, 21, 22, 0),
+    gsSP2Triangles(27, 20, 0, 0, 19, 20, 27, 0),
+    gsSP2Triangles(18, 19, 27, 0, 1, 0, 20, 0),
+    gsSP2Triangles(17, 1, 20, 0, 16, 15, 14, 0),
+    gsSP2Triangles(13, 16, 14, 0, 13, 14, 12, 0),
+    gsSP2Triangles(12, 11, 13, 0, 12, 10, 11, 0),
+    gsSP2Triangles(11, 10, 9, 0, 8, 11, 9, 0),
+    gsSPEndDisplayList(),
+};

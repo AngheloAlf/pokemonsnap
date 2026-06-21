@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx pikachu_part7_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 3, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 3, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 3, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 3, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x001C, 0x001C),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, pikachu_tex_body_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 63, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x003F008D),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x009E0030),
+    gsSPVertex(&pikachu_vtx[453], 3, 0),
+    gsSP1Triangle(30, 27, 2, 0),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x00ED00E0),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x004A004B),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x00ED00E0),
+    gsSP2Triangles(27, 29, 1, 0, 0, 28, 30, 0),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x008D00FF),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x005800D1),
+    gsSP1Triangle(28, 0, 29, 0),
+    gsSPEndDisplayList(),
+};

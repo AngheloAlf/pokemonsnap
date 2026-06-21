@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx chansey_part13_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xF8, 0xB0, 0xC0, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPClearGeometryMode(G_CULL_BACK),
+    gsSPVertex(&chansey_vtx[126], 17, 0),
+    gsSP2Triangles(16, 15, 14, 0, 14, 13, 16, 0),
+    gsSP2Triangles(16, 12, 15, 0, 11, 13, 14, 0),
+    gsSP2Triangles(14, 10, 11, 0, 10, 14, 9, 0),
+    gsSP2Triangles(8, 16, 13, 0, 7, 10, 9, 0),
+    gsSP2Triangles(13, 11, 8, 0, 7, 11, 10, 0),
+    gsSP2Triangles(9, 6, 7, 0, 8, 5, 12, 0),
+    gsSP2Triangles(4, 6, 9, 0, 9, 3, 4, 0),
+    gsSP2Triangles(2, 8, 11, 0, 7, 2, 11, 0),
+    gsSP2Triangles(2, 7, 6, 0, 1, 5, 8, 0),
+    gsSP2Triangles(3, 0, 4, 0, 2, 1, 8, 0),
+    gsSP2Triangles(2, 4, 0, 0, 0, 1, 2, 0),
+    gsSP2Triangles(6, 4, 2, 0, 12, 16, 8, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_CULL_BACK),
+    gsSPEndDisplayList(),
+};

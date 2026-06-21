@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx eevee_hd_part1_draw[] = {
+    gsDPPipeSync(),
+    gsSPVertex(&eevee_hd_vtx[83], 29, 0),
+    gsSP2Triangles(28, 27, 26, 0, 25, 26, 27, 0),
+    gsSP2Triangles(24, 28, 26, 0, 24, 26, 25, 0),
+    gsSP2Triangles(23, 28, 24, 0, 22, 28, 23, 0),
+    gsSP2Triangles(27, 28, 22, 0, 27, 21, 25, 0),
+    gsSP2Triangles(21, 20, 25, 0, 19, 25, 20, 0),
+    gsSP2Triangles(19, 24, 25, 0, 24, 18, 23, 0),
+    gsSP2Triangles(22, 23, 18, 0, 27, 17, 21, 0),
+    gsSP2Triangles(22, 16, 27, 0, 20, 15, 19, 0),
+    gsSP2Triangles(17, 27, 16, 0, 15, 20, 14, 0),
+    gsSP2Triangles(16, 22, 18, 0, 13, 18, 24, 0),
+    gsSP2Triangles(13, 19, 15, 0, 12, 14, 20, 0),
+    gsSP2Triangles(14, 11, 15, 0, 18, 13, 16, 0),
+    gsSP2Triangles(10, 15, 11, 0, 16, 9, 17, 0),
+    gsSP2Triangles(15, 10, 13, 0, 8, 11, 14, 0),
+    gsSP2Triangles(16, 13, 10, 0, 14, 12, 8, 0),
+    gsSP2Triangles(17, 7, 12, 0, 11, 8, 6, 0),
+    gsSP2Triangles(10, 9, 16, 0, 11, 6, 10, 0),
+    gsSP2Triangles(17, 9, 7, 0, 7, 8, 12, 0),
+    gsSP2Triangles(7, 9, 10, 0, 8, 7, 6, 0),
+    gsSP2Triangles(10, 6, 7, 0, 20, 21, 12, 0),
+    gsSP2Triangles(5, 4, 3, 0, 2, 1, 0, 0),
+    gsSPEndDisplayList(),
+};

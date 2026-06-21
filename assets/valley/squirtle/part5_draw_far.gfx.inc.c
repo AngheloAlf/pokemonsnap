@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx squirtle_part5_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&squirtle_vtx[375], 15, 5),
+    gsSP2Triangles(3, 4, 19, 0, 19, 18, 3, 0),
+    gsSP2Triangles(3, 18, 17, 0, 17, 18, 16, 0),
+    gsSP2Triangles(17, 16, 15, 0, 17, 2, 3, 0),
+    gsSP2Triangles(14, 19, 4, 0, 14, 13, 19, 0),
+    gsSP2Triangles(12, 2, 17, 0, 17, 11, 12, 0),
+    gsSP2Triangles(14, 11, 15, 0, 15, 13, 14, 0),
+    gsSP2Triangles(10, 11, 14, 0, 4, 0, 14, 0),
+    gsSP2Triangles(12, 1, 2, 0, 14, 0, 10, 0),
+    gsSP2Triangles(0, 1, 10, 0, 15, 11, 17, 0),
+    gsSP2Triangles(9, 8, 7, 0, 9, 7, 6, 0),
+    gsSP1Triangle(6, 5, 9, 0),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,10 @@
+- name: sprite1
+  type: RGBA32
+- name: sprite2
+  type: I8
+- name: sprite3
+  type: I8
+- name: sprite4
+  type: I8
+- name: sprite5
+  type: I8

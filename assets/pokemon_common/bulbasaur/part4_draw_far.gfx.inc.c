@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx bulbasaur_part4_draw_far[] = {
+    gsDPPipeSync(),
+    gsSPLightColor(LIGHT_1, 0xB3B3B300),
+    gsSPLightColor(LIGHT_2, 0x26262600),
+    gsSPClearGeometryMode(G_FOG),
+    gsDPSetCycleType(G_CYC_1CYCLE),
+    gsDPSetRenderMode(G_RM_AA_ZB_XLU_SURF, G_RM_AA_ZB_XLU_SURF2),
+    gsDPSetCombineLERP(0, 0, 0, PRIMITIVE, TEXEL0, 0, PRIMITIVE, 0, 0, 0, 0, PRIMITIVE, TEXEL0, 0, PRIMITIVE, 0),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_MIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_MIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x01FC, 0x03FC),
+    gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_16b, 1, bulbasaur_tex_shine_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, 256),
+    gsDPPipeSync(),
+    gsSPVertex(&bulbasaur_vtx[505], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_FOG),
+    gsSPEndDisplayList(),
+};

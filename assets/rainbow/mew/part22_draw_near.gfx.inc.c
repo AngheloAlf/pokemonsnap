@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx mew_part22_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, mew_tex_8012B8D8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, mew_tex_8012B900_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x019B0522),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01D30540),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x01D30540),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x02EC0563),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x035E0578),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x02EC0563),
+    gsSPVertex(&mew_vtx[386], 5, 26),
+    gsSP2Triangles(30, 1, 28, 0, 30, 29, 0, 0),
+    gsSP2Triangles(1, 3, 28, 0, 3, 26, 28, 0),
+    gsSP2Triangles(27, 2, 29, 0, 0, 29, 2, 0),
+    gsSP2Triangles(26, 3, 4, 0, 26, 5, 27, 0),
+    gsSP2Triangles(27, 5, 2, 0, 26, 4, 5, 0),
+    gsSP1Triangle(30, 0, 1, 0),
+    gsSPEndDisplayList(),
+};

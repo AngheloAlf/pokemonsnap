@@ -1,0 +1,19 @@
+#include "common.h"
+
+Gfx porygon_part6_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0x0100, 0x0100, 0x017C, 0x017C),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&porygon_vtx[215], 16, 0),
+    gsSP2Triangles(15, 14, 13, 0, 13, 14, 12, 0),
+    gsSP2Triangles(14, 11, 10, 0, 10, 9, 14, 0),
+    gsSP2Triangles(8, 14, 7, 0, 7, 6, 8, 0),
+    gsSP2Triangles(5, 4, 3, 0, 2, 1, 0, 0),
+    gsSPEndDisplayList(),
+};

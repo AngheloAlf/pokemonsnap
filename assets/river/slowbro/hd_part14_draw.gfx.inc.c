@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx slowbro_hd_part14_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&slowbro_hd_vtx[672], 16, 6),
+    gsSPVertex(&slowbro_hd_vtx[688], 5, 27),
+    gsSP2Triangles(2, 21, 28, 0, 20, 28, 27, 0),
+    gsSP2Triangles(2, 5, 31, 0, 27, 19, 20, 0),
+    gsSP2Triangles(5, 4, 18, 0, 18, 30, 17, 0),
+    gsSP2Triangles(1, 0, 16, 0, 16, 15, 1, 0),
+    gsSP2Triangles(17, 5, 18, 0, 14, 3, 2, 0),
+    gsSP2Triangles(2, 13, 14, 0, 12, 3, 20, 0),
+    gsSP2Triangles(20, 19, 11, 0, 10, 15, 16, 0),
+    gsSP2Triangles(9, 10, 29, 0, 9, 8, 10, 0),
+    gsSP2Triangles(8, 7, 4, 0, 6, 30, 7, 0),
+    gsSP2Triangles(7, 8, 6, 0, 4, 1, 8, 0),
+    gsSP2Triangles(19, 27, 10, 0, 10, 27, 29, 0),
+    gsSP2Triangles(29, 30, 9, 0, 11, 0, 3, 0),
+    gsSP1Triangle(16, 19, 10, 0),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,21 @@
+#include "common.h"
+
+Gfx mew_hd_part2_pre[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&mew_hd_vtx[87], 1, 0),
+    gsSPVertex(&mew_hd_vtx[86], 1, 1),
+    gsSPVertex(&mew_hd_vtx[85], 1, 2),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0x00C0, 0x00C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&mew_hd_vtx[112], 1, 3),
+    gsSPVertex(&mew_hd_vtx[99], 1, 4),
+    gsSPVertex(&mew_hd_vtx[101], 1, 5),
+    gsSPVertex(&mew_hd_vtx[104], 1, 6),
+    gsSPVertex(&mew_hd_vtx[94], 1, 7),
+    gsSPEndDisplayList(),
+};

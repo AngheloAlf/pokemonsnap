@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx sandshrew_part1_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, sandshrew_tex_8015EC60),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPVertex(&sandshrew_vtx[44], 14, 0),
+    gsSP2Triangles(13, 4, 3, 0, 13, 12, 4, 0),
+    gsSP2Triangles(12, 13, 11, 0, 10, 11, 13, 0),
+    gsSP2Triangles(11, 9, 12, 0, 8, 10, 13, 0),
+    gsSP2Triangles(10, 7, 11, 0, 9, 11, 7, 0),
+    gsSP2Triangles(0, 12, 9, 0, 12, 0, 4, 0),
+    gsSP2Triangles(8, 6, 10, 0, 10, 6, 7, 0),
+    gsSP2Triangles(5, 9, 7, 0, 0, 9, 5, 0),
+    gsSP2Triangles(2, 8, 3, 0, 7, 6, 5, 0),
+    gsSP2Triangles(6, 8, 2, 0, 5, 1, 0, 0),
+    gsSP2Triangles(6, 2, 5, 0, 2, 1, 5, 0),
+    gsSP1Triangle(3, 8, 13, 0),
+    gsSPEndDisplayList(),
+};

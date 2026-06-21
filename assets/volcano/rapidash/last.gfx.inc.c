@@ -1,0 +1,11 @@
+#include "common.h"
+
+Gfx rapidash_last[] = {
+    gsDPPipeSync(),
+    gsSPDisplayList(rapidash_part20_draw),
+    gsDPPipeSync(),
+    gsDPSetCycleType(G_CYC_2CYCLE),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
+    gsSPEndDisplayList(),
+};

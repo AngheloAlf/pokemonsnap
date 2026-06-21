@@ -1,0 +1,185 @@
+#undef __ANIMFILE
+#define __ANIMFILE dugtrio_modelanim_rise
+
+#include <anim_script.h>
+
+static AnimLine0 dugtrio_modelanim_rise_root;
+static AnimLine9 dugtrio_modelanim_rise_0;
+static AnimLine6 dugtrio_modelanim_rise_1;
+static AnimLine1 dugtrio_modelanim_rise_2;
+static AnimLine1 dugtrio_modelanim_rise_3;
+static AnimLine3 dugtrio_modelanim_rise_5;
+static AnimLine8 dugtrio_modelanim_rise_6;
+static AnimLine8 dugtrio_modelanim_rise_7;
+static AnimLine1 dugtrio_modelanim_rise_8;
+static AnimLine9 dugtrio_modelanim_rise_9;
+static AnimLine9 dugtrio_modelanim_rise_10;
+static AnimLine9 dugtrio_modelanim_rise_11;
+static AnimLine9 dugtrio_modelanim_rise_12;
+static AnimLine9 dugtrio_modelanim_rise_13;
+
+AnimCmd* dugtrio_modelanim_rise[] = {
+    (AnimCmd*)&dugtrio_modelanim_rise_root,
+    (AnimCmd*)&dugtrio_modelanim_rise_0,
+    (AnimCmd*)&dugtrio_modelanim_rise_1,
+    (AnimCmd*)&dugtrio_modelanim_rise_2,
+    (AnimCmd*)&dugtrio_modelanim_rise_3,
+    NULL,
+    (AnimCmd*)&dugtrio_modelanim_rise_5,
+    (AnimCmd*)&dugtrio_modelanim_rise_6,
+    (AnimCmd*)&dugtrio_modelanim_rise_7,
+    (AnimCmd*)&dugtrio_modelanim_rise_8,
+    (AnimCmd*)&dugtrio_modelanim_rise_9,
+    (AnimCmd*)&dugtrio_modelanim_rise_10,
+    (AnimCmd*)&dugtrio_modelanim_rise_11,
+    (AnimCmd*)&dugtrio_modelanim_rise_12,
+    (AnimCmd*)&dugtrio_modelanim_rise_13,
+};
+
+asBegin_0(dugtrio_modelanim_rise_root)
+    asWaitf(16);
+    asPlaySound(9, 0, 1);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_0)
+    asSetAfter_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, 0.2687126398086548, POSZ, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asWait(25);
+asEnd();
+
+asBegin_6(dugtrio_modelanim_rise_1)
+    asSetWithRate_6f(0, ROTY, 0.15473876893520355, -0.2990807294845581, ROTZ, -0.00594280706718564, -0.012399997562170029, POSY, -355.83758544921875, 44.53334426879883);
+    asSetAfterBlock_6(0, ROTX, 0.0, POSX, 0.0, POSZ, -200.33314514160156, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_2(19, ROTZ, -0.24799993634223938, 0.00023771225824020803);
+    asSetWithRate_2(20, ROTY, -6.282494068145752, 0.0014304688666015863);
+    asSetWithRateBlock_2(3, POSY, -223.20001220703125, 47.87083053588867);
+    asSetWithRateBlock_2(6, POSY, 75.0, 13.9500093460083);
+    asSetWithRateBlock_2(10, POSY, 0.00012489035725593567, -4.687492370605469);
+    asSetZeroRate_2(6, ROTZ, 0.0, POSY, 0.00012489035725593567);
+    asWait(1);
+    asSetZeroRateBlock_1(5, ROTY, -6.282494068145752);
+asEnd();
+
+asBegin_1(dugtrio_modelanim_rise_2)
+    asSetZeroRate_1f(0, ROTY, 0.0);
+    asSetWithRate_6(0, ROTX, -0.02675808034837246, -0.04150000587105751, ROTZ, -0.030304638668894768, -0.047500014305114746, POSY, 282.697509765625, -7.94728930486599e-06);
+    asSetAfterBlock_5(0, POSX, 0.0, POSZ, -0.3869295120239258, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_6(3, ROTX, -0.16600000858306885, 0.005962896626442671, ROTZ, -0.1900000274181366, 0.005020271521061659, POSY, 282.6974792480469, -2.6490947675483767e-06);
+    asSetZeroRateBlock_1(3, ROTY, 0.0);
+    asSetTargetRate_1(0, ROTY, 0.002423686208203435);
+    asSetZeroRate_1(16, ROTY, 0.04847372695803642);
+    asSetWithRate_4(16, ROTX, 0.08662296831607819, 0.007545454893261194, ROTZ, 0.0647004023194313, 0.00863636564463377);
+    asSetZeroRateBlock_1(6, POSY, 282.6974792480469);
+    asSetZeroRate_1(16, POSY, 282.6974792480469);
+    asWait(10);
+    asSetZeroRateBlock_3(6, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0);
+asEnd();
+
+asBegin_1(dugtrio_modelanim_rise_3)
+    asSetZeroRate_1f(0, ROTX, -0.00048628111835569143);
+    asSetWithRate_6(0, ROTY, 0.005646629724651575, 0.009500395506620407, ROTZ, -0.037538908421993256, -0.05723043903708458, POSY, 153.91119384765625, 1.7881398889585398e-05);
+    asSetAfterBlock_5(0, POSX, 0.0, POSZ, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_8(3, ROTX, 0.0, 0.002756245667114854, ROTY, 0.03800157830119133, 0.001206134562380612, ROTZ, -0.22892174124717712, 0.011800567619502544, POSY, 153.9112548828125, 6.622736691497266e-06);
+    asSetZeroRate_1(16, ROTX, 0.05167369171977043);
+    asSetWithRate_4(16, ROTY, 0.028563184663653374, -0.0017273444682359695, ROTZ, 0.1847146451473236, 0.010405534878373146);
+    asSetZeroRateBlock_1(6, POSY, 153.9112548828125);
+    asSetZeroRate_1(16, POSY, 153.9112548828125);
+    asWait(10);
+    asSetZeroRateBlock_3(6, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0);
+asEnd();
+
+asBegin_3(dugtrio_modelanim_rise_5)
+    asSetZeroRate_3f(0, SCALEX, 0.9854958653450012, SCALEY, 0.9854958653450012, SCALEZ, 0.9854958653450012);
+    asSetWithRate_2(0, POSY, -599.5853881835938, 21.994709014892578);
+    asSetAfterBlock_5(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 189.66015625, POSZ, 120.61872863769531);
+    asSetWithRate_6(13, SCALEX, 1.0, 0.010214483365416527, SCALEY, 1.0, 0.010214483365416527, SCALEZ, 1.0, 0.010214483365416527);
+    asSetWithRateBlock_2(5, POSY, -493.1661071777344, -0.6598467230796814);
+    asSetZeroRateBlock_1(8, POSY, -493.1661071777344);
+    asSetZeroRate_3(8, SCALEX, 1.2000000476837158, SCALEY, 1.2000000476837158, SCALEZ, 1.2000000476837158);
+    asSetWithRateBlock_2(6, POSY, 0.00012489035725593567, 90.25960540771484);
+    asSetZeroRate_1(6, POSY, 0.00012489035725593567);
+    asWait(2);
+    asSetZeroRateBlock_3(4, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+asEnd();
+
+asBegin_8(dugtrio_modelanim_rise_6)
+    asSetWithRate_8f(0, ROTX, -0.0040500047616660595, -0.016006378456950188, ROTY, 0.007941854186356068, 0.022347403690218925, ROTZ, -0.002974602859467268, -0.013016873970627785, POSY, 91.06858825683594, 9.934111403708812e-06);
+    asSetAfterBlock_5(0, POSX, -2.2301554679870605, POSZ, -0.1087188720703125, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_6(9, ROTX, -0.16006380319595337, -0.004143533296883106, ROTY, 0.22347405552864075, -0.019450318068265915, ROTZ, -0.13016875088214874, -0.0069877635687589645);
+    asSetZeroRateBlock_1(3, POSY, 91.06861114501953);
+    asSetWithRateBlock_2(6, POSY, 91.06858825683594, -1.4901162330716033e-06);
+    asSetZeroRate_1(10, POSY, 91.06858825683594);
+    asSetWithRate_6(10, ROTX, -0.08277712762355804, 0.011094818823039532, ROTY, -0.3616142272949219, -0.012876298278570175, ROTZ, -0.13574211299419403, 0.009226378984749317);
+    asWait(8);
+    asPlayEffect(2, 0, 5);
+    asSetZeroRateBlock_4(6, ROTX, 0.01745329238474369, ROTY, 0.01745329238474369, ROTZ, 0.01745329238474369, POSY, 91.06858825683594);
+asEnd();
+
+asBegin_8(dugtrio_modelanim_rise_7)
+    asSetWithRate_8f(0, ROTX, 0.025916384533047676, 0.058177631348371506, ROTY, -0.002404121682047844, -0.001781370141543448, ROTZ, 0.005502655636519194, 0.012676115147769451, POSY, -351.15008544921875, 44.53334426879883);
+    asSetAfterBlock_5(0, POSX, -185.83009338378906, POSZ, 148.0842742919922, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_2(5, ROTX, 0.3490658402442932, -1.0354315236327238e-05);
+    asSetWithRate_4(9, ROTY, -0.017813703045248985, 0.018575748428702354, ROTZ, 0.12676116824150085, 0.004157246556133032);
+    asSetWithRateBlock_2(3, POSY, -223.20001220703125, 39.01667785644531);
+    asSetWithRate_2(6, POSY, 0.00012489035725593567, 13.9500093460083);
+    asWait(2);
+    asSetWithRate_2(5, ROTX, 0.3490658402442932, -1.0354315236327238e-05);
+    asWait(4);
+    asSetZeroRate_1(10, POSY, 0.00012489035725593567);
+    asSetWithRate_4(10, ROTY, 0.3505350947380066, 0.0011133565567433834, ROTZ, 0.0844903439283371, -0.007922573015093803);
+    asWait(1);
+    asSetWithRateBlock_2(7, ROTX, -0.3490658700466156, -0.023411329835653305);
+    asSetZeroRate_1(8, ROTX, 0.0);
+    asWait(2);
+    asSetZeroRateBlock_3(6, ROTY, 0.0, ROTZ, 0.0, POSY, 0.00012489035725593567);
+asEnd();
+
+asBegin_1(dugtrio_modelanim_rise_8)
+    asSetZeroRate_1f(0, ROTY, 0.0);
+    asSetWithRate_6(0, ROTX, 0.04073780030012131, 0.06518472731113434, ROTZ, 0.05396978184580803, 0.09786470234394073, POSY, 248.78065490722656, 3.973644652432995e-06);
+    asSetAfterBlock_5(0, POSX, -0.16984939575195312, POSZ, -0.0843048095703125, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_6(3, ROTX, 0.26073890924453735, -0.00012759529636241496, ROTZ, 0.39145877957344055, 0.03709256649017334, POSY, 248.78065490722656, -2.6490947675483767e-06);
+    asSetZeroRateBlock_1(3, ROTY, 0.0);
+    asPlayEffect(0, 0, 5);
+    asSetWithRate_2(14, ROTX, -0.43632131814956665, -0.0008994518429972231);
+    asSetWithRateBlock_6(6, ROTY, 0.0, 0.010183124803006649, ROTZ, 0.39145877957344055, -0.03606126084923744, POSY, 248.7806396484375, -1.4901162330716033e-06);
+    asSetZeroRate_2(10, ROTY, 0.26521727442741394, POSY, 248.7806396484375);
+    asSetWithRate_2(11, ROTZ, -0.22158271074295044, -0.024617819115519524);
+    asWait(8);
+    asSetWithRateBlock_2(2, ROTX, 0.08033382147550583, 0.03607463836669922);
+    asSetZeroRate_3(6, ROTX, 0.0, ROTY, 0.0, POSY, 248.7806396484375);
+    asWait(1);
+    asSetZeroRateBlock_1(5, ROTZ, 0.0);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_9)
+    asSetAfterBlock_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, -152.3076934814453, POSZ, -1737.4593505859375, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetAfterBlock_3(4, POSX, 0.0, POSY, -220.0, POSZ, -1737.4593505859375);
+    asSetAfterBlock_3(21, POSX, 0.0, POSY, -220.0, POSZ, -1737.4593505859375);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_10)
+    asSetAfterBlock_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 298.6654357910156, POSY, -104.21051025390625, POSZ, -1283.994384765625, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetAfterBlock_3(10, POSX, 298.6654357910156, POSY, -220.0, POSZ, -1283.994384765625);
+    asSetAfterBlock_3(15, POSX, 298.6654357910156, POSY, -220.0, POSZ, -1283.994384765625);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_11)
+    asSetAfterBlock_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 106.6732406616211, POSY, -34.73680877685547, POSZ, -836.4526977539062, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetAfterBlock_3(16, POSX, 106.6732406616211, POSY, -220.0, POSZ, -836.4526977539062);
+    asSetAfterBlock_3(9, POSX, 106.6732406616211, POSY, -220.0, POSZ, -836.4526977539062);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_12)
+    asSetAfterBlock_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 289.51849365234375, POSY, -7.450580596923828e-07, POSZ, -351.56390380859375, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetAfterBlock_3(6, POSX, 289.51849365234375, POSY, 0.0, POSZ, -351.56390380859375);
+    asSetAfter_2(16, POSX, 289.51849365234375, POSZ, -351.56390380859375);
+    asSetBlock_1(16, POSY, -220.0);
+    asSetAfterBlock_3(3, POSX, 289.51849365234375, POSY, -220.0, POSZ, -351.56390380859375);
+asEnd();
+
+asBegin_9(dugtrio_modelanim_rise_13)
+    asSetAfterBlock_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 7.156467437744141, POSY, -148.5223846435547, POSZ, 0.8771181106567383, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetAfterBlock_1(3, POSY, -220.0);
+    asSetAfterBlock_1(22, POSY, -220.0);
+asEnd();
+

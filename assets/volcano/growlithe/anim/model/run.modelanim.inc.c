@@ -1,0 +1,325 @@
+#undef __ANIMFILE
+#define __ANIMFILE growlithe_modelanim_run
+
+#include <anim_script.h>
+
+static AnimLine3 growlithe_modelanim_run_root;
+static AnimLine6 growlithe_modelanim_run_0;
+static AnimLine6 growlithe_modelanim_run_1;
+static AnimLine1 growlithe_modelanim_run_2;
+static AnimLine1 growlithe_modelanim_run_3;
+static AnimLine2 growlithe_modelanim_run_4;
+static AnimLine9 growlithe_modelanim_run_5;
+static AnimLine4 growlithe_modelanim_run_6;
+static AnimLine1 growlithe_modelanim_run_7;
+static AnimLine6 growlithe_modelanim_run_8;
+static AnimLine4 growlithe_modelanim_run_9;
+static AnimLine1 growlithe_modelanim_run_10;
+static AnimLine6 growlithe_modelanim_run_11;
+static AnimLine2 growlithe_modelanim_run_12;
+static AnimLine1 growlithe_modelanim_run_13;
+static AnimLine1 growlithe_modelanim_run_14;
+static AnimLine8 growlithe_modelanim_run_15;
+static AnimLine1 growlithe_modelanim_run_16;
+static AnimLine8 growlithe_modelanim_run_17;
+
+AnimCmd* growlithe_modelanim_run[] = {
+    (AnimCmd*)&growlithe_modelanim_run_root,
+    (AnimCmd*)&growlithe_modelanim_run_0,
+    (AnimCmd*)&growlithe_modelanim_run_1,
+    (AnimCmd*)&growlithe_modelanim_run_2,
+    (AnimCmd*)&growlithe_modelanim_run_3,
+    (AnimCmd*)&growlithe_modelanim_run_4,
+    (AnimCmd*)&growlithe_modelanim_run_5,
+    (AnimCmd*)&growlithe_modelanim_run_6,
+    (AnimCmd*)&growlithe_modelanim_run_7,
+    (AnimCmd*)&growlithe_modelanim_run_8,
+    (AnimCmd*)&growlithe_modelanim_run_9,
+    (AnimCmd*)&growlithe_modelanim_run_10,
+    (AnimCmd*)&growlithe_modelanim_run_11,
+    (AnimCmd*)&growlithe_modelanim_run_12,
+    (AnimCmd*)&growlithe_modelanim_run_13,
+    (AnimCmd*)&growlithe_modelanim_run_14,
+    (AnimCmd*)&growlithe_modelanim_run_15,
+    (AnimCmd*)&growlithe_modelanim_run_16,
+    (AnimCmd*)&growlithe_modelanim_run_17,
+};
+
+asBegin_3(growlithe_modelanim_run_root)
+    asSetZeroRate_3f(0, ROTX, 0.3490658402442932, POSY, 200.0, POSZ, -100.0);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.0, POSY, 0.0, POSZ, 0.0);
+    asSetZeroRateBlock_3(15, ROTX, 0.0, POSY, 0.0, POSZ, 0.0);
+    asSetZeroRateBlock_3(10, ROTX, 0.3490658402442932, POSY, 200.0, POSZ, -100.0);
+asRestart(growlithe_modelanim_run_root);
+
+asBegin_6(growlithe_modelanim_run_0)
+    asSetAfterBlock_6f(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetZeroRateBlock_1(0, POSY, 374.2489318847656);
+    asSetZeroRate_1(49, POSY, 374.24884033203125);
+    asSkip_1(40, POSY);
+    asSetWithRateBlock_4(0, ROTX, 0.2617994248867035, 0.0007758211577311158, POSZ, -117.26464080810547, -0.004417539574205875);
+    asSetWithRate_2(13, POSZ, -105.6136474609375, 5.1513800621032715);
+    asSetWithRateBlock_2(1, ROTX, 0.29360806941986084, 0.025132691487669945);
+    asSetTargetRate_1(0, ROTX, 0.025132721289992332);
+    asSetWithRateBlock_2(8, ROTX, 0.26533371210098267, -0.006283202674239874);
+    asSetTargetRate_1(0, ROTX, -0.006283231545239687);
+    asSetWithRate_2(15, POSY, 284.3374938964844, -2.2127161026000977);
+    asSetWithRateBlock_2(1, ROTX, 0.2617993950843811, -0.01276281476020813);
+    asSetTargetRate_1(0, ROTX, -0.012762737460434437);
+    asSetWithRateBlock_2(2, ROTX, 0.18011799454689026, -0.07382771372795105);
+    asSetTargetRate_1(0, ROTX, -0.07382743060588837);
+    asSetWithRate_2(5, ROTX, -0.35395270586013794, -0.09738931804895401);
+    asWait(1);
+    asSetTargetRate_1(0, POSZ, 5.151377201080322);
+    asSetWithRate_2(20, POSZ, -81.1467056274414, -5.7125372886657715);
+    asWait(4);
+    asSetTargetRate_1(0, ROTX, -0.09738954156637192);
+    asSetWithRateBlock_2(2, ROTX, -0.5016075968742371, -0.04084060713648796);
+    asSetTargetRate_1(0, ROTX, -0.04084054008126259);
+    asSetZeroRateBlock_1(2, ROTX, -0.5235987901687622);
+    asSetZeroRate_1(8, ROTX, -0.5235987901687622);
+    asWait(3);
+    asSetTargetRate_1(0, POSY, -2.2127013206481934);
+    asSetWithRate_2(9, POSY, 302.8486633300781, 11.292936325073242);
+    asWait(5);
+    asSetWithRateBlock_2(1, ROTX, -0.5235987901687622, 0.009228265844285488);
+    asSetTargetRate_1(0, ROTX, 0.009228359907865524);
+    asSetWithRateBlock_2(1, ROTX, -0.5051419734954834, 0.034557878971099854);
+    asSetTargetRate_1(0, ROTX, 0.034557390958070755);
+    asSetWithRate_2(3, ROTX, -0.2848377823829651, 0.09935261309146881);
+    asWait(2);
+    asSetTargetRate_2(0, POSY, 11.29290771484375, POSZ, -5.71253776550293);
+    asSetWithRate_4(7, POSY, 374.2489013671875, 0.06221608817577362, POSZ, -117.26464080810547, -0.03146152198314667);
+    asWait(1);
+    asSetTargetRate_1(0, ROTX, 0.09935291856527328);
+    asSetWithRateBlock_2(5, ROTX, 0.20799948275089264, 0.0659736692905426);
+    asSetTargetRate_1(0, ROTX, 0.06597308814525604);
+    asSetWithRateBlock_2(1, ROTX, 0.2617994248867035, 0.0013121928786858916);
+asRestart(growlithe_modelanim_run_0);
+
+asBegin_6(growlithe_modelanim_run_1)
+    asSetAfterBlock_6f(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_6(0, ROTX, -0.9599311351776123, -0.0006523666670545936, POSY, 95.93572998046875, 0.6996033787727356, POSZ, 269.6441650390625, -0.2052602618932724);
+    asSetWithRate_2(4, POSY, 111.7301025390625, -1.1101821660995483);
+    asSetWithRate_2(7, POSZ, 272.0732116699219, 2.3581886291503906);
+    asSetWithRateBlock_2(1, ROTX, -0.9866783022880554, -0.015358809381723404);
+    asSetTargetRate_1(0, ROTX, -0.015358961187303066);
+    asSetWithRate_2(8, ROTX, -0.6665849089622498, 0.057944972068071365);
+    asWait(3);
+    asSetTargetRate_1(0, POSY, -1.1101607084274292);
+    asSetWithRate_2(8, POSY, 65.9046630859375, -22.218605041503906);
+    asWait(3);
+    asSetTargetRate_1(0, POSZ, 2.3581602573394775);
+    asSetWithRate_2(9, POSZ, 210.9425811767578, -13.100354194641113);
+    asWait(2);
+    asSetTargetRate_1(0, ROTX, 0.057944852858781815);
+    asSetWithRateBlock_2(1, ROTX, -0.6108651757240295, 0.06494805961847305);
+    asSetTargetRate_1(0, ROTX, 0.06494804471731186);
+    asSetWithRateBlock_2(2, ROTX, -0.42586034536361694, 0.12391840666532516);
+    asSetTargetRate_1(0, ROTX, 0.12391845136880875);
+    asSetTargetRate_1(0, POSY, -22.218570709228516);
+    asSetWithRate_2(6, POSY, -30.782581329345703, -1.3952616453170776);
+    asSetWithRateBlock_2(4, ROTX, 0.17453297972679138, 0.1448623687028885);
+    asSetTargetRate_1(0, ROTX, 0.144862100481987);
+    asSetWithRate_2(3, ROTX, 0.4965461194515228, 0.050614647567272186);
+    asSetTargetRate_1(0, POSZ, -13.100314140319824);
+    asSetWithRate_2(10, POSZ, 182.55911254882812, 0.8508783578872681);
+    asWait(2);
+    asSetTargetRate_1(0, POSY, -1.395261287689209);
+    asSetWithRate_2(6, POSY, 5.183863639831543, 3.486302614212036);
+    asWait(1);
+    asSetTargetRate_1(0, ROTX, 0.05061470717191696);
+    asSetWithRateBlock_2(1, ROTX, 0.5235987901687622, 0.01099561806768179);
+    asSetTargetRate_1(0, ROTX, 0.010995536111295223);
+    asSetWithRateBlock_2(1, ROTX, 0.5185373425483704, -0.00977394450455904);
+    asSetTargetRate_1(0, ROTX, -0.009773867204785347);
+    asSetWithRate_2(8, ROTX, 0.22671835124492645, -0.05166172236204147);
+    asWait(3);
+    asSetTargetRate_1(0, POSY, 3.4863030910491943);
+    asSetWithRate_2(13, POSY, 45.44310760498047, 16.017711639404297);
+    asWait(2);
+    asSetTargetRate_1(0, POSZ, 0.8508816361427307);
+    asSetWithRate_2(9, POSZ, 236.26654052734375, 12.50409984588623);
+    asWait(3);
+    asSetTargetRate_1(0, ROTX, -0.05166175588965416);
+    asSetWithRateBlock_2(2, ROTX, 0.10389091074466705, -0.08621940016746521);
+    asSetTargetRate_1(0, ROTX, -0.08621910959482193);
+    asSetWithRateBlock_2(3, ROTX, -0.2624974250793457, -0.14316026866436005);
+    asSetTargetRate_1(0, ROTX, -0.14316067099571228);
+    asSetWithRate_2(5, ROTX, -0.901069700717926, -0.07574747502803802);
+    asWait(1);
+    asSetTargetRate_1(0, POSZ, 12.50415325164795);
+    asSetWithRate_2(5, POSZ, 270.55828857421875, -0.05217250809073448);
+    asWait(2);
+    asSetTargetRate_1(0, POSY, 16.017690658569336);
+    asSetWithRate_2(3, POSY, 92.52410125732422, 0.41559848189353943);
+    asWait(2);
+    asSetTargetRate_1(0, ROTX, -0.0757472887635231);
+    asSetZeroRate_1(41, ROTX, -0.9599311351776123);
+    asWait(1);
+asRestart(growlithe_modelanim_run_1);
+
+asBegin_1(growlithe_modelanim_run_2)
+    asSetZeroRate_1f(0, ROTX, 0.3490658402442932);
+    asSetWithRate_4(0, POSY, 87.84661102294922, 0.5139105916023254, POSZ, 93.60990905761719, 1.7612286806106567);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_6(5, ROTX, 0.3490658402442932, 0.011635527946054935, POSY, 87.84661102294922, -1.1991246938705444, POSZ, 85.1199951171875, -4.342833518981934);
+    asSetWithRateBlock_6(10, ROTX, 0.5235987901687622, -0.013962634839117527, POSY, 69.8597412109375, -0.7194747924804688, POSZ, 32.434906005859375, -2.1074037551879883);
+    asSetWithRateBlock_6(15, ROTX, 0.0, -0.006981316022574902, POSY, 69.8597412109375, 0.719474732875824, POSZ, 32.434906005859375, 2.4469997882843018);
+    asSetWithRate_4(10, ROTX, 0.3490658402442932, 0.02327105589210987, POSZ, 93.60990905761719, 2.0762221813201904);
+    asSetZeroRateBlock_1(10, POSY, 87.84661102294922);
+asRestart(growlithe_modelanim_run_2);
+
+asBegin_1(growlithe_modelanim_run_3)
+    asSetZeroRate_1f(0, SCALEZ, 1.2000000476837158);
+    asSetAfterBlock_8(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, 152.19454956054688, POSZ, 109.77960968017578, SCALEX, 1.0, SCALEY, 1.0);
+    asSetWithRateBlock_2(10, SCALEZ, 1.0, -0.006666668225079775);
+    asSetWithRateBlock_2(20, SCALEZ, 1.0, 0.006666668225079775);
+    asSetZeroRateBlock_1(10, SCALEZ, 1.2000000476837158);
+asRestart(growlithe_modelanim_run_3);
+
+asBegin_2(growlithe_modelanim_run_4)
+    asSetWithRate_2f(0, ROTX, 0.8726646304130554, 0.021816615015268326);
+    asSetAfterBlock_8(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, -9.979915618896484, POSZ, 202.0944061279297, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_2(10, ROTX, 0.8726646304130554, -0.04363323003053665);
+    asSetWithRateBlock_2(10, ROTX, 0.0, -0.04363323375582695);
+    asSetWithRateBlock_2(10, ROTX, 0.0, 0.04363323003053665);
+    asSetZeroRateBlock_1(10, ROTX, 0.8726646304130554);
+asRestart(growlithe_modelanim_run_4);
+
+asBegin_9(growlithe_modelanim_run_5)
+    asSetAfter_9f(0, ROTX, 0.0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, 4.9900054931640625, POSZ, -62.50572204589844, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asWait(40);
+asRestart(growlithe_modelanim_run_5);
+
+asBegin_4(growlithe_modelanim_run_6)
+    asSetWithRate_4f(0, ROTX, -0.6108652353286743, -0.04072434827685356, ROTZ, 0.0, 0.027925264090299606);
+    asSetAfterBlock_7(0, ROTY, 0.0, POSX, -148.8628692626953, POSY, -53.219459533691406, POSZ, 72.35480499267578, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_2(15, ROTX, -0.6981316804885864, 0.03781546652317047);
+    asSetZeroRateBlock_1(15, ROTZ, 0.0);
+    asSetWithRateBlock_4(15, ROTX, 0.5235987901687622, 0.003490658011287451, ROTZ, 0.0, -0.03490658476948738);
+    asSetWithRate_2(10, ROTX, -0.6108652353286743, -0.06108652800321579);
+    asSetZeroRateBlock_1(5, ROTZ, -0.6981316804885864);
+    asSetWithRateBlock_2(5, ROTZ, 0.0, 0.04654211178421974);
+asRestart(growlithe_modelanim_run_6);
+
+asBegin_1(growlithe_modelanim_run_7)
+    asSetZeroRate_1f(0, POSY, -212.07373046875);
+    asSetWithRate_4(0, ROTX, -1.0471975803375244, 0.02327105589210987, POSZ, -14.384102821350098, -0.46155214309692383);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, 33.400962829589844, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_4(15, ROTX, 0.6981316804885864, 0.03490658476948738, POSZ, -63.0467643737793, -1.160536527633667);
+    asSetZeroRateBlock_1(15, POSY, -189.76373291015625);
+    asSetWithRateBlock_6(15, ROTX, 0.0, -0.06981316208839417, POSY, -171.513671875, -0.8923997282981873, POSZ, -49.20020294189453, 1.9465065002441406);
+    asSetWithRate_4(10, ROTX, -1.0471975803375244, 0.03490658476948738, POSZ, -14.384102821350098, -0.6923282742500305);
+    asSetZeroRateBlock_1(10, POSY, -212.07373046875);
+asRestart(growlithe_modelanim_run_7);
+
+asBegin_6(growlithe_modelanim_run_8)
+    asSetWithRate_6f(0, ROTX, 1.0471975803375244, 0.02617994137108326, POSY, -165.8654022216797, -0.2803531587123871, POSZ, -11.105179786682129, -1.2972943782806396);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, 9.85558032989502, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_6(15, ROTX, 1.0471975803375244, -0.05235987901687622, POSY, -165.8654022216797, 0.5607062578201294, POSZ, -11.105179786682129, 2.5945885181427);
+    asSetZeroRateBlock_3(5, ROTX, 0.0, POSY, -154.6512908935547, POSZ, 40.78658676147461);
+    asSetWithRateBlock_6(20, ROTX, 1.0471975803375244, 0.03490658476948738, POSY, -165.8654022216797, -0.3738041818141937, POSZ, -11.105179786682129, -1.72972571849823);
+asRestart(growlithe_modelanim_run_8);
+
+asBegin_4(growlithe_modelanim_run_9)
+    asSetWithRate_4f(0, ROTX, -0.6108652353286743, -0.048869214951992035, ROTZ, 0.0, -0.03490658104419708);
+    asSetAfterBlock_7(0, ROTY, 0.0, POSX, 148.8628692626953, POSY, -53.219459533691406, POSZ, 72.35480499267578, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_2(10, ROTX, -0.6981316804885864, 0.045378562062978745);
+    asSetZeroRateBlock_1(10, ROTZ, 0.0);
+    asSetWithRateBlock_4(15, ROTX, 0.5235987901687622, 0.002908881986513734, ROTZ, 0.0, 0.03490658476948738);
+    asSetWithRate_2(15, ROTX, -0.6108652353286743, -0.04886921867728233);
+    asSetZeroRateBlock_1(5, ROTZ, 0.6981316804885864);
+    asSetWithRateBlock_2(10, ROTZ, 0.0, -0.03490658104419708);
+asRestart(growlithe_modelanim_run_9);
+
+asBegin_1(growlithe_modelanim_run_10)
+    asSetZeroRate_1f(0, POSY, -212.07373046875);
+    asSetWithRate_4(0, ROTX, -1.0471975803375244, 0.027925264090299606, POSZ, -14.384102821350098, -0.5538625717163086);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, -33.400962829589844, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_4(10, ROTX, 0.6981316804885864, 0.04188790172338486, POSZ, -63.0467643737793, -1.3926440477371216);
+    asSetZeroRateBlock_1(10, POSY, -189.76373291015625);
+    asSetWithRateBlock_6(15, ROTX, 0.0, -0.0581776425242424, POSY, -171.513671875, -0.7436664700508118, POSZ, -49.20020294189453, 1.6220887899398804);
+    asSetWithRate_4(15, ROTX, -1.0471975803375244, 0.027925264090299606, POSZ, -14.384102821350098, -0.5538625121116638);
+    asSetZeroRateBlock_1(15, POSY, -212.07373046875);
+asRestart(growlithe_modelanim_run_10);
+
+asBegin_6(growlithe_modelanim_run_11)
+    asSetWithRate_6f(0, ROTX, 1.0471975803375244, 0.029919927939772606, POSY, -165.8654022216797, -0.3204035460948944, POSZ, -11.105179786682129, -1.4826217889785767);
+    asSetAfterBlock_6(0, ROTY, 0.0, ROTZ, 0.0, POSX, -9.85558032989502, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_6(10, ROTX, 1.0471975803375244, -0.06981316953897476, POSY, -165.8654022216797, 0.7476083040237427, POSZ, -11.105179786682129, 3.459451198577881);
+    asSetZeroRateBlock_3(5, ROTX, 0.0, POSY, -154.6512908935547, POSZ, 40.78658676147461);
+    asSetWithRateBlock_6(25, ROTX, 1.0471975803375244, 0.029919927939772606, POSY, -165.8654022216797, -0.3204035460948944, POSZ, -11.105179786682129, -1.4826217889785767);
+asRestart(growlithe_modelanim_run_11);
+
+asBegin_2(growlithe_modelanim_run_12)
+    asSetZeroRate_2f(0, ROTX, -1.0471975803375244, SCALEZ, 1.5);
+    asSetAfterBlock_7(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, 44.90983581542969, POSZ, -92.31478881835938, SCALEX, 1.0, SCALEY, 1.0);
+    asSetZeroRate_1(20, ROTX, 0.0);
+    asSetWithRateBlock_2(10, SCALEZ, 1.0, -0.01666666753590107);
+    asSetWithRate_2(20, SCALEZ, 1.0, 0.01666666753590107);
+    asWait(10);
+    asSetZeroRate_1(20, ROTX, -1.0471975803375244);
+    asWait(10);
+    asSetZeroRateBlock_1(10, SCALEZ, 1.5);
+asRestart(growlithe_modelanim_run_12);
+
+asBegin_1(growlithe_modelanim_run_13)
+    asSetZeroRate_1f(0, ROTX, 0.0);
+    asSetAfterBlock_8(0, ROTY, 0.0, ROTZ, 0.0, POSX, 0.0, POSY, 159.67955017089844, POSZ, -124.74966430664062, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRateBlock_2(10, ROTX, 0.0, 0.021816615015268326);
+    asSetWithRateBlock_2(10, ROTX, 0.4363323152065277, -0.008726646192371845);
+    asSetWithRateBlock_2(10, ROTX, -0.1745329201221466, -0.021816615015268326);
+    asSetWithRateBlock_2(10, ROTX, 0.0, 0.011635527946054935);
+asRestart(growlithe_modelanim_run_13);
+
+asBegin_1(growlithe_modelanim_run_14)
+    asSetZeroRate_1f(0, ROTX, 0.6981316804885864);
+    asSetWithRate_2(0, ROTZ, 0.0, 0.0067873927764594555);
+    asSetAfterBlock_7(0, ROTY, 0.0, POSX, -93.63237762451172, POSY, -45.840145111083984, POSZ, -19.904624938964844, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetZeroRate_1(15, ROTX, 0.6981316804885864);
+    asSetZeroRateBlock_1(10, ROTZ, 0.0);
+    asSetWithRateBlock_2(5, ROTZ, 0.0, -0.03490658476948738);
+    asSetWithRateBlock_4(10, ROTX, -0.5235987901687622, -0.06108652800321579, ROTZ, -0.5235987901687622, -0.00678739370778203);
+    asSetWithRateBlock_4(10, ROTX, -0.5235987901687622, 0.08144869655370712, ROTZ, -0.13574786484241486, 0.03490658476948738);
+    asSetWithRate_2(5, ROTZ, 0.0, 0.013574784621596336);
+    asSetZeroRateBlock_1(5, ROTX, 0.6981316804885864);
+asRestart(growlithe_modelanim_run_14);
+
+asBegin_8(growlithe_modelanim_run_15)
+    asSetWithRate_8f(0, ROTX, 0.6981316804885864, -0.013962632045149803, POSX, -13.194012641906738, 0.5638229846954346, POSY, -195.96359252929688, -4.35369873046875, POSZ, -48.388816833496094, 0.18613100051879883);
+    asSetAfterBlock_5(0, ROTY, 0.0, ROTZ, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetWithRate_2(15, ROTX, 0.6981316804885864, -0.03839724510908127);
+    asSetZeroRateBlock_3(10, POSX, -13.194012641906738, POSY, -195.96359252929688, POSZ, -48.388816833496094);
+    asSetWithRateBlock_6(5, POSX, -13.194012641906738, -0.45105844736099243, POSY, -195.96359252929688, 3.482959747314453, POSZ, -48.388816833496094, -0.14890481531620026);
+    asSetZeroRate_3(20, POSX, -24.47047233581543, POSY, -108.88960266113281, POSZ, -52.11143493652344);
+    asSetWithRateBlock_2(10, ROTX, -0.2617993950843811, 0.01745329238474369);
+    asSetWithRateBlock_2(10, ROTX, 1.0471975803375244, 0.06399540603160858);
+    asSetWithRateBlock_8(5, ROTX, 0.6981316804885864, -0.02327105589210987, POSX, -13.194012641906738, 1.1276458501815796, POSY, -195.96359252929688, -8.7073974609375, POSZ, -48.388816833496094, 0.3722619414329529);
+asRestart(growlithe_modelanim_run_15);
+
+asBegin_1(growlithe_modelanim_run_16)
+    asSetZeroRate_1f(0, ROTX, 0.6981316804885864);
+    asSetWithRate_2(0, ROTZ, 0.0, -0.009049857035279274);
+    asSetAfterBlock_7(0, ROTY, 0.0, POSX, 93.63237762451172, POSY, -45.840145111083984, POSZ, -19.904624938964844, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetZeroRate_1(10, ROTX, 0.6981316804885864);
+    asSetZeroRateBlock_1(5, ROTZ, 0.0);
+    asSetWithRateBlock_2(5, ROTZ, 0.0, 0.03490658476948738);
+    asSetWithRateBlock_4(10, ROTX, -0.5235987901687622, -0.06108652800321579, ROTZ, 0.5235987901687622, 0.00678739370778203);
+    asSetWithRateBlock_4(10, ROTX, -0.5235987901687622, 0.06108652427792549, ROTZ, 0.13574786484241486, -0.02617993950843811);
+    asSetWithRate_2(10, ROTZ, 0.0, -0.009049857966601849);
+    asSetZeroRateBlock_1(10, ROTX, 0.6981316804885864);
+asRestart(growlithe_modelanim_run_16);
+
+asBegin_8(growlithe_modelanim_run_17)
+    asSetWithRate_8f(0, ROTX, 0.6981316804885864, -0.02327105402946472, POSX, 13.194012641906738, -0.7517638802528381, POSY, -195.96359252929688, -5.804931163787842, POSZ, -48.388816833496094, 0.24817463755607605);
+    asSetAfterBlock_5(0, ROTY, 0.0, ROTZ, 0.0, SCALEX, 1.0, SCALEY, 1.0, SCALEZ, 1.0);
+    asSetZeroRateBlock_4(5, ROTX, 0.6981316804885864, POSX, 13.194012641906738, POSY, -195.96359252929688, POSZ, -48.388816833496094);
+    asSetWithRateBlock_8(5, ROTX, 0.6981316804885864, -0.06399540603160858, POSX, 13.194012641906738, 0.45105838775634766, POSY, -195.96359252929688, 3.482959270477295, POSZ, -48.388816833496094, -0.14890480041503906);
+    asSetZeroRate_3(20, POSX, 24.47047233581543, POSY, -108.88960266113281, POSZ, -52.11143493652344);
+    asSetWithRateBlock_2(10, ROTX, -0.2617993950843811, 0.01745329238474369);
+    asSetWithRateBlock_2(10, ROTX, 1.0471975803375244, 0.047996554523706436);
+    asSetWithRateBlock_8(10, ROTX, 0.6981316804885864, -0.02327105589210987, POSX, 13.194012641906738, -0.7517639994621277, POSY, -195.96359252929688, -5.804932117462158, POSZ, -48.388816833496094, 0.24817466735839844);
+asRestart(growlithe_modelanim_run_17);
+

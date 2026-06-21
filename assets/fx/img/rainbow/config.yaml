@@ -1,0 +1,6 @@
+- name: sprite1
+  type: I8
+- name: sprite2
+  type: I4
+- name: sprite3
+  type: I4

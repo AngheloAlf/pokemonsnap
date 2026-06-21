@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx lapras_part6_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, lapras_tex_80182BA8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 15),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, lapras_tex_80182BD0_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0xFFBF0265),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0xFE5D005F),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0xFD8803B3),
+    gsSPVertex(&lapras_vtx[253], 8, 3),
+    gsSP2Triangles(0, 1, 10, 0, 1, 9, 10, 0),
+    gsSP2Triangles(1, 8, 9, 0, 2, 7, 1, 0),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x019503E7),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x03CC0299),
+    gsSP2Triangles(6, 2, 0, 0, 6, 5, 2, 0),
+    gsSP2Triangles(6, 4, 5, 0, 6, 3, 4, 0),
+    gsSP1Triangle(8, 1, 7, 0),
+    gsSPEndDisplayList(),
+};

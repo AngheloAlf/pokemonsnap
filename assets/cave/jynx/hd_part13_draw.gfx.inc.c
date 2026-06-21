@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx jynx_hd_part13_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, jynx_tex_arm_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, 128),
+    gsDPPipeSync(),
+    gsSPVertex(&jynx_hd_vtx[338], 19, 0),
+    gsSP2Triangles(18, 17, 16, 0, 17, 18, 15, 0),
+    gsSP2Triangles(16, 17, 14, 0, 13, 18, 16, 0),
+    gsSP2Triangles(13, 16, 14, 0, 18, 12, 15, 0),
+    gsSP2Triangles(11, 17, 15, 0, 17, 11, 14, 0),
+    gsSP2Triangles(18, 13, 10, 0, 11, 13, 14, 0),
+    gsSP2Triangles(18, 9, 12, 0, 8, 18, 10, 0),
+    gsSP2Triangles(7, 15, 12, 0, 13, 11, 10, 0),
+    gsSP2Triangles(7, 10, 11, 0, 15, 7, 11, 0),
+    gsSP2Triangles(9, 18, 6, 0, 5, 18, 8, 0),
+    gsSP2Triangles(18, 5, 6, 0, 9, 7, 12, 0),
+    gsSP2Triangles(10, 7, 8, 0, 9, 6, 4, 0),
+    gsSP2Triangles(4, 6, 5, 0, 4, 3, 9, 0),
+    gsSP2Triangles(5, 3, 4, 0, 7, 5, 8, 0),
+    gsSP2Triangles(7, 9, 3, 0, 5, 7, 3, 0),
+    gsSP1Triangle(2, 1, 0, 0),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx slowpoke_hd_part10_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(6, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&slowpoke_hd_vtx[322], 2, 7),
+    gsSPVertex(&slowpoke_hd_vtx[324], 6, 26),
+    gsSP2Triangles(31, 30, 5, 0, 2, 5, 30, 0),
+    gsSP2Triangles(5, 4, 31, 0, 29, 2, 30, 0),
+    gsSP2Triangles(31, 4, 8, 0, 2, 29, 28, 0),
+    gsSP2Triangles(8, 26, 31, 0, 4, 3, 8, 0),
+    gsSP2Triangles(28, 0, 2, 0, 26, 8, 7, 0),
+    gsSP2Triangles(8, 3, 6, 0, 0, 28, 27, 0),
+    gsSP2Triangles(6, 7, 8, 0, 27, 7, 0, 0),
+    gsSP2Triangles(1, 7, 6, 0, 1, 0, 7, 0),
+    gsSP1Triangle(7, 27, 26, 0),
+    gsSPEndDisplayList(),
+};

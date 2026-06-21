@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx chansey_hd_part8_draw[] = {
+    gsDPPipeSync(),
+    gsSPVertex(&chansey_hd_vtx[100], 22, 0),
+    gsSP2Triangles(21, 20, 19, 0, 18, 19, 20, 0),
+    gsSP2Triangles(19, 17, 21, 0, 16, 20, 21, 0),
+    gsSP2Triangles(15, 19, 18, 0, 21, 17, 14, 0),
+    gsSP2Triangles(13, 17, 19, 0, 21, 12, 16, 0),
+    gsSP2Triangles(14, 11, 21, 0, 19, 15, 13, 0),
+    gsSP2Triangles(14, 17, 13, 0, 13, 15, 16, 0),
+    gsSP2Triangles(21, 11, 10, 0, 16, 12, 13, 0),
+    gsSP2Triangles(10, 12, 21, 0, 11, 14, 9, 0),
+    gsSP2Triangles(13, 8, 14, 0, 14, 7, 9, 0),
+    gsSP2Triangles(13, 12, 10, 0, 10, 11, 9, 0),
+    gsSP2Triangles(10, 8, 13, 0, 9, 7, 4, 0),
+    gsSP2Triangles(6, 10, 9, 0, 10, 6, 8, 0),
+    gsSP2Triangles(6, 5, 8, 0, 9, 4, 0, 0),
+    gsSP2Triangles(6, 9, 0, 0, 5, 1, 7, 0),
+    gsSP2Triangles(1, 3, 7, 0, 4, 3, 2, 0),
+    gsSP2Triangles(6, 0, 5, 0, 2, 0, 4, 0),
+    gsSP2Triangles(2, 3, 1, 0, 0, 1, 5, 0),
+    gsSP2Triangles(1, 0, 2, 0, 7, 3, 4, 0),
+    gsSP2Triangles(20, 16, 18, 0, 18, 16, 15, 0),
+    gsSP2Triangles(5, 7, 14, 0, 8, 5, 14, 0),
+    gsSPEndDisplayList(),
+};

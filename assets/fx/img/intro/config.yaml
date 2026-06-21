@@ -1,0 +1,4 @@
+- name: sprite1
+  type: I4
+- name: sprite2
+  type: CI4

@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx geodude_part6_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, geodude_tex_801402F8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 8),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, geodude_tex_80140318_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 512),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x03FF0045),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x03FF0045),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00D80000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x0000008C),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x0000008C),
+    gsSPVertex(&geodude_vtx[209], 1, 5),
+    gsSPVertex(&geodude_vtx[211], 1, 6),
+    gsSP2Triangles(3, 2, 5, 0, 6, 1, 4, 0),
+    gsSP1Triangle(5, 2, 0, 0),
+    gsSPEndDisplayList(),
+};

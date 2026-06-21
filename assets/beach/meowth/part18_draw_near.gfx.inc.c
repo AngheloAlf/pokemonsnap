@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx meowth_part18_draw_near[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_LIGHTING),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetAlphaCompare(G_AC_THRESHOLD),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 5, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, meowth_tex_8018A5A8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 255),
+    gsDPPipeSync(),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 799, 410),
+    gsDPPipeSync(),
+    gsSPVertex(&meowth_vtx[383], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_LIGHTING),
+    gsSPEndDisplayList(),
+};

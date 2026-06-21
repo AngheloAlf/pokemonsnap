@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx muk_hd_part4_pre[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&muk_hd_vtx[145], 1, 0),
+    gsSPVertex(&muk_hd_vtx[140], 2, 1),
+    gsSPVertex(&muk_hd_vtx[72], 1, 4),
+    gsSPVertex(&muk_hd_vtx[81], 1, 5),
+    gsSPVertex(&muk_hd_vtx[84], 1, 6),
+    gsSPVertex(&muk_hd_vtx[71], 1, 7),
+    gsSPVertex(&muk_hd_vtx[80], 1, 8),
+    gsSPVertex(&muk_hd_vtx[73], 1, 9),
+    gsSPVertex(&muk_hd_vtx[135], 2, 10),
+    gsSPVertex(&muk_hd_vtx[128], 1, 12),
+    gsSPVertex(&muk_hd_vtx[92], 1, 13),
+    gsSPVertex(&muk_hd_vtx[114], 1, 14),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(0x07C0, 0x0FC0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&muk_hd_vtx[156], 1, 3),
+    gsSPVertex(&muk_hd_vtx[157], 1, 15),
+    gsSPVertex(&muk_hd_vtx[155], 1, 16),
+    gsSPEndDisplayList(),
+};

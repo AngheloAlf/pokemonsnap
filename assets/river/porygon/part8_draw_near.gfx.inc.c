@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx porygon_part8_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, porygon_tex_801728A8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0x0100, 0x0100, 0x017C, 0x017C),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&porygon_vtx[247], 30, 0),
+    gsSP2Triangles(29, 28, 27, 0, 28, 26, 27, 0),
+    gsSP2Triangles(25, 24, 23, 0, 22, 21, 20, 0),
+    gsSP2Triangles(20, 19, 22, 0, 18, 17, 16, 0),
+    gsSP2Triangles(16, 15, 18, 0, 14, 13, 12, 0),
+    gsSP2Triangles(12, 11, 14, 0, 10, 9, 8, 0),
+    gsSP2Triangles(8, 7, 10, 0, 6, 5, 4, 0),
+    gsSP2Triangles(3, 6, 4, 0, 2, 1, 0, 0),
+    gsSPVertex(&porygon_vtx[277], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 1, 0, 3, 0),
+    gsSPEndDisplayList(),
+};

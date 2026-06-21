@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx jynx_hd_part8_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x000F03EF),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x03EF03EF),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x000F03EF),
+    gsSPVertex(&jynx_hd_vtx[272], 11, 7),
+    gsSP2Triangles(1, 17, 2, 0, 1, 16, 17, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x000F03EF),
+    gsSP1Triangle(17, 15, 2, 0),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x03EF03EF),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x020F03EF),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x000F03EF),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x03EF03EF),
+    gsSPModifyVertex(6, G_MWO_POINT_ST, 0x020F03EF),
+    gsSP1Triangle(0, 2, 14, 0),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x03EF03EF),
+    gsSP2Triangles(2, 13, 14, 0, 5, 12, 6, 0),
+    gsSP2Triangles(5, 11, 12, 0, 3, 10, 11, 0),
+    gsSP2Triangles(12, 10, 4, 0, 3, 11, 5, 0),
+    gsSP2Triangles(12, 4, 6, 0, 3, 4, 10, 0),
+    gsSP2Triangles(9, 1, 0, 0, 9, 8, 1, 0),
+    gsSP1Triangle(7, 9, 0, 0),
+    gsSPEndDisplayList(),
+};

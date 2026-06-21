@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx jynx_part16_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x00FC, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, jynx_tex_arm_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, 128),
+    gsDPPipeSync(),
+    gsSPVertex(&jynx_vtx[276], 12, 0),
+    gsSP2Triangles(11, 10, 9, 0, 8, 10, 11, 0),
+    gsSP2Triangles(9, 7, 11, 0, 9, 10, 6, 0),
+    gsSP2Triangles(11, 7, 8, 0, 6, 10, 8, 0),
+    gsSP2Triangles(5, 7, 9, 0, 8, 7, 5, 0),
+    gsSP2Triangles(6, 4, 9, 0, 9, 4, 5, 0),
+    gsSP2Triangles(8, 3, 6, 0, 5, 3, 8, 0),
+    gsSP2Triangles(2, 4, 6, 0, 4, 1, 5, 0),
+    gsSP2Triangles(1, 4, 2, 0, 5, 1, 3, 0),
+    gsSP2Triangles(6, 3, 0, 0, 1, 2, 0, 0),
+    gsSP2Triangles(0, 3, 1, 0, 2, 6, 0, 0),
+    gsSPEndDisplayList(),
+};

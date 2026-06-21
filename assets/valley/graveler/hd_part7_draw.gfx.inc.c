@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx graveler_hd_part7_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x029901E5),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x024A00FF),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x02280186),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x0216029B),
+    gsSPVertex(&graveler_hd_vtx[563], 19, 4),
+    gsSPVertex(&graveler_hd_vtx[582], 5, 27),
+    gsSP1Triangle(22, 1, 0, 0),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x02A4020E),
+    gsSP1Triangle(21, 3, 2, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x01E301A9),
+    gsSP1Triangle(20, 0, 3, 0),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x029901E5),
+    gsSP2Triangles(29, 28, 19, 0, 19, 18, 29, 0),
+    gsSP2Triangles(2, 17, 16, 0, 0, 15, 14, 0),
+    gsSP2Triangles(14, 15, 31, 0, 13, 12, 30, 0),
+    gsSP2Triangles(11, 13, 30, 0, 0, 10, 9, 0),
+    gsSP2Triangles(9, 10, 8, 0, 3, 7, 6, 0),
+    gsSP1Triangle(27, 5, 4, 0),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx magmar_hd_part2_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, magmar_tex_skin2_pal),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 255),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x00FC, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, magmar_tex_skin2_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x05050765),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x00B106D0),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x04B30757),
+    gsSPModifyVertex(31, G_MWO_POINT_ST, 0x08B107D7),
+    gsSPVertex(&magmar_hd_vtx[20], 1, 0),
+    gsSP2Triangles(0, 31, 28, 0, 30, 31, 0, 0),
+    gsSP2Triangles(28, 29, 0, 0, 0, 29, 30, 0),
+    gsSPEndDisplayList(),
+};

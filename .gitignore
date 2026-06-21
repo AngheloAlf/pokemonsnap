@@ -2,7 +2,6 @@
 .splat/
 __pycache__/
 
-assets/
 build/
 expected/
 tools/ido5.3/

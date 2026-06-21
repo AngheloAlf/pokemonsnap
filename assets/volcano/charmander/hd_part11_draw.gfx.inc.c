@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx charmander_hd_part11_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x044F0711),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x06770712),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00B100E1),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x05640756),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x04C50670),
+    gsSPVertex(&charmander_hd_vtx[473], 9, 6),
+    gsSPVertex(&charmander_hd_vtx[482], 5, 27),
+    gsSP2Triangles(14, 30, 29, 0, 14, 29, 13, 0),
+    gsSP2Triangles(14, 31, 30, 0, 14, 13, 0, 0),
+    gsSP2Triangles(12, 28, 31, 0, 4, 0, 13, 0),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x034400DD),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x02150011),
+    gsSP2Triangles(12, 14, 0, 0, 28, 12, 11, 0),
+    gsSP2Triangles(11, 10, 28, 0, 10, 11, 9, 0),
+    gsSP2Triangles(4, 8, 5, 0, 8, 7, 27, 0),
+    gsSP2Triangles(27, 6, 8, 0, 5, 8, 6, 0),
+    gsSP1Triangle(5, 6, 2, 0),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x05F70670),
+    gsSP2Triangles(3, 11, 12, 0, 12, 0, 3, 0),
+    gsSP2Triangles(11, 1, 9, 0, 9, 1, 2, 0),
+    gsSP2Triangles(1, 11, 3, 0, 12, 31, 14, 0),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,4 @@
+- name: sprite1
+  type: IA8
+- name: sprite2
+  type: I8

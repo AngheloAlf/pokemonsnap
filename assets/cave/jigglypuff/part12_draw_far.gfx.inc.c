@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx jigglypuff_part12_draw_far[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_LIGHTING),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetAlphaCompare(G_AC_THRESHOLD),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_TEX_EDGE2),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, jigglypuff_tex_801881D8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 15),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, jigglypuff_tex_80188200_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&jigglypuff_vtx[222], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_LIGHTING),
+    gsSPEndDisplayList(),
+};

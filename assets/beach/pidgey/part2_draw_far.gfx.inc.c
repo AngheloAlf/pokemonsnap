@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx pidgey_part2_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, pidgey_tex_8019E4F8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 12),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, pidgey_tex_8019E520_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x01C20500),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0xFC66084A),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x078407AC),
+    gsSPVertex(&pidgey_vtx[426], 2, 3),
+    gsSPVertex(&pidgey_vtx[428], 2, 29),
+    gsSP2Triangles(30, 0, 1, 0, 1, 4, 30, 0),
+    gsSP2Triangles(30, 2, 0, 0, 3, 1, 2, 0),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x029D0813),
+    gsSP1Triangle(30, 29, 2, 0),
+    gsSPEndDisplayList(),
+};

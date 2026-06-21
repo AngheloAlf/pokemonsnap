@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx pidgey_part0_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, pidgey_tex_8019ED88),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, pidgey_tex_8019EDB0_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&pidgey_vtx[390], 31, 0),
+    gsSP2Triangles(30, 29, 28, 0, 27, 28, 26, 0),
+    gsSP2Triangles(28, 25, 26, 0, 24, 23, 22, 0),
+    gsSP2Triangles(21, 20, 19, 0, 18, 21, 19, 0),
+    gsSP2Triangles(17, 16, 15, 0, 14, 17, 15, 0),
+    gsSP2Triangles(13, 15, 12, 0, 11, 13, 12, 0),
+    gsSP2Triangles(10, 14, 9, 0, 8, 10, 9, 0),
+    gsSP2Triangles(9, 14, 7, 0, 6, 9, 7, 0),
+    gsSP2Triangles(5, 4, 3, 0, 2, 1, 0, 0),
+    gsSPEndDisplayList(),
+};

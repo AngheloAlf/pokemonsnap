@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx vileplume_hd_part12_draw[] = {
+    gsSPVertex(&vileplume_hd_vtx[454], 25, 0),
+    gsSP2Triangles(24, 23, 22, 0, 23, 24, 21, 0),
+    gsSP2Triangles(22, 20, 24, 0, 21, 19, 23, 0),
+    gsSP2Triangles(18, 23, 19, 0, 17, 22, 23, 0),
+    gsSP2Triangles(16, 20, 22, 0, 19, 21, 15, 0),
+    gsSP2Triangles(14, 17, 18, 0, 19, 13, 18, 0),
+    gsSP2Triangles(22, 12, 16, 0, 11, 18, 13, 0),
+    gsSP2Triangles(15, 10, 19, 0, 13, 19, 10, 0),
+    gsSP2Triangles(17, 9, 12, 0, 8, 10, 15, 0),
+    gsSP2Triangles(12, 8, 7, 0, 15, 7, 8, 0),
+    gsSP2Triangles(8, 12, 9, 0, 14, 6, 9, 0),
+    gsSP2Triangles(6, 14, 5, 0, 11, 4, 5, 0),
+    gsSP2Triangles(4, 13, 3, 0, 10, 8, 2, 0),
+    gsSP2Triangles(4, 1, 5, 0, 9, 2, 8, 0),
+    gsSP2Triangles(0, 6, 5, 0, 1, 0, 5, 0),
+    gsSP2Triangles(6, 0, 2, 0, 0, 1, 3, 0),
+    gsSP2Triangles(14, 11, 5, 0, 12, 22, 17, 0),
+    gsSP2Triangles(18, 11, 14, 0, 9, 17, 14, 0),
+    gsSP2Triangles(13, 4, 11, 0, 2, 9, 6, 0),
+    gsSP2Triangles(3, 1, 4, 0, 3, 2, 0, 0),
+    gsSP2Triangles(2, 3, 10, 0, 23, 18, 17, 0),
+    gsSP2Triangles(7, 16, 12, 0, 10, 3, 13, 0),
+    gsSPEndDisplayList(),
+};

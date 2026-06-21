@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx dragonite_part1_draw_near[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x023B01D0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01E8014B),
+    gsSPVertex(&dragonite_vtx[41], 6, 4),
+    gsSPVertex(&dragonite_vtx[47], 5, 26),
+    gsSP1Triangle(27, 9, 1, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x02340228),
+    gsSP1Triangle(0, 1, 26, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01E8014B),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x01DA0225),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x015A020C),
+    gsSP2Triangles(8, 0, 26, 0, 1, 7, 27, 0),
+    gsSP2Triangles(2, 0, 8, 0, 27, 7, 30, 0),
+    gsSP2Triangles(29, 28, 6, 0, 5, 2, 8, 0),
+    gsSP2Triangles(4, 30, 7, 0, 30, 4, 28, 0),
+    gsSP2Triangles(6, 28, 4, 0, 7, 3, 4, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x01CC0286),
+    gsSP1Triangle(3, 2, 5, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x015A020C),
+    gsSP2Triangles(6, 4, 3, 0, 7, 1, 3, 0),
+    gsSPEndDisplayList(),
+};

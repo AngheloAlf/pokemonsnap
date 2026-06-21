@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx vileplume_part14_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0x63, 0x6B, 0x84, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&vileplume_vtx[170], 11, 3),
+    gsSP2Triangles(13, 1, 2, 0, 13, 12, 1, 0),
+    gsSP2Triangles(12, 11, 1, 0, 10, 12, 13, 0),
+    gsSP2Triangles(12, 9, 11, 0, 10, 9, 12, 0),
+    gsSP2Triangles(8, 0, 1, 0, 13, 2, 7, 0),
+    gsSP2Triangles(1, 11, 8, 0, 2, 0, 8, 0),
+    gsSP2Triangles(13, 7, 10, 0, 10, 6, 9, 0),
+    gsSP2Triangles(5, 11, 9, 0, 8, 7, 2, 0),
+    gsSP2Triangles(9, 6, 5, 0, 5, 8, 11, 0),
+    gsSP2Triangles(10, 4, 6, 0, 10, 7, 3, 0),
+    gsSP2Triangles(3, 4, 10, 0, 8, 3, 7, 0),
+    gsSP2Triangles(3, 5, 6, 0, 4, 3, 6, 0),
+    gsSP1Triangle(5, 3, 8, 0),
+    gsSPEndDisplayList(),
+};

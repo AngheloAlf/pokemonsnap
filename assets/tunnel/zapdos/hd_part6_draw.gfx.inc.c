@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx zapdos_hd_part6_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, zapdos_tex_80182968),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, zapdos_tex_80182990_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x009C01AE),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00A400F8),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x002000DF),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x001F019A),
+    gsSPVertex(&zapdos_hd_vtx[144], 4, 4),
+    gsSPVertex(&zapdos_hd_vtx[148], 4, 28),
+    gsSP2Triangles(30, 7, 29, 0, 28, 7, 30, 0),
+    gsSP2Triangles(29, 6, 31, 0, 7, 5, 29, 0),
+    gsSP2Triangles(31, 6, 28, 0, 29, 5, 6, 0),
+    gsSP2Triangles(28, 4, 7, 0, 28, 6, 4, 0),
+    gsSP2Triangles(5, 7, 0, 0, 0, 6, 5, 0),
+    gsSP2Triangles(0, 7, 3, 0, 2, 4, 6, 0),
+    gsSP2Triangles(7, 2, 3, 0, 6, 0, 1, 0),
+    gsSP2Triangles(1, 2, 6, 0, 2, 7, 4, 0),
+    gsSPEndDisplayList(),
+};

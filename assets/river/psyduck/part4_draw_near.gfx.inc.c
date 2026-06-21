@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx psyduck_part4_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, psyduck_tex_80160A28),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x00FC),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, psyduck_tex_80160A50_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&psyduck_vtx[48], 20, 0),
+    gsSP2Triangles(19, 18, 17, 0, 19, 17, 16, 0),
+    gsSP2Triangles(16, 17, 15, 0, 16, 14, 19, 0),
+    gsSP2Triangles(14, 13, 19, 0, 16, 12, 14, 0),
+    gsSP2Triangles(11, 10, 9, 0, 10, 11, 8, 0),
+    gsSP2Triangles(7, 6, 5, 0, 5, 6, 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 1, 0, 3, 0),
+    gsSPEndDisplayList(),
+};

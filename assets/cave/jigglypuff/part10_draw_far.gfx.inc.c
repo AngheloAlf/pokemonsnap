@@ -1,0 +1,14 @@
+#include "common.h"
+
+Gfx jigglypuff_part10_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&jigglypuff_vtx[331], 1, 3),
+    gsSP2Triangles(3, 0, 2, 0, 3, 2, 1, 0),
+    gsSP1Triangle(3, 1, 0, 0),
+    gsSPEndDisplayList(),
+};

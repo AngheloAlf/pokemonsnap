@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx charmeleon_hd_part11_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x019C0254),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01210272),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x02DC0272),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x02610254),
+    gsSPVertex(&charmeleon_hd_vtx[382], 1, 5),
+    gsSP2Triangles(0, 1, 5, 0, 5, 4, 0, 0),
+    gsSP1Triangle(4, 5, 2, 0),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&charmeleon_hd_vtx[383], 1, 5),
+    gsSP2Triangles(5, 1, 3, 0, 3, 2, 5, 0),
+    gsSPEndDisplayList(),
+};

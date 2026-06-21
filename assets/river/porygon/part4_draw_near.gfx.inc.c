@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx porygon_part4_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, porygon_tex_801728A8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0x4000, 0x4000, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0x0100, 0x0100, 0x017C, 0x017C),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x08000800),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x08000800),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x0C000800),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x0C000800),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x0C000C00),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x08000C00),
+    gsSPVertex(&porygon_vtx[195], 6, 6),
+    gsSP2Triangles(5, 1, 11, 0, 4, 5, 10, 0),
+    gsSP2Triangles(0, 3, 9, 0, 9, 8, 0, 0),
+    gsSP2Triangles(7, 4, 10, 0, 6, 2, 4, 0),
+    gsSPEndDisplayList(),
+};

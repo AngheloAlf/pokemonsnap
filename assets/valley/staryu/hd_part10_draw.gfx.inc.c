@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx staryu_hd_part10_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(6, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(7, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&staryu_hd_vtx[551], 8, 8),
+    gsSPVertex(&staryu_hd_vtx[559], 8, 24),
+    gsSP2Triangles(15, 2, 0, 0, 14, 1, 4, 0),
+    gsSP2Triangles(15, 13, 2, 0, 15, 25, 13, 0),
+    gsSP2Triangles(24, 14, 12, 0, 4, 12, 14, 0),
+    gsSP2Triangles(25, 31, 13, 0, 26, 28, 11, 0),
+    gsSP2Triangles(10, 6, 3, 0, 3, 9, 10, 0),
+    gsSP2Triangles(8, 11, 5, 0, 5, 7, 8, 0),
+    gsSP2Triangles(11, 8, 26, 0, 9, 30, 27, 0),
+    gsSP2Triangles(12, 29, 24, 0, 27, 10, 9, 0),
+    gsSPEndDisplayList(),
+};

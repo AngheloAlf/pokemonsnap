@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx pikachu_hd_part12_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00FF0020),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00D4FD9F),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00B7FBF1),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00ABFCEA),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00C3FF0F),
+    gsSPVertex(&pikachu_hd_vtx[314], 10, 5),
+    gsSP2Triangles(0, 1, 14, 0, 13, 0, 14, 0),
+    gsSP2Triangles(1, 2, 12, 0, 0, 13, 11, 0),
+    gsSP2Triangles(14, 1, 12, 0, 4, 0, 11, 0),
+    gsSP2Triangles(12, 2, 3, 0, 10, 3, 4, 0),
+    gsSP2Triangles(13, 14, 9, 0, 11, 10, 4, 0),
+    gsSP2Triangles(10, 12, 3, 0, 11, 13, 8, 0),
+    gsSP2Triangles(14, 12, 7, 0, 8, 13, 9, 0),
+    gsSP2Triangles(7, 12, 10, 0, 10, 11, 6, 0),
+    gsSP2Triangles(9, 14, 7, 0, 5, 7, 10, 0),
+    gsSP2Triangles(6, 11, 8, 0, 5, 10, 6, 0),
+    gsSP2Triangles(6, 8, 9, 0, 7, 5, 9, 0),
+    gsSP1Triangle(5, 6, 9, 0),
+    gsSPEndDisplayList(),
+};

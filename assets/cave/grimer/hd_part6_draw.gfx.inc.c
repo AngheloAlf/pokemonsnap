@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx grimer_hd_part6_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x112E06CB),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x113B06FC),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x123406A0),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x12E106AE),
+    gsSPModifyVertex(31, G_MWO_POINT_ST, 0x121506F3),
+    gsSPVertex(&grimer_hd_vtx[193], 11, 0),
+    gsSP2Triangles(10, 31, 28, 0, 28, 27, 9, 0),
+    gsSP2Triangles(8, 30, 31, 0, 7, 28, 9, 0),
+    gsSP2Triangles(28, 7, 10, 0, 27, 29, 6, 0),
+    gsSP2Triangles(27, 6, 9, 0, 8, 31, 5, 0),
+    gsSP2Triangles(5, 31, 10, 0, 30, 4, 29, 0),
+    gsSP2Triangles(9, 6, 3, 0, 6, 2, 3, 0),
+    gsSP2Triangles(30, 1, 4, 0, 8, 1, 30, 0),
+    gsSP2Triangles(1, 2, 4, 0, 8, 0, 1, 0),
+    gsSP2Triangles(1, 3, 2, 0, 5, 0, 8, 0),
+    gsSPEndDisplayList(),
+};

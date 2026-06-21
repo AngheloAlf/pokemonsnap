@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx slowpoke_part0_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xFF, 0x8C, 0x94, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPVertex(&slowpoke_vtx[0], 28, 0),
+    gsSP2Triangles(27, 26, 25, 0, 24, 27, 25, 0),
+    gsSP2Triangles(24, 25, 23, 0, 24, 23, 22, 0),
+    gsSP2Triangles(26, 27, 21, 0, 21, 20, 26, 0),
+    gsSP2Triangles(19, 26, 20, 0, 19, 18, 26, 0),
+    gsSP2Triangles(19, 17, 18, 0, 18, 17, 16, 0),
+    gsSP2Triangles(15, 22, 16, 0, 16, 17, 15, 0),
+    gsSP2Triangles(21, 14, 20, 0, 20, 13, 19, 0),
+    gsSP2Triangles(14, 21, 12, 0, 11, 14, 12, 0),
+    gsSP2Triangles(22, 10, 24, 0, 9, 10, 22, 0),
+    gsSP2Triangles(8, 24, 10, 0, 7, 8, 10, 0),
+    gsSP2Triangles(6, 8, 7, 0, 7, 5, 6, 0),
+    gsSP2Triangles(4, 6, 5, 0, 4, 5, 3, 0),
+    gsSP2Triangles(6, 12, 8, 0, 10, 9, 7, 0),
+    gsSP2Triangles(12, 6, 4, 0, 22, 15, 9, 0),
+    gsSP2Triangles(13, 2, 19, 0, 3, 2, 1, 0),
+    gsSP2Triangles(4, 11, 12, 0, 1, 2, 13, 0),
+    gsSP2Triangles(0, 7, 9, 0, 1, 4, 3, 0),
+    gsSP1Triangle(5, 7, 0, 0),
+    gsSPEndDisplayList(),
+};

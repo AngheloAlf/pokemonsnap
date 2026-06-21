@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx gate_part1[] = {
+    gsSPVertex(&gate_vtx[191], 8, 0),
+    gsSPCullDisplayList(0, 7),
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_FOG),
+    gsDPSetCycleType(G_CYC_1CYCLE),
+    gsDPSetRenderMode(G_RM_AA_ZB_TEX_EDGE, G_RM_AA_ZB_TEX_EDGE2),
+    gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, PRIMITIVE, 0, TEXEL0, 0, SHADE, 0, TEXEL0, 0, PRIMITIVE, 0),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xFF, 0xFF),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 7, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 16, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 7, G_TX_NOLOD),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 128),
+    gsDPPipeSync(),
+    gsSPVertex(&gate_vtx[132], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsDPSetCycleType(G_CYC_2CYCLE),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
+    gsSPSetGeometryMode(G_FOG),
+    gsSPEndDisplayList(),
+};

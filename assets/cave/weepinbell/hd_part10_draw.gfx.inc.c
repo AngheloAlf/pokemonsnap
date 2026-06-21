@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx weepinbell_hd_part10_draw[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00770034),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x007F0007),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x006B005F),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x0064007F),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x006B0050),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00770025),
+    gsSPVertex(&weepinbell_hd_vtx[181], 13, 6),
+    gsSP2Triangles(1, 5, 18, 0, 18, 17, 1, 0),
+    gsSP2Triangles(18, 5, 4, 0, 1, 17, 16, 0),
+    gsSP2Triangles(16, 0, 1, 0, 15, 17, 18, 0),
+    gsSP2Triangles(4, 14, 18, 0, 18, 13, 15, 0),
+    gsSP2Triangles(16, 17, 15, 0, 12, 13, 18, 0),
+    gsSP2Triangles(18, 14, 12, 0, 13, 11, 15, 0),
+    gsSP2Triangles(10, 14, 4, 0, 2, 0, 16, 0),
+    gsSP2Triangles(15, 11, 9, 0, 15, 9, 16, 0),
+    gsSP2Triangles(11, 13, 12, 0, 4, 3, 10, 0),
+    gsSP2Triangles(12, 14, 10, 0, 16, 9, 8, 0),
+    gsSP2Triangles(16, 7, 2, 0, 12, 6, 11, 0),
+    gsSP2Triangles(8, 7, 16, 0, 6, 8, 11, 0),
+    gsSP2Triangles(10, 3, 2, 0, 2, 7, 10, 0),
+    gsSP2Triangles(10, 6, 12, 0, 10, 7, 8, 0),
+    gsSP2Triangles(8, 6, 10, 0, 11, 8, 9, 0),
+    gsSPEndDisplayList(),
+};

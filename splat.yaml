@@ -761,19 +761,6 @@ segments:
     exclusive_ram_id: unk8011B050
     subsegments:
     - [0xA74E0, c]
-    - [0xA74F0]
-
-    - [auto, c, A74F0]
-    - [auto, c, butterfree/textures]
-    - [auto, c, doduo/textures]
-    - [auto, c, eevee/textures]
-    - [auto, c, kangaskhan/textures]
-    - [auto, c, snorlax/textures]
-    - [auto, c, lapras/textures]
-    - [auto, c, chansey/textures]
-    - [auto, c, meowth/textures]
-    - [auto, c, pidgey/textures]
-    - [auto, c, scyther/textures]
 
     - [0xA74F0, bin, A74F0] # , data]
     - [0xDEDB0, bin, butterfree/textures]
@@ -1092,8 +1079,6 @@ segments:
     - [auto, c, pkmn_1017/model]
     - [auto, c, computer/textures]
 
-    - [auto, c, kakuna/textures]
-
     - [auto, c, magnemite/textures]
     - [auto, c, magnemite/anim/model/run]
     - [auto, c, magnemite/anim/model/pulse]
@@ -1121,8 +1106,6 @@ segments:
     - [auto, c, dugtrio/anim/model/rise]
     - [auto, c, dugtrio/anim/model/unburrow]
 
-    - [auto, c, electabuzz/textures]
-
     - [auto, c, electrode/textures]
     - [auto, c, electrode/anim/model/explode]
     - [auto, c, electrode/anim/model/idle]
@@ -1133,8 +1116,6 @@ segments:
 
     - [auto, c, magneton/textures]
     - [auto, c, magneton/anim/animation]
-
-    - [auto, c, zapdos/textures]
 
     - [0x162CC0, .data, world/world]
     - [0x164850, .data, world/world_gfx]
@@ -1920,16 +1901,16 @@ segments:
     - [0x1F5E70, c]
     - [0x1F5E80]
 
-    - [auto, c, 1F5E80]
-    - [auto, c, grimer/textures]
-    - [auto, c, muk/textures]
-    - [auto, c, koffing/textures]
-    - [auto, c, articuno/textures]
-    - [auto, c, ditto/textures]
+    # - [auto, c, 1F5E80]
+    # - [auto, c, grimer/textures]
+    # - [auto, c, muk/textures]
+    # - [auto, c, koffing/textures]
+    # - [auto, c, articuno/textures]
+    # - [auto, c, ditto/textures]
     - [auto, c, jynx/textures]
-    - [auto, c, 264E10]
-    - [auto, c, victreebel/textures]
-    - [auto, c, weepinbell/textures]
+    # - [auto, c, 264E10]
+    # - [auto, c, victreebel/textures]
+    # - [auto, c, weepinbell/textures]
 
     - [0x1F5E80, bin]
     - [0x220000, bin, grimer/textures]
@@ -2276,19 +2257,6 @@ segments:
     exclusive_ram_id: unk8012A0C0
     subsegments:
     - [0x29A190, c]
-    - [0x29A1A0]
-
-    - [auto, c, 29A1A0]
-    - [auto, c, psyduck/textures]
-    - [auto, c, poliwag/textures]
-    - [auto, c, cloyster/textures]
-    - [auto, c, porygon/textures]
-    - [auto, c, vileplume/textures]
-    - [auto, c, shellder/textures]
-    - [auto, c, shellder2/textures]
-    - [auto, c, metapod/textures]
-    - [auto, c, slowpoke/textures]
-    - [auto, c, slowbro/textures]
 
     - [0x29A1A0, bin] # , data]
     - [0x2D0AF0, bin, psyduck/textures]
@@ -4879,20 +4847,6 @@ segments:
     exclusive_ram_id: unk800FFF90
     subsegments:
     - [0x3F63D0, c]
-    - [0x3F63E0]
-    - [auto, c, 3F63E0]
-    - [auto, c, graveler/textures]
-    - [auto, c, gyarados/textures]
-    - [auto, c, staryu/textures]
-    - [auto, c, geodude/textures]
-    - [auto, c, dragonite/textures]
-    - [auto, c, mankey/textures]
-    - [auto, c, dratini/textures]
-    - [auto, c, sandshrew/textures]
-    - [auto, c, sandslash/textures]
-    - [auto, c, starmie/textures]
-    - [auto, c, goldeen/textures]
-    - [auto, c, squirtle/textures]
 
     - [0x3F63E0, bin] # , data]
     - [0x425530, bin, graveler/textures]
@@ -5256,9 +5210,6 @@ segments:
     exclusive_ram_id: unk800F5D90
     subsegments:
     - [0x4A8160, c]
-    - [0x4A8170]
-    - [auto, c, 4A8170]
-    - [auto, c, mew/textures]
 
     - [0x4A8170, bin] # , data]
     - [0x4D8CE8, bin, mew/textures]

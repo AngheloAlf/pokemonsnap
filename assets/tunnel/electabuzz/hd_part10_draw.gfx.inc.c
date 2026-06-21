@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx electabuzz_hd_part10_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 2, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 1, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 2, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, electabuzz_tex_8016E230),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 2),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x000C, 0x0024),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, electabuzz_tex_8016E240),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 39, 2048),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x003F015A),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x007F015B),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x003F012A),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x0000015A),
+    gsSPVertex(&electabuzz_hd_vtx[343], 4, 28),
+    gsSP2Triangles(29, 28, 0, 0, 0, 28, 31, 0),
+    gsSP2Triangles(2, 30, 29, 0, 31, 30, 2, 0),
+    gsSP2Triangles(3, 29, 0, 0, 3, 2, 29, 0),
+    gsSP2Triangles(1, 0, 31, 0, 1, 31, 2, 0),
+    gsSPEndDisplayList(),
+};

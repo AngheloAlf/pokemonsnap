@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx squirtle_hd_part5_draw[] = {
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&squirtle_hd_vtx[338], 24, 5),
+    gsSP2Triangles(2, 3, 28, 0, 3, 27, 28, 0),
+    gsSP2Triangles(28, 27, 26, 0, 27, 25, 26, 0),
+    gsSP2Triangles(25, 27, 24, 0, 23, 25, 24, 0),
+    gsSP2Triangles(24, 27, 3, 0, 24, 22, 23, 0),
+    gsSP2Triangles(22, 24, 4, 0, 0, 22, 4, 0),
+    gsSP2Triangles(4, 24, 3, 0, 21, 2, 28, 0),
+    gsSP2Triangles(21, 20, 22, 0, 19, 20, 28, 0),
+    gsSP2Triangles(28, 18, 19, 0, 21, 1, 2, 0),
+    gsSP2Triangles(22, 0, 21, 0, 19, 17, 20, 0),
+    gsSP2Triangles(22, 16, 23, 0, 28, 20, 21, 0),
+    gsSP2Triangles(22, 20, 15, 0, 20, 14, 15, 0),
+    gsSP2Triangles(15, 13, 22, 0, 0, 1, 21, 0),
+    gsSP2Triangles(12, 11, 10, 0, 11, 9, 10, 0),
+    gsSP2Triangles(8, 12, 10, 0, 9, 7, 10, 0),
+    gsSP2Triangles(6, 8, 10, 0, 5, 6, 10, 0),
+    gsSP1Triangle(7, 5, 10, 0),
+    gsSPEndDisplayList(),
+};

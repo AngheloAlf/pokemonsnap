@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx rapidash_part12_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetCycleType(G_CYC_2CYCLE),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_OPA_SURF2),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xF8, 0x81, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&rapidash_vtx[207], 11, 5),
+    gsSPVertex(&rapidash_vtx[218], 4, 27),
+    gsSP2Triangles(15, 27, 29, 0, 27, 14, 3, 0),
+    gsSP2Triangles(29, 13, 15, 0, 4, 28, 12, 0),
+    gsSP2Triangles(2, 3, 14, 0, 30, 3, 4, 0),
+    gsSP2Triangles(4, 1, 11, 0, 11, 10, 4, 0),
+    gsSP2Triangles(9, 29, 10, 0, 9, 10, 8, 0),
+    gsSP2Triangles(7, 9, 0, 0, 8, 1, 9, 0),
+    gsSP2Triangles(1, 0, 9, 0, 0, 2, 7, 0),
+    gsSP1Triangle(6, 3, 5, 0),
+    gsSPEndDisplayList(),
+};

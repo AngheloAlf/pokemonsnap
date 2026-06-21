@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx ditto_part12_draw_far[] = {
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_TEXTURE_GEN),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&ditto_vtx[203], 1, 10),
+    gsSPVertex(&ditto_vtx[209], 1, 11),
+    gsSPVertex(&ditto_vtx[297], 7, 12),
+    gsSP2Triangles(8, 18, 9, 0, 9, 18, 5, 0),
+    gsSP2Triangles(17, 18, 8, 0, 8, 6, 17, 0),
+    gsSP2Triangles(18, 16, 5, 0, 11, 17, 6, 0),
+    gsSP2Triangles(16, 15, 5, 0, 11, 6, 14, 0),
+    gsSP2Triangles(7, 14, 6, 0, 15, 3, 5, 0),
+    gsSP2Triangles(13, 14, 7, 0, 13, 7, 4, 0),
+    gsSP2Triangles(3, 15, 1, 0, 15, 10, 1, 0),
+    gsSP2Triangles(2, 13, 4, 0, 1, 10, 0, 0),
+    gsSP2Triangles(2, 12, 13, 0, 0, 10, 12, 0),
+    gsSP1Triangle(12, 2, 0, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_TEXTURE_GEN),
+    gsSPEndDisplayList(),
+};

@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx ditto_hd_part14_draw[] = {
+    gsDPPipeSync(),
+    gsSPVertex(&ditto_hd_vtx[371], 11, 12),
+    gsSP2Triangles(2, 7, 22, 0, 22, 7, 5, 0),
+    gsSP2Triangles(21, 3, 2, 0, 20, 2, 22, 0),
+    gsSP2Triangles(2, 20, 21, 0, 1, 3, 21, 0),
+    gsSP2Triangles(19, 5, 6, 0, 5, 19, 22, 0),
+    gsSP2Triangles(21, 18, 1, 0, 6, 17, 19, 0),
+    gsSP2Triangles(18, 8, 1, 0, 22, 16, 20, 0),
+    gsSP2Triangles(17, 6, 4, 0, 19, 16, 22, 0),
+    gsSP2Triangles(20, 16, 21, 0, 17, 16, 19, 0),
+    gsSP2Triangles(21, 16, 18, 0, 17, 4, 15, 0),
+    gsSP2Triangles(15, 16, 17, 0, 8, 14, 9, 0),
+    gsSP2Triangles(18, 16, 14, 0, 13, 15, 4, 0),
+    gsSP2Triangles(4, 11, 13, 0, 13, 16, 15, 0),
+    gsSP2Triangles(14, 16, 12, 0, 10, 9, 14, 0),
+    gsSP2Triangles(12, 16, 13, 0, 13, 11, 0, 0),
+    gsSP2Triangles(12, 13, 0, 0, 14, 12, 10, 0),
+    gsSP2Triangles(0, 10, 12, 0, 8, 18, 14, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_TEXTURE_GEN),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPEndDisplayList(),
+};

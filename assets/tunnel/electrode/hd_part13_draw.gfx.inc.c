@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx electrode_hd_part13_draw[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_FOG),
+    gsDPSetRenderMode(G_RM_PASS, G_RM_AA_ZB_XLU_SURF2),
+    gsDPSetCombineLERP(0, 0, 0, PRIMITIVE, 0, 0, 0, TEXEL0, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xD9B3, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0x005B, 0x0049, 0x00D7, 0x00C5),
+    gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_16b, 1, electrode_tex_bright_spot_png),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 512),
+    gsDPPipeSync(),
+    gsSPVertex(&electrode_hd_vtx[165], 8, 0),
+    gsSP2Triangles(7, 6, 5, 0, 4, 7, 5, 0),
+    gsSP2Triangles(7, 4, 3, 0, 4, 5, 2, 0),
+    gsSP2Triangles(1, 4, 2, 0, 0, 3, 1, 0),
+    gsSP1Triangle(3, 4, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_FOG),
+    gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_XLU_SURF2),
+    gsSPEndDisplayList(),
+};

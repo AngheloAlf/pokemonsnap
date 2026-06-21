@@ -1,0 +1,345 @@
+#undef __ANIMFILE
+#define __ANIMFILE charizard_modelanim_appear
+
+#include <anim_script.h>
+
+static AnimLine2 charizard_modelanim_appear_root;
+static AnimLine1 charizard_modelanim_appear_0;
+static AnimLine3 charizard_modelanim_appear_1;
+static AnimLine3 charizard_modelanim_appear_2;
+static AnimLine3 charizard_modelanim_appear_3;
+static AnimLine3 charizard_modelanim_appear_4;
+static AnimLine3 charizard_modelanim_appear_5;
+static AnimLine3 charizard_modelanim_appear_6;
+static AnimLine3 charizard_modelanim_appear_7;
+static AnimLine1 charizard_modelanim_appear_8;
+static AnimLine2 charizard_modelanim_appear_9;
+static AnimLine4 charizard_modelanim_appear_10;
+static AnimLine6 charizard_modelanim_appear_11;
+static AnimLine3 charizard_modelanim_appear_12;
+static AnimLine4 charizard_modelanim_appear_13;
+static AnimLine3 charizard_modelanim_appear_14;
+static AnimLine3 charizard_modelanim_appear_15;
+
+AnimCmd* charizard_modelanim_appear[] = {
+    (AnimCmd*)&charizard_modelanim_appear_root,
+    (AnimCmd*)&charizard_modelanim_appear_0,
+    (AnimCmd*)&charizard_modelanim_appear_1,
+    (AnimCmd*)&charizard_modelanim_appear_2,
+    (AnimCmd*)&charizard_modelanim_appear_3,
+    (AnimCmd*)&charizard_modelanim_appear_4,
+    (AnimCmd*)&charizard_modelanim_appear_5,
+    (AnimCmd*)&charizard_modelanim_appear_6,
+    (AnimCmd*)&charizard_modelanim_appear_7,
+    (AnimCmd*)&charizard_modelanim_appear_8,
+    (AnimCmd*)&charizard_modelanim_appear_9,
+    (AnimCmd*)&charizard_modelanim_appear_10,
+    (AnimCmd*)&charizard_modelanim_appear_11,
+    (AnimCmd*)&charizard_modelanim_appear_12,
+    (AnimCmd*)&charizard_modelanim_appear_13,
+    (AnimCmd*)&charizard_modelanim_appear_14,
+    (AnimCmd*)&charizard_modelanim_appear_15,
+};
+
+asBegin_2(charizard_modelanim_appear_root)
+    asSetWithRateBlock_2f(0, POSY, -1721.5999755859375, 36.5572395324707);
+    asSetZeroRateBlock_1(40, POSY, -240.64012145996094);
+    asSetWithRateBlock_2(2, POSY, -226.77452087402344, -0.4017085134983063);
+    asSetWithRateBlock_2(2, POSY, -242.24696350097656, -0.24559493362903595);
+    asSetZeroRateBlock_1(1, POSY, -227.5113067626953);
+    asSetWithRateBlock_2(1, POSY, -242.24696350097656, 1.4585729837417603);
+    asSetWithRate_2(24, POSY, -191.04689025878906, -0.016155686229467392);
+    asWait(16);
+    asPlaySound(8, 0, 1);
+    asSetWithRateBlock_2(35, POSY, -243.20013427734375, -0.80235755443573);
+    asSetZeroRateBlock_1(30, POSY, -243.20013427734375);
+asEnd();
+
+asBegin_1(charizard_modelanim_appear_0)
+    asSetZeroRate_1f(0, ROTX, 0.2617993950843811);
+    asSetAfterBlock_5(0, ROTY, 0.0, ROTZ, 0.00017443469550926238, POSX, 0.0, POSY, 539.1506958007812, POSZ, 0.0);
+    asSetZeroRateBlock_1(47, ROTX, 0.26262998580932617);
+    asSetWithRateBlock_2(3, ROTX, 0.4544943869113922, -0.026263004168868065);
+    asSetZeroRateBlock_1(7, ROTX, 0.0);
+    asSetWithRateBlock_2(13, ROTX, -0.2617993950843811, 0.00025311222998425364);
+    asSetWithRateBlock_2(22, ROTX, -0.23588523268699646, 0.0027033493388444185);
+    asSetWithRateBlock_2(5, ROTX, 0.27104219794273376, 0.0030306135304272175);
+    asSetZeroRateBlock_1(8, ROTX, 0.20957913994789124);
+    asSetZeroRateBlock_1(30, ROTX, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_1)
+    asSetZeroRate_3f(0, ROTX, 0.26487740874290466, ROTY, -0.7504405379295349, ROTZ, -0.35427403450012207);
+    asSetAfterBlock_3(0, POSX, 100.0, POSY, 260.8492736816406, POSZ, -130.0);
+    asSetZeroRateBlock_3(48, ROTX, 0.26487740874290466, ROTY, -0.7504405379295349, ROTZ, -0.35427403450012207);
+    asSetWithRate_2(6, ROTX, 0.0, -0.027719831094145775);
+    asSetZeroRateBlock_2(6, ROTY, 0.0, ROTZ, 0.0);
+    asSetZeroRate_1(81, ROTZ, 0.0);
+    asSetWithRateBlock_4(13, ROTX, -0.2617993950843811, -0.00939792487770319, ROTY, 0.5235987901687622, 0.010631146840751171);
+    asSetWithRateBlock_4(13, ROTX, -0.24434609711170197, 0.007955719716846943, ROTY, 0.45378559827804565, -0.012667734175920486);
+    asSetWithRate_2(50, ROTX, 0.0, 0.00444265641272068);
+    asSetWithRateBlock_2(49, ROTY, -0.2617993950843811, -0.013010636903345585);
+    asSetZeroRate_1(6, ROTY, -0.2617993950843811);
+    asWait(1);
+    asSetZeroRateBlock_1(5, ROTX, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_2)
+    asSetZeroRate_3f(0, ROTX, 0.2842736840248108, ROTY, -1.3116754293441772, ROTZ, -0.5504620671272278);
+    asSetAfterBlock_3(0, POSX, 381.31365966796875, POSY, 901.2130737304688, POSZ, 171.2157745361328);
+    asSetZeroRateBlock_3(52, ROTX, 0.2842736840248108, ROTY, -1.3116754293441772, ROTZ, -0.5504620671272278);
+    asSetWithRateBlock_6(5, ROTX, 0.05235987901687622, -0.04061051830649376, ROTY, 0.3490658402442932, 0.09876549988985062, ROTZ, 0.1745329201221466, 0.05428668484091759);
+    asSetWithRate_4(18, ROTY, 0.9599310755729675, 0.006768324412405491, ROTZ, 0.6981316804885864, 0.0033863100688904524);
+    asSetZeroRateBlock_1(2, ROTX, 0.0);
+    asSetWithRateBlock_2(16, ROTX, 0.2617993950843811, 0.0063408659771084785);
+    asSetZeroRateBlock_3(60, ROTX, 0.0, ROTY, -0.5235987901687622, ROTZ, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_3)
+    asSetZeroRate_3f(0, ROTX, 0.264717161655426, ROTY, 0.7508800029754639, ROTZ, 0.3541968762874603);
+    asSetAfterBlock_3(0, POSX, -100.0, POSY, 260.8492736816406, POSZ, -130.0);
+    asSetZeroRateBlock_3(48, ROTX, 0.264717161655426, ROTY, 0.7508800029754639, ROTZ, 0.3541968762874603);
+    asSetZeroRateBlock_3(6, ROTX, 0.0, ROTY, 0.0018151425756514072, ROTZ, 0.0);
+    asSetZeroRate_1(81, ROTZ, 0.0);
+    asSetWithRateBlock_4(13, ROTX, -0.2617993950843811, -0.009773842059075832, ROTY, -0.5235987901687622, -0.006237589288502932);
+    asSetWithRate_2(13, ROTY, -0.471238911151886, 0.012466656044125557);
+    asSetWithRateBlock_2(12, ROTX, -0.24434609711170197, 0.00968520250171423);
+    asSetWithRate_2(51, ROTX, 0.0, -0.0019300415879115462);
+    asWait(1);
+    asSetWithRateBlock_2(50, ROTY, 0.2617993950843811, 0.01332796923816204);
+    asSetZeroRateBlock_2(5, ROTX, 0.0, ROTY, 0.2617993950843811);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_4)
+    asSetZeroRate_3f(0, ROTX, 0.2842736840248108, ROTY, 1.314380407333374, ROTZ, 0.54378741979599);
+    asSetAfterBlock_3(0, POSX, -381.30999755859375, POSY, 901.2100219726562, POSZ, 171.22000122070312);
+    asSetZeroRateBlock_3(52, ROTX, 0.2842736840248108, ROTY, 1.314380407333374, ROTZ, 0.54378741979599);
+    asSetWithRateBlock_6(5, ROTX, 0.05235987901687622, -0.04061051830649376, ROTY, -0.3490658402442932, -0.09888309985399246, ROTZ, -0.1745329201221466, -0.053996484726667404);
+    asSetWithRate_4(18, ROTY, -0.9599310755729675, -0.005300135351717472, ROTZ, -0.6981316804885864, 0.0004627766029443592);
+    asSetZeroRateBlock_1(2, ROTX, 0.0);
+    asSetWithRateBlock_2(16, ROTX, 0.2617993950843811, 0.006122213322669268);
+    asSetZeroRateBlock_3(60, ROTX, 0.0, ROTY, 0.5235987901687622, ROTZ, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_5)
+    asSetZeroRate_3f(0, ROTX, 0.1745329201221466, ROTY, 0.0, ROTZ, 0.0);
+    asSetAfterBlock_3(0, POSX, 0.0, POSY, 435.3651123046875, POSZ, 133.00119018554688);
+    asSetZeroRate_1(53, ROTZ, 0.0);
+    asSetWithRate_2(53, ROTY, 0.0, 0.0007699981797486544);
+    asSetZeroRateBlock_1(48, ROTX, 0.1745329201221466);
+    asSetWithRateBlock_2(4, ROTX, 0.0, -0.04363323375582695);
+    asSetWithRate_2(18, ROTX, -0.7853981852531433, -0.0009095795685425401);
+    asWait(1);
+    asSetWithRate_2(17, ROTZ, -0.1745329201221466, -0.00546124717220664);
+    asSetWithRateBlock_2(15, ROTY, 0.05235987901687622, 0.0017914626514539123);
+    asSetWithRate_2(15, ROTY, 0.05393245071172714, -0.0016362463356927037);
+    asWait(2);
+    asSetWithRateBlock_4(13, ROTX, -0.7680532336235046, 0.010888542979955673, ROTZ, -0.16441227495670319, 0.0017319631297141314);
+    asSetWithRateBlock_6(17, ROTX, 0.0, 0.01911166124045849, ROTY, 0.0, -0.001037162495777011, ROTZ, 0.0, 0.003161774482578039);
+    asSetZeroRate_2(35, ROTY, 0.0, ROTZ, 0.0);
+    asSetWithRateBlock_2(17, ROTX, 0.2617993950843811, 0.003989323507994413);
+    asSetZeroRateBlock_1(18, ROTX, 0.13962633907794952);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_6)
+    asSetZeroRate_3f(0, ROTX, 0.4363323152065277, ROTY, -0.006562566384673119, ROTZ, 0.0);
+    asSetAfterBlock_3(0, POSX, 0.00057220458984375, POSY, 126.9461669921875, POSZ, 175.01779174804688);
+    asSetZeroRateBlock_3(53, ROTX, 0.4363323152065277, ROTY, -0.006562566384673119, ROTZ, 0.0);
+    asSetWithRate_4(11, ROTY, 0.2617993950843811, 0.0014056687941774726, ROTZ, 0.3490658402442932, 0.002058548154309392);
+    asSetWithRateBlock_2(4, ROTX, 0.0, -0.116355299949646);
+    asSetWithRateBlock_2(5, ROTX, -0.6108652353286743, -0.02908881939947605);
+    asSetWithRate_2(13, ROTX, -0.5235987901687622, -0.005372585263103247);
+    asWait(2);
+    asSetWithRate_4(24, ROTY, 0.24164392054080963, -0.005221831612288952, ROTZ, 0.32470211386680603, -0.005412754602730274);
+    asWait(11);
+    asSetWithRateBlock_2(12, ROTX, -0.5235987901687622, 0.006723335012793541);
+    asSetWithRate_2(18, ROTX, -0.14740058779716492, -0.002227252582088113);
+    asWait(1);
+    asSetWithRateBlock_4(17, ROTY, 0.0, -0.014307262375950813, ROTZ, 0.0, -0.006908556446433067);
+    asSetZeroRate_2(30, ROTY, 0.0, ROTZ, 0.0);
+    asSetWithRateBlock_2(10, ROTX, -0.28306230902671814, -0.00904411543160677);
+    asSetWithRateBlock_2(11, ROTX, -0.3373269736766815, 0.014153112657368183);
+    asSetZeroRateBlock_1(9, ROTX, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_7)
+    asSetZeroRate_3f(0, ROTX, 0.4363323152065277, ROTY, 0.0, ROTZ, 0.0);
+    asSetAfterBlock_3(0, POSX, -6.477072238922119, POSY, 139.81752014160156, POSZ, 142.78318786621094);
+    asSetZeroRateBlock_3(53, ROTX, 0.4363323152065277, ROTY, 0.0, ROTZ, 0.0);
+    asSetWithRate_4(17, ROTY, 0.1745329201221466, 0.0021853498183190823, ROTZ, 0.2617993950843811, 0.0010521825170144439);
+    asSetWithRateBlock_2(4, ROTX, 0.0, -0.03966657444834709);
+    asSetWithRate_2(18, ROTX, -0.4363323152065277, -0.0009801991982385516);
+    asWait(13);
+    asSetWithRate_2(10, ROTY, 0.1661163568496704, -0.0023678543511778116);
+    asSetWithRate_2(12, ROTZ, 0.25471174716949463, -0.0027218242175877094);
+    asWait(5);
+    asSetWithRate_2(39, ROTX, -0.21871985495090485, 0.012277026660740376);
+    asWait(5);
+    asSetWithRate_2(25, ROTY, 0.0, -0.013473882339894772);
+    asWait(2);
+    asSetWithRate_2(29, ROTZ, 0.0, -0.004805882461369038);
+    asWait(23);
+    asSetWithRateBlock_2(5, ROTY, -0.2381001114845276, 0.0007294101524166763);
+    asSetZeroRate_1(7, ROTY, 0.26301756501197815);
+    asWait(1);
+    asSetZeroRate_1(24, ROTZ, 0.0);
+    asWait(3);
+    asSetWithRate_2(12, ROTX, 0.11628144234418869, 0.0036104607861489058);
+    asWait(3);
+    asSetWithRateBlock_2(6, ROTY, -0.22148846089839935, -0.005537211429327726);
+    asSetWithRate_2(6, ROTY, 0.19657102227210999, 0.013535397127270699);
+    asWait(3);
+    asSetZeroRate_1(9, ROTX, 0.0);
+    asWait(3);
+    asSetWithRateBlock_2(3, ROTY, -0.09966981410980225, -0.027823347598314285);
+    asSetZeroRateBlock_1(3, ROTY, 0.0);
+asEnd();
+
+asBegin_1(charizard_modelanim_appear_8)
+    asSetZeroRate_1f(0, ROTX, 0.0);
+    asSetAfterBlock_5(0, ROTY, 0.0, ROTZ, 0.0, POSX, 2.8284833431243896, POSY, 19.333457946777344, POSZ, 175.32406616210938);
+    asSetZeroRateBlock_1(57, ROTX, 0.0);
+    asSetWithRateBlock_2(10, ROTX, 1.3173391819000244, 0.012715856544673443);
+    asSetWithRateBlock_2(51, ROTX, 1.5715746879577637, -0.003154821926727891);
+    asSetZeroRateBlock_1(17, ROTX, 0.0);
+asEnd();
+
+asBegin_2(charizard_modelanim_appear_9)
+    asSetZeroRate_2f(0, ROTX, 0.0, ROTY, 0.0);
+    asSetAfterBlock_4(0, ROTZ, 0.0, POSX, -5.572694778442383, POSY, 0.011348724365234375, POSZ, 0.016880035400390625);
+    asSetZeroRateBlock_2(53, ROTX, 0.0, ROTY, 0.0);
+    asSetWithRateBlock_4(7, ROTX, -0.5235987901687622, -0.044183507561683655, ROTY, -0.5235987901687622, 0.02151132933795452);
+    asSetWithRate_2(18, ROTY, 0.5377832055091858, 0.0005083474679850042);
+    asSetZeroRateBlock_1(8, ROTX, -0.7853981852531433);
+    asSetWithRateBlock_2(5, ROTX, -0.5235987901687622, -0.0004989708540961146);
+    asSetWithRate_2(7, ROTX, -0.7913858294487, 0.0005065498407930136);
+    asWait(5);
+    asSetWithRate_2(10, ROTY, -0.5093650221824646, -0.001168132876046002);
+    asWait(2);
+    asSetWithRateBlock_2(7, ROTX, -0.516507089138031, 0.0024774896446615458);
+    asSetWithRate_2(4, ROTX, -0.7805389165878296, 0.009058015421032906);
+    asWait(1);
+    asSetWithRate_2(15, ROTY, 0.5085798501968384, 0.025468258187174797);
+    asWait(3);
+    asSetWithRateBlock_2(6, ROTX, -0.42592695355415344, 0.0030341141391545534);
+    asSetWithRateBlock_2(5, ROTX, -0.7471636533737183, 0.0034765894524753094);
+    asSetWithRate_2(7, ROTX, -0.3842078447341919, 0.007701983209699392);
+    asWait(1);
+    asSetZeroRateBlock_1(5, ROTY, 0.0);
+    asSetZeroRate_1(27, ROTY, 0.0);
+    asWait(1);
+    asSetWithRateBlock_2(6, ROTX, -0.6470378637313843, 0.003337524365633726);
+    asSetWithRateBlock_2(4, ROTX, -0.35083261132240295, 0.004492816515266895);
+    asSetWithRateBlock_2(9, ROTX, -0.5886312127113342, 0.021927040070295334);
+    asSetZeroRateBlock_1(7, ROTX, 0.0);
+asEnd();
+
+asBegin_4(charizard_modelanim_appear_10)
+    asSetZeroRate_4f(0, ROTX, 0.030449826270341873, POSX, 3.348550319671631, POSY, -43.667198181152344, POSZ, 135.31491088867188);
+    asSetAfterBlock_2(0, ROTY, 0.0, ROTZ, 0.0);
+    asSetZeroRateBlock_4(53, ROTX, 0.030449826270341873, POSX, 3.348550319671631, POSY, -43.667198181152344, POSZ, 135.31491088867188);
+    asSetWithRate_2(11, ROTX, -0.8726646304130554, 0.020495720207691193);
+    asSetZeroRateBlock_3(11, POSX, -19.051483154296875, POSY, -36.86720657348633, POSZ, 256.91497802734375);
+    asSetZeroRate_3(71, POSX, 3.348550319671631, POSY, -43.667198181152344, POSZ, 135.31491088867188);
+    asSetWithRateBlock_2(4, ROTX, 0.33788564801216125, 0.0005266254302114248);
+    asSetWithRateBlock_2(5, ROTX, -0.8679249882698059, -0.00021159050811547786);
+    asSetWithRateBlock_2(9, ROTX, 0.3349233567714691, -0.00045573359238915145);
+    asSetWithRateBlock_2(4, ROTX, -0.8738495111465454, -0.002154364949092269);
+    asSetWithRateBlock_2(7, ROTX, 0.31122535467147827, 0.00503582926467061);
+    asSetWithRateBlock_2(3, ROTX, -0.8234912157058716, 0.002976386807858944);
+    asSetWithRateBlock_2(3, ROTX, 0.3290836811065674, -0.0004809889942407608);
+    asSetWithRateBlock_2(3, ROTX, -0.8263771533966064, 0.00074642279651016);
+    asSetWithRateBlock_2(3, ROTX, 0.3335622251033783, 0.004478533286601305);
+    asSetWithRateBlock_2(4, ROTX, -0.7950274348258972, -0.0006397910765372217);
+    asSetWithRateBlock_2(3, ROTX, 0.3290836811065674, -0.009044576436281204);
+    asSetWithRateBlock_2(6, ROTX, -0.7771132588386536, -0.0005598131683655083);
+    asSetWithRateBlock_2(2, ROTX, 0.32460519671440125, 0.0044785309582948685);
+    asSetWithRateBlock_2(4, ROTX, -0.7502421140670776, -0.0007464236696250737);
+    asSetWithRateBlock_2(2, ROTX, 0.32012665271759033, -0.006048901472240686);
+    asSetZeroRateBlock_1(3, ROTX, -0.6785856485366821);
+    asSetZeroRateBlock_1(6, ROTX, 0.0);
+asEnd();
+
+asBegin_6(charizard_modelanim_appear_11)
+    asSetAfter_6f(0, ROTX, 0.10000002384185791, ROTY, -1.1850576520089362e-08, ROTZ, -3.112801394422604e-08, POSX, 6.476455211639404, POSY, -81.51406860351562, POSZ, 318.7889709472656);
+    asWait(135);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_12)
+    asSetZeroRate_3f(0, ROTY, -1.3335529565811157, ROTZ, 0.0, POSY, 242.62876892089844);
+    asSetAfterBlock_3(0, ROTX, 0.0, POSX, 196.88031005859375, POSZ, 43.794010162353516);
+    asSetZeroRateBlock_3(52, ROTY, -1.3335529565811157, ROTZ, 0.0, POSY, 242.62876892089844);
+    asSetZeroRate_1(23, POSY, 282.95513916015625);
+    asSetWithRateBlock_4(13, ROTY, 0.5235987901687622, 0.005194799974560738, ROTZ, 0.6981316804885864, 0.003085874253883958);
+    asSetWithRate_4(25, ROTY, 0.5169846415519714, -0.003501221304759383, ROTZ, 0.6966485381126404, -0.004238308407366276);
+    asWait(10);
+    asSetZeroRate_1(23, POSY, 242.62876892089844);
+    asWait(15);
+    asSetZeroRate_1(45, ROTZ, 0.0);
+    asSetWithRateBlock_2(8, ROTY, 0.0872664600610733, -0.03273070231080055);
+    asSetZeroRate_1(37, POSY, 242.62876892089844);
+    asSetWithRateBlock_2(12, ROTY, -0.6998295783996582, 0.003519524121657014);
+    asSetWithRateBlock_2(8, ROTY, 0.1576569527387619, 0.013556222431361675);
+    asSetWithRateBlock_2(5, ROTY, -0.5235987901687622, -0.00927393976598978);
+    asSetZeroRateBlock_1(12, ROTY, 0.0);
+asEnd();
+
+asBegin_4(charizard_modelanim_appear_13)
+    asSetZeroRate_4f(0, ROTX, 0.4896186590194702, ROTY, -0.19173143804073334, ROTZ, 0.0, POSY, -81.77947998046875);
+    asSetAfterBlock_2(0, POSX, 153.1197052001953, POSZ, -103.79400634765625);
+    asSetZeroRate_3(57, ROTX, 0.4896186590194702, ROTY, -0.19173143804073334, ROTZ, 0.0);
+    asSetWithRateBlock_2(56, POSY, -81.77947998046875, 7.788340553815942e-06);
+    asSetZeroRate_1(19, POSY, -81.77889251708984);
+    asWait(1);
+    asSetZeroRate_1(47, ROTZ, -0.6981316804885864);
+    asSetWithRate_4(48, ROTX, 0.0, -0.0062771630473434925, ROTY, 0.0, -0.0013939187629148364);
+    asWait(18);
+    asSetWithRateBlock_2(23, POSY, -81.77947998046875, -9.735425010148901e-06);
+    asSetZeroRate_1(37, POSY, -81.77947998046875);
+    asWait(6);
+    asSetZeroRate_1(31, ROTZ, 0.0);
+    asWait(1);
+    asSetZeroRate_1(30, ROTX, 0.0);
+    asSetWithRateBlock_2(6, ROTY, -0.26700305938720703, 0.005259881727397442);
+    asSetZeroRateBlock_1(10, ROTY, 0.08415810763835907);
+    asSetWithRateBlock_2(6, ROTY, -0.26700305938720703, -0.006011292804032564);
+    asSetZeroRateBlock_1(8, ROTY, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_14)
+    asSetZeroRate_3f(0, ROTY, 1.2405400276184082, ROTZ, 0.0, POSY, 242.62890625);
+    asSetAfterBlock_3(0, ROTX, 0.0, POSX, -191.15060424804688, POSZ, 45.09954833984375);
+    asSetZeroRateBlock_3(52, ROTY, 1.2405400276184082, ROTZ, 0.0, POSY, 242.62890625);
+    asSetZeroRate_1(23, POSY, 282.95513916015625);
+    asSetWithRateBlock_4(13, ROTY, -0.5235987901687622, -0.005011409986764193, ROTZ, -0.6981316804885864, -0.002465565223246813);
+    asSetZeroRate_1(25, ROTZ, -0.7079961895942688);
+    asSetWithRate_2(25, ROTY, -0.5283322930335999, 0.0038346771616488695);
+    asWait(10);
+    asSetZeroRate_1(23, POSY, 242.62890625);
+    asWait(15);
+    asSetZeroRate_1(45, ROTZ, 0.0);
+    asSetWithRateBlock_2(8, ROTY, 0.07599156349897385, -0.004317662678658962);
+    asSetZeroRate_1(37, POSY, 242.62890625);
+    asSetWithRateBlock_2(12, ROTY, -0.6834965944290161, 0.004083269275724888);
+    asSetWithRateBlock_2(8, ROTY, 0.1576569527387619, 0.003592387307435274);
+    asSetWithRateBlock_2(5, ROTY, -0.5038326978683472, -0.00927393976598978);
+    asSetZeroRateBlock_1(12, ROTY, 0.0);
+asEnd();
+
+asBegin_3(charizard_modelanim_appear_15)
+    asSetZeroRate_3f(0, ROTX, 0.49372100830078125, ROTY, 0.1963568776845932, ROTZ, 0.0);
+    asSetAfterBlock_3(0, POSX, -153.0635986328125, POSY, -81.77947998046875, POSZ, -103.79400634765625);
+    asSetZeroRateBlock_3(57, ROTX, 0.49372100830078125, ROTY, 0.1963568776845932, ROTZ, 0.0);
+    asSetWithRate_2(47, ROTY, 0.010659254156053066, -0.0049185436218976974);
+    asSetWithRate_2(48, ROTX, 0.0, -0.006329757161438465);
+    asSetZeroRateBlock_1(47, ROTZ, 0.6981316804885864);
+    asSetZeroRate_1(8, ROTY, -0.2617993950843811);
+    asSetZeroRate_1(31, ROTZ, 0.0);
+    asWait(1);
+    asSetZeroRate_1(30, ROTX, 0.0);
+    asWait(7);
+    asSetZeroRateBlock_1(8, ROTY, 0.0872664600610733);
+    asSetZeroRateBlock_1(6, ROTY, -0.2617993950843811);
+    asSetZeroRateBlock_1(9, ROTY, 0.0);
+asEnd();
+

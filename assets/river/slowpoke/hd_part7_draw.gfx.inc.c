@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx slowpoke_hd_part7_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, slowpoke_tex_80186658),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, slowpoke_tex_80186680_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&slowpoke_hd_vtx[217], 16, 0),
+    gsSP2Triangles(15, 14, 13, 0, 14, 12, 13, 0),
+    gsSP2Triangles(11, 13, 12, 0, 12, 10, 11, 0),
+    gsSP2Triangles(11, 9, 13, 0, 9, 11, 10, 0),
+    gsSP2Triangles(8, 9, 10, 0, 9, 7, 13, 0),
+    gsSP2Triangles(9, 8, 6, 0, 6, 7, 9, 0),
+    gsSP2Triangles(12, 14, 6, 0, 13, 7, 15, 0),
+    gsSP2Triangles(14, 5, 6, 0, 4, 7, 5, 0),
+    gsSP2Triangles(7, 4, 15, 0, 7, 6, 5, 0),
+    gsSP2Triangles(3, 2, 1, 0, 2, 0, 1, 0),
+    gsSPEndDisplayList(),
+};

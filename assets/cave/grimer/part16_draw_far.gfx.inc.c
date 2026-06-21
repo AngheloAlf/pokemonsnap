@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx grimer_part16_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 256),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x09F10451),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x080B0443),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x08B20414),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x10FA0404),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x12830409),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x11D4046C),
+    gsSPModifyVertex(6, G_MWO_POINT_ST, 0x0A16040A),
+    gsSPModifyVertex(7, G_MWO_POINT_ST, 0x0C770454),
+    gsSPModifyVertex(8, G_MWO_POINT_ST, 0x0BCC0400),
+    gsSPModifyVertex(9, G_MWO_POINT_ST, 0x0F2A0400),
+    gsSPVertex(&grimer_vtx[364], 3, 10),
+    gsSP2Triangles(0, 6, 12, 0, 12, 1, 0, 0),
+    gsSP2Triangles(2, 12, 6, 0, 2, 1, 12, 0),
+    gsSP2Triangles(11, 7, 8, 0, 9, 11, 8, 0),
+    gsSP2Triangles(7, 11, 9, 0, 10, 3, 4, 0),
+    gsSP2Triangles(10, 4, 5, 0, 3, 10, 5, 0),
+    gsSPEndDisplayList(),
+};

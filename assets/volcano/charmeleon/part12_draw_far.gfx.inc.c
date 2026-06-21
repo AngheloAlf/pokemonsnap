@@ -1,0 +1,24 @@
+#include "common.h"
+
+Gfx charmeleon_part12_draw_far[] = {
+    gsDPPipeSync(),
+    gsSPLightColor(LIGHT_1, 0x9F9F9F00),
+    gsSPLightColor(LIGHT_2, 0x26262600),
+    gsSPClearGeometryMode(G_FOG),
+    gsDPSetCycleType(G_CYC_1CYCLE),
+    gsDPSetRenderMode(G_RM_AA_ZB_XLU_SURF, G_RM_AA_ZB_XLU_SURF2),
+    gsDPSetCombineMode(G_CC_BLENDPEDECALA, G_CC_BLENDPEDECALA),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xEA, 0x00, 0xFF),
+    gsDPSetEnvColor(0xFF, 0x00, 0x00, 0xFF),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 4, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 512),
+    gsDPPipeSync(),
+    gsSPVertex(&charmeleon_vtx[377], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_FOG),
+    gsSPEndDisplayList(),
+};

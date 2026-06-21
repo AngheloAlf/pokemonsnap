@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx bulbasaur_hd_part8_draw[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x0000020B),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x0047013D),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x03FF0328),
+    gsSPModifyVertex(31, G_MWO_POINT_ST, 0x030703FF),
+    gsSPVertex(&bulbasaur_hd_vtx[175], 4, 0),
+    gsSP2Triangles(30, 29, 3, 0, 31, 30, 3, 0),
+    gsSP2Triangles(29, 2, 3, 0, 1, 3, 2, 0),
+    gsSP2Triangles(31, 3, 1, 0, 29, 0, 2, 0),
+    gsSP2Triangles(28, 31, 1, 0, 0, 28, 1, 0),
+    gsSP2Triangles(29, 28, 0, 0, 1, 2, 0, 0),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPVertex(&bulbasaur_hd_vtx[179], 12, 0),
+    gsSP2Triangles(11, 10, 9, 0, 10, 8, 9, 0),
+    gsSP2Triangles(10, 11, 8, 0, 7, 6, 5, 0),
+    gsSP2Triangles(7, 4, 6, 0, 4, 7, 5, 0),
+    gsSP2Triangles(3, 2, 1, 0, 2, 0, 1, 0),
+    gsSP1Triangle(2, 3, 0, 0),
+    gsSPEndDisplayList(),
+};

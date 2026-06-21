@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx growlithe_hd_part5_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, growlithe_tex_tongue_pal),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 9),
+    gsDPPipeSync(),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, growlithe_tex_tongue_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 511, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&growlithe_hd_vtx[292], 14, 0),
+    gsSP2Triangles(13, 12, 11, 0, 11, 12, 10, 0),
+    gsSP2Triangles(9, 11, 10, 0, 11, 8, 13, 0),
+    gsSP2Triangles(8, 7, 13, 0, 7, 6, 13, 0),
+    gsSP2Triangles(8, 11, 5, 0, 10, 6, 9, 0),
+    gsSP2Triangles(5, 4, 8, 0, 6, 7, 9, 0),
+    gsSP2Triangles(7, 8, 4, 0, 3, 5, 11, 0),
+    gsSP2Triangles(11, 9, 3, 0, 5, 2, 4, 0),
+    gsSP2Triangles(4, 1, 7, 0, 9, 7, 3, 0),
+    gsSP2Triangles(2, 5, 3, 0, 4, 2, 1, 0),
+    gsSP2Triangles(7, 1, 3, 0, 2, 0, 1, 0),
+    gsSP2Triangles(3, 1, 0, 0, 0, 2, 3, 0),
+    gsSPEndDisplayList(),
+};

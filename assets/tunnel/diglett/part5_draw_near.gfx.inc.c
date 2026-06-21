@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx diglett_part5_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, diglett_tex_soil_pal),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 15),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x00FC, 0x00FC),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, diglett_tex_soil_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 512),
+    gsDPPipeSync(),
+    gsSPVertex(&diglett_vtx[182], 16, 0),
+    gsSP2Triangles(15, 14, 13, 0, 12, 14, 15, 0),
+    gsSP2Triangles(15, 13, 11, 0, 13, 10, 11, 0),
+    gsSP2Triangles(15, 9, 12, 0, 8, 12, 9, 0),
+    gsSP2Triangles(11, 9, 15, 0, 7, 9, 11, 0),
+    gsSP2Triangles(8, 9, 6, 0, 6, 5, 8, 0),
+    gsSP2Triangles(4, 5, 6, 0, 6, 3, 4, 0),
+    gsSP2Triangles(3, 11, 2, 0, 2, 1, 3, 0),
+    gsSP2Triangles(3, 7, 11, 0, 1, 0, 3, 0),
+    gsSP1Triangle(0, 4, 3, 0),
+    gsSPEndDisplayList(),
+};

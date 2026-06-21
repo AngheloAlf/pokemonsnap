@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx slowbro_part11_draw_far[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 0xFF, 0x8C, 0x94, 0xFF),
+    gsSPTexture(0, 0, 0, G_TX_RENDERTILE, G_OFF),
+    gsSPVertex(&slowbro_vtx[803], 1, 0),
+    gsSPVertex(&slowbro_vtx[490], 1, 1),
+    gsSPVertex(&slowbro_vtx[489], 1, 2),
+    gsSPVertex(&slowbro_vtx[488], 1, 3),
+    gsSPVertex(&slowbro_vtx[495], 1, 4),
+    gsSPVertex(&slowbro_vtx[497], 1, 5),
+    gsSPVertex(&slowbro_vtx[499], 1, 6),
+    gsSPVertex(&slowbro_vtx[504], 1, 7),
+    gsSPVertex(&slowbro_vtx[507], 2, 8),
+    gsSPVertex(&slowbro_vtx[511], 2, 10),
+    gsSPVertex(&slowbro_vtx[804], 13, 12),
+    gsSP2Triangles(11, 2, 1, 0, 3, 10, 24, 0),
+    gsSP2Triangles(23, 3, 24, 0, 0, 9, 23, 0),
+    gsSP2Triangles(8, 22, 11, 0, 21, 7, 20, 0),
+    gsSP2Triangles(5, 19, 4, 0, 18, 17, 16, 0),
+    gsSP2Triangles(15, 6, 14, 0, 14, 13, 12, 0),
+    gsSPEndDisplayList(),
+};

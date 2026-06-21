@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx poliwag_part10_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_MIRROR | G_TX_CLAMP, 4, G_TX_NOLOD),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x00FC),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x01FE0257),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x03FF0257),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x03FF0257),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x01FE0257),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x00000257),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x00000257),
+    gsSPVertex(&poliwag_vtx[193], 4, 10),
+    gsSP2Triangles(3, 5, 13, 0, 4, 0, 12, 0),
+    gsSP2Triangles(3, 13, 11, 0, 10, 12, 0, 0),
+    gsSP2Triangles(11, 2, 3, 0, 0, 1, 10, 0),
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_32b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 4, G_TX_NOLOD),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x003C, 0x00FC),
+    gsSPModifyVertex(6, G_MWO_POINT_ST, 0x01DE05DC),
+    gsSPModifyVertex(7, G_MWO_POINT_ST, 0x01EC05DC),
+    gsSPModifyVertex(8, G_MWO_POINT_ST, 0x01DE05DC),
+    gsSPModifyVertex(9, G_MWO_POINT_ST, 0x01D005DC),
+    gsSPVertex(&poliwag_vtx[197], 1, 10),
+    gsSP2Triangles(8, 9, 10, 0, 9, 6, 10, 0),
+    gsSP2Triangles(7, 8, 10, 0, 6, 7, 10, 0),
+    gsSPEndDisplayList(),
+};

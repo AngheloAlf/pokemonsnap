@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx gyarados_part9_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gyarados_tex_801347D8),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 90),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x00FC),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, gyarados_tex_80134898_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 1023, 512),
+    gsDPPipeSync(),
+    gsSPVertex(&gyarados_vtx[339], 10, 0),
+    gsSP2Triangles(9, 0, 1, 0, 8, 9, 1, 0),
+    gsSP2Triangles(0, 9, 7, 0, 6, 8, 1, 0),
+    gsSP2Triangles(2, 0, 7, 0, 5, 2, 7, 0),
+    gsSP2Triangles(4, 5, 7, 0, 3, 6, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPEndDisplayList(),
+};

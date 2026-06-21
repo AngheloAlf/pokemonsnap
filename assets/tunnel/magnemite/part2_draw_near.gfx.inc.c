@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx magnemite_part2_draw_near[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_LIGHTING),
+    gsSPVertex(&magnemite_vtx[314], 8, 0),
+    gsSPSetGeometryMode(G_LIGHTING),
+    gsSPCullDisplayList(0, 7),
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, magnemite_tex_eye_frame0_pal),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 15),
+    gsDPPipeSync(),
+    gsSPTexture(0x4000, 0x4000, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0x0100, 0x0100, 0x017C, 0x017C),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&magnemite_vtx[83], 9, 0),
+    gsSP2Triangles(8, 7, 6, 0, 7, 5, 6, 0),
+    gsSP2Triangles(4, 8, 6, 0, 5, 3, 6, 0),
+    gsSP2Triangles(2, 4, 6, 0, 1, 2, 6, 0),
+    gsSP2Triangles(0, 1, 6, 0, 3, 0, 6, 0),
+    gsSPEndDisplayList(),
+};

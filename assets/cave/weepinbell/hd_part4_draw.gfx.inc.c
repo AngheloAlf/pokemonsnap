@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx weepinbell_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 1, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 3, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 1, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 3, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x001C, 0x0004),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, weepinbell_tex_801A5708),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 15, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&weepinbell_hd_vtx[102], 20, 0),
+    gsSP2Triangles(19, 18, 17, 0, 17, 16, 19, 0),
+    gsSP2Triangles(15, 18, 19, 0, 14, 16, 17, 0),
+    gsSP2Triangles(17, 13, 14, 0, 19, 12, 15, 0),
+    gsSP2Triangles(14, 13, 11, 0, 11, 15, 12, 0),
+    gsSP2Triangles(11, 10, 14, 0, 12, 10, 11, 0),
+    gsSP2Triangles(9, 8, 7, 0, 6, 8, 9, 0),
+    gsSP2Triangles(7, 5, 9, 0, 9, 4, 6, 0),
+    gsSP2Triangles(3, 5, 7, 0, 7, 2, 3, 0),
+    gsSP2Triangles(6, 4, 1, 0, 1, 0, 6, 0),
+    gsSP2Triangles(0, 1, 3, 0, 3, 2, 0, 0),
+    gsSPEndDisplayList(),
+};

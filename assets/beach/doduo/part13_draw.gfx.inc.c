@@ -1,0 +1,7 @@
+#include "common.h"
+
+Gfx doduo_part13_draw[] = {
+    gsSPBranchLessZraw(doduo_part13_draw_near, 31, 0x03FA4DDA),
+    gsSPBranchLessZraw(doduo_part13_draw_far, 31, 0x03FC58D4),
+    gsSPEndDisplayList(),
+};

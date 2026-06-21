@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx butterfree_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsSPVertex(&butterfree_hd_vtx[292], 29, 0),
+    gsSP2Triangles(28, 27, 26, 0, 28, 25, 27, 0),
+    gsSP2Triangles(27, 24, 26, 0, 28, 26, 25, 0),
+    gsSP2Triangles(25, 26, 23, 0, 24, 27, 25, 0),
+    gsSP2Triangles(26, 22, 23, 0, 24, 22, 26, 0),
+    gsSP2Triangles(23, 24, 25, 0, 21, 20, 19, 0),
+    gsSP2Triangles(20, 18, 19, 0, 17, 18, 20, 0),
+    gsSP2Triangles(16, 17, 20, 0, 17, 16, 21, 0),
+    gsSP2Triangles(19, 17, 21, 0, 15, 14, 13, 0),
+    gsSP2Triangles(14, 15, 12, 0, 11, 14, 12, 0),
+    gsSP2Triangles(10, 13, 11, 0, 10, 15, 13, 0),
+    gsSP2Triangles(12, 10, 11, 0, 9, 8, 7, 0),
+    gsSP2Triangles(8, 9, 6, 0, 7, 8, 5, 0),
+    gsSP2Triangles(5, 8, 6, 0, 4, 7, 5, 0),
+    gsSP2Triangles(3, 9, 7, 0, 2, 5, 6, 0),
+    gsSP2Triangles(5, 1, 4, 0, 1, 5, 2, 0),
+    gsSP2Triangles(3, 7, 4, 0, 2, 6, 3, 0),
+    gsSP2Triangles(0, 3, 4, 0, 0, 2, 3, 0),
+    gsSP2Triangles(9, 3, 6, 0, 1, 0, 4, 0),
+    gsSP1Triangle(0, 1, 2, 0),
+    gsSPEndDisplayList(),
+};

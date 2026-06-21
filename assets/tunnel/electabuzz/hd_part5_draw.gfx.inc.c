@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx electabuzz_hd_part5_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x008D0424),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00FB0423),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0xFEEE08B3),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0xFF1A0922),
+    gsSPVertex(&electabuzz_hd_vtx[162], 11, 4),
+    gsSPVertex(&electabuzz_hd_vtx[173], 4, 28),
+    gsSP2Triangles(29, 30, 14, 0, 13, 29, 14, 0),
+    gsSP2Triangles(14, 30, 13, 0, 12, 13, 30, 0),
+    gsSP2Triangles(30, 11, 12, 0, 11, 13, 12, 0),
+    gsSP2Triangles(10, 29, 13, 0, 30, 9, 11, 0),
+    gsSP2Triangles(9, 30, 31, 0, 13, 11, 10, 0),
+    gsSP2Triangles(10, 28, 29, 0, 8, 31, 28, 0),
+    gsSP2Triangles(11, 9, 7, 0, 31, 8, 9, 0),
+    gsSP2Triangles(6, 10, 11, 0, 28, 10, 8, 0),
+    gsSP2Triangles(7, 5, 11, 0, 11, 5, 6, 0),
+    gsSP2Triangles(7, 9, 8, 0, 8, 10, 6, 0),
+    gsSP2Triangles(6, 5, 0, 0, 8, 4, 7, 0),
+    gsSP2Triangles(6, 4, 8, 0, 0, 1, 6, 0),
+    gsSP2Triangles(3, 0, 7, 0, 4, 6, 1, 0),
+    gsSP2Triangles(7, 4, 2, 0, 2, 3, 7, 0),
+    gsSP2Triangles(1, 2, 4, 0, 5, 7, 0, 0),
+    gsSPEndDisplayList(),
+};

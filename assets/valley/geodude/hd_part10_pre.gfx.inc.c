@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx geodude_hd_part10_pre[] = {
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_CULL_BACK),
+    gsSPTexture(0x07C0, 0x07C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&geodude_hd_vtx[648], 1, 0),
+    gsSPVertex(&geodude_hd_vtx[642], 1, 1),
+    gsSPVertex(&geodude_hd_vtx[631], 1, 2),
+    gsSPVertex(&geodude_hd_vtx[635], 1, 3),
+    gsSPVertex(&geodude_hd_vtx[657], 1, 4),
+    gsSPVertex(&geodude_hd_vtx[633], 1, 5),
+    gsSPVertex(&geodude_hd_vtx[629], 1, 6),
+    gsSPVertex(&geodude_hd_vtx[637], 1, 7),
+    gsSPVertex(&geodude_hd_vtx[646], 1, 8),
+    gsSPVertex(&geodude_hd_vtx[634], 1, 9),
+    gsSPVertex(&geodude_hd_vtx[626], 1, 10),
+    gsSPVertex(&geodude_hd_vtx[652], 1, 11),
+    gsSPVertex(&geodude_hd_vtx[647], 1, 12),
+    gsSPVertex(&geodude_hd_vtx[660], 1, 13),
+    gsSPVertex(&geodude_hd_vtx[656], 1, 14),
+    gsSPVertex(&geodude_hd_vtx[630], 1, 15),
+    gsSPVertex(&geodude_hd_vtx[658], 1, 16),
+    gsSPVertex(&geodude_hd_vtx[643], 1, 17),
+    gsSPEndDisplayList(),
+};

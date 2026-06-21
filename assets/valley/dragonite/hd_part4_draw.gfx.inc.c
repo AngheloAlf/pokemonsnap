@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx dragonite_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x023B01D0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01E8014B),
+    gsSPVertex(&dragonite_hd_vtx[95], 6, 4),
+    gsSPVertex(&dragonite_hd_vtx[101], 5, 27),
+    gsSP2Triangles(31, 9, 28, 0, 28, 9, 1, 0),
+    gsSP1Triangle(1, 8, 28, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x02340228),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x01DA0225),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x015A020C),
+    gsSP2Triangles(9, 31, 7, 0, 29, 7, 31, 0),
+    gsSP1Triangle(27, 1, 0, 0),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x01E8014B),
+    gsSP2Triangles(27, 0, 6, 0, 7, 3, 9, 0),
+    gsSP2Triangles(7, 29, 5, 0, 6, 0, 2, 0),
+    gsSP2Triangles(5, 29, 30, 0, 3, 7, 5, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x01CC0286),
+    gsSP2Triangles(6, 2, 4, 0, 4, 2, 3, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x015A020C),
+    gsSP1Triangle(3, 1, 9, 0),
+    gsSPEndDisplayList(),
+};

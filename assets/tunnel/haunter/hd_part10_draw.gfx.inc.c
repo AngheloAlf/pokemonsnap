@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx haunter_hd_part10_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 6, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x00FC),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, haunter_tex_hd_8019F908),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, 256),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x01930000),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x00E90170),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x01D300F4),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x02230269),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x007B0288),
+    gsSPModifyVertex(5, G_MWO_POINT_ST, 0x01390069),
+    gsSPVertex(&haunter_hd_vtx[271], 2, 6),
+    gsSP1Triangle(2, 3, 7, 0),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x00230269),
+    gsSP2Triangles(7, 0, 2, 0, 0, 7, 5, 0),
+    gsSP2Triangles(4, 1, 6, 0, 5, 6, 1, 0),
+    gsSP1Triangle(4, 6, 3, 0),
+    gsSPEndDisplayList(),
+};

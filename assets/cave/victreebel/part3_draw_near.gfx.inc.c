@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx victreebel_part3_draw_near[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(24, G_MWO_POINT_ST, 0x06D2FF37),
+    gsSPModifyVertex(25, G_MWO_POINT_ST, 0x04F805A3),
+    gsSPModifyVertex(26, G_MWO_POINT_ST, 0x06D2FF37),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x03580CCB),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x0776FCE6),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x03580CCB),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x04F805A3),
+    gsSPVertex(&victreebel_vtx[67], 8, 0),
+    gsSP2Triangles(24, 25, 7, 0, 7, 6, 24, 0),
+    gsSP2Triangles(6, 7, 5, 0, 4, 6, 5, 0),
+    gsSP2Triangles(24, 6, 4, 0, 7, 3, 5, 0),
+    gsSP2Triangles(7, 25, 27, 0, 4, 28, 24, 0),
+    gsSP2Triangles(5, 2, 4, 0, 27, 3, 7, 0),
+    gsSP2Triangles(26, 28, 4, 0, 1, 5, 3, 0),
+    gsSP2Triangles(4, 2, 26, 0, 5, 0, 2, 0),
+    gsSP2Triangles(1, 0, 5, 0, 1, 3, 27, 0),
+    gsSP2Triangles(26, 2, 0, 0, 29, 1, 27, 0),
+    gsSP2Triangles(0, 1, 29, 0, 29, 30, 0, 0),
+    gsSP1Triangle(0, 30, 26, 0),
+    gsSPEndDisplayList(),
+};

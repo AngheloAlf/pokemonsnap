@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx arcanine_hd_part4_draw[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x037A02E5),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x004A02B9),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x009D02E5),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x03CD02B9),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x020B0301),
+    gsSPVertex(&arcanine_hd_vtx[286], 12, 5),
+    gsSP2Triangles(1, 16, 2, 0, 15, 16, 1, 0),
+    gsSP2Triangles(2, 16, 15, 0, 2, 15, 14, 0),
+    gsSP2Triangles(13, 14, 15, 0, 13, 15, 12, 0),
+    gsSP2Triangles(13, 12, 11, 0, 13, 11, 14, 0),
+    gsSP2Triangles(10, 11, 12, 0, 10, 14, 11, 0),
+    gsSP2Triangles(10, 12, 9, 0, 8, 12, 15, 0),
+    gsSP2Triangles(14, 10, 7, 0, 1, 3, 15, 0),
+    gsSP2Triangles(10, 9, 7, 0, 6, 12, 8, 0),
+    gsSP2Triangles(2, 14, 4, 0, 6, 7, 9, 0),
+    gsSP2Triangles(8, 15, 3, 0, 6, 8, 7, 0),
+    gsSP2Triangles(14, 7, 4, 0, 7, 8, 0, 0),
+    gsSP2Triangles(3, 5, 8, 0, 8, 5, 0, 0),
+    gsSP2Triangles(0, 4, 7, 0, 0, 5, 3, 0),
+    gsSP1Triangle(6, 9, 12, 0),
+    gsSPEndDisplayList(),
+};

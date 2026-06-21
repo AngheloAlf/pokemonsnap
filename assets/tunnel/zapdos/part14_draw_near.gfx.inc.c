@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx zapdos_part14_draw_near[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_RGBA16),
+    gsDPSetCombineMode(G_CC_MODULATEIDECALA, G_CC_PASS2),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, zapdos_tex_80183A88),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 14),
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, zapdos_tex_80183AB0_png),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x04C4001D),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0xFF310000),
+    gsSPVertex(&zapdos_vtx[250], 4, 0),
+    gsSP1Triangle(30, 3, 29, 0),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x03D803C4),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x035703C6),
+    gsSP2Triangles(30, 2, 1, 0, 2, 29, 1, 0),
+    gsSP2Triangles(0, 30, 1, 0, 29, 0, 1, 0),
+    gsSPEndDisplayList(),
+};

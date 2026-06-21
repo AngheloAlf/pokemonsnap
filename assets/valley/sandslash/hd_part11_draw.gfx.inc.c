@@ -1,0 +1,25 @@
+#include "common.h"
+
+Gfx sandslash_hd_part11_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x036C0078),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x0652004C),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x03560026),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x05F10086),
+    gsSPVertex(&sandslash_hd_vtx[447], 6, 4),
+    gsSPVertex(&sandslash_hd_vtx[453], 5, 27),
+    gsSP2Triangles(1, 2, 9, 0, 9, 2, 8, 0),
+    gsSP2Triangles(9, 8, 7, 0, 6, 1, 9, 0),
+    gsSP2Triangles(6, 9, 7, 0, 6, 3, 1, 0),
+    gsSP2Triangles(29, 7, 8, 0, 31, 8, 2, 0),
+    gsSP2Triangles(8, 31, 29, 0, 7, 5, 6, 0),
+    gsSP2Triangles(29, 5, 7, 0, 3, 6, 0, 0),
+    gsSP2Triangles(30, 31, 2, 0, 29, 27, 5, 0),
+    gsSP2Triangles(0, 6, 5, 0, 4, 2, 0, 0),
+    gsSP2Triangles(30, 2, 4, 0, 5, 27, 4, 0),
+    gsSP2Triangles(4, 27, 28, 0, 4, 28, 30, 0),
+    gsSP1Triangle(5, 4, 0, 0),
+    gsSPEndDisplayList(),
+};

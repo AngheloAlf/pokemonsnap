@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx koffing_hd_part3_pre[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsDPSetCombineLERP(PRIMITIVE, 0, SHADE, 0, 0, 0, 0, PRIMITIVE, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsSPTexture(0x01C0, 0x01C0, 0, G_TX_RENDERTILE, G_ON),
+    gsSPVertex(&koffing_hd_vtx[152], 1, 0),
+    gsSPVertex(&koffing_hd_vtx[151], 1, 1),
+    gsSPVertex(&koffing_hd_vtx[150], 1, 2),
+    gsSPVertex(&koffing_hd_vtx[193], 1, 3),
+    gsSPVertex(&koffing_hd_vtx[189], 1, 4),
+    gsSPVertex(&koffing_hd_vtx[194], 1, 5),
+    gsSPVertex(&koffing_hd_vtx[192], 1, 6),
+    gsSPVertex(&koffing_hd_vtx[167], 1, 7),
+    gsSPVertex(&koffing_hd_vtx[166], 1, 8),
+    gsSPVertex(&koffing_hd_vtx[182], 2, 9),
+    gsSPVertex(&koffing_hd_vtx[138], 1, 11),
+    gsSPVertex(&koffing_hd_vtx[131], 1, 12),
+    gsSPVertex(&koffing_hd_vtx[133], 1, 13),
+    gsSPVertex(&koffing_hd_vtx[132], 1, 14),
+    gsSPVertex(&koffing_hd_vtx[139], 1, 15),
+    gsSPVertex(&koffing_hd_vtx[130], 1, 16),
+    gsSPVertex(&koffing_hd_vtx[144], 1, 17),
+    gsSPVertex(&koffing_hd_vtx[101], 1, 18),
+    gsSPVertex(&koffing_hd_vtx[129], 1, 19),
+    gsSPEndDisplayList(),
+};

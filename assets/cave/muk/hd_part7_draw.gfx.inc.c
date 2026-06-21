@@ -1,0 +1,27 @@
+#include "common.h"
+
+Gfx muk_hd_part7_draw[] = {
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, muk_tex_8015DBF0),
+    gsDPLoadSync(),
+    gsDPLoadTLUTCmd(5, 15),
+    gsDPPipeSync(),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPModifyVertex(0, G_MWO_POINT_ST, 0x14F705C9),
+    gsSPModifyVertex(1, G_MWO_POINT_ST, 0x147805BE),
+    gsSPModifyVertex(2, G_MWO_POINT_ST, 0x148B05A1),
+    gsSPModifyVertex(3, G_MWO_POINT_ST, 0x156E0599),
+    gsSPModifyVertex(4, G_MWO_POINT_ST, 0x15D705B8),
+    gsSPVertex(&muk_hd_vtx[234], 5, 27),
+    gsSP2Triangles(0, 1, 31, 0, 31, 1, 2, 0),
+    gsSP2Triangles(30, 4, 0, 0, 30, 0, 31, 0),
+    gsSP2Triangles(2, 3, 27, 0, 3, 4, 29, 0),
+    gsSP2Triangles(27, 28, 2, 0, 30, 29, 4, 0),
+    gsSP2Triangles(29, 27, 3, 0, 2, 28, 31, 0),
+    gsSPEndDisplayList(),
+};

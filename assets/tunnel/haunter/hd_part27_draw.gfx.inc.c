@@ -1,0 +1,26 @@
+#include "common.h"
+
+Gfx haunter_hd_part27_draw[] = {
+    gsDPPipeSync(),
+    gsSPModifyVertex(26, G_MWO_POINT_ST, 0x005B0000),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x01C90014),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x0167FFF7),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x00F6FFF8),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x022E0017),
+    gsSPModifyVertex(31, G_MWO_POINT_ST, 0x00A8FFFE),
+    gsSPVertex(&haunter_hd_vtx[462], 17, 0),
+    gsSP2Triangles(28, 16, 29, 0, 16, 28, 27, 0),
+    gsSP2Triangles(16, 15, 29, 0, 16, 27, 14, 0),
+    gsSP2Triangles(15, 31, 29, 0, 27, 30, 14, 0),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x0014FFFD),
+    gsSP2Triangles(15, 13, 31, 0, 13, 30, 26, 0),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x022E0017),
+    gsSP2Triangles(30, 12, 14, 0, 26, 31, 13, 0),
+    gsSP2Triangles(11, 10, 9, 0, 9, 10, 8, 0),
+    gsSP2Triangles(7, 10, 11, 0, 8, 10, 6, 0),
+    gsSP2Triangles(5, 9, 8, 0, 4, 5, 8, 0),
+    gsSP2Triangles(9, 5, 3, 0, 3, 11, 9, 0),
+    gsSP2Triangles(2, 4, 8, 0, 2, 7, 1, 0),
+    gsSP2Triangles(0, 2, 1, 0, 8, 6, 2, 0),
+    gsSPEndDisplayList(),
+};

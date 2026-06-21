@@ -1,0 +1,28 @@
+#include "common.h"
+
+Gfx lapras_part2_draw_near[] = {
+    gsSPModifyVertex(24, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(25, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(26, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(28, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(29, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&lapras_vtx[166], 2, 0),
+    gsSPVertex(&lapras_vtx[168], 4, 3),
+    gsSP2Triangles(29, 27, 4, 0, 24, 29, 5, 0),
+    gsSP2Triangles(0, 29, 4, 0, 29, 0, 5, 0),
+    gsSP2Triangles(6, 26, 28, 0, 28, 24, 5, 0),
+    gsSP2Triangles(6, 28, 5, 0, 6, 1, 26, 0),
+    gsSP2Triangles(3, 25, 26, 0, 1, 3, 26, 0),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 0xFF, 0xFF, 0xB5, 0xFF),
+    gsSPModifyVertex(25, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(27, G_MWO_POINT_ST, 0x00000000),
+    gsSPModifyVertex(30, G_MWO_POINT_ST, 0x00000000),
+    gsSPVertex(&lapras_vtx[172], 1, 2),
+    gsSPVertex(&lapras_vtx[173], 1, 7),
+    gsSP2Triangles(7, 27, 30, 0, 4, 27, 7, 0),
+    gsSP2Triangles(7, 30, 25, 0, 2, 4, 7, 0),
+    gsSP2Triangles(25, 3, 7, 0, 3, 2, 7, 0),
+    gsSPEndDisplayList(),
+};

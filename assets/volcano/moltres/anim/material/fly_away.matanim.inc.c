@@ -1,0 +1,925 @@
+#undef __ANIMFILE
+#define __ANIMFILE moltres_matanim_fly_away
+
+#include <anim_script.h>
+
+extern AnimCmd* moltres_matanim_fly_away_6[];
+extern AnimCmd* moltres_matanim_fly_away_8[];
+extern AnimCmd* moltres_matanim_fly_away_9[];
+extern AnimCmd* moltres_matanim_fly_away_10[];
+extern AnimCmd* moltres_matanim_fly_away_11[];
+extern AnimCmd* moltres_matanim_fly_away_12[];
+extern AnimCmd* moltres_matanim_fly_away_13[];
+extern AnimCmd* moltres_matanim_fly_away_14[];
+extern AnimCmd* moltres_matanim_fly_away_15[];
+extern AnimCmd* moltres_matanim_fly_away_16[];
+
+AnimCmd* moltres_matanim_fly_away[] = {
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    (AnimCmd*)&moltres_matanim_fly_away_6,
+    NULL,
+    (AnimCmd*)&moltres_matanim_fly_away_8,
+    (AnimCmd*)&moltres_matanim_fly_away_9,
+    (AnimCmd*)&moltres_matanim_fly_away_10,
+    (AnimCmd*)&moltres_matanim_fly_away_11,
+    (AnimCmd*)&moltres_matanim_fly_away_12,
+    (AnimCmd*)&moltres_matanim_fly_away_13,
+    (AnimCmd*)&moltres_matanim_fly_away_14,
+    (AnimCmd*)&moltres_matanim_fly_away_15,
+    (AnimCmd*)&moltres_matanim_fly_away_16,
+    NULL,
+    NULL,
+    NULL,
+};
+
+asBegin_5(moltres_matanim_fly_away_6_0)
+    asSetAfterBlock_5f(0, IMG_INDEX, 2.2351741790771484e-08, OFFSET_S, 0.0, OFFSET_T, 0.0, SCALE_S, 1.0, SCALE_T, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+asRestart(moltres_matanim_fly_away_6_0);
+
+asBegin_5(moltres_matanim_fly_away_6_1)
+    asSetAfterBlock_5f(0, IMG_INDEX, 0.0, OFFSET_S, 0.0, OFFSET_T, 0.0, SCALE_S, 1.0, SCALE_T, 1.0);
+    asSetAfterBlock_1(11, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(4, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(15, IMG_INDEX, 1.0);
+    asSetAfter_1(3, IMG_INDEX, 0.0);
+    asWait(30);
+asRestart(moltres_matanim_fly_away_6_1);
+
+asBegin_1(moltres_matanim_fly_away_8_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+asRestart(moltres_matanim_fly_away_8_0);
+
+asBegin_1(moltres_matanim_fly_away_9_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+asRestart(moltres_matanim_fly_away_9_0);
+
+asBegin_1(moltres_matanim_fly_away_10_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+asRestart(moltres_matanim_fly_away_10_0);
+
+asBegin_1(moltres_matanim_fly_away_11_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+asRestart(moltres_matanim_fly_away_11_0);
+
+asBegin_1(moltres_matanim_fly_away_12_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+asRestart(moltres_matanim_fly_away_12_0);
+
+asBegin_1(moltres_matanim_fly_away_13_0)
+    asSetAfterBlock_1f(0, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+asRestart(moltres_matanim_fly_away_13_0);
+
+asBegin_5(moltres_matanim_fly_away_14_0)
+    asSetAfterBlock_5f(0, IMG_INDEX, 6.0, OFFSET_S, 0.0, OFFSET_T, 0.0, SCALE_S, 1.0, SCALE_T, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+asRestart(moltres_matanim_fly_away_14_0);
+
+asBegin_1(moltres_matanim_fly_away_14_1)
+    asSetAfterBlock_1f(0, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+asRestart(moltres_matanim_fly_away_14_1);
+
+asBegin_5(moltres_matanim_fly_away_15_0)
+    asSetAfterBlock_5f(0, IMG_INDEX, 2.0, OFFSET_S, 0.0, OFFSET_T, 0.0, SCALE_S, 1.0, SCALE_T, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+asRestart(moltres_matanim_fly_away_15_0);
+
+asBegin_1(moltres_matanim_fly_away_15_1)
+    asSetAfterBlock_1f(0, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+asRestart(moltres_matanim_fly_away_15_1);
+
+asBegin_5(moltres_matanim_fly_away_16_0)
+    asSetAfterBlock_5f(0, IMG_INDEX, 4.0, OFFSET_S, 0.0, OFFSET_T, 0.0, SCALE_S, 1.0, SCALE_T, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+asRestart(moltres_matanim_fly_away_16_0);
+
+asBegin_1(moltres_matanim_fly_away_16_1)
+    asSetAfterBlock_1f(0, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 0.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 2.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 3.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 4.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 5.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 6.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 7.0);
+    asSetAfterBlock_1(1, IMG_INDEX, 1.4901161193847656e-08);
+asRestart(moltres_matanim_fly_away_16_1);
+
+AnimCmd* moltres_matanim_fly_away_6[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_6_0,
+    (AnimCmd*)&moltres_matanim_fly_away_6_1,
+};
+
+AnimCmd* moltres_matanim_fly_away_8[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_8_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_9[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_9_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_10[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_10_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_11[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_11_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_12[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_12_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_13[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_13_0,
+};
+
+AnimCmd* moltres_matanim_fly_away_14[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_14_0,
+    (AnimCmd*)&moltres_matanim_fly_away_14_1,
+};
+
+AnimCmd* moltres_matanim_fly_away_15[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_15_0,
+    (AnimCmd*)&moltres_matanim_fly_away_15_1,
+};
+
+AnimCmd* moltres_matanim_fly_away_16[] = {
+    (AnimCmd*)&moltres_matanim_fly_away_16_0,
+    (AnimCmd*)&moltres_matanim_fly_away_16_1,
+};
+

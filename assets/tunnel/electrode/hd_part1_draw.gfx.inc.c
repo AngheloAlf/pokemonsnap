@@ -1,0 +1,24 @@
+#include "common.h"
+
+Gfx electrode_hd_part1_draw[] = {
+    gsDPPipeSync(),
+    gsSPClearGeometryMode(G_FOG),
+    gsDPSetRenderMode(G_RM_PASS, G_RM_AA_ZB_XLU_SURF2),
+    gsDPSetCombineLERP(PRIMITIVE, ENVIRONMENT, TEXEL0, ENVIRONMENT, PRIMITIVE, SHADE, TEXEL0, 0, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
+    gsDPSetEnvColor(0xD4, 0x00, 0x00, 0xFF),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0x0000, G_TX_LOADTILE, 0, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_WRAP, 5, G_TX_NOLOD),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_4b, 2, 0x0000, G_TX_RENDERTILE, 0, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD, G_TX_NOMIRROR | G_TX_CLAMP, 5, G_TX_NOLOD),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPSetTileSize(G_TX_RENDERTILE, 0, 0, 0x007C, 0x007C),
+    gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_16b, 1, electrode_tex_explosion3_png),
+    gsSPDisplayList(D_0E000000),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 255, 1024),
+    gsDPPipeSync(),
+    gsSPVertex(&electrode_hd_vtx[144], 4, 0),
+    gsSP2Triangles(3, 2, 1, 0, 0, 3, 1, 0),
+    gsDPPipeSync(),
+    gsDPPipeSync(),
+    gsSPSetGeometryMode(G_FOG),
+    gsSPEndDisplayList(),
+};
