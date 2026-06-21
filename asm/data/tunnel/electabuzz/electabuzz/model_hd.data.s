@@ -128,7 +128,7 @@ enddlabel D_80196F14_1DD054
 nonmatching D_80196F30_1DD070
 
 dlabel D_80196F30_1DD070
-    /* 1DD070 80196F30 8016D530 */ .word electabuzz_tex_8016D530
+    /* 1DD070 80196F30 8016D530 */ .word kangaskhan_tex_8016D530
     /* 1DD074 80196F34 8016C4D0 */ .word electabuzz_tex_8016C4D0
     /* 1DD078 80196F38 8016CD00 */ .word electabuzz_tex_8016CD00
     /* 1DD07C 80196F3C 00000000 */ .word 0x00000000
@@ -3274,7 +3274,7 @@ dlabel electabuzz_hd_part8_draw
     /* 1DFF80 80199E40 E200001C */ .word 0xE200001C
     /* 1DFF84 80199E44 C8113078 */ .word 0xC8113078
     /* 1DFF88 80199E48 FD100000 */ .word 0xFD100000
-    /* 1DFF8C 80199E4C 8016D508 */ .word electabuzz_tex_8016D508
+    /* 1DFF8C 80199E4C 8016D508 */ .word kangaskhan_tex_8016D508
     /* 1DFF90 80199E50 E6000000 */ .word 0xE6000000
     /* 1DFF94 80199E54 00000000 */ .word 0x00000000
     /* 1DFF98 80199E58 F0000000 */ .word 0xF0000000

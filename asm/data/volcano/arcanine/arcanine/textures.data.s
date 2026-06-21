@@ -880,21 +880,15 @@ dlabel arcanine_tex_nose_pal
     /* 3BE33C 801976BC 00000000 */ .word 0x00000000
 enddlabel arcanine_tex_nose_pal
 
-.align 2
 nonmatching arcanine_tex_nose_png
 
 dlabel arcanine_tex_nose_png
-    /* 3BE340 801976C0 */ .asciz "DC2\""
-    /* 4443322200000000 */
-.align 2
-.align 2
-    /* 3BE348 801976C8 */ .asciz "DD2\""
-    /* 4444322200000000 */
-.align 2
-.align 2
-    /* 3BE350 801976D0 */ .asciz "5TB\""
-    /* 3554422200000000 */
-.align 2
+    /* 3BE340 801976C0 44433222 */ .word 0x44433222
+    /* 3BE344 801976C4 00000000 */ .word 0x00000000
+    /* 3BE348 801976C8 44443222 */ .word 0x44443222
+    /* 3BE34C 801976CC 00000000 */ .word 0x00000000
+    /* 3BE350 801976D0 35544222 */ .word 0x35544222
+    /* 3BE354 801976D4 00000000 */ .word 0x00000000
     /* 3BE358 801976D8 34544212 */ .word 0x34544212
     /* 3BE35C 801976DC 00000000 */ .word 0x00000000
     /* 3BE360 801976E0 34444211 */ .word 0x34444211
