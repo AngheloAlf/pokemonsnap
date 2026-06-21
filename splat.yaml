@@ -2311,6 +2311,7 @@ segments:
     exclusive_ram_id: unk30AF90
     prioritized_segments:
     - river_assets
+    # - river_code # TODO
     subsegments:
     - [auto, c, psyduck/model_hd]
     - [auto, c, poliwag/model_hd]

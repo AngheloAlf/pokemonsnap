@@ -737,7 +737,7 @@ glabel initUI
     /* 4F7268 80356E58 10000003 */  b          .L80356E68_4F7278
     /* 4F726C 80356E5C AC2C2D0C */   sw        $t4, %lo(D_80382D0C_52311C)($at)
   .L80356E60_4F7270:
-    /* 4F7270 80356E60 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 4F7270 80356E60 0C02FFAF */  jal        setPlayerFlag
     /* 4F7274 80356E64 24050001 */   addiu     $a1, $zero, 0x1
   .L80356E68_4F7278:
     /* 4F7278 80356E68 3C014000 */  lui        $at, (0x40000000 >> 16)

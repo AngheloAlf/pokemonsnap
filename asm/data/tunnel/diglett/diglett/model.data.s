@@ -2136,9 +2136,9 @@ dlabel diglett_part9_draw
     /* 62B3AC 8032E2DC 00000000 */ .word 0x00000000
 enddlabel diglett_part9_draw
 
-nonmatching D_8032E2E0_62B3B0
+nonmatching diglett_part10_draw_near
 
-dlabel D_8032E2E0_62B3B0
+dlabel diglett_part10_draw_near
     /* 62B3B0 8032E2E0 E7000000 */ .word 0xE7000000
     /* 62B3B4 8032E2E4 00000000 */ .word 0x00000000
     /* 62B3B8 8032E2E8 F5500000 */ .word 0xF5500000
@@ -2183,13 +2183,13 @@ dlabel D_8032E2E0_62B3B0
     /* 62B454 8032E384 00000000 */ .word 0x00000000
     /* 62B458 8032E388 DF000000 */ .word 0xDF000000
     /* 62B45C 8032E38C 00000000 */ .word 0x00000000
-enddlabel D_8032E2E0_62B3B0
+enddlabel diglett_part10_draw_near
 
 nonmatching diglett_part10_draw
 
 dlabel diglett_part10_draw
     /* 62B460 8032E390 E1000000 */ .word 0xE1000000
-    /* 62B464 8032E394 8032E2E0 */ .word D_8032E2E0_62B3B0
+    /* 62B464 8032E394 8032E2E0 */ .word diglett_part10_draw_near
     /* 62B468 8032E398 0409B03E */ .word 0x0409B03E
     /* 62B46C 8032E39C 03FBD516 */ .word 0x03FBD516
     /* 62B470 8032E3A0 DF000000 */ .word 0xDF000000

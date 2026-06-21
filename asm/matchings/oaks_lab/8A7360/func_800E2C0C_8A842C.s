@@ -77,7 +77,7 @@ glabel func_800E2C0C_8A842C
     /* 8A8550 800E2D30 54200005 */  bnel       $at, $zero, .L800E2D48_8A8568
     /* 8A8554 800E2D34 00001025 */   or        $v0, $zero, $zero
     /* 8A8558 800E2D38 24040008 */  addiu      $a0, $zero, 0x8
-    /* 8A855C 800E2D3C 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A855C 800E2D3C 0C02FFAF */  jal        setPlayerFlag
     /* 8A8560 800E2D40 24050001 */   addiu     $a1, $zero, 0x1
     /* 8A8564 800E2D44 00001025 */  or         $v0, $zero, $zero
   .L800E2D48_8A8568:
@@ -121,14 +121,14 @@ glabel func_800E2C0C_8A842C
     /* 8A85F0 800E2DD0 24040006 */   addiu     $a0, $zero, 0x6
     /* 8A85F4 800E2DD4 1440000F */  bnez       $v0, .L800E2E14_8A8634
     /* 8A85F8 800E2DD8 24040006 */   addiu     $a0, $zero, 0x6
-    /* 8A85FC 800E2DDC 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A85FC 800E2DDC 0C02FFAF */  jal        setPlayerFlag
     /* 8A8600 800E2DE0 24050001 */   addiu     $a1, $zero, 0x1
     /* 8A8604 800E2DE4 0C038C8C */  jal        func_800E3230_8A8A50
     /* 8A8608 800E2DE8 00000000 */   nop
     /* 8A860C 800E2DEC 0C0DC30D */  jal        func_80370C34
     /* 8A8610 800E2DF0 00402025 */   or        $a0, $v0, $zero
     /* 8A8614 800E2DF4 24040006 */  addiu      $a0, $zero, 0x6
-    /* 8A8618 800E2DF8 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A8618 800E2DF8 0C02FFAF */  jal        setPlayerFlag
     /* 8A861C 800E2DFC 00002825 */   or        $a1, $zero, $zero
     /* 8A8620 800E2E00 00002025 */  or         $a0, $zero, $zero
     /* 8A8624 800E2E04 0C0DC240 */  jal        func_80370900
@@ -153,14 +153,14 @@ glabel func_800E2C0C_8A842C
     /* 8A8668 800E2E48 24040007 */   addiu     $a0, $zero, 0x7
     /* 8A866C 800E2E4C 1440000F */  bnez       $v0, .L800E2E8C_8A86AC
     /* 8A8670 800E2E50 24040007 */   addiu     $a0, $zero, 0x7
-    /* 8A8674 800E2E54 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A8674 800E2E54 0C02FFAF */  jal        setPlayerFlag
     /* 8A8678 800E2E58 24050001 */   addiu     $a1, $zero, 0x1
     /* 8A867C 800E2E5C 0C038C8C */  jal        func_800E3230_8A8A50
     /* 8A8680 800E2E60 00000000 */   nop
     /* 8A8684 800E2E64 0C0DC30D */  jal        func_80370C34
     /* 8A8688 800E2E68 00402025 */   or        $a0, $v0, $zero
     /* 8A868C 800E2E6C 24040007 */  addiu      $a0, $zero, 0x7
-    /* 8A8690 800E2E70 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A8690 800E2E70 0C02FFAF */  jal        setPlayerFlag
     /* 8A8694 800E2E74 00002825 */   or        $a1, $zero, $zero
     /* 8A8698 800E2E78 00002025 */  or         $a0, $zero, $zero
     /* 8A869C 800E2E7C 0C0DC240 */  jal        func_80370900
@@ -189,7 +189,7 @@ glabel func_800E2C0C_8A842C
     /* 8A86EC 800E2ECC 0C02ABB4 */  jal        func_800AAED0
     /* 8A86F0 800E2ED0 24040400 */   addiu     $a0, $zero, 0x400
     /* 8A86F4 800E2ED4 24040013 */  addiu      $a0, $zero, 0x13
-    /* 8A86F8 800E2ED8 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 8A86F8 800E2ED8 0C02FFAF */  jal        setPlayerFlag
     /* 8A86FC 800E2EDC 00002825 */   or        $a1, $zero, $zero
   .L800E2EE0_8A8700:
     /* 8A8700 800E2EE0 0C038AED */  jal        func_800E2BB4_8A83D4

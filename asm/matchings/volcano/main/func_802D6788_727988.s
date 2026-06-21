@@ -11,7 +11,7 @@ glabel func_802D6788_727988
     /* 7279A4 802D67A4 15E00003 */  bnez       $t7, .L802D67B4_7279B4
   .L802D67A8_7279A8:
     /* 7279A8 802D67A8 24040015 */   addiu     $a0, $zero, 0x15
-    /* 7279AC 802D67AC 0C02FFAF */  jal        func_800BFEBC_5CD5C
+    /* 7279AC 802D67AC 0C02FFAF */  jal        setPlayerFlag
     /* 7279B0 802D67B0 24050001 */   addiu     $a1, $zero, 0x1
   .L802D67B4_7279B4:
     /* 7279B4 802D67B4 8FBF0014 */  lw         $ra, 0x14($sp)
