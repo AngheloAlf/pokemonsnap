@@ -9,6 +9,11 @@ nonmatching D_80193B40_25F8F0
 dlabel D_80193B40_25F8F0
     /* 25F8F0 80193B40 00000000 */ .word 0x00000000
     /* 25F8F4 80193B44 00000000 */ .word 0x00000000
+enddlabel D_80193B40_25F8F0
+
+nonmatching jynx_tex_arm_png
+
+dlabel jynx_tex_arm_png
     /* 25F8F8 80193B48 FFFFFFFF */ .word 0xFFFFFFFF
     /* 25F8FC 80193B4C FFFFFFFF */ .word 0xFFFFFFFF
     /* 25F900 80193B50 FFFFFFFF */ .word 0xFFFFFFFF
@@ -1035,6 +1040,11 @@ dlabel D_80193B40_25F8F0
     /* 2608F4 80194B44 FFFFFFFF */ .word 0xFFFFFFFF
     /* 2608F8 80194B48 00000000 */ .word 0x00000000
     /* 2608FC 80194B4C 00000000 */ .word 0x00000000
+enddlabel jynx_tex_arm_png
+
+nonmatching jynx_tex_torso_pal
+
+dlabel jynx_tex_torso_pal
     /* 260900 80194B50 00015AC1 */ .word 0x00015AC1
     /* 260904 80194B54 B18DC9CD */ .word 0xB18DC9CD
     /* 260908 80194B58 CA0DD24D */ .word 0xCA0DD24D
@@ -1045,6 +1055,11 @@ dlabel D_80193B40_25F8F0
     /* 26091C 80194B6C FF81FFC1 */ .word 0xFF81FFC1
     /* 260920 80194B70 00000000 */ .word 0x00000000
     /* 260924 80194B74 00000000 */ .word 0x00000000
+enddlabel jynx_tex_torso_pal
+
+nonmatching jynx_tex_torso_png
+
+dlabel jynx_tex_torso_png
     /* 260928 80194B78 33333333 */ .word 0x33333333
     /* 26092C 80194B7C 33333457 */ .word 0x33333457
     /* 260930 80194B80 889ABBBB */ .word 0x889ABBBB
@@ -1303,6 +1318,11 @@ dlabel D_80193B40_25F8F0
     /* 260D24 80194F74 33333333 */ .word 0x33333333
     /* 260D28 80194F78 00000000 */ .word 0x00000000
     /* 260D2C 80194F7C 00000000 */ .word 0x00000000
+enddlabel jynx_tex_torso_png
+
+nonmatching jynx_tex_eye_0_pal
+
+dlabel jynx_tex_eye_0_pal
     /* 260D30 80194F80 0000294B */ .word 0x0000294B
     /* 260D34 80194F84 5AD78C63 */ .word 0x5AD78C63
     /* 260D38 80194F88 AD6BCE73 */ .word 0xAD6BCE73
@@ -1313,6 +1333,11 @@ dlabel D_80193B40_25F8F0
     /* 260D4C 80194F9C 51DB3913 */ .word 0x51DB3913
     /* 260D50 80194FA0 00000000 */ .word 0x00000000
     /* 260D54 80194FA4 00000000 */ .word 0x00000000
+enddlabel jynx_tex_eye_0_pal
+
+nonmatching jynx_tex_eye_0_png
+
+dlabel jynx_tex_eye_0_png
     /* 260D58 80194FA8 00000000 */ .word 0x00000000
     /* 260D5C 80194FAC 00000000 */ .word 0x00000000
     /* 260D60 80194FB0 00000000 */ .word 0x00000000
@@ -1453,6 +1478,11 @@ dlabel D_80193B40_25F8F0
     /* 260F7C 801951CC 51DB3913 */ .word 0x51DB3913
     /* 260F80 801951D0 00000000 */ .word 0x00000000
     /* 260F84 801951D4 00000000 */ .word 0x00000000
+enddlabel jynx_tex_eye_0_png
+
+nonmatching jynx_tex_eye_1_png
+
+dlabel jynx_tex_eye_1_png
     /* 260F88 801951D8 00000000 */ .word 0x00000000
     /* 260F8C 801951DC 00000000 */ .word 0x00000000
     /* 260F90 801951E0 00000000 */ .word 0x00000000
@@ -1593,6 +1623,11 @@ dlabel D_80193B40_25F8F0
     /* 2611AC 801953FC 51DB3913 */ .word 0x51DB3913
     /* 2611B0 80195400 00000000 */ .word 0x00000000
     /* 2611B4 80195404 00000000 */ .word 0x00000000
+enddlabel jynx_tex_eye_1_png
+
+nonmatching jynx_tex_eye_2_png
+
+dlabel jynx_tex_eye_2_png
     /* 2611B8 80195408 00000000 */ .word 0x00000000
     /* 2611BC 8019540C 00000000 */ .word 0x00000000
     /* 2611C0 80195410 00000000 */ .word 0x00000000
@@ -1723,6 +1758,11 @@ dlabel D_80193B40_25F8F0
     /* 2613B4 80195604 00000000 */ .word 0x00000000
     /* 2613B8 80195608 00000000 */ .word 0x00000000
     /* 2613BC 8019560C 00000000 */ .word 0x00000000
+enddlabel jynx_tex_eye_2_png
+
+nonmatching jynx_tex_hair_png
+
+dlabel jynx_tex_hair_png
     /* 2613C0 80195610 ED41ED41 */ .word 0xED41ED41
     /* 2613C4 80195614 ED41ED41 */ .word 0xED41ED41
     /* 2613C8 80195618 ED41ED41 */ .word 0xED41ED41
@@ -2237,6 +2277,11 @@ dlabel D_80193B40_25F8F0
     /* 261BBC 80195E0C ED41ED41 */ .word 0xED41ED41
     /* 261BC0 80195E10 00000000 */ .word 0x00000000
     /* 261BC4 80195E14 00000000 */ .word 0x00000000
+enddlabel jynx_tex_hair_png
+
+nonmatching jynx_tex_hair_2_png
+
+dlabel jynx_tex_hair_2_png
     /* 261BC8 80195E18 ED41ED41 */ .word 0xED41ED41
     /* 261BCC 80195E1C ED41ED41 */ .word 0xED41ED41
     /* 261BD0 80195E20 ED41ED41 */ .word 0xED41ED41
@@ -3263,6 +3308,11 @@ dlabel D_80193B40_25F8F0
     /* 262BC4 80196E14 ED41ED41 */ .word 0xED41ED41
     /* 262BC8 80196E18 00000000 */ .word 0x00000000
     /* 262BCC 80196E1C 00000000 */ .word 0x00000000
+enddlabel jynx_tex_hair_2_png
+
+nonmatching jynx_tex_hair_3_png
+
+dlabel jynx_tex_hair_3_png
     /* 262BD0 80196E20 ED41ED41 */ .word 0xED41ED41
     /* 262BD4 80196E24 ED41ED41 */ .word 0xED41ED41
     /* 262BD8 80196E28 ED41ED41 */ .word 0xED41ED41
@@ -4289,6 +4339,11 @@ dlabel D_80193B40_25F8F0
     /* 263BCC 80197E1C F5C1F5C1 */ .word 0xF5C1F5C1
     /* 263BD0 80197E20 00000000 */ .word 0x00000000
     /* 263BD4 80197E24 00000000 */ .word 0x00000000
+enddlabel jynx_tex_hair_3_png
+
+nonmatching jynx_tex_lips_png
+
+dlabel jynx_tex_lips_png
     /* 263BD8 80197E28 DB19DB19 */ .word 0xDB19DB19
     /* 263BDC 80197E2C DB19DB19 */ .word 0xDB19DB19
     /* 263BE0 80197E30 DB19DB19 */ .word 0xDB19DB19
@@ -5315,6 +5370,11 @@ dlabel D_80193B40_25F8F0
     /* 264BD4 80198E24 DB19DB19 */ .word 0xDB19DB19
     /* 264BD8 80198E28 00000000 */ .word 0x00000000
     /* 264BDC 80198E2C 00000000 */ .word 0x00000000
+enddlabel jynx_tex_lips_png
+
+nonmatching jynx_tex_dress_pal
+
+dlabel jynx_tex_dress_pal
     /* 264BE0 80198E30 A94BA94B */ .word 0xA94BA94B
     /* 264BE4 80198E34 B14BB14B */ .word 0xB14BB14B
     /* 264BE8 80198E38 B98DC18D */ .word 0xB98DC18D
@@ -5325,6 +5385,11 @@ dlabel D_80193B40_25F8F0
     /* 264BFC 80198E4C F251F251 */ .word 0xF251F251
     /* 264C00 80198E50 00000000 */ .word 0x00000000
     /* 264C04 80198E54 00000000 */ .word 0x00000000
+enddlabel jynx_tex_dress_pal
+
+nonmatching jynx_tex_dress_png
+
+dlabel jynx_tex_dress_png
     /* 264C08 80198E58 88875420 */ .word 0x88875420
     /* 264C0C 80198E5C 1369ABDF */ .word 0x1369ABDF
     /* 264C10 80198E60 FDBA9631 */ .word 0xFDBA9631
@@ -5455,4 +5520,4 @@ dlabel D_80193B40_25F8F0
     /* 264E04 80199054 02457777 */ .word 0x02457777
     /* 264E08 80199058 00000000 */ .word 0x00000000
     /* 264E0C 8019905C 00000000 */ .word 0x00000000
-enddlabel D_80193B40_25F8F0
+enddlabel jynx_tex_dress_png

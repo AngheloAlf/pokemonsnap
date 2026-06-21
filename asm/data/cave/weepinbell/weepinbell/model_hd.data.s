@@ -29,20 +29,20 @@ enddlabel D_801C81D0_293F60
 nonmatching D_801C8214_293FA4
 
 dlabel D_801C8214_293FA4
-    /* 293FA4 801C8214 801A7A48 */ .word 0x801A7A48
-    /* 293FA8 801C8218 801A5988 */ .word vileplume_hd_vtx + 0xF90
+    /* 293FA4 801C8214 801A7A48 */ .word weepinbell_tex_801A7A48
+    /* 293FA8 801C8218 801A5988 */ .word weepinbell_tex_801A5988
     /* 293FAC 801C821C 801A7218 */ .word electrode_hd_vtx + 0x760
-    /* 293FB0 801C8220 801A69E8 */ .word vileplume_hd_vtx + 0x1FF0
+    /* 293FB0 801C8220 801A69E8 */ .word weepinbell_tex_801A69E8
     /* 293FB4 801C8224 801A61B8 */ .word haunter_hd_model + 0x4F8
 enddlabel D_801C8214_293FA4
 
 nonmatching D_801C8228_293FB8
 
 dlabel D_801C8228_293FB8
-    /* 293FB8 801C8228 801A7A48 */ .word 0x801A7A48
-    /* 293FBC 801C822C 801A5988 */ .word vileplume_hd_vtx + 0xF90
+    /* 293FB8 801C8228 801A7A48 */ .word weepinbell_tex_801A7A48
+    /* 293FBC 801C822C 801A5988 */ .word weepinbell_tex_801A5988
     /* 293FC0 801C8230 801A61B8 */ .word haunter_hd_model + 0x4F8
-    /* 293FC4 801C8234 801A69E8 */ .word vileplume_hd_vtx + 0x1FF0
+    /* 293FC4 801C8234 801A69E8 */ .word weepinbell_tex_801A69E8
     /* 293FC8 801C8238 801A7218 */ .word electrode_hd_vtx + 0x760
     /* 293FCC 801C823C 00000000 */ .word 0x00000000
 enddlabel D_801C8228_293FB8
@@ -1526,7 +1526,7 @@ dlabel weepinbell_hd_part0_draw
     /* 295658 801C98C8 F2000000 */ .word 0xF2000000
     /* 29565C 801C98CC 0000C00C */ .word 0x0000C00C
     /* 295660 801C98D0 FD100000 */ .word 0xFD100000
-    /* 295664 801C98D4 801A56E0 */ .word vileplume_hd_vtx + 0xCE8
+    /* 295664 801C98D4 801A56E0 */ .word weepinbell_tex_801A56E0
     /* 295668 801C98D8 E6000000 */ .word 0xE6000000
     /* 29566C 801C98DC 00000000 */ .word 0x00000000
     /* 295670 801C98E0 F3000000 */ .word 0xF3000000
@@ -1562,7 +1562,7 @@ dlabel weepinbell_hd_part0_draw
     /* 2956E8 801C9958 E7000000 */ .word 0xE7000000
     /* 2956EC 801C995C 00000000 */ .word 0x00000000
     /* 2956F0 801C9960 FD100000 */ .word 0xFD100000
-    /* 2956F4 801C9964 801A56B8 */ .word vileplume_hd_vtx + 0xCC0
+    /* 2956F4 801C9964 801A56B8 */ .word weepinbell_tex_801A56B8
     /* 2956F8 801C9968 E6000000 */ .word 0xE6000000
     /* 2956FC 801C996C 00000000 */ .word 0x00000000
     /* 295700 801C9970 F3000000 */ .word 0xF3000000
@@ -1731,7 +1731,7 @@ dlabel weepinbell_hd_part3_draw
     /* 295950 801C9BC0 F5400400 */ .word 0xF5400400
     /* 295954 801C9BC4 00094250 */ .word 0x00094250
     /* 295958 801C9BC8 FD100000 */ .word 0xFD100000
-    /* 29595C 801C9BCC 801A5730 */ .word vileplume_hd_vtx + 0xD38
+    /* 29595C 801C9BCC 801A5730 */ .word weepinbell_tex_801A5730
     /* 295960 801C9BD0 E6000000 */ .word 0xE6000000
     /* 295964 801C9BD4 00000000 */ .word 0x00000000
     /* 295968 801C9BD8 F0000000 */ .word 0xF0000000
@@ -1822,7 +1822,7 @@ dlabel weepinbell_hd_part4_draw
     /* 295AA8 801C9D18 F2000000 */ .word 0xF2000000
     /* 295AAC 801C9D1C 0001C004 */ .word 0x0001C004
     /* 295AB0 801C9D20 FD100000 */ .word 0xFD100000
-    /* 295AB4 801C9D24 801A5708 */ .word vileplume_hd_vtx + 0xD10
+    /* 295AB4 801C9D24 801A5708 */ .word weepinbell_tex_801A5708
     /* 295AB8 801C9D28 E6000000 */ .word 0xE6000000
     /* 295ABC 801C9D2C 00000000 */ .word 0x00000000
     /* 295AC0 801C9D30 F3000000 */ .word 0xF3000000
@@ -2153,7 +2153,7 @@ dlabel weepinbell_hd_part9_draw
     /* 295F48 801CA1B8 F2000000 */ .word 0xF2000000
     /* 295F4C 801CA1BC 0000C00C */ .word 0x0000C00C
     /* 295F50 801CA1C0 FD100000 */ .word 0xFD100000
-    /* 295F54 801CA1C4 801A56B8 */ .word vileplume_hd_vtx + 0xCC0
+    /* 295F54 801CA1C4 801A56B8 */ .word weepinbell_tex_801A56B8
     /* 295F58 801CA1C8 E6000000 */ .word 0xE6000000
     /* 295F5C 801CA1CC 00000000 */ .word 0x00000000
     /* 295F60 801CA1D0 F3000000 */ .word 0xF3000000
@@ -2355,7 +2355,7 @@ dlabel weepinbell_hd_part13_draw
     /* 296220 801CA490 F5400800 */ .word 0xF5400800
     /* 296224 801CA494 00098260 */ .word 0x00098260
     /* 296228 801CA498 FD100000 */ .word 0xFD100000
-    /* 29622C 801CA49C 801A7A20 */ .word 0x801A7A20
+    /* 29622C 801CA49C 801A7A20 */ .word weepinbell_tex_801A7A20
     /* 296230 801CA4A0 E6000000 */ .word 0xE6000000
     /* 296234 801CA4A4 00000000 */ .word 0x00000000
     /* 296238 801CA4A8 F0000000 */ .word 0xF0000000
@@ -2479,7 +2479,7 @@ dlabel weepinbell_hd_part13_draw
     /* 296410 801CA680 F5400800 */ .word 0xF5400800
     /* 296414 801CA684 00098260 */ .word 0x00098260
     /* 296418 801CA688 FD100000 */ .word 0xFD100000
-    /* 29641C 801CA68C 801A7A20 */ .word 0x801A7A20
+    /* 29641C 801CA68C 801A7A20 */ .word weepinbell_tex_801A7A20
     /* 296420 801CA690 E6000000 */ .word 0xE6000000
     /* 296424 801CA694 00000000 */ .word 0x00000000
     /* 296428 801CA698 F0000000 */ .word 0xF0000000

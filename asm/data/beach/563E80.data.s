@@ -1804,7 +1804,7 @@ nonmatching D_beach_802CCFD4
 dlabel D_beach_802CCFD4
     /* 565044 802CCFD4 3E99999A */ .word 0x3E99999A
     /* 565048 802CCFD8 424C0000 */ .word 0x424C0000
-    /* 56504C 802CCFDC 801A08C0 */ .word cloyster_hd_vtx + 0xC10
+    /* 56504C 802CCFDC 801A08C0 */ .word victreebel_tex_801A08C0
     /* 565050 802CCFE0 801A8CC0 */ .word magneton_hd_vtx + 0x5F0
     /* 565054 802CCFE4 00000000 */ .word 0x00000000
 enddlabel D_beach_802CCFD4

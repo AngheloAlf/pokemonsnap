@@ -1907,6 +1907,7 @@ segments:
       - [0x1F5728, gfx, hd_part14_draw]
       - [0x1F57B8, gfx, hd_part15_pre]
       - [0x1F57F8, gfx, hd_part15_draw]
+
   - type: code
     name: cave_assets
     dir: cave
@@ -1915,9 +1916,27 @@ segments:
     bss_size: 0x20
     exclusive_ram_id: unk8012A0C0
     subsegments:
-    - [auto, c, jynx/textures]
     - [0x1F5E70, c]
+    - [0x1F5E80]
+
+    - [auto, c, 1F5E80]
+    - [auto, c, grimer/textures]
+    - [auto, c, muk/textures]
+    - [auto, c, koffing/textures]
+    - [auto, c, articuno/textures]
+    - [auto, c, ditto/textures]
+    - [auto, c, jynx/textures]
+    - [auto, c, 264E10]
+    - [auto, c, victreebel/textures]
+    - [auto, c, weepinbell/textures]
+
     - [0x1F5E80, bin]
+    - [0x220000, bin, grimer/textures]
+    - [0x228510, bin, muk/textures]
+    - [0x22D930, bin, koffing/textures]
+    - [0x23B830, bin, articuno/textures]
+    - [0x2492C0, bin, ditto/textures]
+    - [0x2535D0, bin, jigglypuff/textures]
     - start: 0x25F8F0
       type: .data
       name: jynx/textures
@@ -1955,13 +1974,19 @@ segments:
       - { start: 0x264C08, type: ci4, width: 32, height: 32, name: "tex_dress" }
       - [0x264E08]
     - [0x264E10, bin]
+    - [0x26C260, bin, victreebel/textures]
+    - [0x271460, bin, weepinbell/textures]
+
     - { name: bss_801AEDD0, type: bss, vram: 0x801AEDD0 }
+
   - type: code
     name: cave_extra
     dir: cave
     start: 0x27AB80
     vram: 0x801AEDF0
     exclusive_ram_id: unk27AB80
+    prioritized_segments:
+    - cave_assets
     subsegments:
     - [auto, c, grimer/model_hd]
     - [auto, c, muk/model_hd]
@@ -2241,6 +2266,7 @@ segments:
       - [0x299A90, gfx, hd_part15_draw]
       - [0x299B18, gfx, hd_part16_draw]
       - [0x299BF0, gfx, hd_part0_draw]
+
   - type: code
     name: river_assets
     start: 0x29A190
@@ -2249,8 +2275,14 @@ segments:
     exclusive_ram_id: unk8012A0C0
     subsegments:
     - [0x29A190, c]
+    - [0x29A1A0]
+
+    - [auto, c, 29A1A]
+
     - [0x29A1A0, bin] # , data]
+
     - { name: bss_8019AEC0, type: bss, vram: 0x8019AEC0 }
+
   - type: code
     name: river_extra
     dir: river
@@ -6954,6 +6986,8 @@ segments:
     vram: 0x802BDD00
     bss_size: 0x1580
     exclusive_ram_id: level
+    prioritized_segments:
+    - cave_assets
     subsegments:
     - [0x6401B0, c]
     - [0x640900, c]
