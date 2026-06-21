@@ -5531,6 +5531,8 @@ segments:
     start: 0x54B5D0
     vram: 0x8034E130
     exclusive_ram_id: unk8034E130
+    prioritized_segments:
+    - magikarp_textures
     subsegments:
     - [auto, c, magikarp/model]
     - start: 0x54B5D0
@@ -6480,6 +6482,8 @@ segments:
     vram: 0x802E2500
     bss_size: 0x1690
     exclusive_ram_id: level
+    prioritized_segments:
+    - tunnel_assets
     subsegments:
     - [0x5DF5D0, c, main]
     - [0x5DFD40, c, sounds]
@@ -8112,6 +8116,8 @@ segments:
     vram: 0x802D60E0
     bss_size: 0x170
     exclusive_ram_id: level
+    prioritized_segments:
+    - volcano_assets
     subsegments:
     - [0x7272E0, c, main]
     - [0x728490, c, magmar/code]
