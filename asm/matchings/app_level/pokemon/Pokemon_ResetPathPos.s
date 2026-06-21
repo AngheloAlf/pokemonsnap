@@ -4,7 +4,7 @@ glabel Pokemon_ResetPathPos
     /* 502460 80362050 27BDFFE0 */  addiu      $sp, $sp, -0x20
     /* 502464 80362054 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 502468 80362058 8C830048 */  lw         $v1, 0x48($a0)
-    /* 50246C 8036205C 0C038861 */  jal        getCurrentWorldBlock
+    /* 50246C 8036205C 0C038861 */  jal        func_800E2184_5F934
     /* 502470 80362060 AFA30018 */   sw        $v1, 0x18($sp)
     /* 502474 80362064 8C4E0004 */  lw         $t6, 0x4($v0)
     /* 502478 80362068 3C0142C8 */  lui        $at, (0x42C80000 >> 16)

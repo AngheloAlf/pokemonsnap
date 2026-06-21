@@ -9,6 +9,11 @@ nonmatching D_80161BF0_388870
 dlabel D_80161BF0_388870
     /* 388870 80161BF0 00000000 */ .word 0x00000000
     /* 388874 80161BF4 00000000 */ .word 0x00000000
+enddlabel D_80161BF0_388870
+
+nonmatching growlithe_tex_nose_pal
+
+dlabel growlithe_tex_nose_pal
     /* 388878 80161BF8 FFFF18C7 */ .word 0xFFFF18C7
     /* 38887C 80161BFC 2109294B */ .word 0x2109294B
     /* 388880 80161C00 318D39CF */ .word 0x318D39CF
@@ -19,12 +24,23 @@ dlabel D_80161BF0_388870
     /* 388894 80161C14 00000000 */ .word 0x00000000
     /* 388898 80161C18 00000000 */ .word 0x00000000
     /* 38889C 80161C1C 00000000 */ .word 0x00000000
-    /* 3888A0 80161C20 44433222 */ .word 0x44433222
-    /* 3888A4 80161C24 00000000 */ .word 0x00000000
-    /* 3888A8 80161C28 44443222 */ .word 0x44443222
-    /* 3888AC 80161C2C 00000000 */ .word 0x00000000
-    /* 3888B0 80161C30 35544222 */ .word 0x35544222
-    /* 3888B4 80161C34 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_nose_pal
+
+.align 2
+nonmatching growlithe_tex_nose_png
+
+dlabel growlithe_tex_nose_png
+    /* 3888A0 80161C20 */ .asciz "DC2\""
+    /* 4443322200000000 */
+.align 2
+.align 2
+    /* 3888A8 80161C28 */ .asciz "DD2\""
+    /* 4444322200000000 */
+.align 2
+.align 2
+    /* 3888B0 80161C30 */ .asciz "5TB\""
+    /* 3554422200000000 */
+.align 2
     /* 3888B8 80161C38 34544212 */ .word 0x34544212
     /* 3888BC 80161C3C 00000000 */ .word 0x00000000
     /* 3888C0 80161C40 34444211 */ .word 0x34444211
@@ -53,6 +69,11 @@ dlabel D_80161BF0_388870
     /* 38891C 80161C9C 00000000 */ .word 0x00000000
     /* 388920 80161CA0 00000000 */ .word 0x00000000
     /* 388924 80161CA4 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_nose_png
+
+nonmatching growlithe_tex_eye_frame0_pal
+
+dlabel growlithe_tex_eye_frame0_pal
     /* 388928 80161CA8 FFFF18C7 */ .word 0xFFFF18C7
     /* 38892C 80161CAC 5295CE73 */ .word 0x5295CE73
     /* 388930 80161CB0 F7BDC5EF */ .word 0xF7BDC5EF
@@ -63,6 +84,11 @@ dlabel D_80161BF0_388870
     /* 388944 80161CC4 7BDB0000 */ .word 0x7BDB0000
     /* 388948 80161CC8 00000000 */ .word 0x00000000
     /* 38894C 80161CCC 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_eye_frame0_pal
+
+nonmatching growlithe_tex_eye_frame0_png
+
+dlabel growlithe_tex_eye_frame0_png
     /* 388950 80161CD0 BBBBBBBB */ .word 0xBBBBBBBB
     /* 388954 80161CD4 BBBBBBBB */ .word 0xBBBBBBBB
     /* 388958 80161CD8 BBBBBBBB */ .word 0xBBBBBBBB
@@ -331,6 +357,11 @@ dlabel D_80161BF0_388870
     /* 388D74 801620F4 7BDB0000 */ .word 0x7BDB0000
     /* 388D78 801620F8 00000000 */ .word 0x00000000
     /* 388D7C 801620FC 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_eye_frame0_png
+
+nonmatching growlithe_tex_eye_frame1_png
+
+dlabel growlithe_tex_eye_frame1_png
     /* 388D80 80162100 BBBBBBBB */ .word 0xBBBBBBBB
     /* 388D84 80162104 BBBBBBBB */ .word 0xBBBBBBBB
     /* 388D88 80162108 BBBBBBBB */ .word 0xBBBBBBBB
@@ -589,6 +620,11 @@ dlabel D_80161BF0_388870
     /* 38917C 801624FC BBBBBBBB */ .word 0xBBBBBBBB
     /* 389180 80162500 00000000 */ .word 0x00000000
     /* 389184 80162504 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_eye_frame1_png
+
+nonmatching growlithe_tex_fur1_pal
+
+dlabel growlithe_tex_fur1_pal
     /* 389188 80162508 FFFFED13 */ .word 0xFFFFED13
     /* 38918C 8016250C ED55FE19 */ .word 0xED55FE19
     /* 389190 80162510 F5D5FF71 */ .word 0xF5D5FF71
@@ -599,6 +635,11 @@ dlabel D_80161BF0_388870
     /* 3891A4 80162524 FFA70000 */ .word 0xFFA70000
     /* 3891A8 80162528 00000000 */ .word 0x00000000
     /* 3891AC 8016252C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur1_pal
+
+nonmatching growlithe_tex_fur1_png
+
+dlabel growlithe_tex_fur1_png
     /* 3891B0 80162530 44433338 */ .word 0x44433338
     /* 3891B4 80162534 8866A777 */ .word 0x8866A777
     /* 3891B8 80162538 7AA77A66 */ .word 0x7AA77A66
@@ -857,6 +898,11 @@ dlabel D_80161BF0_388870
     /* 3895AC 8016292C 55999999 */ .word 0x55999999
     /* 3895B0 80162930 00000000 */ .word 0x00000000
     /* 3895B4 80162934 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur1_png
+
+nonmatching growlithe_tex_fur2_pal
+
+dlabel growlithe_tex_fur2_pal
     /* 3895B8 80162938 FFFFF595 */ .word 0xFFFFF595
     /* 3895BC 8016293C FE17FF73 */ .word 0xFE17FF73
     /* 3895C0 80162940 FE9FFE9B */ .word 0xFE9FFE9B
@@ -867,6 +913,11 @@ dlabel D_80161BF0_388870
     /* 3895D4 80162954 00000000 */ .word 0x00000000
     /* 3895D8 80162958 00000000 */ .word 0x00000000
     /* 3895DC 8016295C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur2_pal
+
+nonmatching growlithe_tex_fur2_png
+
+dlabel growlithe_tex_fur2_png
     /* 3895E0 80162960 12111112 */ .word 0x12111112
     /* 3895E4 80162964 11111111 */ .word 0x11111111
     /* 3895E8 80162968 11111111 */ .word 0x11111111
@@ -1125,6 +1176,11 @@ dlabel D_80161BF0_388870
     /* 3899DC 80162D5C CDC8C377 */ .word 0xCDC8C377
     /* 3899E0 80162D60 00000000 */ .word 0x00000000
     /* 3899E4 80162D64 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur2_png
+
+nonmatching growlithe_tex_mouth_pal
+
+dlabel growlithe_tex_mouth_pal
     /* 3899E8 80162D68 FFFF7A0F */ .word 0xFFFF7A0F
     /* 3899EC 80162D6C 698B6149 */ .word 0x698B6149
     /* 3899F0 80162D70 BCE3418B */ .word 0xBCE3418B
@@ -1135,6 +1191,11 @@ dlabel D_80161BF0_388870
     /* 389A04 80162D84 F7710000 */ .word 0xF7710000
     /* 389A08 80162D88 00000000 */ .word 0x00000000
     /* 389A0C 80162D8C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_mouth_pal
+
+nonmatching growlithe_tex_mouth_png
+
+dlabel growlithe_tex_mouth_png
     /* 389A10 80162D90 AAAB7233 */ .word 0xAAAB7233
     /* 389A14 80162D94 33333333 */ .word 0x33333333
     /* 389A18 80162D98 33333333 */ .word 0x33333333
@@ -1201,6 +1262,11 @@ dlabel D_80161BF0_388870
     /* 389B0C 80162E8C AAAAAAAA */ .word 0xAAAAAAAA
     /* 389B10 80162E90 00000000 */ .word 0x00000000
     /* 389B14 80162E94 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_mouth_png
+
+nonmatching growlithe_tex_skin1_pal
+
+dlabel growlithe_tex_skin1_pal
     /* 389B18 80162E98 FFFF4A53 */ .word 0xFFFF4A53
     /* 389B1C 80162E9C 52955253 */ .word 0x52955253
     /* 389B20 80162EA0 834F8B8F */ .word 0x834F8B8F
@@ -1211,6 +1277,11 @@ dlabel D_80161BF0_388870
     /* 389B34 80162EB4 52550000 */ .word 0x52550000
     /* 389B38 80162EB8 00000000 */ .word 0x00000000
     /* 389B3C 80162EBC 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_skin1_pal
+
+nonmatching growlithe_tex_skin1_png
+
+dlabel growlithe_tex_skin1_png
     /* 389B40 80162EC0 99999999 */ .word 0x99999999
     /* 389B44 80162EC4 99999999 */ .word 0x99999999
     /* 389B48 80162EC8 99999999 */ .word 0x99999999
@@ -1469,6 +1540,11 @@ dlabel D_80161BF0_388870
     /* 389F3C 801632BC 99999999 */ .word 0x99999999
     /* 389F40 801632C0 00000000 */ .word 0x00000000
     /* 389F44 801632C4 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_skin1_png
+
+nonmatching growlithe_tex_ear_pal
+
+dlabel growlithe_tex_ear_pal
     /* 389F48 801632C8 FFFFCC41 */ .word 0xFFFFCC41
     /* 389F4C 801632CC DC81FDC9 */ .word 0xDC81FDC9
     /* 389F50 801632D0 C441ED41 */ .word 0xC441ED41
@@ -1479,6 +1555,11 @@ dlabel D_80161BF0_388870
     /* 389F64 801632E4 8B410000 */ .word 0x8B410000
     /* 389F68 801632E8 00000000 */ .word 0x00000000
     /* 389F6C 801632EC 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_ear_pal
+
+nonmatching growlithe_tex_ear_png
+
+dlabel growlithe_tex_ear_png
     /* 389F70 801632F0 33333333 */ .word 0x33333333
     /* 389F74 801632F4 33333333 */ .word 0x33333333
     /* 389F78 801632F8 33333636 */ .word 0x33333636
@@ -1609,6 +1690,11 @@ dlabel D_80161BF0_388870
     /* 38A16C 801634EC 33333333 */ .word 0x33333333
     /* 38A170 801634F0 00000000 */ .word 0x00000000
     /* 38A174 801634F4 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_ear_png
+
+nonmatching growlithe_tex_fur3_pal
+
+dlabel growlithe_tex_fur3_pal
     /* 38A178 801634F8 FFFFF595 */ .word 0xFFFFF595
     /* 38A17C 801634FC FE17FF73 */ .word 0xFE17FF73
     /* 38A180 80163500 F5D1F58B */ .word 0xF5D1F58B
@@ -1619,6 +1705,11 @@ dlabel D_80161BF0_388870
     /* 38A194 80163514 FFAD0000 */ .word 0xFFAD0000
     /* 38A198 80163518 00000000 */ .word 0x00000000
     /* 38A19C 8016351C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur3_pal
+
+nonmatching growlithe_tex_fur3_png
+
+dlabel growlithe_tex_fur3_png
     /* 38A1A0 80163520 11222288 */ .word 0x11222288
     /* 38A1A4 80163524 8666CCCC */ .word 0x8666CCCC
     /* 38A1A8 80163528 CCDDDEEE */ .word 0xCCDDDEEE
@@ -1877,6 +1968,11 @@ dlabel D_80161BF0_388870
     /* 38A59C 8016391C 99999999 */ .word 0x99999999
     /* 38A5A0 80163920 00000000 */ .word 0x00000000
     /* 38A5A4 80163924 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fur3_png
+
+nonmatching growlithe_tex_tongue_pal
+
+dlabel growlithe_tex_tongue_pal
     /* 38A5A8 80163928 FFFFFCE7 */ .word 0xFFFFFCE7
     /* 38A5AC 8016392C FCA5FC63 */ .word 0xFCA5FC63
     /* 38A5B0 80163930 FC21FBDF */ .word 0xFC21FBDF
@@ -1885,6 +1981,11 @@ dlabel D_80161BF0_388870
     /* 38A5BC 8016393C 00000000 */ .word 0x00000000
     /* 38A5C0 80163940 00000000 */ .word 0x00000000
     /* 38A5C4 80163944 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_tongue_pal
+
+nonmatching growlithe_tex_tongue_png
+
+dlabel growlithe_tex_tongue_png
     /* 38A5C8 80163948 11111111 */ .word 0x11111111
     /* 38A5CC 8016394C 11111111 */ .word 0x11111111
     /* 38A5D0 80163950 11111111 */ .word 0x11111111
@@ -2143,6 +2244,11 @@ dlabel D_80161BF0_388870
     /* 38A9C4 80163D44 44443444 */ .word 0x44443444
     /* 38A9C8 80163D48 00000000 */ .word 0x00000000
     /* 38A9CC 80163D4C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_tongue_png
+
+nonmatching growlithe_tex_skin2_pal
+
+dlabel growlithe_tex_skin2_pal
     /* 38A9D0 80163D50 FFFF4A53 */ .word 0xFFFF4A53
     /* 38A9D4 80163D54 52955253 */ .word 0x52955253
     /* 38A9D8 80163D58 834F8B8F */ .word 0x834F8B8F
@@ -2153,6 +2259,11 @@ dlabel D_80161BF0_388870
     /* 38A9EC 80163D6C 52550000 */ .word 0x52550000
     /* 38A9F0 80163D70 00000000 */ .word 0x00000000
     /* 38A9F4 80163D74 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_skin2_pal
+
+nonmatching growlithe_tex_skin2_png
+
+dlabel growlithe_tex_skin2_png
     /* 38A9F8 80163D78 99999999 */ .word 0x99999999
     /* 38A9FC 80163D7C 99999999 */ .word 0x99999999
     /* 38AA00 80163D80 99999999 */ .word 0x99999999
@@ -2411,6 +2522,11 @@ dlabel D_80161BF0_388870
     /* 38ADF4 80164174 99999999 */ .word 0x99999999
     /* 38ADF8 80164178 00000000 */ .word 0x00000000
     /* 38ADFC 8016417C 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_skin2_png
+
+nonmatching growlithe_tex_fingers_pal
+
+dlabel growlithe_tex_fingers_pal
     /* 38AE00 80164180 FFFF49CD */ .word 0xFFFF49CD
     /* 38AE04 80164184 728F9393 */ .word 0x728F9393
     /* 38AE08 80164188 B3CDBC0B */ .word 0xB3CDBC0B
@@ -2421,6 +2537,11 @@ dlabel D_80161BF0_388870
     /* 38AE1C 8016419C ED890000 */ .word 0xED890000
     /* 38AE20 801641A0 00000000 */ .word 0x00000000
     /* 38AE24 801641A4 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fingers_pal
+
+nonmatching growlithe_tex_fingers_png
+
+dlabel growlithe_tex_fingers_png
     /* 38AE28 801641A8 EEEEEEEE */ .word 0xEEEEEEEE
     /* 38AE2C 801641AC EEEEDDDD */ .word 0xEEEEDDDD
     /* 38AE30 801641B0 DDDDDDEE */ .word 0xDDDDDDEE
@@ -2551,6 +2672,11 @@ dlabel D_80161BF0_388870
     /* 38B024 801643A4 EEEEEEEE */ .word 0xEEEEEEEE
     /* 38B028 801643A8 00000000 */ .word 0x00000000
     /* 38B02C 801643AC 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_fingers_png
+
+nonmatching growlithe_tex_foot_pal
+
+dlabel growlithe_tex_foot_pal
     /* 38B030 801643B0 FFFFED5B */ .word 0xFFFFED5B
     /* 38B034 801643B4 C411F5DF */ .word 0xC411F5DF
     /* 38B038 801643B8 ED9DED59 */ .word 0xED9DED59
@@ -2561,6 +2687,11 @@ dlabel D_80161BF0_388870
     /* 38B04C 801643CC ED890000 */ .word 0xED890000
     /* 38B050 801643D0 00000000 */ .word 0x00000000
     /* 38B054 801643D4 00000000 */ .word 0x00000000
+enddlabel growlithe_tex_foot_pal
+
+nonmatching growlithe_tex_foot_png
+
+dlabel growlithe_tex_foot_png
     /* 38B058 801643D8 EEEEEEEE */ .word 0xEEEEEEEE
     /* 38B05C 801643DC EEEEEEEE */ .word 0xEEEEEEEE
     /* 38B060 801643E0 EEEEEEEE */ .word 0xEEEEEEEE
@@ -2691,4 +2822,4 @@ dlabel D_80161BF0_388870
     /* 38B254 801645D4 EEEEEEEE */ .word 0xEEEEEEEE
     /* 38B258 801645D8 00000000 */ .word 0x00000000
     /* 38B25C 801645DC 00000000 */ .word 0x00000000
-enddlabel D_80161BF0_388870
+enddlabel growlithe_tex_foot_png

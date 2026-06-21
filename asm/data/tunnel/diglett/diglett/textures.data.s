@@ -9,6 +9,11 @@ nonmatching D_801605F0_1A6750
 dlabel D_801605F0_1A6750
     /* 1A6750 801605F0 00000000 */ .word 0x00000000
     /* 1A6754 801605F4 00000000 */ .word 0x00000000
+enddlabel D_801605F0_1A6750
+
+nonmatching diglett_tex_right_eye_frame0_pal
+
+dlabel diglett_tex_right_eye_frame0_pal
     /* 1A6758 801605F8 FFFF4211 */ .word 0xFFFF4211
     /* 1A675C 801605FC 6B5B8C63 */ .word 0x6B5B8C63
     /* 1A6760 80160600 B5AD61CB */ .word 0xB5AD61CB
@@ -429,6 +434,11 @@ dlabel D_801605F0_1A6750
     /* 1A6DDC 80160C7C 77777777 */ .word 0x77777777
     /* 1A6DE0 80160C80 00000000 */ .word 0x00000000
     /* 1A6DE4 80160C84 00000000 */ .word 0x00000000
+enddlabel diglett_tex_right_eye_frame0_pal
+
+nonmatching diglett_tex_left_eye_frame0_pal
+
+dlabel diglett_tex_left_eye_frame0_pal
     /* 1A6DE8 80160C88 FFFF4211 */ .word 0xFFFF4211
     /* 1A6DEC 80160C8C 6B5B8C63 */ .word 0x6B5B8C63
     /* 1A6DF0 80160C90 B5AD61CB */ .word 0xB5AD61CB
@@ -569,6 +579,11 @@ dlabel D_801605F0_1A6750
     /* 1A700C 80160EAC 77777777 */ .word 0x77777777
     /* 1A7010 80160EB0 00000000 */ .word 0x00000000
     /* 1A7014 80160EB4 00000000 */ .word 0x00000000
+enddlabel diglett_tex_left_eye_frame0_pal
+
+nonmatching diglett_tex_head_pal
+
+dlabel diglett_tex_head_pal
     /* 1A7018 80160EB8 FFFFB2CF */ .word 0xFFFFB2CF
     /* 1A701C 80160EBC BB0FB2CD */ .word 0xBB0FB2CD
     /* 1A7020 80160EC0 BB51B30F */ .word 0xBB51B30F
@@ -579,6 +594,11 @@ dlabel D_801605F0_1A6750
     /* 1A7034 80160ED4 00010000 */ .word 0x00010000
     /* 1A7038 80160ED8 00000000 */ .word 0x00000000
     /* 1A703C 80160EDC 00000000 */ .word 0x00000000
+enddlabel diglett_tex_head_pal
+
+nonmatching diglett_tex_head_png
+
+dlabel diglett_tex_head_png
     /* 1A7040 80160EE0 33333333 */ .word 0x33333333
     /* 1A7044 80160EE4 33333333 */ .word 0x33333333
     /* 1A7048 80160EE8 33333333 */ .word 0x33333333
@@ -709,6 +729,11 @@ dlabel D_801605F0_1A6750
     /* 1A723C 801610DC 33333333 */ .word 0x33333333
     /* 1A7240 801610E0 00000000 */ .word 0x00000000
     /* 1A7244 801610E4 00000000 */ .word 0x00000000
+enddlabel diglett_tex_head_png
+
+nonmatching diglett_tex_body_pal
+
+dlabel diglett_tex_body_pal
     /* 1A7248 801610E8 FFFFB2CD */ .word 0xFFFFB2CD
     /* 1A724C 801610EC 00010001 */ .word 0x00010001
     /* 1A7250 801610F0 00010001 */ .word 0x00010001
@@ -719,6 +744,11 @@ dlabel D_801605F0_1A6750
     /* 1A7264 80161104 00010000 */ .word 0x00010000
     /* 1A7268 80161108 00000000 */ .word 0x00000000
     /* 1A726C 8016110C 00000000 */ .word 0x00000000
+enddlabel diglett_tex_body_pal
+
+nonmatching diglett_tex_body_png
+
+dlabel diglett_tex_body_png
     /* 1A7270 80161110 11111111 */ .word 0x11111111
     /* 1A7274 80161114 11111111 */ .word 0x11111111
     /* 1A7278 80161118 11111111 */ .word 0x11111111
@@ -849,6 +879,11 @@ dlabel D_801605F0_1A6750
     /* 1A746C 8016130C 11111111 */ .word 0x11111111
     /* 1A7470 80161310 00000000 */ .word 0x00000000
     /* 1A7474 80161314 00000000 */ .word 0x00000000
+enddlabel diglett_tex_body_png
+
+nonmatching diglett_tex_nose_pal
+
+dlabel diglett_tex_nose_pal
     /* 1A7478 80161318 FFFFFF7B */ .word 0xFFFFFF7B
     /* 1A747C 8016131C FEB5FDAD */ .word 0xFEB5FDAD
     /* 1A7480 80161320 FD29F52B */ .word 0xFD29F52B
@@ -859,6 +894,11 @@ dlabel D_801605F0_1A6750
     /* 1A7494 80161334 C2550000 */ .word 0xC2550000
     /* 1A7498 80161338 00000000 */ .word 0x00000000
     /* 1A749C 8016133C 00000000 */ .word 0x00000000
+enddlabel diglett_tex_nose_pal
+
+nonmatching diglett_tex_nose_png
+
+dlabel diglett_tex_nose_png
     /* 1A74A0 80161340 77777777 */ .word 0x77777777
     /* 1A74A4 80161344 777777EE */ .word 0x777777EE
     /* 1A74A8 80161348 EEE77777 */ .word 0xEEE77777
@@ -989,6 +1029,11 @@ dlabel D_801605F0_1A6750
     /* 1A769C 8016153C 77777777 */ .word 0x77777777
     /* 1A76A0 80161540 00000000 */ .word 0x00000000
     /* 1A76A4 80161544 00000000 */ .word 0x00000000
+enddlabel diglett_tex_nose_png
+
+nonmatching diglett_tex_soil_pal
+
+dlabel diglett_tex_soil_pal
     /* 1A76A8 80161548 FFFFB4A1 */ .word 0xFFFFB4A1
     /* 1A76AC 8016154C B45FABDB */ .word 0xB45FABDB
     /* 1A76B0 80161550 A3979B11 */ .word 0xA3979B11
@@ -999,6 +1044,11 @@ dlabel D_801605F0_1A6750
     /* 1A76C4 80161564 69030001 */ .word 0x69030001
     /* 1A76C8 80161568 00000000 */ .word 0x00000000
     /* 1A76CC 8016156C 00000000 */ .word 0x00000000
+enddlabel diglett_tex_soil_pal
+
+nonmatching diglett_tex_soil_png
+
+dlabel diglett_tex_soil_png
     /* 1A76D0 80161570 66446666 */ .word 0x66446666
     /* 1A76D4 80161574 468B9998 */ .word 0x468B9998
     /* 1A76D8 80161578 66666656 */ .word 0x66666656
@@ -1511,4 +1561,4 @@ dlabel D_801605F0_1A6750
     /* 1A7EC4 80161D64 66667889 */ .word 0x66667889
     /* 1A7EC8 80161D68 98888688 */ .word 0x98888688
     /* 1A7ECC 80161D6C 88999689 */ .word 0x88999689
-enddlabel D_801605F0_1A6750
+enddlabel diglett_tex_soil_png

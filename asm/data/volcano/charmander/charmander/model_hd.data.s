@@ -177,23 +177,23 @@ enddlabel charmander_hd_tex_801BAD00_png
 nonmatching D_801BAF3C_3E1B9C
 
 dlabel D_801BAF3C_3E1B9C
-    /* 3E1B9C 801BAF3C 801739D0 */ .word 0x801739D0
-    /* 3E1BA0 801BAF40 80171C80 */ .word 0x80171C80
-    /* 3E1BA4 801BAF44 801720B0 */ .word 0x801720B0
-    /* 3E1BA8 801BAF48 801724E0 */ .word 0x801724E0
-    /* 3E1BAC 801BAF4C 80172910 */ .word 0x80172910
-    /* 3E1BB0 801BAF50 80172D40 */ .word 0x80172D40
-    /* 3E1BB4 801BAF54 80173170 */ .word 0x80173170
-    /* 3E1BB8 801BAF58 801735A0 */ .word 0x801735A0
+    /* 3E1B9C 801BAF3C 801739D0 */ .word charmander_tex_eye_frame0_png
+    /* 3E1BA0 801BAF40 80171C80 */ .word charmander_tex_eye_frame1_png
+    /* 3E1BA4 801BAF44 801720B0 */ .word charmander_tex_eye_frame2_png
+    /* 3E1BA8 801BAF48 801724E0 */ .word charmander_tex_eye_frame3_png
+    /* 3E1BAC 801BAF4C 80172910 */ .word charmander_tex_eye_frame4_png
+    /* 3E1BB0 801BAF50 80172D40 */ .word charmander_tex_eye_frame5_png
+    /* 3E1BB4 801BAF54 80173170 */ .word charmander_tex_eye_frame6_png
+    /* 3E1BB8 801BAF58 801735A0 */ .word charmander_tex_eye_frame7_png
 enddlabel D_801BAF3C_3E1B9C
 
 nonmatching D_801BAF5C_3E1BBC
 
 dlabel D_801BAF5C_3E1BBC
-    /* 3E1BBC 801BAF5C 80173DD8 */ .word 0x80173DD8
-    /* 3E1BC0 801BAF60 801741E0 */ .word 0x801741E0
-    /* 3E1BC4 801BAF64 801745E8 */ .word 0x801745E8
-    /* 3E1BC8 801BAF68 801749F0 */ .word 0x801749F0
+    /* 3E1BBC 801BAF5C 80173DD8 */ .word charmander_tex_flame_frame0_png
+    /* 3E1BC0 801BAF60 801741E0 */ .word charmander_tex_flame_frame1_png
+    /* 3E1BC4 801BAF64 801745E8 */ .word charmander_tex_flame_frame2_png
+    /* 3E1BC8 801BAF68 801749F0 */ .word charmander_tex_flame_frame3_png
     /* 3E1BCC 801BAF6C 00000000 */ .word 0x00000000
 enddlabel D_801BAF5C_3E1BBC
 
@@ -2349,7 +2349,7 @@ dlabel charmander_hd_part0_draw
     /* 3E3CC8 801BD068 F5400400 */ .word 0xF5400400
     /* 3E3CCC 801BD06C 00098250 */ .word 0x00098250
     /* 3E3CD0 801BD070 FD100000 */ .word 0xFD100000
-    /* 3E3CD4 801BD074 80175028 */ .word 0x80175028
+    /* 3E3CD4 801BD074 80175028 */ .word charmander_tex_skin_pal
     /* 3E3CD8 801BD078 E6000000 */ .word 0xE6000000
     /* 3E3CDC 801BD07C 00000000 */ .word 0x00000000
     /* 3E3CE0 801BD080 F0000000 */ .word 0xF0000000
@@ -2361,7 +2361,7 @@ dlabel charmander_hd_part0_draw
     /* 3E3CF8 801BD098 F2000000 */ .word 0xF2000000
     /* 3E3CFC 801BD09C 0007C0FC */ .word 0x0007C0FC
     /* 3E3D00 801BD0A0 FD500000 */ .word 0xFD500000
-    /* 3E3D04 801BD0A4 80175050 */ .word 0x80175050
+    /* 3E3D04 801BD0A4 80175050 */ .word charmander_tex_skin_png
     /* 3E3D08 801BD0A8 E6000000 */ .word 0xE6000000
     /* 3E3D0C 801BD0AC 00000000 */ .word 0x00000000
     /* 3E3D10 801BD0B0 F3000000 */ .word 0xF3000000
@@ -2785,7 +2785,7 @@ dlabel charmander_hd_part5_draw
     /* 3E42F8 801BD698 E7000000 */ .word 0xE7000000
     /* 3E42FC 801BD69C 00000000 */ .word 0x00000000
     /* 3E4300 801BD6A0 FD100000 */ .word 0xFD100000
-    /* 3E4304 801BD6A4 801739A8 */ .word 0x801739A8
+    /* 3E4304 801BD6A4 801739A8 */ .word charmander_tex_eye_pal
     /* 3E4308 801BD6A8 E6000000 */ .word 0xE6000000
     /* 3E430C 801BD6AC 00000000 */ .word 0x00000000
     /* 3E4310 801BD6B0 F0000000 */ .word 0xF0000000
@@ -2815,7 +2815,7 @@ dlabel charmander_hd_part5_draw
     /* 3E4370 801BD710 F5400400 */ .word 0xF5400400
     /* 3E4374 801BD714 00094250 */ .word 0x00094250
     /* 3E4378 801BD718 FD100000 */ .word 0xFD100000
-    /* 3E437C 801BD71C 80175688 */ .word 0x80175688
+    /* 3E437C 801BD71C 80175688 */ .word charmander_tex_claw_pal
     /* 3E4380 801BD720 E6000000 */ .word 0xE6000000
     /* 3E4384 801BD724 00000000 */ .word 0x00000000
     /* 3E4388 801BD728 F0000000 */ .word 0xF0000000
@@ -2827,7 +2827,7 @@ dlabel charmander_hd_part5_draw
     /* 3E43A0 801BD740 F2000000 */ .word 0xF2000000
     /* 3E43A4 801BD744 0007C07C */ .word 0x0007C07C
     /* 3E43A8 801BD748 FD500000 */ .word 0xFD500000
-    /* 3E43AC 801BD74C 801756B0 */ .word 0x801756B0
+    /* 3E43AC 801BD74C 801756B0 */ .word charmander_tex_claw_png
     /* 3E43B0 801BD750 E6000000 */ .word 0xE6000000
     /* 3E43B4 801BD754 00000000 */ .word 0x00000000
     /* 3E43B8 801BD758 F3000000 */ .word 0xF3000000
@@ -2845,7 +2845,7 @@ dlabel charmander_hd_part5_draw
     /* 3E43E8 801BD788 E7000000 */ .word 0xE7000000
     /* 3E43EC 801BD78C 00000000 */ .word 0x00000000
     /* 3E43F0 801BD790 FD100000 */ .word 0xFD100000
-    /* 3E43F4 801BD794 80174DF8 */ .word 0x80174DF8
+    /* 3E43F4 801BD794 80174DF8 */ .word charmander_tex_nostril_pal
     /* 3E43F8 801BD798 E6000000 */ .word 0xE6000000
     /* 3E43FC 801BD79C 00000000 */ .word 0x00000000
     /* 3E4400 801BD7A0 F0000000 */ .word 0xF0000000
@@ -2853,7 +2853,7 @@ dlabel charmander_hd_part5_draw
     /* 3E4408 801BD7A8 E7000000 */ .word 0xE7000000
     /* 3E440C 801BD7AC 00000000 */ .word 0x00000000
     /* 3E4410 801BD7B0 FD500000 */ .word 0xFD500000
-    /* 3E4414 801BD7B4 80174E20 */ .word 0x80174E20
+    /* 3E4414 801BD7B4 80174E20 */ .word charmander_tex_nostril_png
     /* 3E4418 801BD7B8 E6000000 */ .word 0xE6000000
     /* 3E441C 801BD7BC 00000000 */ .word 0x00000000
     /* 3E4420 801BD7C0 F3000000 */ .word 0xF3000000
@@ -2899,7 +2899,7 @@ dlabel charmander_hd_part5_draw
     /* 3E44C0 801BD860 E7000000 */ .word 0xE7000000
     /* 3E44C4 801BD864 00000000 */ .word 0x00000000
     /* 3E44C8 801BD868 FD100000 */ .word 0xFD100000
-    /* 3E44CC 801BD86C 801758B8 */ .word 0x801758B8
+    /* 3E44CC 801BD86C 801758B8 */ .word charmander_tex_mouth_pal
     /* 3E44D0 801BD870 E6000000 */ .word 0xE6000000
     /* 3E44D4 801BD874 00000000 */ .word 0x00000000
     /* 3E44D8 801BD878 F0000000 */ .word 0xF0000000
@@ -2907,7 +2907,7 @@ dlabel charmander_hd_part5_draw
     /* 3E44E0 801BD880 E7000000 */ .word 0xE7000000
     /* 3E44E4 801BD884 00000000 */ .word 0x00000000
     /* 3E44E8 801BD888 FD500000 */ .word 0xFD500000
-    /* 3E44EC 801BD88C 801758E0 */ .word 0x801758E0
+    /* 3E44EC 801BD88C 801758E0 */ .word charmander_tex_mouth_png
     /* 3E44F0 801BD890 E6000000 */ .word 0xE6000000
     /* 3E44F4 801BD894 00000000 */ .word 0x00000000
     /* 3E44F8 801BD898 F3000000 */ .word 0xF3000000
@@ -2929,7 +2929,7 @@ dlabel charmander_hd_part5_draw
     /* 3E4538 801BD8D8 F5400400 */ .word 0xF5400400
     /* 3E453C 801BD8DC 00098250 */ .word 0x00098250
     /* 3E4540 801BD8E0 FD100000 */ .word 0xFD100000
-    /* 3E4544 801BD8E4 80175028 */ .word 0x80175028
+    /* 3E4544 801BD8E4 80175028 */ .word charmander_tex_skin_pal
     /* 3E4548 801BD8E8 E6000000 */ .word 0xE6000000
     /* 3E454C 801BD8EC 00000000 */ .word 0x00000000
     /* 3E4550 801BD8F0 F0000000 */ .word 0xF0000000
@@ -2939,7 +2939,7 @@ dlabel charmander_hd_part5_draw
     /* 3E4560 801BD900 F2000000 */ .word 0xF2000000
     /* 3E4564 801BD904 0007C0FC */ .word 0x0007C0FC
     /* 3E4568 801BD908 FD500000 */ .word 0xFD500000
-    /* 3E456C 801BD90C 80175050 */ .word 0x80175050
+    /* 3E456C 801BD90C 80175050 */ .word charmander_tex_skin_png
     /* 3E4570 801BD910 E6000000 */ .word 0xE6000000
     /* 3E4574 801BD914 00000000 */ .word 0x00000000
     /* 3E4578 801BD918 F3000000 */ .word 0xF3000000
@@ -3206,7 +3206,7 @@ dlabel charmander_hd_part6_draw
     /* 3E4978 801BDD18 F5400400 */ .word 0xF5400400
     /* 3E497C 801BDD1C 00094250 */ .word 0x00094250
     /* 3E4980 801BDD20 FD100000 */ .word 0xFD100000
-    /* 3E4984 801BDD24 80175458 */ .word 0x80175458
+    /* 3E4984 801BDD24 80175458 */ .word charmander_tex_tongue_pal
     /* 3E4988 801BDD28 E6000000 */ .word 0xE6000000
     /* 3E498C 801BDD2C 00000000 */ .word 0x00000000
     /* 3E4990 801BDD30 F0000000 */ .word 0xF0000000
@@ -3216,7 +3216,7 @@ dlabel charmander_hd_part6_draw
     /* 3E49A0 801BDD40 F2000000 */ .word 0xF2000000
     /* 3E49A4 801BDD44 0007C07C */ .word 0x0007C07C
     /* 3E49A8 801BDD48 FD500000 */ .word 0xFD500000
-    /* 3E49AC 801BDD4C 80175480 */ .word 0x80175480
+    /* 3E49AC 801BDD4C 80175480 */ .word charmander_tex_tongue_png
     /* 3E49B0 801BDD50 E6000000 */ .word 0xE6000000
     /* 3E49B4 801BDD54 00000000 */ .word 0x00000000
     /* 3E49B8 801BDD58 F3000000 */ .word 0xF3000000
@@ -3240,7 +3240,7 @@ dlabel charmander_hd_part6_draw
     /* 3E4A00 801BDDA0 E7000000 */ .word 0xE7000000
     /* 3E4A04 801BDDA4 00000000 */ .word 0x00000000
     /* 3E4A08 801BDDA8 FD100000 */ .word 0xFD100000
-    /* 3E4A0C 801BDDAC 80175688 */ .word 0x80175688
+    /* 3E4A0C 801BDDAC 80175688 */ .word charmander_tex_claw_pal
     /* 3E4A10 801BDDB0 E6000000 */ .word 0xE6000000
     /* 3E4A14 801BDDB4 00000000 */ .word 0x00000000
     /* 3E4A18 801BDDB8 F0000000 */ .word 0xF0000000
@@ -3248,7 +3248,7 @@ dlabel charmander_hd_part6_draw
     /* 3E4A20 801BDDC0 E7000000 */ .word 0xE7000000
     /* 3E4A24 801BDDC4 00000000 */ .word 0x00000000
     /* 3E4A28 801BDDC8 FD500000 */ .word 0xFD500000
-    /* 3E4A2C 801BDDCC 801756B0 */ .word 0x801756B0
+    /* 3E4A2C 801BDDCC 801756B0 */ .word charmander_tex_claw_png
     /* 3E4A30 801BDDD0 E6000000 */ .word 0xE6000000
     /* 3E4A34 801BDDD4 00000000 */ .word 0x00000000
     /* 3E4A38 801BDDD8 F3000000 */ .word 0xF3000000
@@ -3270,7 +3270,7 @@ dlabel charmander_hd_part6_draw
     /* 3E4A78 801BDE18 F5400400 */ .word 0xF5400400
     /* 3E4A7C 801BDE1C 00098250 */ .word 0x00098250
     /* 3E4A80 801BDE20 FD100000 */ .word 0xFD100000
-    /* 3E4A84 801BDE24 80175028 */ .word 0x80175028
+    /* 3E4A84 801BDE24 80175028 */ .word charmander_tex_skin_pal
     /* 3E4A88 801BDE28 E6000000 */ .word 0xE6000000
     /* 3E4A8C 801BDE2C 00000000 */ .word 0x00000000
     /* 3E4A90 801BDE30 F0000000 */ .word 0xF0000000
@@ -3280,7 +3280,7 @@ dlabel charmander_hd_part6_draw
     /* 3E4AA0 801BDE40 F2000000 */ .word 0xF2000000
     /* 3E4AA4 801BDE44 0007C0FC */ .word 0x0007C0FC
     /* 3E4AA8 801BDE48 FD500000 */ .word 0xFD500000
-    /* 3E4AAC 801BDE4C 80175050 */ .word 0x80175050
+    /* 3E4AAC 801BDE4C 80175050 */ .word charmander_tex_skin_png
     /* 3E4AB0 801BDE50 E6000000 */ .word 0xE6000000
     /* 3E4AB4 801BDE54 00000000 */ .word 0x00000000
     /* 3E4AB8 801BDE58 F3000000 */ .word 0xF3000000
@@ -3434,7 +3434,7 @@ dlabel charmander_hd_part8_draw
     /* 3E4CE0 801BE080 F5400400 */ .word 0xF5400400
     /* 3E4CE4 801BE084 00094250 */ .word 0x00094250
     /* 3E4CE8 801BE088 FD100000 */ .word 0xFD100000
-    /* 3E4CEC 801BE08C 80175688 */ .word 0x80175688
+    /* 3E4CEC 801BE08C 80175688 */ .word charmander_tex_claw_pal
     /* 3E4CF0 801BE090 E6000000 */ .word 0xE6000000
     /* 3E4CF4 801BE094 00000000 */ .word 0x00000000
     /* 3E4CF8 801BE098 F0000000 */ .word 0xF0000000
@@ -3444,7 +3444,7 @@ dlabel charmander_hd_part8_draw
     /* 3E4D08 801BE0A8 F2000000 */ .word 0xF2000000
     /* 3E4D0C 801BE0AC 0007C07C */ .word 0x0007C07C
     /* 3E4D10 801BE0B0 FD500000 */ .word 0xFD500000
-    /* 3E4D14 801BE0B4 801756B0 */ .word 0x801756B0
+    /* 3E4D14 801BE0B4 801756B0 */ .word charmander_tex_claw_png
     /* 3E4D18 801BE0B8 E6000000 */ .word 0xE6000000
     /* 3E4D1C 801BE0BC 00000000 */ .word 0x00000000
     /* 3E4D20 801BE0C0 F3000000 */ .word 0xF3000000
@@ -3470,7 +3470,7 @@ dlabel charmander_hd_part8_draw
     /* 3E4D70 801BE110 F5400400 */ .word 0xF5400400
     /* 3E4D74 801BE114 00098250 */ .word 0x00098250
     /* 3E4D78 801BE118 FD100000 */ .word 0xFD100000
-    /* 3E4D7C 801BE11C 80175028 */ .word 0x80175028
+    /* 3E4D7C 801BE11C 80175028 */ .word charmander_tex_skin_pal
     /* 3E4D80 801BE120 E6000000 */ .word 0xE6000000
     /* 3E4D84 801BE124 00000000 */ .word 0x00000000
     /* 3E4D88 801BE128 F0000000 */ .word 0xF0000000
@@ -3480,7 +3480,7 @@ dlabel charmander_hd_part8_draw
     /* 3E4D98 801BE138 F2000000 */ .word 0xF2000000
     /* 3E4D9C 801BE13C 0007C0FC */ .word 0x0007C0FC
     /* 3E4DA0 801BE140 FD500000 */ .word 0xFD500000
-    /* 3E4DA4 801BE144 80175050 */ .word 0x80175050
+    /* 3E4DA4 801BE144 80175050 */ .word charmander_tex_skin_png
     /* 3E4DA8 801BE148 E6000000 */ .word 0xE6000000
     /* 3E4DAC 801BE14C 00000000 */ .word 0x00000000
     /* 3E4DB0 801BE150 F3000000 */ .word 0xF3000000
@@ -3608,7 +3608,7 @@ dlabel charmander_hd_part10_draw
     /* 3E4F70 801BE310 F5400400 */ .word 0xF5400400
     /* 3E4F74 801BE314 00094250 */ .word 0x00094250
     /* 3E4F78 801BE318 FD100000 */ .word 0xFD100000
-    /* 3E4F7C 801BE31C 80175688 */ .word 0x80175688
+    /* 3E4F7C 801BE31C 80175688 */ .word charmander_tex_claw_pal
     /* 3E4F80 801BE320 E6000000 */ .word 0xE6000000
     /* 3E4F84 801BE324 00000000 */ .word 0x00000000
     /* 3E4F88 801BE328 F0000000 */ .word 0xF0000000
@@ -3618,7 +3618,7 @@ dlabel charmander_hd_part10_draw
     /* 3E4F98 801BE338 F2000000 */ .word 0xF2000000
     /* 3E4F9C 801BE33C 0007C07C */ .word 0x0007C07C
     /* 3E4FA0 801BE340 FD500000 */ .word 0xFD500000
-    /* 3E4FA4 801BE344 801756B0 */ .word 0x801756B0
+    /* 3E4FA4 801BE344 801756B0 */ .word charmander_tex_claw_png
     /* 3E4FA8 801BE348 E6000000 */ .word 0xE6000000
     /* 3E4FAC 801BE34C 00000000 */ .word 0x00000000
     /* 3E4FB0 801BE350 F3000000 */ .word 0xF3000000
@@ -3644,7 +3644,7 @@ dlabel charmander_hd_part10_draw
     /* 3E5000 801BE3A0 F5400400 */ .word 0xF5400400
     /* 3E5004 801BE3A4 00098250 */ .word 0x00098250
     /* 3E5008 801BE3A8 FD100000 */ .word 0xFD100000
-    /* 3E500C 801BE3AC 80175028 */ .word 0x80175028
+    /* 3E500C 801BE3AC 80175028 */ .word charmander_tex_skin_pal
     /* 3E5010 801BE3B0 E6000000 */ .word 0xE6000000
     /* 3E5014 801BE3B4 00000000 */ .word 0x00000000
     /* 3E5018 801BE3B8 F0000000 */ .word 0xF0000000
@@ -3654,7 +3654,7 @@ dlabel charmander_hd_part10_draw
     /* 3E5028 801BE3C8 F2000000 */ .word 0xF2000000
     /* 3E502C 801BE3CC 0007C0FC */ .word 0x0007C0FC
     /* 3E5030 801BE3D0 FD500000 */ .word 0xFD500000
-    /* 3E5034 801BE3D4 80175050 */ .word 0x80175050
+    /* 3E5034 801BE3D4 80175050 */ .word charmander_tex_skin_png
     /* 3E5038 801BE3D8 E6000000 */ .word 0xE6000000
     /* 3E503C 801BE3DC 00000000 */ .word 0x00000000
     /* 3E5040 801BE3E0 F3000000 */ .word 0xF3000000

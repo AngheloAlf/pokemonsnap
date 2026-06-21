@@ -123,7 +123,7 @@ glabel func_802D07BC_7A9D4C
     /* 7A9F1C 802D098C 0C02ABB4 */  jal        func_800AAED0
     /* 7A9F20 802D0990 24040800 */   addiu     $a0, $zero, 0x800
     /* 7A9F24 802D0994 24040005 */  addiu      $a0, $zero, 0x5
-    /* 7A9F28 802D0998 0C02FFAF */  jal        setPlayerFlag
+    /* 7A9F28 802D0998 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 7A9F2C 802D099C 24050001 */   addiu     $a1, $zero, 0x1
     /* 7A9F30 802D09A0 10000003 */  b          .L802D09B0_7A9F40
     /* 7A9F34 802D09A4 00000000 */   nop

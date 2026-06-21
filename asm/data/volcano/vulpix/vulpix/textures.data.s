@@ -9,6 +9,11 @@ nonmatching D_8018B750_3B23D0
 dlabel D_8018B750_3B23D0
     /* 3B23D0 8018B750 00000000 */ .word 0x00000000
     /* 3B23D4 8018B754 00000000 */ .word 0x00000000
+enddlabel D_8018B750_3B23D0
+
+nonmatching vulpix_tex_claw_pal
+
+dlabel vulpix_tex_claw_pal
     /* 3B23D8 8018B758 FFFF8A53 */ .word 0xFFFF8A53
     /* 3B23DC 8018B75C 9A958211 */ .word 0x9A958211
     /* 3B23E0 8018B760 92538A11 */ .word 0x92538A11
@@ -139,6 +144,11 @@ dlabel D_8018B750_3B23D0
     /* 3B25D4 8018B954 00010000 */ .word 0x00010000
     /* 3B25D8 8018B958 00000000 */ .word 0x00000000
     /* 3B25DC 8018B95C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_claw_pal
+
+nonmatching vulpix_tex_claw_png
+
+dlabel vulpix_tex_claw_png
     /* 3B25E0 8018B960 2C062965 */ .word 0x2C062965
     /* 3B25E4 8018B964 27244A44 */ .word 0x27244A44
     /* 3B25E8 8018B968 45654A44 */ .word 0x45654A44
@@ -397,6 +407,11 @@ dlabel D_8018B750_3B23D0
     /* 3B29DC 8018BD5C 4A654027 */ .word 0x4A654027
     /* 3B29E0 8018BD60 00000000 */ .word 0x00000000
     /* 3B29E4 8018BD64 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_claw_png
+
+nonmatching vulpix_tex_paw_pal
+
+dlabel vulpix_tex_paw_pal
     /* 3B29E8 8018BD68 FFFF798D */ .word 0xFFFF798D
     /* 3B29EC 8018BD6C 818D898D */ .word 0x818D898D
     /* 3B29F0 8018BD70 89CD818B */ .word 0x89CD818B
@@ -527,6 +542,11 @@ dlabel D_8018B750_3B23D0
     /* 3B2BE4 8018BF64 00010000 */ .word 0x00010000
     /* 3B2BE8 8018BF68 00000000 */ .word 0x00000000
     /* 3B2BEC 8018BF6C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_paw_pal
+
+nonmatching vulpix_tex_paw_png
+
+dlabel vulpix_tex_paw_png
     /* 3B2BF0 8018BF70 08082C21 */ .word 0x08082C21
     /* 3B2BF4 8018BF74 2926262C */ .word 0x2926262C
     /* 3B2BF8 8018BF78 2C0A2C26 */ .word 0x2C0A2C26
@@ -1041,6 +1061,11 @@ dlabel D_8018B750_3B23D0
     /* 3B33EC 8018C76C 06060606 */ .word 0x06060606
     /* 3B33F0 8018C770 00000000 */ .word 0x00000000
     /* 3B33F4 8018C774 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_paw_png
+
+nonmatching vulpix_tex_pad_pal
+
+dlabel vulpix_tex_pad_pal
     /* 3B33F8 8018C778 FFFF89CD */ .word 0xFFFF89CD
     /* 3B33FC 8018C77C 89CBC3DB */ .word 0x89CBC3DB
     /* 3B3400 8018C780 BB99B357 */ .word 0xBB99B357
@@ -1051,6 +1076,11 @@ dlabel D_8018B750_3B23D0
     /* 3B3414 8018C794 A2CD0000 */ .word 0xA2CD0000
     /* 3B3418 8018C798 00000000 */ .word 0x00000000
     /* 3B341C 8018C79C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_pad_pal
+
+nonmatching vulpix_tex_pad_png
+
+dlabel vulpix_tex_pad_png
     /* 3B3420 8018C7A0 77677717 */ .word 0x77677717
     /* 3B3424 8018C7A4 67711161 */ .word 0x67711161
     /* 3B3428 8018C7A8 76671171 */ .word 0x76671171
@@ -1181,6 +1211,11 @@ dlabel D_8018B750_3B23D0
     /* 3B361C 8018C99C 77717667 */ .word 0x77717667
     /* 3B3620 8018C9A0 00000000 */ .word 0x00000000
     /* 3B3624 8018C9A4 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_pad_png
+
+nonmatching vulpix_tex_nose_pal
+
+dlabel vulpix_tex_nose_pal
     /* 3B3628 8018C9A8 FFFF93DF */ .word 0xFFFF93DF
     /* 3B362C 8018C9AC 6253F3DB */ .word 0x6253F3DB
     /* 3B3630 8018C9B0 E3DBBB55 */ .word 0xE3DBBB55
@@ -1191,6 +1226,11 @@ dlabel D_8018B750_3B23D0
     /* 3B3644 8018C9C4 6A4D0000 */ .word 0x6A4D0000
     /* 3B3648 8018C9C8 00000000 */ .word 0x00000000
     /* 3B364C 8018C9CC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_nose_pal
+
+nonmatching vulpix_tex_nose_png
+
+dlabel vulpix_tex_nose_png
     /* 3B3650 8018C9D0 33333333 */ .word 0x33333333
     /* 3B3654 8018C9D4 33333333 */ .word 0x33333333
     /* 3B3658 8018C9D8 33333333 */ .word 0x33333333
@@ -1321,6 +1361,11 @@ dlabel D_8018B750_3B23D0
     /* 3B384C 8018CBCC 33333333 */ .word 0x33333333
     /* 3B3850 8018CBD0 00000000 */ .word 0x00000000
     /* 3B3854 8018CBD4 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_nose_png
+
+nonmatching vulpix_tex_belly_pal
+
+dlabel vulpix_tex_belly_pal
     /* 3B3858 8018CBD8 FFFFFFBD */ .word 0xFFFFFFBD
     /* 3B385C 8018CBDC F3DBEC1D */ .word 0xF3DBEC1D
     /* 3B3860 8018CBE0 F41DF41B */ .word 0xF41DF41B
@@ -1451,6 +1496,11 @@ dlabel D_8018B750_3B23D0
     /* 3B3A54 8018CDD4 00010000 */ .word 0x00010000
     /* 3B3A58 8018CDD8 00000000 */ .word 0x00000000
     /* 3B3A5C 8018CDDC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_belly_pal
+
+nonmatching vulpix_tex_belly_png
+
+dlabel vulpix_tex_belly_png
     /* 3B3A60 8018CDE0 02040202 */ .word 0x02040202
     /* 3B3A64 8018CDE4 04020202 */ .word 0x04020202
     /* 3B3A68 8018CDE8 04020402 */ .word 0x04020402
@@ -1839,6 +1889,11 @@ dlabel D_8018B750_3B23D0
     /* 3B4064 8018D3E4 00010001 */ .word 0x00010001
     /* 3B4068 8018D3E8 00000000 */ .word 0x00000000
     /* 3B406C 8018D3EC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_belly_png
+
+nonmatching vulpix_tex_eye_frame4_png
+
+dlabel vulpix_tex_eye_frame4_png
     /* 3B4070 8018D3F0 2A2E322A */ .word 0x2A2E322A
     /* 3B4074 8018D3F4 2A322A2A */ .word 0x2A322A2A
     /* 3B4078 8018D3F8 2A2A2A32 */ .word 0x2A2A2A32
@@ -2097,6 +2152,11 @@ dlabel D_8018B750_3B23D0
     /* 3B446C 8018D7EC 2A2A2A28 */ .word 0x2A2A2A28
     /* 3B4470 8018D7F0 00000000 */ .word 0x00000000
     /* 3B4474 8018D7F4 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_eye_frame4_png
+
+nonmatching vulpix_tex_curl_pal
+
+dlabel vulpix_tex_curl_pal
     /* 3B4478 8018D7F8 FFFF498D */ .word 0xFFFF498D
     /* 3B447C 8018D7FC 518D61CF */ .word 0x518D61CF
     /* 3B4480 8018D800 7A1169CF */ .word 0x7A1169CF
@@ -2227,6 +2287,11 @@ dlabel D_8018B750_3B23D0
     /* 3B4674 8018D9F4 00010000 */ .word 0x00010000
     /* 3B4678 8018D9F8 00000000 */ .word 0x00000000
     /* 3B467C 8018D9FC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_curl_pal
+
+nonmatching vulpix_tex_curl_png
+
+dlabel vulpix_tex_curl_png
     /* 3B4680 8018DA00 091E0709 */ .word 0x091E0709
     /* 3B4684 8018DA04 1E091E07 */ .word 0x1E091E07
     /* 3B4688 8018DA08 091E091E */ .word 0x091E091E
@@ -2485,6 +2550,11 @@ dlabel D_8018B750_3B23D0
     /* 3B4A7C 8018DDFC 09091E09 */ .word 0x09091E09
     /* 3B4A80 8018DE00 00000000 */ .word 0x00000000
     /* 3B4A84 8018DE04 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_curl_png
+
+nonmatching vulpix_tex_hair_pal
+
+dlabel vulpix_tex_hair_pal
     /* 3B4A88 8018DE08 FFFF498D */ .word 0xFFFF498D
     /* 3B4A8C 8018DE0C 518D61CF */ .word 0x518D61CF
     /* 3B4A90 8018DE10 598D7A11 */ .word 0x598D7A11
@@ -2615,6 +2685,11 @@ dlabel D_8018B750_3B23D0
     /* 3B4C84 8018E004 00010000 */ .word 0x00010000
     /* 3B4C88 8018E008 00000000 */ .word 0x00000000
     /* 3B4C8C 8018E00C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_hair_pal
+
+nonmatching vulpix_tex_hair_png
+
+dlabel vulpix_tex_hair_png
     /* 3B4C90 8018E010 1D09071D */ .word 0x1D09071D
     /* 3B4C94 8018E014 1D09091E */ .word 0x1D09091E
     /* 3B4C98 8018E018 0D0E0E0A */ .word 0x0D0E0E0A
@@ -3129,6 +3204,11 @@ dlabel D_8018B750_3B23D0
     /* 3B548C 8018E80C 091D0909 */ .word 0x091D0909
     /* 3B5490 8018E810 00000000 */ .word 0x00000000
     /* 3B5494 8018E814 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_hair_png
+
+nonmatching vulpix_tex_bang_pal
+
+dlabel vulpix_tex_bang_pal
     /* 3B5498 8018E818 FFFF9253 */ .word 0xFFFF9253
     /* 3B549C 8018E81C AAD5A293 */ .word 0xAAD5A293
     /* 3B54A0 8018E820 92939A93 */ .word 0x92939A93
@@ -3139,6 +3219,11 @@ dlabel D_8018B750_3B23D0
     /* 3B54B4 8018E834 59CD0001 */ .word 0x59CD0001
     /* 3B54B8 8018E838 00000000 */ .word 0x00000000
     /* 3B54BC 8018E83C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_bang_pal
+
+nonmatching vulpix_tex_bang_png
+
+dlabel vulpix_tex_bang_png
     /* 3B54C0 8018E840 555555D5 */ .word 0x555555D5
     /* 3B54C4 8018E844 355535D4 */ .word 0x355535D4
     /* 3B54C8 8018E848 53D355D5 */ .word 0x53D355D5
@@ -3269,6 +3354,11 @@ dlabel D_8018B750_3B23D0
     /* 3B56BC 8018EA3C 3D3D3D3D */ .word 0x3D3D3D3D
     /* 3B56C0 8018EA40 00000000 */ .word 0x00000000
     /* 3B56C4 8018EA44 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_bang_png
+
+nonmatching vulpix_tex_eye_frame0_pal
+
+dlabel vulpix_tex_eye_frame0_pal
     /* 3B56C8 8018EA48 FFFF4211 */ .word 0xFFFF4211
     /* 3B56CC 8018EA4C 4A535295 */ .word 0x4A535295
     /* 3B56D0 8018EA50 5AD76319 */ .word 0x5AD76319
@@ -3399,6 +3489,11 @@ dlabel D_8018B750_3B23D0
     /* 3B58C4 8018EC44 00010001 */ .word 0x00010001
     /* 3B58C8 8018EC48 00000000 */ .word 0x00000000
     /* 3B58CC 8018EC4C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_eye_frame0_pal
+
+nonmatching vulpix_tex_eye_frame0_png
+
+dlabel vulpix_tex_eye_frame0_png
     /* 3B58D0 8018EC50 292F2A25 */ .word 0x292F2A25
     /* 3B58D4 8018EC54 2F25262A */ .word 0x2F25262A
     /* 3B58D8 8018EC58 2F2E2F28 */ .word 0x2F2E2F28
@@ -3787,6 +3882,11 @@ dlabel D_8018B750_3B23D0
     /* 3B5ED4 8018F254 00010001 */ .word 0x00010001
     /* 3B5ED8 8018F258 00000000 */ .word 0x00000000
     /* 3B5EDC 8018F25C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_eye_frame0_png
+
+nonmatching vulpix_tex_eye_frame1_png
+
+dlabel vulpix_tex_eye_frame1_png
     /* 3B5EE0 8018F260 2A282A29 */ .word 0x2A282A29
     /* 3B5EE4 8018F264 282E2F26 */ .word 0x282E2F26
     /* 3B5EE8 8018F268 2A2A252F */ .word 0x2A2A252F
@@ -4175,6 +4275,11 @@ dlabel D_8018B750_3B23D0
     /* 3B64E4 8018F864 00010001 */ .word 0x00010001
     /* 3B64E8 8018F868 00000000 */ .word 0x00000000
     /* 3B64EC 8018F86C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_eye_frame1_png
+
+nonmatching vulpix_tex_eye_frame2_png
+
+dlabel vulpix_tex_eye_frame2_png
     /* 3B64F0 8018F870 282A282A */ .word 0x282A282A
     /* 3B64F4 8018F874 2A262E25 */ .word 0x2A262E25
     /* 3B64F8 8018F878 262E252A */ .word 0x262E252A
@@ -4433,6 +4538,11 @@ dlabel D_8018B750_3B23D0
     /* 3B68EC 8018FC6C 2F262F26 */ .word 0x2F262F26
     /* 3B68F0 8018FC70 00000000 */ .word 0x00000000
     /* 3B68F4 8018FC74 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_eye_frame2_png
+
+nonmatching vulpix_tex_ear_pal
+
+dlabel vulpix_tex_ear_pal
     /* 3B68F8 8018FC78 FFFFEB9B */ .word 0xFFFFEB9B
     /* 3B68FC 8018FC7C F3DBEB99 */ .word 0xF3DBEB99
     /* 3B6900 8018FC80 718BD399 */ .word 0x718BD399
@@ -4563,6 +4673,11 @@ dlabel D_8018B750_3B23D0
     /* 3B6AF4 8018FE74 00010000 */ .word 0x00010000
     /* 3B6AF8 8018FE78 00000000 */ .word 0x00000000
     /* 3B6AFC 8018FE7C 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_ear_pal
+
+nonmatching vulpix_tex_ear_png
+
+dlabel vulpix_tex_ear_png
     /* 3B6B00 8018FE80 02020202 */ .word 0x02020202
     /* 3B6B04 8018FE84 02020202 */ .word 0x02020202
     /* 3B6B08 8018FE88 02020202 */ .word 0x02020202
@@ -4821,6 +4936,11 @@ dlabel D_8018B750_3B23D0
     /* 3B6EFC 8019027C 02020202 */ .word 0x02020202
     /* 3B6F00 80190280 00000000 */ .word 0x00000000
     /* 3B6F04 80190284 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_ear_png
+
+nonmatching vulpix_tex_tail_pal
+
+dlabel vulpix_tex_tail_pal
     /* 3B6F08 80190288 FFFFF3DB */ .word 0xFFFFF3DB
     /* 3B6F0C 8019028C F419EC15 */ .word 0xF419EC15
     /* 3B6F10 80190290 D34FDBD3 */ .word 0xD34FDBD3
@@ -4831,6 +4951,11 @@ dlabel D_8018B750_3B23D0
     /* 3B6F24 801902A4 69830000 */ .word 0x69830000
     /* 3B6F28 801902A8 00000000 */ .word 0x00000000
     /* 3B6F2C 801902AC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_tail_pal
+
+nonmatching vulpix_tex_tail_png
+
+dlabel vulpix_tex_tail_png
     /* 3B6F30 801902B0 11111111 */ .word 0x11111111
     /* 3B6F34 801902B4 11111111 */ .word 0x11111111
     /* 3B6F38 801902B8 11111111 */ .word 0x11111111
@@ -5091,6 +5216,11 @@ dlabel D_8018B750_3B23D0
     /* 3B7334 801906B4 00010001 */ .word 0x00010001
     /* 3B7338 801906B8 00000000 */ .word 0x00000000
     /* 3B733C 801906BC 00000000 */ .word 0x00000000
+enddlabel vulpix_tex_tail_png
+
+nonmatching vulpix_tex_eye_frame3_png
+
+dlabel vulpix_tex_eye_frame3_png
     /* 3B7340 801906C0 2A282A2A */ .word 0x2A282A2A
     /* 3B7344 801906C4 322A2A2A */ .word 0x322A2A2A
     /* 3B7348 801906C8 2A322A28 */ .word 0x2A322A28
@@ -5347,4 +5477,4 @@ dlabel D_8018B750_3B23D0
     /* 3B7734 80190AB4 2A2A2A2A */ .word 0x2A2A2A2A
     /* 3B7738 80190AB8 2A2A2A2A */ .word 0x2A2A2A2A
     /* 3B773C 80190ABC 2A2A2A28 */ .word 0x2A2A2A28
-enddlabel D_8018B750_3B23D0
+enddlabel vulpix_tex_eye_frame3_png

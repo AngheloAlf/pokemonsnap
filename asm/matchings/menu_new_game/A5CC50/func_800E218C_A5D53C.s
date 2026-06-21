@@ -20,7 +20,7 @@ glabel func_800E218C_A5D53C
     /* A5D57C 800E21CC 0C001CEB */  jal        omSetupScene
     /* A5D580 800E21D0 24843608 */   addiu     $a0, $a0, %lo(D_800E3608_A5E9B8)
     /* A5D584 800E21D4 24040010 */  addiu      $a0, $zero, 0x10
-    /* A5D588 800E21D8 0C02FFAF */  jal        setPlayerFlag
+    /* A5D588 800E21D8 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* A5D58C 800E21DC 24050001 */   addiu     $a1, $zero, 0x1
     /* A5D590 800E21E0 8FBF0014 */  lw         $ra, 0x14($sp)
     /* A5D594 800E21E4 27BD0018 */  addiu      $sp, $sp, 0x18

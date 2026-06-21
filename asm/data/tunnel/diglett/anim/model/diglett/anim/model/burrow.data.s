@@ -9,7 +9,7 @@ nonmatching diglett_modelanim_burrow
 dlabel diglett_modelanim_burrow
     /* 1A8450 801622F0 00000000 */ .word 0x00000000
     /* 1A8454 801622F4 80162324 */ .word D_80162324_1A8484
-    /* 1A8458 801622F8 80162398 */ .word koffing_tex_80162398
+    /* 1A8458 801622F8 80162398 */ .word D_80162398_1A84F8
     /* 1A845C 801622FC 80162420 */ .word D_80162420_1A8580
     /* 1A8460 80162300 80162478 */ .word D_80162478_1A85D8
     /* 1A8464 80162304 801624FC */ .word D_801624FC_1A865C
@@ -56,9 +56,9 @@ dlabel D_80162324_1A8484
     /* 1A84F4 80162394 00000000 */ .word 0x00000000
 enddlabel D_80162324_1A8484
 
-nonmatching koffing_tex_80162398
+nonmatching D_80162398_1A84F8
 
-dlabel koffing_tex_80162398
+dlabel D_80162398_1A84F8
     /* 1A84F8 80162398 0DD80000 */ .word 0x0DD80000
     /* 1A84FC 8016239C C13FFF4D */ .word 0xC13FFF4D
     /* 1A8500 801623A0 C011745F */ .word 0xC011745F
@@ -93,7 +93,7 @@ dlabel koffing_tex_80162398
     /* 1A8574 80162414 06100013 */ .word 0x06100013
     /* 1A8578 80162418 C3777FFF */ .word 0xC3777FFF
     /* 1A857C 8016241C 00000000 */ .word 0x00000000
-enddlabel koffing_tex_80162398
+enddlabel D_80162398_1A84F8
 
 nonmatching D_80162420_1A8580
 

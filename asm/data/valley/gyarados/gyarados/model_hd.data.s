@@ -2426,7 +2426,7 @@ dlabel gyarados_hd_part6_draw
     /* 484118 8018DCF8 E7000000 */ .word 0xE7000000
     /* 48411C 8018DCFC 00000000 */ .word 0x00000000
     /* 484120 8018DD00 FD500000 */ .word 0xFD500000
-    /* 484124 8018DD04 80136EF0 */ .word gyarados_tex_80136EF0_png
+    /* 484124 8018DD04 80136EF0 */ .word D_80136EF0_35DB70
     /* 484128 8018DD08 DE000000 */ .word 0xDE000000
     /* 48412C 8018DD0C 0E000008 */ .word 0x0E000008
     /* 484130 8018DD10 E6000000 */ .word 0xE6000000
@@ -3307,9 +3307,9 @@ dlabel gyarados_hd_part12_draw
     /* 484E64 8018EA44 00000000 */ .word 0x00000000
 enddlabel gyarados_hd_part12_draw
 
-nonmatching vulpix_tex_eye_frame0_pal
+nonmatching gyarados_hd_part13_draw
 
-dlabel vulpix_tex_eye_frame0_pal
+dlabel gyarados_hd_part13_draw
     /* 484E68 8018EA48 E7000000 */ .word 0xE7000000
     /* 484E6C 8018EA4C 00000000 */ .word 0x00000000
     /* 484E70 8018EA50 E3001001 */ .word 0xE3001001
@@ -3398,7 +3398,7 @@ dlabel vulpix_tex_eye_frame0_pal
     /* 484FBC 8018EB9C 00020008 */ .word 0x00020008
     /* 484FC0 8018EBA0 DF000000 */ .word 0xDF000000
     /* 484FC4 8018EBA4 00000000 */ .word 0x00000000
-enddlabel vulpix_tex_eye_frame0_pal
+enddlabel gyarados_hd_part13_draw
 
 nonmatching gyarados_hd_part14_draw
 
@@ -3669,7 +3669,7 @@ dlabel gyarados_hd_model
     /* 4853D0 8018EFB0 3F800000 */ .word 0x3F800000
     /* 4853D4 8018EFB4 3F800000 */ .word 0x3F800000
     /* 4853D8 8018EFB8 00000008 */ .word 0x00000008
-    /* 4853DC 8018EFBC 8018EA48 */ .word vulpix_tex_eye_frame0_pal
+    /* 4853DC 8018EFBC 8018EA48 */ .word gyarados_hd_part13_draw
     /* 4853E0 8018EFC0 4380E650 */ .word 0x4380E650
     /* 4853E4 8018EFC4 C389C7CD */ .word 0xC389C7CD
     /* 4853E8 8018EFC8 43744E88 */ .word 0x43744E88

@@ -12,7 +12,7 @@ glabel func_800E435C_61B0C
   .L800E437C_61B2C:
     /* 61B2C 800E437C AFA40028 */  sw         $a0, 0x28($sp)
     /* 61B30 800E4380 E7AC0020 */  swc1       $f12, 0x20($sp)
-    /* 61B34 800E4384 0C038861 */  jal        getCurrentWorldBlock
+    /* 61B34 800E4384 0C038861 */  jal        func_800E2184_5F934
     /* 61B38 800E4388 E7AE0024 */   swc1      $f14, 0x24($sp)
     /* 61B3C 800E438C 8FA40028 */  lw         $a0, 0x28($sp)
     /* 61B40 800E4390 C7AC0020 */  lwc1       $f12, 0x20($sp)

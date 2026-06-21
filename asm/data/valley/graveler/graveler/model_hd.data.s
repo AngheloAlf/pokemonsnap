@@ -30,7 +30,7 @@ nonmatching D_80186B54_47CF74
 
 dlabel D_80186B54_47CF74
     /* 47CF74 80186B54 8012FBA0 */ .word 0x8012FBA0
-    /* 47CF78 80186B58 8012FDD0 */ .word graveler_tex_8012FDD0
+    /* 47CF78 80186B58 8012FDD0 */ .word D_8012FDD0_175F30
     /* 47CF7C 80186B5C 00000000 */ .word 0x00000000
 enddlabel D_80186B54_47CF74
 
@@ -4517,9 +4517,9 @@ dlabel graveler_hd_part9_pre
     /* 48141C 8018AFFC 00000000 */ .word 0x00000000
 enddlabel graveler_hd_part9_pre
 
-nonmatching meowth_tex_8018B000
+nonmatching graveler_hd_part9_draw
 
-dlabel meowth_tex_8018B000
+dlabel graveler_hd_part9_draw
     /* 481420 8018B000 E7000000 */ .word 0xE7000000
     /* 481424 8018B004 00000000 */ .word 0x00000000
     /* 481428 8018B008 D7000002 */ .word 0xD7000002
@@ -4558,7 +4558,7 @@ dlabel meowth_tex_8018B000
     /* 4814AC 8018B08C 000A0806 */ .word 0x000A0806
     /* 4814B0 8018B090 DF000000 */ .word 0xDF000000
     /* 4814B4 8018B094 00000000 */ .word 0x00000000
-enddlabel meowth_tex_8018B000
+enddlabel graveler_hd_part9_draw
 
 nonmatching graveler_hd_part10_draw
 
@@ -4914,7 +4914,7 @@ nonmatching D_8018B4F8_481918
 
 dlabel D_8018B4F8_481918
     /* 481918 8018B4F8 8018AFD0 */ .word graveler_hd_part9_pre
-    /* 48191C 8018B4FC 8018B000 */ .word meowth_tex_8018B000
+    /* 48191C 8018B4FC 8018B000 */ .word graveler_hd_part9_draw
 enddlabel D_8018B4F8_481918
 
 nonmatching D_8018B500_481920

@@ -9,6 +9,11 @@ nonmatching D_80184700_3AB380
 dlabel D_80184700_3AB380
     /* 3AB380 80184700 00000000 */ .word 0x00000000
     /* 3AB384 80184704 00000000 */ .word 0x00000000
+enddlabel D_80184700_3AB380
+
+nonmatching charizard_tex_mouth1_pal
+
+dlabel charizard_tex_mouth1_pal
     /* 3AB388 80184708 FFFFF44B */ .word 0xFFFFF44B
     /* 3AB38C 8018470C EC0BDBCB */ .word 0xEC0BDBCB
     /* 3AB390 80184710 CB4BB2C9 */ .word 0xCB4BB2C9
@@ -19,6 +24,11 @@ dlabel D_80184700_3AB380
     /* 3AB3A4 80184724 38850000 */ .word 0x38850000
     /* 3AB3A8 80184728 00000000 */ .word 0x00000000
     /* 3AB3AC 8018472C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_mouth1_pal
+
+nonmatching charizard_tex_mouth1_png
+
+dlabel charizard_tex_mouth1_png
     /* 3AB3B0 80184730 11111111 */ .word 0x11111111
     /* 3AB3B4 80184734 11111111 */ .word 0x11111111
     /* 3AB3B8 80184738 11111111 */ .word 0x11111111
@@ -277,6 +287,11 @@ dlabel D_80184700_3AB380
     /* 3AB7AC 80184B2C EEEEE322 */ .word 0xEEEEE322
     /* 3AB7B0 80184B30 00000000 */ .word 0x00000000
     /* 3AB7B4 80184B34 00000000 */ .word 0x00000000
+enddlabel charizard_tex_mouth1_png
+
+nonmatching charizard_tex_mouth2_pal
+
+dlabel charizard_tex_mouth2_pal
     /* 3AB7B8 80184B38 FFFFC301 */ .word 0xFFFFC301
     /* 3AB7BC 80184B3C BAC1A201 */ .word 0xBAC1A201
     /* 3AB7C0 80184B40 89C3810B */ .word 0x89C3810B
@@ -287,6 +302,11 @@ dlabel D_80184700_3AB380
     /* 3AB7D4 80184B54 28430000 */ .word 0x28430000
     /* 3AB7D8 80184B58 00000000 */ .word 0x00000000
     /* 3AB7DC 80184B5C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_mouth2_pal
+
+nonmatching charizard_tex_mouth2_png
+
+dlabel charizard_tex_mouth2_png
     /* 3AB7E0 80184B60 11111111 */ .word 0x11111111
     /* 3AB7E4 80184B64 11111111 */ .word 0x11111111
     /* 3AB7E8 80184B68 11111111 */ .word 0x11111111
@@ -555,6 +575,11 @@ dlabel D_80184700_3AB380
     /* 3ABC04 80184F84 62D90001 */ .word 0x62D90001
     /* 3ABC08 80184F88 00000000 */ .word 0x00000000
     /* 3ABC0C 80184F8C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_mouth2_png
+
+nonmatching charizard_tex_eye_frame1_png
+
+dlabel charizard_tex_eye_frame1_png
     /* 3ABC10 80184F90 99999999 */ .word 0x99999999
     /* 3ABC14 80184F94 99999999 */ .word 0x99999999
     /* 3ABC18 80184F98 99999999 */ .word 0x99999999
@@ -823,6 +848,11 @@ dlabel D_80184700_3AB380
     /* 3AC034 801853B4 62D90001 */ .word 0x62D90001
     /* 3AC038 801853B8 00000000 */ .word 0x00000000
     /* 3AC03C 801853BC 00000000 */ .word 0x00000000
+enddlabel charizard_tex_eye_frame1_png
+
+nonmatching charizard_tex_eye_frame2_png
+
+dlabel charizard_tex_eye_frame2_png
     /* 3AC040 801853C0 99999999 */ .word 0x99999999
     /* 3AC044 801853C4 99999999 */ .word 0x99999999
     /* 3AC048 801853C8 99999999 */ .word 0x99999999
@@ -1081,6 +1111,11 @@ dlabel D_80184700_3AB380
     /* 3AC43C 801857BC 99999999 */ .word 0x99999999
     /* 3AC440 801857C0 00000000 */ .word 0x00000000
     /* 3AC444 801857C4 00000000 */ .word 0x00000000
+enddlabel charizard_tex_eye_frame2_png
+
+nonmatching charizard_tex_eye_frame0_pal
+
+dlabel charizard_tex_eye_frame0_pal
     /* 3AC448 801857C8 FFFF318D */ .word 0xFFFF318D
     /* 3AC44C 801857CC 94A5DEF7 */ .word 0x94A5DEF7
     /* 3AC450 801857D0 D38DB30B */ .word 0xD38DB30B
@@ -1091,6 +1126,11 @@ dlabel D_80184700_3AB380
     /* 3AC464 801857E4 62D90001 */ .word 0x62D90001
     /* 3AC468 801857E8 00000000 */ .word 0x00000000
     /* 3AC46C 801857EC 00000000 */ .word 0x00000000
+enddlabel charizard_tex_eye_frame0_pal
+
+nonmatching charizard_tex_eye_frame0_png
+
+dlabel charizard_tex_eye_frame0_png
     /* 3AC470 801857F0 88888888 */ .word 0x88888888
     /* 3AC474 801857F4 88888888 */ .word 0x88888888
     /* 3AC478 801857F8 88888888 */ .word 0x88888888
@@ -1349,6 +1389,11 @@ dlabel D_80184700_3AB380
     /* 3AC86C 80185BEC 88888888 */ .word 0x88888888
     /* 3AC870 80185BF0 00000000 */ .word 0x00000000
     /* 3AC874 80185BF4 00000000 */ .word 0x00000000
+enddlabel charizard_tex_eye_frame0_png
+
+nonmatching charizard_tex_nostril_pal
+
+dlabel charizard_tex_nostril_pal
     /* 3AC878 80185BF8 FFFFFD17 */ .word 0xFFFFFD17
     /* 3AC87C 80185BFC FC4DF4D1 */ .word 0xFC4DF4D1
     /* 3AC880 80185C00 F44BDC0B */ .word 0xF44BDC0B
@@ -1359,6 +1404,11 @@ dlabel D_80184700_3AB380
     /* 3AC894 80185C14 20830000 */ .word 0x20830000
     /* 3AC898 80185C18 00000000 */ .word 0x00000000
     /* 3AC89C 80185C1C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_nostril_pal
+
+nonmatching charizard_tex_nostril_png
+
+dlabel charizard_tex_nostril_png
     /* 3AC8A0 80185C20 44444444 */ .word 0x44444444
     /* 3AC8A4 80185C24 44444444 */ .word 0x44444444
     /* 3AC8A8 80185C28 44444444 */ .word 0x44444444
@@ -1393,6 +1443,11 @@ dlabel D_80184700_3AB380
     /* 3AC91C 80185C9C 44444444 */ .word 0x44444444
     /* 3AC920 80185CA0 00000000 */ .word 0x00000000
     /* 3AC924 80185CA4 00000000 */ .word 0x00000000
+enddlabel charizard_tex_nostril_png
+
+nonmatching charizard_tex_wingshade_png
+
+dlabel charizard_tex_wingshade_png
     /* 3AC928 80185CA8 F44BF44B */ .word 0xF44BF44B
     /* 3AC92C 80185CAC F44BEC4B */ .word 0xF44BEC4B
     /* 3AC930 80185CB0 E40BDC0B */ .word 0xE40BDC0B
@@ -2419,6 +2474,11 @@ dlabel D_80184700_3AB380
     /* 3AD924 80186CA4 00010001 */ .word 0x00010001
     /* 3AD928 80186CA8 00000000 */ .word 0x00000000
     /* 3AD92C 80186CAC 00000000 */ .word 0x00000000
+enddlabel charizard_tex_wingshade_png
+
+nonmatching charizard_tex_wing1_pal
+
+dlabel charizard_tex_wing1_pal
     /* 3AD930 80186CB0 FFFEFCD1 */ .word 0xFFFEFCD1
     /* 3AD934 80186CB4 FC8DFC8B */ .word 0xFC8DFC8B
     /* 3AD938 80186CB8 FC4BF515 */ .word 0xFC4BF515
@@ -2549,6 +2609,11 @@ dlabel D_80184700_3AB380
     /* 3ADB2C 80186EAC 00010000 */ .word 0x00010000
     /* 3ADB30 80186EB0 00000000 */ .word 0x00000000
     /* 3ADB34 80186EB4 00000000 */ .word 0x00000000
+enddlabel charizard_tex_wing1_pal
+
+nonmatching charizard_tex_wing1_png
+
+dlabel charizard_tex_wing1_png
     /* 3ADB38 80186EB8 78E6D4BD */ .word 0x78E6D4BD
     /* 3ADB3C 80186EBC BDBDBDBD */ .word 0xBDBDBDBD
     /* 3ADB40 80186EC0 BDBDBDBD */ .word 0xBDBDBDBD
@@ -3063,6 +3128,11 @@ dlabel D_80184700_3AB380
     /* 3AE334 801876B4 08090805 */ .word 0x08090805
     /* 3AE338 801876B8 00000000 */ .word 0x00000000
     /* 3AE33C 801876BC 00000000 */ .word 0x00000000
+enddlabel charizard_tex_wing1_png
+
+nonmatching charizard_tex_wing2_pal
+
+dlabel charizard_tex_wing2_pal
     /* 3AE340 801876C0 FFFFF4D3 */ .word 0xFFFFF4D3
     /* 3AE344 801876C4 F44DF44B */ .word 0xF44DF44B
     /* 3AE348 801876C8 EC4BE40B */ .word 0xEC4BE40B
@@ -3073,6 +3143,11 @@ dlabel D_80184700_3AB380
     /* 3AE35C 801876DC 18410000 */ .word 0x18410000
     /* 3AE360 801876E0 00000000 */ .word 0x00000000
     /* 3AE364 801876E4 00000000 */ .word 0x00000000
+enddlabel charizard_tex_wing2_pal
+
+nonmatching charizard_tex_wing2_png
+
+dlabel charizard_tex_wing2_png
     /* 3AE368 801876E8 FFFFFFFF */ .word 0xFFFFFFFF
     /* 3AE36C 801876EC FFFFFFFF */ .word 0xFFFFFFFF
     /* 3AE370 801876F0 FFFFFFFF */ .word 0xFFFFFFFF
@@ -3331,6 +3406,11 @@ dlabel D_80184700_3AB380
     /* 3AE764 80187AE4 FFFFFFFF */ .word 0xFFFFFFFF
     /* 3AE768 80187AE8 00000000 */ .word 0x00000000
     /* 3AE76C 80187AEC 00000000 */ .word 0x00000000
+enddlabel charizard_tex_wing2_png
+
+nonmatching charizard_tex_skin_pal
+
+dlabel charizard_tex_skin_pal
     /* 3AE770 80187AF0 FFFFFFA9 */ .word 0xFFFFFFA9
     /* 3AE774 80187AF4 FF63FF61 */ .word 0xFF63FF61
     /* 3AE778 80187AF8 FF5FFE9B */ .word 0xFF5FFE9B
@@ -3341,6 +3421,11 @@ dlabel D_80184700_3AB380
     /* 3AE78C 80187B0C DE5B0000 */ .word 0xDE5B0000
     /* 3AE790 80187B10 00000000 */ .word 0x00000000
     /* 3AE794 80187B14 00000000 */ .word 0x00000000
+enddlabel charizard_tex_skin_pal
+
+nonmatching charizard_tex_skin_png
+
+dlabel charizard_tex_skin_png
     /* 3AE798 80187B18 BBBBBBBB */ .word 0xBBBBBBBB
     /* 3AE79C 80187B1C BBA68444 */ .word 0xBBA68444
     /* 3AE7A0 80187B20 44486ABB */ .word 0x44486ABB
@@ -3599,6 +3684,11 @@ dlabel D_80184700_3AB380
     /* 3AEB94 80187F14 BBBBBBBB */ .word 0xBBBBBBBB
     /* 3AEB98 80187F18 00000000 */ .word 0x00000000
     /* 3AEB9C 80187F1C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_skin_png
+
+nonmatching charizard_tex_tongue_pal
+
+dlabel charizard_tex_tongue_pal
     /* 3AEBA0 80187F20 FFFFE421 */ .word 0xFFFFE421
     /* 3AEBA4 80187F24 E3DDE39B */ .word 0xE3DDE39B
     /* 3AEBA8 80187F28 DC63DC21 */ .word 0xDC63DC21
@@ -3609,6 +3699,11 @@ dlabel D_80184700_3AB380
     /* 3AEBBC 80187F3C 9A530000 */ .word 0x9A530000
     /* 3AEBC0 80187F40 00000000 */ .word 0x00000000
     /* 3AEBC4 80187F44 00000000 */ .word 0x00000000
+enddlabel charizard_tex_tongue_pal
+
+nonmatching charizard_tex_tongue_png
+
+dlabel charizard_tex_tongue_png
     /* 3AEBC8 80187F48 EEEEEEEE */ .word 0xEEEEEEEE
     /* 3AEBCC 80187F4C EEEEEEDD */ .word 0xEEEEEEDD
     /* 3AEBD0 80187F50 B99BDEEE */ .word 0xB99BDEEE
@@ -3867,6 +3962,11 @@ dlabel D_80184700_3AB380
     /* 3AEFC4 80188344 CCCCCCDD */ .word 0xCCCCCCDD
     /* 3AEFC8 80188348 00000000 */ .word 0x00000000
     /* 3AEFCC 8018834C 00000000 */ .word 0x00000000
+enddlabel charizard_tex_tongue_png
+
+nonmatching charizard_tex_claw_pal
+
+dlabel charizard_tex_claw_pal
     /* 3AEFD0 80188350 FFFFFFFD */ .word 0xFFFFFFFD
     /* 3AEFD4 80188354 EF79E6AD */ .word 0xEF79E6AD
     /* 3AEFD8 80188358 C55DC515 */ .word 0xC55DC515
@@ -3877,6 +3977,11 @@ dlabel D_80184700_3AB380
     /* 3AEFEC 8018836C 00010000 */ .word 0x00010000
     /* 3AEFF0 80188370 00000000 */ .word 0x00000000
     /* 3AEFF4 80188374 00000000 */ .word 0x00000000
+enddlabel charizard_tex_claw_pal
+
+nonmatching charizard_tex_claw_png
+
+dlabel charizard_tex_claw_png
     /* 3AEFF8 80188378 00000000 */ .word 0x00000000
     /* 3AEFFC 8018837C 00000000 */ .word 0x00000000
     /* 3AF000 80188380 11111111 */ .word 0x11111111
@@ -3895,4 +4000,4 @@ dlabel D_80184700_3AB380
     /* 3AF034 801883B4 00000000 */ .word 0x00000000
     /* 3AF038 801883B8 00000000 */ .word 0x00000000
     /* 3AF03C 801883BC 00000000 */ .word 0x00000000
-enddlabel D_80184700_3AB380
+enddlabel charizard_tex_claw_png

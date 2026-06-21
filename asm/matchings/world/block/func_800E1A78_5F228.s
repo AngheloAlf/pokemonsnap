@@ -1,6 +1,6 @@
-nonmatching setSkyBoxAnimationSpeed, 0x3C
+nonmatching func_800E1A78_5F228, 0x3C
 
-glabel setSkyBoxAnimationSpeed
+glabel func_800E1A78_5F228
     /* 5F228 800E1A78 3C0E800E */  lui        $t6, %hi(D_800E6AF8_642A8)
     /* 5F22C 800E1A7C 8DCE6AF8 */  lw         $t6, %lo(D_800E6AF8_642A8)($t6)
     /* 5F230 800E1A80 27BDFFE8 */  addiu      $sp, $sp, -0x18
@@ -17,4 +17,4 @@ glabel setSkyBoxAnimationSpeed
     /* 5F258 800E1AA8 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 5F25C 800E1AAC 03E00008 */  jr         $ra
     /* 5F260 800E1AB0 00000000 */   nop
-endlabel setSkyBoxAnimationSpeed
+endlabel func_800E1A78_5F228

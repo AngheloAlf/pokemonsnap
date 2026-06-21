@@ -46,7 +46,7 @@ glabel func_80355664_4F5A74
     /* 4F5AEC 803556DC 0C0D5585 */  jal        func_80355614_4F5A24
     /* 4F5AF0 803556E0 8FA40040 */   lw        $a0, 0x40($sp)
     /* 4F5AF4 803556E4 44806000 */  mtc1       $zero, $f12
-    /* 4F5AF8 803556E8 0C03869E */  jal        setSkyBoxAnimationSpeed
+    /* 4F5AF8 803556E8 0C03869E */  jal        func_800E1A78_5F228
     /* 4F5AFC 803556EC 00000000 */   nop
     /* 4F5B00 803556F0 8FA50048 */  lw         $a1, 0x48($sp)
     /* 4F5B04 803556F4 44806000 */  mtc1       $zero, $f12

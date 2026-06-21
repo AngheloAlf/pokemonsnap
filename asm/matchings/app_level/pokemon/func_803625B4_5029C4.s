@@ -349,7 +349,7 @@ glabel func_803625B4_5029C4
     /* 502DB0 803629A0 5441000F */  bnel       $v0, $at, .L803629E0_502DF0
     /* 502DB4 803629A4 8C620010 */   lw        $v0, 0x10($v1)
     /* 502DB8 803629A8 AFA30018 */  sw         $v1, 0x18($sp)
-    /* 502DBC 803629AC 0C038861 */  jal        getCurrentWorldBlock
+    /* 502DBC 803629AC 0C038861 */  jal        func_800E2184_5F934
     /* 502DC0 803629B0 AFA70028 */   sw        $a3, 0x28($sp)
     /* 502DC4 803629B4 8FA70028 */  lw         $a3, 0x28($sp)
     /* 502DC8 803629B8 8FA30018 */  lw         $v1, 0x18($sp)

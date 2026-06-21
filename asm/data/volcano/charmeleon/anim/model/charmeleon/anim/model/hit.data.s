@@ -7,7 +7,7 @@
 nonmatching charmeleon_modelanim_hit
 
 dlabel charmeleon_modelanim_hit
-    /* 3A8DB0 80182130 80182178 */ .word shellder_tex_80182178_png
+    /* 3A8DB0 80182130 80182178 */ .word D_80182178_3A8DF8
     /* 3A8DB4 80182134 80182184 */ .word D_80182184_3A8E04
     /* 3A8DB8 80182138 80182228 */ .word D_80182228_3A8EA8
     /* 3A8DBC 8018213C 80182308 */ .word D_80182308_3A8F88
@@ -27,13 +27,13 @@ dlabel charmeleon_modelanim_hit
     /* 3A8DF4 80182174 80182BE8 */ .word D_80182BE8_3A9868
 enddlabel charmeleon_modelanim_hit
 
-nonmatching shellder_tex_80182178_png
+nonmatching D_80182178_3A8DF8
 
-dlabel shellder_tex_80182178_png
+dlabel D_80182178_3A8DF8
     /* 3A8DF8 80182178 04000012 */ .word 0x04000012
     /* 3A8DFC 8018217C 20008052 */ .word 0x20008052
     /* 3A8E00 80182180 00000000 */ .word 0x00000000
-enddlabel shellder_tex_80182178_png
+enddlabel D_80182178_3A8DF8
 
 nonmatching D_80182184_3A8E04
 

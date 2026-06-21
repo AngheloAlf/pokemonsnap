@@ -1056,10 +1056,14 @@ segments:
     - [auto, c, world/block4]
     - [auto, c, world/block5]
     - [auto, c, world/blocks]
+
     - [auto, c, computer/model]
     - [auto, c, pkmn_1016/model]
     - [auto, c, pkmn_1017/model]
     - [auto, c, computer/textures]
+
+    - [auto, c, kakuna/textures]
+
     - [auto, c, magnemite/textures]
     - [auto, c, magnemite/anim/model/run]
     - [auto, c, magnemite/anim/model/pulse]
@@ -1068,6 +1072,7 @@ segments:
     - [auto, c, magnemite/anim/model/hit]
     - [auto, c, magnemite/anim/model/react]
     - [auto, c, magnemite/anim/material/pulse]
+
     - [auto, c, diglett/textures]
     - [auto, c, diglett/anim/model/look_around]
     - [auto, c, diglett/anim/model/burrow]
@@ -1078,12 +1083,16 @@ segments:
     - [auto, c, diglett/anim/material/unused]
     - [auto, c, diglett/anim/material/rise]
     - [auto, c, diglett/anim/material/unburrow]
+
     - [auto, c, dugtrio/textures]
     - [auto, c, dugtrio/anim/model/look_around]
     - [auto, c, dugtrio/anim/model/burrow]
     - [auto, c, dugtrio/anim/model/turn]
     - [auto, c, dugtrio/anim/model/rise]
     - [auto, c, dugtrio/anim/model/unburrow]
+
+    - [auto, c, electabuzz/textures]
+
     - [auto, c, electrode/textures]
     - [auto, c, electrode/anim/model/explode]
     - [auto, c, electrode/anim/model/idle]
@@ -1091,8 +1100,12 @@ segments:
     - [auto, c, electrode/anim/model/roll]
     - [auto, c, electrode/anim/material/explode]
     - [auto, c, electrode/anim/material/dead]
+
     - [auto, c, magneton/textures]
     - [auto, c, magneton/anim/animation]
+
+    - [auto, c, zapdos/textures]
+
     - [0x162CC0, .data, world/world]
     - [0x164850, .data, world/world_gfx]
     - start: 0x164930
@@ -1194,7 +1207,9 @@ segments:
       - { start: 0x190038, type: palette, name: tex_back, size: 0x18 }
       - [0x190050]
       - { start: 0x190058, type: ci4, name: tex_back, flip_y: true, width: 32, height: 32 }
-    - [0x190260, bin]
+
+    - [0x190260, bin, kakuna/textures]
+
     - start: 0x1A1100
       type: .data
       dir: magnemite
@@ -1455,7 +1470,9 @@ segments:
       name: dugtrio/anim/model/unburrow
       subsegments:
       - [0x1AD380, snap_model_anim, unburrow]
-    - [0x1ADCB0, bin]
+
+    - [0x1ADCB0, bin, electabuzz/textures]
+
     - start: 0x1BF8F0
       type: .data
       dir: electrode
@@ -1590,7 +1607,9 @@ segments:
       name: magneton/anim/animation
       subsegments:
       - [0x1C80A0, snap_model_anim, animation]
-    - [0x1C8AC0, bin]
+
+    - [0x1C8AC0, bin, zapdos/textures]
+
     - { name: bss_8018BC30, type: bss, vram: 0x8018BC30 }
   - type: code
     name: tunnel_extra
@@ -1598,6 +1617,8 @@ segments:
     start: 0x1D1D90
     vram: 0x8018BC50
     exclusive_ram_id: unk_01D1D90
+    prioritized_segments:
+    - tunnel_assets
     subsegments:
     - [auto, c, kakuna/model_hd]
     - [auto, c, magnemite/model_hd]
@@ -4459,6 +4480,8 @@ segments:
     start: 0x3D0560
     vram: 0x801A9900
     exclusive_ram_id: unk3D0560
+    prioritized_segments:
+    - volcano_assets
     subsegments:
     - [auto, c, magmar/model_hd]
     - [auto, c, moltres/model_hd]
@@ -9772,6 +9795,8 @@ segments:
     start: 0x82F8E0
     vram: 0x803B1F80
     exclusive_ram_id: unk82F8E0
+    prioritized_segments:
+    - magikarp_textures
     subsegments:
     - [auto, c, magikarp/model_hd]
     - start: 0x82F8E0

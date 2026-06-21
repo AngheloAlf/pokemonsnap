@@ -198,7 +198,7 @@ nonmatching D_801C8CC4_155134
 
 dlabel D_801C8CC4_155134
     /* 155134 801C8CC4 8018A7B0 */ .word 0x8018A7B0
-    /* 155138 801C8CC8 8018B000 */ .word meowth_tex_8018B000
+    /* 155138 801C8CC8 8018B000 */ .word graveler_hd_part9_draw
     /* 15513C 801C8CCC 8018B850 */ .word 0x8018B850
     /* 155140 801C8CD0 8018C0A0 */ .word kakuna_hd_vtx + 0x3B0
     /* 155144 801C8CD4 00000000 */ .word 0x00000000

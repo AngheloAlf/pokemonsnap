@@ -9,6 +9,11 @@ nonmatching D_8017EAD0_1C4C30
 dlabel D_8017EAD0_1C4C30
     /* 1C4C30 8017EAD0 00000000 */ .word 0x00000000
     /* 1C4C34 8017EAD4 00000000 */ .word 0x00000000
+enddlabel D_8017EAD0_1C4C30
+
+nonmatching magneton_tex_screw_head_png
+
+dlabel magneton_tex_screw_head_png
     /* 1C4C38 8017EAD8 294B294B */ .word 0x294B294B
     /* 1C4C3C 8017EADC 318D39CF */ .word 0x318D39CF
     /* 1C4C40 8017EAE0 4A535295 */ .word 0x4A535295
@@ -523,6 +528,11 @@ dlabel D_8017EAD0_1C4C30
     /* 1C5434 8017F2D4 318D294B */ .word 0x318D294B
     /* 1C5438 8017F2D8 00000000 */ .word 0x00000000
     /* 1C543C 8017F2DC 00000000 */ .word 0x00000000
+enddlabel magneton_tex_screw_head_png
+
+nonmatching magneton_tex_unk_circles_png
+
+dlabel magneton_tex_unk_circles_png
     /* 1C5440 8017F2E0 A2A4A6A8 */ .word 0xA2A4A6A8
     /* 1C5444 8017F2E4 ABADAFB0 */ .word 0xABADAFB0
     /* 1C5448 8017F2E8 B2B4B5B7 */ .word 0xB2B4B5B7
@@ -781,6 +791,11 @@ dlabel D_8017EAD0_1C4C30
     /* 1C583C 8017F6DC A8A6A4A2 */ .word 0xA8A6A4A2
     /* 1C5840 8017F6E0 00000000 */ .word 0x00000000
     /* 1C5844 8017F6E4 00000000 */ .word 0x00000000
+enddlabel magneton_tex_unk_circles_png
+
+nonmatching magneton_tex_eye_png
+
+dlabel magneton_tex_eye_png
     /* 1C5848 8017F6E8 FFFFFFFF */ .word 0xFFFFFFFF
     /* 1C584C 8017F6EC FFFFFFFF */ .word 0xFFFFFFFF
     /* 1C5850 8017F6F0 FFFFFFFF */ .word 0xFFFFFFFF
@@ -1311,6 +1326,11 @@ dlabel D_8017EAD0_1C4C30
     /* 1C6084 8017FF24 FFFFFFFF */ .word 0xFFFFFFFF
     /* 1C6088 8017FF28 00000000 */ .word 0x00000000
     /* 1C608C 8017FF2C 00000000 */ .word 0x00000000
+enddlabel magneton_tex_eye_png
+
+nonmatching magneton_tex_magnet_blue_png
+
+dlabel magneton_tex_magnet_blue_png
     /* 1C6090 8017FF30 5AD75AD7 */ .word 0x5AD75AD7
     /* 1C6094 8017FF34 5AD75AD7 */ .word 0x5AD75AD7
     /* 1C6098 8017FF38 5AD75AD7 */ .word 0x5AD75AD7
@@ -1825,6 +1845,11 @@ dlabel D_8017EAD0_1C4C30
     /* 1C688C 8018072C 64B164B1 */ .word 0x64B164B1
     /* 1C6890 80180730 00000000 */ .word 0x00000000
     /* 1C6894 80180734 00000000 */ .word 0x00000000
+enddlabel magneton_tex_magnet_blue_png
+
+nonmatching magneton_tex_magnet_red_png
+
+dlabel magneton_tex_magnet_red_png
     /* 1C6898 80180738 5AD75AD7 */ .word 0x5AD75AD7
     /* 1C689C 8018073C 5AD75AD7 */ .word 0x5AD75AD7
     /* 1C68A0 80180740 5AD75AD7 */ .word 0x5AD75AD7
@@ -2339,6 +2364,11 @@ dlabel D_8017EAD0_1C4C30
     /* 1C7094 80180F34 C315C315 */ .word 0xC315C315
     /* 1C7098 80180F38 00000000 */ .word 0x00000000
     /* 1C709C 80180F3C 00000000 */ .word 0x00000000
+enddlabel magneton_tex_magnet_red_png
+
+nonmatching magneton_tex_screw_thread_png
+
+dlabel magneton_tex_screw_thread_png
     /* 1C70A0 80180F40 EF7BB5AF */ .word 0xEF7BB5AF
     /* 1C70A4 80180F44 AD6DD6B7 */ .word 0xAD6DD6B7
     /* 1C70A8 80180F48 CE75BDEF */ .word 0xCE75BDEF
@@ -3363,4 +3393,4 @@ dlabel D_8017EAD0_1C4C30
     /* 1C8094 80181F34 18C718C7 */ .word 0x18C718C7
     /* 1C8098 80181F38 18C718C7 */ .word 0x18C718C7
     /* 1C809C 80181F3C 18C9631B */ .word 0x18C9631B
-enddlabel D_8017EAD0_1C4C30
+enddlabel magneton_tex_screw_thread_png

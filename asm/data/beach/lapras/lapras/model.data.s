@@ -24,7 +24,7 @@ nonmatching D_beach_803303BC
 
 dlabel D_beach_803303BC
     /* 5C842C 803303BC 80182E00 */ .word 0x80182E00
-    /* 5C8430 803303C0 80183030 */ .word lapras_tex_80183030
+    /* 5C8430 803303C0 80183030 */ .word D_80183030_3A9CB0
     /* 5C8434 803303C4 80183260 */ .word 0x80183260
 enddlabel D_beach_803303BC
 

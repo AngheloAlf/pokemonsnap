@@ -9,6 +9,11 @@ nonmatching D_80163F30_1AA090
 dlabel D_80163F30_1AA090
     /* 1AA090 80163F30 00000000 */ .word 0x00000000
     /* 1AA094 80163F34 00000000 */ .word 0x00000000
+enddlabel D_80163F30_1AA090
+
+nonmatching dugtrio_tex_left_eye_pal
+
+dlabel dugtrio_tex_left_eye_pal
     /* 1AA098 80163F38 FFFF4211 */ .word 0xFFFF4211
     /* 1AA09C 80163F3C 842130C5 */ .word 0x842130C5
     /* 1AA0A0 80163F40 71874905 */ .word 0x71874905
@@ -19,6 +24,11 @@ dlabel D_80163F30_1AA090
     /* 1AA0B4 80163F54 94E50000 */ .word 0x94E50000
     /* 1AA0B8 80163F58 00000000 */ .word 0x00000000
     /* 1AA0BC 80163F5C 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_left_eye_pal
+
+nonmatching dugtrio_tex_left_eye_png
+
+dlabel dugtrio_tex_left_eye_png
     /* 1AA0C0 80163F60 77777777 */ .word 0x77777777
     /* 1AA0C4 80163F64 77777777 */ .word 0x77777777
     /* 1AA0C8 80163F68 77777777 */ .word 0x77777777
@@ -149,6 +159,11 @@ dlabel D_80163F30_1AA090
     /* 1AA2BC 8016415C 77777777 */ .word 0x77777777
     /* 1AA2C0 80164160 00000000 */ .word 0x00000000
     /* 1AA2C4 80164164 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_left_eye_png
+
+nonmatching dugtrio_tex_right_eye_pal
+
+dlabel dugtrio_tex_right_eye_pal
     /* 1AA2C8 80164168 FFFF4211 */ .word 0xFFFF4211
     /* 1AA2CC 8016416C 842130C5 */ .word 0x842130C5
     /* 1AA2D0 80164170 71874905 */ .word 0x71874905
@@ -159,6 +174,11 @@ dlabel D_80163F30_1AA090
     /* 1AA2E4 80164184 94E50000 */ .word 0x94E50000
     /* 1AA2E8 80164188 00000000 */ .word 0x00000000
     /* 1AA2EC 8016418C 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_right_eye_pal
+
+nonmatching dugtrio_tex_right_eye_png
+
+dlabel dugtrio_tex_right_eye_png
     /* 1AA2F0 80164190 77777777 */ .word 0x77777777
     /* 1AA2F4 80164194 77777777 */ .word 0x77777777
     /* 1AA2F8 80164198 77777777 */ .word 0x77777777
@@ -289,6 +309,11 @@ dlabel D_80163F30_1AA090
     /* 1AA4EC 8016438C 77777777 */ .word 0x77777777
     /* 1AA4F0 80164390 00000000 */ .word 0x00000000
     /* 1AA4F4 80164394 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_right_eye_png
+
+nonmatching dugtrio_tex_head_pal
+
+dlabel dugtrio_tex_head_pal
     /* 1AA4F8 80164398 FFFFB2CF */ .word 0xFFFFB2CF
     /* 1AA4FC 8016439C BB0FB2CD */ .word 0xBB0FB2CD
     /* 1AA500 801643A0 BB51B30F */ .word 0xBB51B30F
@@ -299,6 +324,11 @@ dlabel D_80163F30_1AA090
     /* 1AA514 801643B4 00010000 */ .word 0x00010000
     /* 1AA518 801643B8 00000000 */ .word 0x00000000
     /* 1AA51C 801643BC 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_head_pal
+
+nonmatching dugtrio_tex_head_png
+
+dlabel dugtrio_tex_head_png
     /* 1AA520 801643C0 33333333 */ .word 0x33333333
     /* 1AA524 801643C4 33333333 */ .word 0x33333333
     /* 1AA528 801643C8 33333333 */ .word 0x33333333
@@ -429,6 +459,11 @@ dlabel D_80163F30_1AA090
     /* 1AA71C 801645BC 33333333 */ .word 0x33333333
     /* 1AA720 801645C0 00000000 */ .word 0x00000000
     /* 1AA724 801645C4 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_head_png
+
+nonmatching dugtrio_tex_body_pal
+
+dlabel dugtrio_tex_body_pal
     /* 1AA728 801645C8 FFFFB2CD */ .word 0xFFFFB2CD
     /* 1AA72C 801645CC 00010001 */ .word 0x00010001
     /* 1AA730 801645D0 00010001 */ .word 0x00010001
@@ -439,6 +474,11 @@ dlabel D_80163F30_1AA090
     /* 1AA744 801645E4 00010000 */ .word 0x00010000
     /* 1AA748 801645E8 00000000 */ .word 0x00000000
     /* 1AA74C 801645EC 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_body_pal
+
+nonmatching dugtrio_tex_body_png
+
+dlabel dugtrio_tex_body_png
     /* 1AA750 801645F0 11111111 */ .word 0x11111111
     /* 1AA754 801645F4 11111111 */ .word 0x11111111
     /* 1AA758 801645F8 11111111 */ .word 0x11111111
@@ -569,6 +609,11 @@ dlabel D_80163F30_1AA090
     /* 1AA94C 801647EC 11111111 */ .word 0x11111111
     /* 1AA950 801647F0 00000000 */ .word 0x00000000
     /* 1AA954 801647F4 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_body_png
+
+nonmatching dugtrio_tex_nose_pal
+
+dlabel dugtrio_tex_nose_pal
     /* 1AA958 801647F8 FFFFFF7B */ .word 0xFFFFFF7B
     /* 1AA95C 801647FC FEB5FDAD */ .word 0xFEB5FDAD
     /* 1AA960 80164800 FD29F52B */ .word 0xFD29F52B
@@ -579,6 +624,11 @@ dlabel D_80163F30_1AA090
     /* 1AA974 80164814 C2550000 */ .word 0xC2550000
     /* 1AA978 80164818 00000000 */ .word 0x00000000
     /* 1AA97C 8016481C 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_nose_pal
+
+nonmatching dugtrio_tex_nose_png
+
+dlabel dugtrio_tex_nose_png
     /* 1AA980 80164820 77777777 */ .word 0x77777777
     /* 1AA984 80164824 77777777 */ .word 0x77777777
     /* 1AA988 80164828 77777777 */ .word 0x77777777
@@ -709,6 +759,11 @@ dlabel D_80163F30_1AA090
     /* 1AAB7C 80164A1C 77777777 */ .word 0x77777777
     /* 1AAB80 80164A20 00000000 */ .word 0x00000000
     /* 1AAB84 80164A24 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_nose_png
+
+nonmatching dugtrio_tex_soil_pal
+
+dlabel dugtrio_tex_soil_pal
     /* 1AAB88 80164A28 FFFFB4A1 */ .word 0xFFFFB4A1
     /* 1AAB8C 80164A2C B45FABDB */ .word 0xB45FABDB
     /* 1AAB90 80164A30 A3979B11 */ .word 0xA3979B11
@@ -719,6 +774,11 @@ dlabel D_80163F30_1AA090
     /* 1AABA4 80164A44 69030001 */ .word 0x69030001
     /* 1AABA8 80164A48 00000000 */ .word 0x00000000
     /* 1AABAC 80164A4C 00000000 */ .word 0x00000000
+enddlabel dugtrio_tex_soil_pal
+
+nonmatching dugtrio_tex_soil_png
+
+dlabel dugtrio_tex_soil_png
     /* 1AABB0 80164A50 66446666 */ .word 0x66446666
     /* 1AABB4 80164A54 468B9998 */ .word 0x468B9998
     /* 1AABB8 80164A58 66666656 */ .word 0x66666656
@@ -1231,4 +1291,4 @@ dlabel D_80163F30_1AA090
     /* 1AB3A4 80165244 66667889 */ .word 0x66667889
     /* 1AB3A8 80165248 98888688 */ .word 0x98888688
     /* 1AB3AC 8016524C 88999689 */ .word 0x88999689
-enddlabel D_80163F30_1AA090
+enddlabel dugtrio_tex_soil_png

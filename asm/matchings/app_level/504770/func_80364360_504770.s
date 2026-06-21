@@ -21,7 +21,7 @@ glabel func_80364360_504770
     /* 5047B4 803643A4 24040015 */  addiu      $a0, $zero, 0x15
     /* 5047B8 803643A8 51200004 */  beql       $t1, $zero, .L803643BC_5047CC
     /* 5047BC 803643AC 8FBF0014 */   lw        $ra, 0x14($sp)
-    /* 5047C0 803643B0 0C02FFAF */  jal        setPlayerFlag
+    /* 5047C0 803643B0 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 5047C4 803643B4 24050001 */   addiu     $a1, $zero, 0x1
     /* 5047C8 803643B8 8FBF0014 */  lw         $ra, 0x14($sp)
   .L803643BC_5047CC:

@@ -9,12 +9,22 @@ nonmatching D_8017B790_3A2410
 dlabel D_8017B790_3A2410
     /* 3A2410 8017B790 00000000 */ .word 0x00000000
     /* 3A2414 8017B794 00000000 */ .word 0x00000000
+enddlabel D_8017B790_3A2410
+
+nonmatching charmeleon_tex_skin_pal
+
+dlabel charmeleon_tex_skin_pal
     /* 3A2418 8017B798 E5E9C299 */ .word 0xE5E9C299
     /* 3A241C 8017B79C FF2DB1CF */ .word 0xFF2DB1CF
     /* 3A2420 8017B7A0 CB9DBA11 */ .word 0xCB9DBA11
     /* 3A2424 8017B7A4 F7730000 */ .word 0xF7730000
     /* 3A2428 8017B7A8 00000000 */ .word 0x00000000
     /* 3A242C 8017B7AC 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_skin_pal
+
+nonmatching charmeleon_tex_skin_png
+
+dlabel charmeleon_tex_skin_png
     /* 3A2430 8017B7B0 35542666 */ .word 0x35542666
     /* 3A2434 8017B7B4 66666666 */ .word 0x66666666
     /* 3A2438 8017B7B8 66666666 */ .word 0x66666666
@@ -145,6 +155,11 @@ dlabel D_8017B790_3A2410
     /* 3A262C 8017B9AC 33333333 */ .word 0x33333333
     /* 3A2630 8017B9B0 00000000 */ .word 0x00000000
     /* 3A2634 8017B9B4 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_skin_png
+
+nonmatching charmeleon_tex_eye_frame0_pal
+
+dlabel charmeleon_tex_eye_frame0_pal
     /* 3A2638 8017B9B8 FFFFEF7B */ .word 0xFFFFEF7B
     /* 3A263C 8017B9BC C5EFCB9D */ .word 0xC5EFCB9D
     /* 3A2640 8017B9C0 514B2885 */ .word 0x514B2885
@@ -155,6 +170,11 @@ dlabel D_8017B790_3A2410
     /* 3A2654 8017B9D4 C2990000 */ .word 0xC2990000
     /* 3A2658 8017B9D8 00000000 */ .word 0x00000000
     /* 3A265C 8017B9DC 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_eye_frame0_pal
+
+nonmatching charmeleon_tex_eye_frame0_png
+
+dlabel charmeleon_tex_eye_frame0_png
     /* 3A2660 8017B9E0 88888888 */ .word 0x88888888
     /* 3A2664 8017B9E4 88888888 */ .word 0x88888888
     /* 3A2668 8017B9E8 88888888 */ .word 0x88888888
@@ -295,6 +315,11 @@ dlabel D_8017B790_3A2410
     /* 3A2884 8017BC04 C2990000 */ .word 0xC2990000
     /* 3A2888 8017BC08 00000000 */ .word 0x00000000
     /* 3A288C 8017BC0C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_eye_frame0_png
+
+nonmatching charmeleon_tex_eye_frame1_png
+
+dlabel charmeleon_tex_eye_frame1_png
     /* 3A2890 8017BC10 88888888 */ .word 0x88888888
     /* 3A2894 8017BC14 88888888 */ .word 0x88888888
     /* 3A2898 8017BC18 88888888 */ .word 0x88888888
@@ -435,6 +460,11 @@ dlabel D_8017B790_3A2410
     /* 3A2AB4 8017BE34 C2990000 */ .word 0xC2990000
     /* 3A2AB8 8017BE38 00000000 */ .word 0x00000000
     /* 3A2ABC 8017BE3C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_eye_frame1_png
+
+nonmatching charmeleon_tex_eye_frame2_png
+
+dlabel charmeleon_tex_eye_frame2_png
     /* 3A2AC0 8017BE40 88888888 */ .word 0x88888888
     /* 3A2AC4 8017BE44 88888888 */ .word 0x88888888
     /* 3A2AC8 8017BE48 88888888 */ .word 0x88888888
@@ -565,6 +595,11 @@ dlabel D_8017B790_3A2410
     /* 3A2CBC 8017C03C 88888888 */ .word 0x88888888
     /* 3A2CC0 8017C040 00000000 */ .word 0x00000000
     /* 3A2CC4 8017C044 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_eye_frame2_png
+
+nonmatching charmeleon_tex_flame_frame0_png
+
+dlabel charmeleon_tex_flame_frame0_png
     /* 3A2CC8 8017C048 00000000 */ .word 0x00000000
     /* 3A2CCC 8017C04C 00000000 */ .word 0x00000000
     /* 3A2CD0 8017C050 00000000 */ .word 0x00000000
@@ -823,6 +858,11 @@ dlabel D_8017B790_3A2410
     /* 3A30C4 8017C444 00000000 */ .word 0x00000000
     /* 3A30C8 8017C448 00000000 */ .word 0x00000000
     /* 3A30CC 8017C44C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_flame_frame0_png
+
+nonmatching charmeleon_tex_flame_frame1_png
+
+dlabel charmeleon_tex_flame_frame1_png
     /* 3A30D0 8017C450 00000000 */ .word 0x00000000
     /* 3A30D4 8017C454 00000000 */ .word 0x00000000
     /* 3A30D8 8017C458 00000000 */ .word 0x00000000
@@ -1081,6 +1121,11 @@ dlabel D_8017B790_3A2410
     /* 3A34CC 8017C84C 00000000 */ .word 0x00000000
     /* 3A34D0 8017C850 00000000 */ .word 0x00000000
     /* 3A34D4 8017C854 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_flame_frame1_png
+
+nonmatching charmeleon_tex_flame_frame2_png
+
+dlabel charmeleon_tex_flame_frame2_png
     /* 3A34D8 8017C858 00000000 */ .word 0x00000000
     /* 3A34DC 8017C85C 00000000 */ .word 0x00000000
     /* 3A34E0 8017C860 00000000 */ .word 0x00000000
@@ -1339,6 +1384,11 @@ dlabel D_8017B790_3A2410
     /* 3A38D4 8017CC54 00000000 */ .word 0x00000000
     /* 3A38D8 8017CC58 00000000 */ .word 0x00000000
     /* 3A38DC 8017CC5C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_flame_frame2_png
+
+nonmatching charmeleon_tex_flame_frame3_png
+
+dlabel charmeleon_tex_flame_frame3_png
     /* 3A38E0 8017CC60 00000000 */ .word 0x00000000
     /* 3A38E4 8017CC64 00000000 */ .word 0x00000000
     /* 3A38E8 8017CC68 00000000 */ .word 0x00000000
@@ -1597,6 +1647,11 @@ dlabel D_8017B790_3A2410
     /* 3A3CDC 8017D05C 00000000 */ .word 0x00000000
     /* 3A3CE0 8017D060 00000000 */ .word 0x00000000
     /* 3A3CE4 8017D064 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_flame_frame3_png
+
+nonmatching charmeleon_tex_foot_pal
+
+dlabel charmeleon_tex_foot_pal
     /* 3A3CE8 8017D068 E5E9C299 */ .word 0xE5E9C299
     /* 3A3CEC 8017D06C A98DFF2D */ .word 0xA98DFF2D
     /* 3A3CF0 8017D070 EF7BB1CF */ .word 0xEF7BB1CF
@@ -1605,11 +1660,15 @@ dlabel D_8017B790_3A2410
     /* 3A3CFC 8017D07C 00000000 */ .word 0x00000000
     /* 3A3D00 8017D080 00000000 */ .word 0x00000000
     /* 3A3D04 8017D084 00000000 */ .word 0x00000000
-    /* 3A3D08 8017D088 55555555 */ .word 0x55555555
-    /* 3A3D0C 8017D08C 55555555 */ .word 0x55555555
-    /* 3A3D10 8017D090 55555256 */ .word 0x55555256
-    /* 3A3D14 8017D094 67555555 */ .word 0x67555555
-    /* 3A3D18 8017D098 55552600 */ .word 0x55552600
+enddlabel charmeleon_tex_foot_pal
+
+.align 2
+nonmatching charmeleon_tex_foot_png
+
+dlabel charmeleon_tex_foot_png
+    /* 3A3D08 8017D088 */ .asciz "UUUUUUUUUURVgUUUUU&"
+    /* 5555555555555555555552566755555555552600 */
+.align 2
     /* 3A3D1C 8017D09C 03652555 */ .word 0x03652555
     /* 3A3D20 8017D0A0 55557003 */ .word 0x55557003
     /* 3A3D24 8017D0A4 33302555 */ .word 0x33302555
@@ -1639,12 +1698,22 @@ dlabel D_8017B790_3A2410
     /* 3A3D84 8017D104 55555555 */ .word 0x55555555
     /* 3A3D88 8017D108 00000000 */ .word 0x00000000
     /* 3A3D8C 8017D10C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_foot_png
+
+nonmatching charmeleon_tex_nostrils_pal
+
+dlabel charmeleon_tex_nostrils_pal
     /* 3A3D90 8017D110 2885994B */ .word 0x2885994B
     /* 3A3D94 8017D114 A98D514B */ .word 0xA98D514B
     /* 3A3D98 8017D118 B1CF894B */ .word 0xB1CF894B
     /* 3A3D9C 8017D11C BA11714B */ .word 0xBA11714B
     /* 3A3DA0 8017D120 00000000 */ .word 0x00000000
     /* 3A3DA4 8017D124 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_nostrils_pal
+
+nonmatching charmeleon_tex_nostrils_png
+
+dlabel charmeleon_tex_nostrils_png
     /* 3A3DA8 8017D128 44444444 */ .word 0x44444444
     /* 3A3DAC 8017D12C 44444444 */ .word 0x44444444
     /* 3A3DB0 8017D130 44444444 */ .word 0x44444444
@@ -1711,12 +1780,22 @@ dlabel D_8017B790_3A2410
     /* 3A3EA4 8017D224 44444444 */ .word 0x44444444
     /* 3A3EA8 8017D228 00000000 */ .word 0x00000000
     /* 3A3EAC 8017D22C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_nostrils_png
+
+nonmatching charmeleon_tex_claw_pal
+
+dlabel charmeleon_tex_claw_pal
     /* 3A3EB0 8017D230 E5E9C299 */ .word 0xE5E9C299
     /* 3A3EB4 8017D234 FF2DB1CF */ .word 0xFF2DB1CF
     /* 3A3EB8 8017D238 CB9DBA11 */ .word 0xCB9DBA11
     /* 3A3EBC 8017D23C F7730000 */ .word 0xF7730000
     /* 3A3EC0 8017D240 00000000 */ .word 0x00000000
     /* 3A3EC4 8017D244 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_claw_pal
+
+nonmatching charmeleon_tex_claw_png
+
+dlabel charmeleon_tex_claw_png
     /* 3A3EC8 8017D248 33333333 */ .word 0x33333333
     /* 3A3ECC 8017D24C 33333140 */ .word 0x33333140
     /* 3A3ED0 8017D250 33333333 */ .word 0x33333333
@@ -1751,6 +1830,11 @@ dlabel D_8017B790_3A2410
     /* 3A3F44 8017D2C4 22666666 */ .word 0x22666666
     /* 3A3F48 8017D2C8 00000000 */ .word 0x00000000
     /* 3A3F4C 8017D2CC 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_claw_png
+
+nonmatching charmeleon_tex_tongue_pal
+
+dlabel charmeleon_tex_tongue_pal
     /* 3A3F50 8017D2D0 2885994B */ .word 0x2885994B
     /* 3A3F54 8017D2D4 C299A98D */ .word 0xC299A98D
     /* 3A3F58 8017D2D8 514BB1CF */ .word 0x514BB1CF
@@ -1759,6 +1843,11 @@ dlabel D_8017B790_3A2410
     /* 3A3F64 8017D2E4 00000000 */ .word 0x00000000
     /* 3A3F68 8017D2E8 00000000 */ .word 0x00000000
     /* 3A3F6C 8017D2EC 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_tongue_pal
+
+nonmatching charmeleon_tex_tongue_png
+
+dlabel charmeleon_tex_tongue_png
     /* 3A3F70 8017D2F0 55555555 */ .word 0x55555555
     /* 3A3F74 8017D2F4 55555555 */ .word 0x55555555
     /* 3A3F78 8017D2F8 55555555 */ .word 0x55555555
@@ -1889,12 +1978,22 @@ dlabel D_8017B790_3A2410
     /* 3A416C 8017D4EC 00000095 */ .word 0x00000095
     /* 3A4170 8017D4F0 00000000 */ .word 0x00000000
     /* 3A4174 8017D4F4 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_tongue_png
+
+nonmatching charmeleon_tex_tail_pal
+
+dlabel charmeleon_tex_tail_pal
     /* 3A4178 8017D4F8 E5E9C299 */ .word 0xE5E9C299
     /* 3A417C 8017D4FC FF2DB1CF */ .word 0xFF2DB1CF
     /* 3A4180 8017D500 CB9DBA11 */ .word 0xCB9DBA11
     /* 3A4184 8017D504 F7730000 */ .word 0xF7730000
     /* 3A4188 8017D508 00000000 */ .word 0x00000000
     /* 3A418C 8017D50C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_tail_pal
+
+nonmatching charmeleon_tex_tail_png
+
+dlabel charmeleon_tex_tail_png
     /* 3A4190 8017D510 34266666 */ .word 0x34266666
     /* 3A4194 8017D514 66666666 */ .word 0x66666666
     /* 3A4198 8017D518 66666666 */ .word 0x66666666
@@ -2025,12 +2124,22 @@ dlabel D_8017B790_3A2410
     /* 3A438C 8017D70C 33333333 */ .word 0x33333333
     /* 3A4390 8017D710 00000000 */ .word 0x00000000
     /* 3A4394 8017D714 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_tail_png
+
+nonmatching charmeleon_tex_mouth_pal
+
+dlabel charmeleon_tex_mouth_pal
     /* 3A4398 8017D718 994BA98D */ .word 0x994BA98D
     /* 3A439C 8017D71C B1CF894B */ .word 0xB1CF894B
     /* 3A43A0 8017D720 714B0000 */ .word 0x714B0000
     /* 3A43A4 8017D724 00000000 */ .word 0x00000000
     /* 3A43A8 8017D728 00000000 */ .word 0x00000000
     /* 3A43AC 8017D72C 00000000 */ .word 0x00000000
+enddlabel charmeleon_tex_mouth_pal
+
+nonmatching charmeleon_tex_mouth_png
+
+dlabel charmeleon_tex_mouth_png
     /* 3A43B0 8017D730 22221033 */ .word 0x22221033
     /* 3A43B4 8017D734 44444444 */ .word 0x44444444
     /* 3A43B8 8017D738 44444444 */ .word 0x44444444
@@ -2159,4 +2268,4 @@ dlabel D_8017B790_3A2410
     /* 3A45A4 8017D924 22222222 */ .word 0x22222222
     /* 3A45A8 8017D928 22222222 */ .word 0x22222222
     /* 3A45AC 8017D92C 22222222 */ .word 0x22222222
-enddlabel D_8017B790_3A2410
+enddlabel charmeleon_tex_mouth_png

@@ -52,7 +52,7 @@ nonmatching D_beach_80335C04
 
 dlabel D_beach_80335C04
     /* 5CDC74 80335C04 8018A7B0 */ .word 0x8018A7B0
-    /* 5CDC78 80335C08 8018B000 */ .word meowth_tex_8018B000
+    /* 5CDC78 80335C08 8018B000 */ .word graveler_hd_part9_draw
     /* 5CDC7C 80335C0C 8018B850 */ .word 0x8018B850
     /* 5CDC80 80335C10 8018C0A0 */ .word kakuna_hd_vtx + 0x3B0
     /* 5CDC84 80335C14 00000000 */ .word 0x00000000

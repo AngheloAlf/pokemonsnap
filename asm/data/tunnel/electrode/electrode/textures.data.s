@@ -19,6 +19,11 @@ dlabel D_80179790_1BF8F0
     /* 1BF914 801797B4 5A110001 */ .word 0x5A110001
     /* 1BF918 801797B8 00000000 */ .word 0x00000000
     /* 1BF91C 801797BC 00000000 */ .word 0x00000000
+enddlabel D_80179790_1BF8F0
+
+nonmatching electrode_tex_explosion1_png
+
+dlabel electrode_tex_explosion1_png
     /* 1BF920 801797C0 00000001 */ .word 0x00000001
     /* 1BF924 801797C4 12211000 */ .word 0x12211000
     /* 1BF928 801797C8 00012455 */ .word 0x00012455
@@ -149,6 +154,11 @@ dlabel D_80179790_1BF8F0
     /* 1BFB1C 801799BC 00000000 */ .word 0x00000000
     /* 1BFB20 801799C0 00000000 */ .word 0x00000000
     /* 1BFB24 801799C4 00000000 */ .word 0x00000000
+enddlabel electrode_tex_explosion1_png
+
+nonmatching electrode_tex_explosion2_code
+
+dlabel electrode_tex_explosion2_code
     /* 1BFB28 801799C8 00000001 */ .word 0x00000001
     /* 1BFB2C 801799CC 34432000 */ .word 0x34432000
     /* 1BFB30 801799D0 00001223 */ .word 0x00001223
@@ -279,6 +289,11 @@ dlabel D_80179790_1BF8F0
     /* 1BFD24 80179BC4 00000000 */ .word 0x00000000
     /* 1BFD28 80179BC8 00000000 */ .word 0x00000000
     /* 1BFD2C 80179BCC 00000000 */ .word 0x00000000
+enddlabel electrode_tex_explosion2_code
+
+nonmatching electrode_tex_explosion3_png
+
+dlabel electrode_tex_explosion3_png
     /* 1BFD30 80179BD0 00000012 */ .word 0x00000012
     /* 1BFD34 80179BD4 45543332 */ .word 0x45543332
     /* 1BFD38 80179BD8 10000144 */ .word 0x10000144
@@ -559,6 +574,11 @@ dlabel D_80179790_1BF8F0
     /* 1C0184 8017A024 55555555 */ .word 0x55555555
     /* 1C0188 8017A028 00000000 */ .word 0x00000000
     /* 1C018C 8017A02C 00000000 */ .word 0x00000000
+enddlabel electrode_tex_explosion3_png
+
+nonmatching electrode_tex_bright_spot_png
+
+dlabel electrode_tex_bright_spot_png
     /* 1C0190 8017A030 00000000 */ .word 0x00000000
     /* 1C0194 8017A034 01010100 */ .word 0x01010100
     /* 1C0198 8017A038 02020304 */ .word 0x02020304
@@ -1085,6 +1105,11 @@ dlabel D_80179790_1BF8F0
     /* 1C09BC 8017A85C EEEEEEEE */ .word 0xEEEEEEEE
     /* 1C09C0 8017A860 00000000 */ .word 0x00000000
     /* 1C09C4 8017A864 00000000 */ .word 0x00000000
+enddlabel electrode_tex_bright_spot_png
+
+nonmatching electrode_tex_eyebrow_png
+
+dlabel electrode_tex_eyebrow_png
     /* 1C09C8 8017A868 FF000000 */ .word 0xFF000000
     /* 1C09CC 8017A86C 00000000 */ .word 0x00000000
     /* 1C09D0 8017A870 FF000000 */ .word 0xFF000000
@@ -3279,4 +3304,4 @@ dlabel D_80179790_1BF8F0
     /* 1C2C04 8017CAA4 55555555 */ .word 0x55555555
     /* 1C2C08 8017CAA8 00000000 */ .word 0x00000000
     /* 1C2C0C 8017CAAC 00000000 */ .word 0x00000000
-enddlabel D_80179790_1BF8F0
+enddlabel electrode_tex_eyebrow_png

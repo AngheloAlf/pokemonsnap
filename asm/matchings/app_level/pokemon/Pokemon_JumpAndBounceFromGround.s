@@ -127,7 +127,7 @@ glabel Pokemon_JumpAndBounceFromGround
   .L80360978_500D88:
     /* 500D88 80360978 02803025 */  or         $a2, $s4, $zero
     /* 500D8C 8036097C C60C0008 */  lwc1       $f12, 0x8($s0)
-    /* 500D90 80360980 0C039076 */  jal        getGroundAt
+    /* 500D90 80360980 0C039076 */  jal        func_800E41D8_61988
     /* 500D94 80360984 C60E0010 */   lwc1      $f14, 0x10($s0)
     /* 500D98 80360988 8E30004C */  lw         $s0, 0x4C($s1)
     /* 500D9C 8036098C C6AA00D0 */  lwc1       $f10, 0xD0($s5)

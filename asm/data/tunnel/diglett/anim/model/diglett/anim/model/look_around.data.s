@@ -12,7 +12,7 @@ dlabel diglett_modelanim_look_around
     /* 1A7ED8 80161D78 80161DD8 */ .word D_80161DD8_1A7F38
     /* 1A7EDC 80161D7C 80161EC0 */ .word D_80161EC0_1A8020
     /* 1A7EE0 80161D80 80161FF8 */ .word D_80161FF8_1A8158
-    /* 1A7EE4 80161D84 80162100 */ .word growlithe_tex_eye_frame1_png
+    /* 1A7EE4 80161D84 80162100 */ .word D_80162100_1A8260
     /* 1A7EE8 80161D88 00000000 */ .word 0x00000000
     /* 1A7EEC 80161D8C 801621FC */ .word D_801621FC_1A835C
     /* 1A7EF0 80161D90 80162224 */ .word D_80162224_1A8384
@@ -257,9 +257,9 @@ dlabel D_80161FF8_1A8158
     /* 1A825C 801620FC 80161FF8 */ .word D_80161FF8_1A8158
 enddlabel D_80161FF8_1A8158
 
-nonmatching growlithe_tex_eye_frame1_png
+nonmatching D_80162100_1A8260
 
-dlabel growlithe_tex_eye_frame1_png
+dlabel D_80162100_1A8260
     /* 1A8260 80162100 0C130000 */ .word 0x0C130000
     /* 1A8264 80162104 00000000 */ .word 0x00000000
     /* 1A8268 80162108 3D8734DD */ .word 0x3D8734DD
@@ -322,8 +322,8 @@ dlabel growlithe_tex_eye_frame1_png
     /* 1A834C 801621EC 00000000 */ .word 0x00000000
     /* 1A8350 801621F0 3D3E289F */ .word 0x3D3E289F
     /* 1A8354 801621F4 1C000000 */ .word 0x1C000000
-    /* 1A8358 801621F8 80162100 */ .word growlithe_tex_eye_frame1_png
-enddlabel growlithe_tex_eye_frame1_png
+    /* 1A8358 801621F8 80162100 */ .word D_80162100_1A8260
+enddlabel D_80162100_1A8260
 
 nonmatching D_801621FC_1A835C
 

@@ -34,9 +34,9 @@ enddlabel D_801CABA0_3F1800
 nonmatching D_801CABF8_3F1858
 
 dlabel D_801CABF8_3F1858
-    /* 3F1858 801CABF8 80197FD0 */ .word electabuzz_hd_vtx + 0xC28
-    /* 3F185C 801CABFC 80198400 */ .word electabuzz_hd_vtx + 0x1058
-    /* 3F1860 801CAC00 80198830 */ .word electabuzz_hd_vtx + 0x1488
+    /* 3F1858 801CABF8 80197FD0 */ .word arcanine_tex_eye_frame0_png
+    /* 3F185C 801CABFC 80198400 */ .word arcanine_tex_eye_frame1_png
+    /* 3F1860 801CAC00 80198830 */ .word arcanine_tex_eye_frame2_png
     /* 3F1864 801CAC04 00000000 */ .word 0x00000000
 enddlabel D_801CABF8_3F1858
 
@@ -2278,7 +2278,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3AE0 801CCE80 F5400800 */ .word 0xF5400800
     /* 3F3AE4 801CCE84 00094260 */ .word 0x00094260
     /* 3F3AE8 801CCE88 FD100000 */ .word 0xFD100000
-    /* 3F3AEC 801CCE8C 80196DA8 */ .word dugtrio_hd_model + 0x270
+    /* 3F3AEC 801CCE8C 80196DA8 */ .word arcanine_tex_skin3_pal
     /* 3F3AF0 801CCE90 E6000000 */ .word 0xE6000000
     /* 3F3AF4 801CCE94 00000000 */ .word 0x00000000
     /* 3F3AF8 801CCE98 F0000000 */ .word 0xF0000000
@@ -2290,7 +2290,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3B10 801CCEB0 F2000000 */ .word 0xF2000000
     /* 3F3B14 801CCEB4 000FC07C */ .word 0x000FC07C
     /* 3F3B18 801CCEB8 FD500000 */ .word 0xFD500000
-    /* 3F3B1C 801CCEBC 80196DD0 */ .word dugtrio_hd_model + 0x298
+    /* 3F3B1C 801CCEBC 80196DD0 */ .word arcanine_tex_skin3_png
     /* 3F3B20 801CCEC0 E6000000 */ .word 0xE6000000
     /* 3F3B24 801CCEC4 00000000 */ .word 0x00000000
     /* 3F3B28 801CCEC8 F3000000 */ .word 0xF3000000
@@ -2308,7 +2308,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3B58 801CCEF8 F5400400 */ .word 0xF5400400
     /* 3F3B5C 801CCEFC 00090250 */ .word 0x00090250
     /* 3F3B60 801CCF00 FD100000 */ .word 0xFD100000
-    /* 3F3B64 801CCF04 80196C78 */ .word dugtrio_hd_model + 0x140
+    /* 3F3B64 801CCF04 80196C78 */ .word arcanine_tex_skin2_pal
     /* 3F3B68 801CCF08 E6000000 */ .word 0xE6000000
     /* 3F3B6C 801CCF0C 00000000 */ .word 0x00000000
     /* 3F3B70 801CCF10 F0000000 */ .word 0xF0000000
@@ -2318,7 +2318,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3B80 801CCF20 F2000000 */ .word 0xF2000000
     /* 3F3B84 801CCF24 0007C03C */ .word 0x0007C03C
     /* 3F3B88 801CCF28 FD500000 */ .word 0xFD500000
-    /* 3F3B8C 801CCF2C 80196CA0 */ .word dugtrio_hd_model + 0x168
+    /* 3F3B8C 801CCF2C 80196CA0 */ .word arcanine_tex_skin2_png
     /* 3F3B90 801CCF30 E6000000 */ .word 0xE6000000
     /* 3F3B94 801CCF34 00000000 */ .word 0x00000000
     /* 3F3B98 801CCF38 F3000000 */ .word 0xF3000000
@@ -2338,7 +2338,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3BD0 801CCF70 F5400400 */ .word 0xF5400400
     /* 3F3BD4 801CCF74 00098250 */ .word 0x00098250
     /* 3F3BD8 801CCF78 FD100000 */ .word 0xFD100000
-    /* 3F3BDC 801CCF7C 80196A08 */ .word 0x80196A08
+    /* 3F3BDC 801CCF7C 80196A08 */ .word arcanine_tex_skin1_pal
     /* 3F3BE0 801CCF80 E6000000 */ .word 0xE6000000
     /* 3F3BE4 801CCF84 00000000 */ .word 0x00000000
     /* 3F3BE8 801CCF88 F0000000 */ .word 0xF0000000
@@ -2348,7 +2348,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3BF8 801CCF98 F2000000 */ .word 0xF2000000
     /* 3F3BFC 801CCF9C 0007C08C */ .word 0x0007C08C
     /* 3F3C00 801CCFA0 FD500000 */ .word 0xFD500000
-    /* 3F3C04 801CCFA4 80196A30 */ .word 0x80196A30
+    /* 3F3C04 801CCFA4 80196A30 */ .word arcanine_tex_skin1_png
     /* 3F3C08 801CCFA8 E6000000 */ .word 0xE6000000
     /* 3F3C0C 801CCFAC 00000000 */ .word 0x00000000
     /* 3F3C10 801CCFB0 F3000000 */ .word 0xF3000000
@@ -2372,7 +2372,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3C58 801CCFF8 F5400200 */ .word 0xF5400200
     /* 3F3C5C 801CCFFC 00090240 */ .word 0x00090240
     /* 3F3C60 801CD000 FD100000 */ .word 0xFD100000
-    /* 3F3C64 801CD004 801975F8 */ .word electabuzz_hd_vtx + 0x250
+    /* 3F3C64 801CD004 801975F8 */ .word arcanine_tex_skin5_pal
     /* 3F3C68 801CD008 E6000000 */ .word 0xE6000000
     /* 3F3C6C 801CD00C 00000000 */ .word 0x00000000
     /* 3F3C70 801CD010 F0000000 */ .word 0xF0000000
@@ -2382,7 +2382,7 @@ dlabel arcanine_hd_part0_draw
     /* 3F3C80 801CD020 F2000000 */ .word 0xF2000000
     /* 3F3C84 801CD024 0003C03C */ .word 0x0003C03C
     /* 3F3C88 801CD028 FD500000 */ .word 0xFD500000
-    /* 3F3C8C 801CD02C 80197610 */ .word electabuzz_hd_vtx + 0x268
+    /* 3F3C8C 801CD02C 80197610 */ .word arcanine_tex_skin5_png
     /* 3F3C90 801CD030 E6000000 */ .word 0xE6000000
     /* 3F3C94 801CD034 00000000 */ .word 0x00000000
     /* 3F3C98 801CD038 F3000000 */ .word 0xF3000000
@@ -2490,7 +2490,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3E08 801CD1A8 F5400800 */ .word 0xF5400800
     /* 3F3E0C 801CD1AC 00094260 */ .word 0x00094260
     /* 3F3E10 801CD1B0 FD100000 */ .word 0xFD100000
-    /* 3F3E14 801CD1B4 80196DA8 */ .word dugtrio_hd_model + 0x270
+    /* 3F3E14 801CD1B4 80196DA8 */ .word arcanine_tex_skin3_pal
     /* 3F3E18 801CD1B8 E6000000 */ .word 0xE6000000
     /* 3F3E1C 801CD1BC 00000000 */ .word 0x00000000
     /* 3F3E20 801CD1C0 F0000000 */ .word 0xF0000000
@@ -2502,7 +2502,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3E38 801CD1D8 F2000000 */ .word 0xF2000000
     /* 3F3E3C 801CD1DC 000FC07C */ .word 0x000FC07C
     /* 3F3E40 801CD1E0 FD500000 */ .word 0xFD500000
-    /* 3F3E44 801CD1E4 80196DD0 */ .word dugtrio_hd_model + 0x298
+    /* 3F3E44 801CD1E4 80196DD0 */ .word arcanine_tex_skin3_png
     /* 3F3E48 801CD1E8 E6000000 */ .word 0xE6000000
     /* 3F3E4C 801CD1EC 00000000 */ .word 0x00000000
     /* 3F3E50 801CD1F0 F3000000 */ .word 0xF3000000
@@ -2546,7 +2546,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3EE8 801CD288 F5400400 */ .word 0xF5400400
     /* 3F3EEC 801CD28C 00090250 */ .word 0x00090250
     /* 3F3EF0 801CD290 FD100000 */ .word 0xFD100000
-    /* 3F3EF4 801CD294 80196C78 */ .word dugtrio_hd_model + 0x140
+    /* 3F3EF4 801CD294 80196C78 */ .word arcanine_tex_skin2_pal
     /* 3F3EF8 801CD298 E6000000 */ .word 0xE6000000
     /* 3F3EFC 801CD29C 00000000 */ .word 0x00000000
     /* 3F3F00 801CD2A0 F0000000 */ .word 0xF0000000
@@ -2556,7 +2556,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3F10 801CD2B0 F2000000 */ .word 0xF2000000
     /* 3F3F14 801CD2B4 0007C03C */ .word 0x0007C03C
     /* 3F3F18 801CD2B8 FD500000 */ .word 0xFD500000
-    /* 3F3F1C 801CD2BC 80196CA0 */ .word dugtrio_hd_model + 0x168
+    /* 3F3F1C 801CD2BC 80196CA0 */ .word arcanine_tex_skin2_png
     /* 3F3F20 801CD2C0 E6000000 */ .word 0xE6000000
     /* 3F3F24 801CD2C4 00000000 */ .word 0x00000000
     /* 3F3F28 801CD2C8 F3000000 */ .word 0xF3000000
@@ -2586,7 +2586,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3F88 801CD328 F5400200 */ .word 0xF5400200
     /* 3F3F8C 801CD32C 00090240 */ .word 0x00090240
     /* 3F3F90 801CD330 FD100000 */ .word 0xFD100000
-    /* 3F3F94 801CD334 801975F8 */ .word electabuzz_hd_vtx + 0x250
+    /* 3F3F94 801CD334 801975F8 */ .word arcanine_tex_skin5_pal
     /* 3F3F98 801CD338 E6000000 */ .word 0xE6000000
     /* 3F3F9C 801CD33C 00000000 */ .word 0x00000000
     /* 3F3FA0 801CD340 F0000000 */ .word 0xF0000000
@@ -2596,7 +2596,7 @@ dlabel arcanine_hd_part1_draw
     /* 3F3FB0 801CD350 F2000000 */ .word 0xF2000000
     /* 3F3FB4 801CD354 0003C03C */ .word 0x0003C03C
     /* 3F3FB8 801CD358 FD500000 */ .word 0xFD500000
-    /* 3F3FBC 801CD35C 80197610 */ .word electabuzz_hd_vtx + 0x268
+    /* 3F3FBC 801CD35C 80197610 */ .word arcanine_tex_skin5_png
     /* 3F3FC0 801CD360 E6000000 */ .word 0xE6000000
     /* 3F3FC4 801CD364 00000000 */ .word 0x00000000
     /* 3F3FC8 801CD368 F3000000 */ .word 0xF3000000
@@ -2696,7 +2696,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4118 801CD4B8 F5400800 */ .word 0xF5400800
     /* 3F411C 801CD4BC 00094260 */ .word 0x00094260
     /* 3F4120 801CD4C0 FD100000 */ .word 0xFD100000
-    /* 3F4124 801CD4C4 80197FA8 */ .word electabuzz_hd_vtx + 0xC00
+    /* 3F4124 801CD4C4 80197FA8 */ .word arcanine_tex_eye_frame0_pal
     /* 3F4128 801CD4C8 E6000000 */ .word 0xE6000000
     /* 3F412C 801CD4CC 00000000 */ .word 0x00000000
     /* 3F4130 801CD4D0 F0000000 */ .word 0xF0000000
@@ -2734,7 +2734,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F41B0 801CD550 F5400400 */ .word 0xF5400400
     /* 3F41B4 801CD554 00098250 */ .word 0x00098250
     /* 3F41B8 801CD558 FD100000 */ .word 0xFD100000
-    /* 3F41BC 801CD55C 80197B78 */ .word electabuzz_hd_vtx + 0x7D0
+    /* 3F41BC 801CD55C 80197B78 */ .word arcanine_tex_fur2_pal
     /* 3F41C0 801CD560 E6000000 */ .word 0xE6000000
     /* 3F41C4 801CD564 00000000 */ .word 0x00000000
     /* 3F41C8 801CD568 F0000000 */ .word 0xF0000000
@@ -2744,7 +2744,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F41D8 801CD578 F2000000 */ .word 0xF2000000
     /* 3F41DC 801CD57C 0007C0FC */ .word 0x0007C0FC
     /* 3F41E0 801CD580 FD500000 */ .word 0xFD500000
-    /* 3F41E4 801CD584 80197BA0 */ .word electabuzz_hd_vtx + 0x7F8
+    /* 3F41E4 801CD584 80197BA0 */ .word arcanine_tex_fur2_png
     /* 3F41E8 801CD588 E6000000 */ .word 0xE6000000
     /* 3F41EC 801CD58C 00000000 */ .word 0x00000000
     /* 3F41F0 801CD590 F3000000 */ .word 0xF3000000
@@ -2830,7 +2830,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4330 801CD6D0 F5400400 */ .word 0xF5400400
     /* 3F4334 801CD6D4 00090250 */ .word 0x00090250
     /* 3F4338 801CD6D8 FD100000 */ .word 0xFD100000
-    /* 3F433C 801CD6DC 80198E18 */ .word electabuzz_hd_vtx + 0x1A70
+    /* 3F433C 801CD6DC 80198E18 */ .word arcanine_tex_mouth_pal
     /* 3F4340 801CD6E0 E6000000 */ .word 0xE6000000
     /* 3F4344 801CD6E4 00000000 */ .word 0x00000000
     /* 3F4348 801CD6E8 F0000000 */ .word 0xF0000000
@@ -2840,7 +2840,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4358 801CD6F8 F2000000 */ .word 0xF2000000
     /* 3F435C 801CD6FC 0007C03C */ .word 0x0007C03C
     /* 3F4360 801CD700 FD500000 */ .word 0xFD500000
-    /* 3F4364 801CD704 80198E40 */ .word electabuzz_hd_vtx + 0x1A98
+    /* 3F4364 801CD704 80198E40 */ .word arcanine_tex_mouth_png
     /* 3F4368 801CD708 E6000000 */ .word 0xE6000000
     /* 3F436C 801CD70C 00000000 */ .word 0x00000000
     /* 3F4370 801CD710 F3000000 */ .word 0xF3000000
@@ -2864,7 +2864,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F43B8 801CD758 F5400800 */ .word 0xF5400800
     /* 3F43BC 801CD75C 00094260 */ .word 0x00094260
     /* 3F43C0 801CD760 FD100000 */ .word 0xFD100000
-    /* 3F43C4 801CD764 80197748 */ .word electabuzz_hd_vtx + 0x3A0
+    /* 3F43C4 801CD764 80197748 */ .word arcanine_tex_fur1_pal
     /* 3F43C8 801CD768 E6000000 */ .word 0xE6000000
     /* 3F43CC 801CD76C 00000000 */ .word 0x00000000
     /* 3F43D0 801CD770 F0000000 */ .word 0xF0000000
@@ -2874,7 +2874,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F43E0 801CD780 F2000000 */ .word 0xF2000000
     /* 3F43E4 801CD784 000FC07C */ .word 0x000FC07C
     /* 3F43E8 801CD788 FD500000 */ .word 0xFD500000
-    /* 3F43EC 801CD78C 80197770 */ .word electabuzz_hd_vtx + 0x3C8
+    /* 3F43EC 801CD78C 80197770 */ .word arcanine_tex_fur1_png
     /* 3F43F0 801CD790 E6000000 */ .word 0xE6000000
     /* 3F43F4 801CD794 00000000 */ .word 0x00000000
     /* 3F43F8 801CD798 F3000000 */ .word 0xF3000000
@@ -2994,7 +2994,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F45C0 801CD960 F5400200 */ .word 0xF5400200
     /* 3F45C4 801CD964 00090230 */ .word 0x00090230
     /* 3F45C8 801CD968 FD100000 */ .word 0xFD100000
-    /* 3F45CC 801CD96C 80197698 */ .word electabuzz_hd_vtx + 0x2F0
+    /* 3F45CC 801CD96C 80197698 */ .word arcanine_tex_nose_pal
     /* 3F45D0 801CD970 E6000000 */ .word 0xE6000000
     /* 3F45D4 801CD974 00000000 */ .word 0x00000000
     /* 3F45D8 801CD978 F0000000 */ .word 0xF0000000
@@ -3004,7 +3004,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F45E8 801CD988 F2000000 */ .word 0xF2000000
     /* 3F45EC 801CD98C 0001C03C */ .word 0x0001C03C
     /* 3F45F0 801CD990 FD500000 */ .word 0xFD500000
-    /* 3F45F4 801CD994 801976C0 */ .word electabuzz_hd_vtx + 0x318
+    /* 3F45F4 801CD994 801976C0 */ .word arcanine_tex_nose_png
     /* 3F45F8 801CD998 E6000000 */ .word 0xE6000000
     /* 3F45FC 801CD99C 00000000 */ .word 0x00000000
     /* 3F4600 801CD9A0 F3000000 */ .word 0xF3000000
@@ -3030,7 +3030,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4650 801CD9F0 F5400200 */ .word 0xF5400200
     /* 3F4654 801CD9F4 00090240 */ .word 0x00090240
     /* 3F4658 801CD9F8 FD100000 */ .word 0xFD100000
-    /* 3F465C 801CD9FC 80198C38 */ .word electabuzz_hd_vtx + 0x1890
+    /* 3F465C 801CD9FC 80198C38 */ .word arcanine_tex_ear_pal
     /* 3F4660 801CDA00 E6000000 */ .word 0xE6000000
     /* 3F4664 801CDA04 00000000 */ .word 0x00000000
     /* 3F4668 801CDA08 F0000000 */ .word 0xF0000000
@@ -3040,7 +3040,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4678 801CDA18 F2000000 */ .word 0xF2000000
     /* 3F467C 801CDA1C 0003C03C */ .word 0x0003C03C
     /* 3F4680 801CDA20 FD500000 */ .word 0xFD500000
-    /* 3F4684 801CDA24 80198C60 */ .word electabuzz_hd_vtx + 0x18B8
+    /* 3F4684 801CDA24 80198C60 */ .word arcanine_tex_ear_png
     /* 3F4688 801CDA28 E6000000 */ .word 0xE6000000
     /* 3F468C 801CDA2C 00000000 */ .word 0x00000000
     /* 3F4690 801CDA30 F3000000 */ .word 0xF3000000
@@ -3088,7 +3088,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4738 801CDAD8 E7000000 */ .word 0xE7000000
     /* 3F473C 801CDADC 00000000 */ .word 0x00000000
     /* 3F4740 801CDAE0 FD100000 */ .word 0xFD100000
-    /* 3F4744 801CDAE4 801975F8 */ .word electabuzz_hd_vtx + 0x250
+    /* 3F4744 801CDAE4 801975F8 */ .word arcanine_tex_skin5_pal
     /* 3F4748 801CDAE8 E6000000 */ .word 0xE6000000
     /* 3F474C 801CDAEC 00000000 */ .word 0x00000000
     /* 3F4750 801CDAF0 F0000000 */ .word 0xF0000000
@@ -3096,7 +3096,7 @@ dlabel arcanine_hd_part2_draw
     /* 3F4758 801CDAF8 E7000000 */ .word 0xE7000000
     /* 3F475C 801CDAFC 00000000 */ .word 0x00000000
     /* 3F4760 801CDB00 FD500000 */ .word 0xFD500000
-    /* 3F4764 801CDB04 80197610 */ .word electabuzz_hd_vtx + 0x268
+    /* 3F4764 801CDB04 80197610 */ .word arcanine_tex_skin5_png
     /* 3F4768 801CDB08 E6000000 */ .word 0xE6000000
     /* 3F476C 801CDB0C 00000000 */ .word 0x00000000
     /* 3F4770 801CDB10 F3000000 */ .word 0xF3000000
@@ -3139,7 +3139,7 @@ dlabel arcanine_hd_part3_draw
     /* 3F47F0 801CDB90 F5400400 */ .word 0xF5400400
     /* 3F47F4 801CDB94 00090250 */ .word 0x00090250
     /* 3F47F8 801CDB98 FD100000 */ .word 0xFD100000
-    /* 3F47FC 801CDB9C 80198CE8 */ .word electabuzz_hd_vtx + 0x1940
+    /* 3F47FC 801CDB9C 80198CE8 */ .word arcanine_tex_tongue_pal
     /* 3F4800 801CDBA0 E6000000 */ .word 0xE6000000
     /* 3F4804 801CDBA4 00000000 */ .word 0x00000000
     /* 3F4808 801CDBA8 F0000000 */ .word 0xF0000000
@@ -3149,7 +3149,7 @@ dlabel arcanine_hd_part3_draw
     /* 3F4818 801CDBB8 F2000000 */ .word 0xF2000000
     /* 3F481C 801CDBBC 0007C03C */ .word 0x0007C03C
     /* 3F4820 801CDBC0 FD500000 */ .word 0xFD500000
-    /* 3F4824 801CDBC4 80198D10 */ .word electabuzz_hd_vtx + 0x1968
+    /* 3F4824 801CDBC4 80198D10 */ .word arcanine_tex_tongue_png
     /* 3F4828 801CDBC8 E6000000 */ .word 0xE6000000
     /* 3F482C 801CDBCC 00000000 */ .word 0x00000000
     /* 3F4830 801CDBD0 F3000000 */ .word 0xF3000000
@@ -3177,7 +3177,7 @@ dlabel arcanine_hd_part3_draw
     /* 3F4888 801CDC28 F5400400 */ .word 0xF5400400
     /* 3F488C 801CDC2C 00098250 */ .word 0x00098250
     /* 3F4890 801CDC30 FD100000 */ .word 0xFD100000
-    /* 3F4894 801CDC34 80197B78 */ .word electabuzz_hd_vtx + 0x7D0
+    /* 3F4894 801CDC34 80197B78 */ .word arcanine_tex_fur2_pal
     /* 3F4898 801CDC38 E6000000 */ .word 0xE6000000
     /* 3F489C 801CDC3C 00000000 */ .word 0x00000000
     /* 3F48A0 801CDC40 F0000000 */ .word 0xF0000000
@@ -3187,7 +3187,7 @@ dlabel arcanine_hd_part3_draw
     /* 3F48B0 801CDC50 F2000000 */ .word 0xF2000000
     /* 3F48B4 801CDC54 0007C0FC */ .word 0x0007C0FC
     /* 3F48B8 801CDC58 FD500000 */ .word 0xFD500000
-    /* 3F48BC 801CDC5C 80197BA0 */ .word electabuzz_hd_vtx + 0x7F8
+    /* 3F48BC 801CDC5C 80197BA0 */ .word arcanine_tex_fur2_png
     /* 3F48C0 801CDC60 E6000000 */ .word 0xE6000000
     /* 3F48C4 801CDC64 00000000 */ .word 0x00000000
     /* 3F48C8 801CDC68 F3000000 */ .word 0xF3000000
@@ -3314,7 +3314,7 @@ dlabel arcanine_hd_part5_draw
     /* 3F4A70 801CDE10 E7000000 */ .word 0xE7000000
     /* 3F4A74 801CDE14 00000000 */ .word 0x00000000
     /* 3F4A78 801CDE18 FD100000 */ .word 0xFD100000
-    /* 3F4A7C 801CDE1C 801971D8 */ .word dragonite_hd_vtx + 0xD8
+    /* 3F4A7C 801CDE1C 801971D8 */ .word arcanine_tex_skin4_pal
     /* 3F4A80 801CDE20 E6000000 */ .word 0xE6000000
     /* 3F4A84 801CDE24 00000000 */ .word 0x00000000
     /* 3F4A88 801CDE28 F0000000 */ .word 0xF0000000
@@ -3324,7 +3324,7 @@ dlabel arcanine_hd_part5_draw
     /* 3F4A98 801CDE38 D7000002 */ .word 0xD7000002
     /* 3F4A9C 801CDE3C FFFFFFFF */ .word 0xFFFFFFFF
     /* 3F4AA0 801CDE40 FD500000 */ .word 0xFD500000
-    /* 3F4AA4 801CDE44 801971F0 */ .word dragonite_hd_vtx + 0xF0
+    /* 3F4AA4 801CDE44 801971F0 */ .word arcanine_tex_skin4_png
     /* 3F4AA8 801CDE48 E6000000 */ .word 0xE6000000
     /* 3F4AAC 801CDE4C 00000000 */ .word 0x00000000
     /* 3F4AB0 801CDE50 F3000000 */ .word 0xF3000000
@@ -3372,7 +3372,7 @@ dlabel arcanine_hd_part5_draw
     /* 3F4B58 801CDEF8 F5400800 */ .word 0xF5400800
     /* 3F4B5C 801CDEFC 00094260 */ .word 0x00094260
     /* 3F4B60 801CDF00 FD100000 */ .word 0xFD100000
-    /* 3F4B64 801CDF04 80196DA8 */ .word dugtrio_hd_model + 0x270
+    /* 3F4B64 801CDF04 80196DA8 */ .word arcanine_tex_skin3_pal
     /* 3F4B68 801CDF08 E6000000 */ .word 0xE6000000
     /* 3F4B6C 801CDF0C 00000000 */ .word 0x00000000
     /* 3F4B70 801CDF10 F0000000 */ .word 0xF0000000
@@ -3382,7 +3382,7 @@ dlabel arcanine_hd_part5_draw
     /* 3F4B80 801CDF20 F2000000 */ .word 0xF2000000
     /* 3F4B84 801CDF24 000FC07C */ .word 0x000FC07C
     /* 3F4B88 801CDF28 FD500000 */ .word 0xFD500000
-    /* 3F4B8C 801CDF2C 80196DD0 */ .word dugtrio_hd_model + 0x298
+    /* 3F4B8C 801CDF2C 80196DD0 */ .word arcanine_tex_skin3_png
     /* 3F4B90 801CDF30 E6000000 */ .word 0xE6000000
     /* 3F4B94 801CDF34 00000000 */ .word 0x00000000
     /* 3F4B98 801CDF38 F3000000 */ .word 0xF3000000
@@ -3417,7 +3417,7 @@ dlabel arcanine_hd_part6_draw
     /* 3F4BF8 801CDF98 F5400400 */ .word 0xF5400400
     /* 3F4BFC 801CDF9C 00098250 */ .word 0x00098250
     /* 3F4C00 801CDFA0 FD100000 */ .word 0xFD100000
-    /* 3F4C04 801CDFA4 801971D8 */ .word dragonite_hd_vtx + 0xD8
+    /* 3F4C04 801CDFA4 801971D8 */ .word arcanine_tex_skin4_pal
     /* 3F4C08 801CDFA8 E6000000 */ .word 0xE6000000
     /* 3F4C0C 801CDFAC 00000000 */ .word 0x00000000
     /* 3F4C10 801CDFB0 F0000000 */ .word 0xF0000000
@@ -3427,7 +3427,7 @@ dlabel arcanine_hd_part6_draw
     /* 3F4C20 801CDFC0 F2000000 */ .word 0xF2000000
     /* 3F4C24 801CDFC4 0007C0FC */ .word 0x0007C0FC
     /* 3F4C28 801CDFC8 FD500000 */ .word 0xFD500000
-    /* 3F4C2C 801CDFCC 801971F0 */ .word dragonite_hd_vtx + 0xF0
+    /* 3F4C2C 801CDFCC 801971F0 */ .word arcanine_tex_skin4_png
     /* 3F4C30 801CDFD0 E6000000 */ .word 0xE6000000
     /* 3F4C34 801CDFD4 00000000 */ .word 0x00000000
     /* 3F4C38 801CDFD8 F3000000 */ .word 0xF3000000
@@ -3486,7 +3486,7 @@ dlabel arcanine_hd_part7_draw
     /* 3F4CF8 801CE098 F5400400 */ .word 0xF5400400
     /* 3F4CFC 801CE09C 00090250 */ .word 0x00090250
     /* 3F4D00 801CE0A0 FD100000 */ .word 0xFD100000
-    /* 3F4D04 801CE0A4 80198FF8 */ .word electabuzz_hd_vtx + 0x1C50
+    /* 3F4D04 801CE0A4 80198FF8 */ .word arcanine_tex_fingers_pal
     /* 3F4D08 801CE0A8 E6000000 */ .word 0xE6000000
     /* 3F4D0C 801CE0AC 00000000 */ .word 0x00000000
     /* 3F4D10 801CE0B0 F0000000 */ .word 0xF0000000
@@ -3496,7 +3496,7 @@ dlabel arcanine_hd_part7_draw
     /* 3F4D20 801CE0C0 F2000000 */ .word 0xF2000000
     /* 3F4D24 801CE0C4 0007C03C */ .word 0x0007C03C
     /* 3F4D28 801CE0C8 FD500000 */ .word 0xFD500000
-    /* 3F4D2C 801CE0CC 80199020 */ .word electabuzz_hd_vtx + 0x1C78
+    /* 3F4D2C 801CE0CC 80199020 */ .word arcanine_tex_fingers_png
     /* 3F4D30 801CE0D0 E6000000 */ .word 0xE6000000
     /* 3F4D34 801CE0D4 00000000 */ .word 0x00000000
     /* 3F4D38 801CE0D8 F3000000 */ .word 0xF3000000
@@ -3565,7 +3565,7 @@ dlabel arcanine_hd_part8_draw
     /* 3F4E20 801CE1C0 F5400800 */ .word 0xF5400800
     /* 3F4E24 801CE1C4 00094260 */ .word 0x00094260
     /* 3F4E28 801CE1C8 FD100000 */ .word 0xFD100000
-    /* 3F4E2C 801CE1CC 80197748 */ .word electabuzz_hd_vtx + 0x3A0
+    /* 3F4E2C 801CE1CC 80197748 */ .word arcanine_tex_fur1_pal
     /* 3F4E30 801CE1D0 E6000000 */ .word 0xE6000000
     /* 3F4E34 801CE1D4 00000000 */ .word 0x00000000
     /* 3F4E38 801CE1D8 F0000000 */ .word 0xF0000000
@@ -3577,7 +3577,7 @@ dlabel arcanine_hd_part8_draw
     /* 3F4E50 801CE1F0 F2000000 */ .word 0xF2000000
     /* 3F4E54 801CE1F4 000FC07C */ .word 0x000FC07C
     /* 3F4E58 801CE1F8 FD500000 */ .word 0xFD500000
-    /* 3F4E5C 801CE1FC 80197770 */ .word electabuzz_hd_vtx + 0x3C8
+    /* 3F4E5C 801CE1FC 80197770 */ .word arcanine_tex_fur1_png
     /* 3F4E60 801CE200 E6000000 */ .word 0xE6000000
     /* 3F4E64 801CE204 00000000 */ .word 0x00000000
     /* 3F4E68 801CE208 F3000000 */ .word 0xF3000000
@@ -3643,7 +3643,7 @@ dlabel arcanine_hd_part9_draw
     /* 3F4F30 801CE2D0 F5400400 */ .word 0xF5400400
     /* 3F4F34 801CE2D4 00098250 */ .word 0x00098250
     /* 3F4F38 801CE2D8 FD100000 */ .word 0xFD100000
-    /* 3F4F3C 801CE2DC 801971D8 */ .word dragonite_hd_vtx + 0xD8
+    /* 3F4F3C 801CE2DC 801971D8 */ .word arcanine_tex_skin4_pal
     /* 3F4F40 801CE2E0 E6000000 */ .word 0xE6000000
     /* 3F4F44 801CE2E4 00000000 */ .word 0x00000000
     /* 3F4F48 801CE2E8 F0000000 */ .word 0xF0000000
@@ -3655,7 +3655,7 @@ dlabel arcanine_hd_part9_draw
     /* 3F4F60 801CE300 F2000000 */ .word 0xF2000000
     /* 3F4F64 801CE304 0007C0FC */ .word 0x0007C0FC
     /* 3F4F68 801CE308 FD500000 */ .word 0xFD500000
-    /* 3F4F6C 801CE30C 801971F0 */ .word dragonite_hd_vtx + 0xF0
+    /* 3F4F6C 801CE30C 801971F0 */ .word arcanine_tex_skin4_png
     /* 3F4F70 801CE310 E6000000 */ .word 0xE6000000
     /* 3F4F74 801CE314 00000000 */ .word 0x00000000
     /* 3F4F78 801CE318 F3000000 */ .word 0xF3000000
@@ -3695,7 +3695,7 @@ dlabel arcanine_hd_part9_draw
     /* 3F5000 801CE3A0 F5400800 */ .word 0xF5400800
     /* 3F5004 801CE3A4 00094260 */ .word 0x00094260
     /* 3F5008 801CE3A8 FD100000 */ .word 0xFD100000
-    /* 3F500C 801CE3AC 80196DA8 */ .word dugtrio_hd_model + 0x270
+    /* 3F500C 801CE3AC 80196DA8 */ .word arcanine_tex_skin3_pal
     /* 3F5010 801CE3B0 E6000000 */ .word 0xE6000000
     /* 3F5014 801CE3B4 00000000 */ .word 0x00000000
     /* 3F5018 801CE3B8 F0000000 */ .word 0xF0000000
@@ -3705,7 +3705,7 @@ dlabel arcanine_hd_part9_draw
     /* 3F5028 801CE3C8 F2000000 */ .word 0xF2000000
     /* 3F502C 801CE3CC 000FC07C */ .word 0x000FC07C
     /* 3F5030 801CE3D0 FD500000 */ .word 0xFD500000
-    /* 3F5034 801CE3D4 80196DD0 */ .word dugtrio_hd_model + 0x298
+    /* 3F5034 801CE3D4 80196DD0 */ .word arcanine_tex_skin3_png
     /* 3F5038 801CE3D8 E6000000 */ .word 0xE6000000
     /* 3F503C 801CE3DC 00000000 */ .word 0x00000000
     /* 3F5040 801CE3E0 F3000000 */ .word 0xF3000000
@@ -3740,7 +3740,7 @@ dlabel arcanine_hd_part10_draw
     /* 3F50A0 801CE440 F5400400 */ .word 0xF5400400
     /* 3F50A4 801CE444 00098250 */ .word 0x00098250
     /* 3F50A8 801CE448 FD100000 */ .word 0xFD100000
-    /* 3F50AC 801CE44C 801971D8 */ .word dragonite_hd_vtx + 0xD8
+    /* 3F50AC 801CE44C 801971D8 */ .word arcanine_tex_skin4_pal
     /* 3F50B0 801CE450 E6000000 */ .word 0xE6000000
     /* 3F50B4 801CE454 00000000 */ .word 0x00000000
     /* 3F50B8 801CE458 F0000000 */ .word 0xF0000000
@@ -3750,7 +3750,7 @@ dlabel arcanine_hd_part10_draw
     /* 3F50C8 801CE468 F2000000 */ .word 0xF2000000
     /* 3F50CC 801CE46C 0007C0FC */ .word 0x0007C0FC
     /* 3F50D0 801CE470 FD500000 */ .word 0xFD500000
-    /* 3F50D4 801CE474 801971F0 */ .word dragonite_hd_vtx + 0xF0
+    /* 3F50D4 801CE474 801971F0 */ .word arcanine_tex_skin4_png
     /* 3F50D8 801CE478 E6000000 */ .word 0xE6000000
     /* 3F50DC 801CE47C 00000000 */ .word 0x00000000
     /* 3F50E0 801CE480 F3000000 */ .word 0xF3000000
@@ -3801,7 +3801,7 @@ dlabel arcanine_hd_part11_draw
     /* 3F5180 801CE520 F5400400 */ .word 0xF5400400
     /* 3F5184 801CE524 00090250 */ .word 0x00090250
     /* 3F5188 801CE528 FD100000 */ .word 0xFD100000
-    /* 3F518C 801CE52C 80198FF8 */ .word electabuzz_hd_vtx + 0x1C50
+    /* 3F518C 801CE52C 80198FF8 */ .word arcanine_tex_fingers_pal
     /* 3F5190 801CE530 E6000000 */ .word 0xE6000000
     /* 3F5194 801CE534 00000000 */ .word 0x00000000
     /* 3F5198 801CE538 F0000000 */ .word 0xF0000000
@@ -3811,7 +3811,7 @@ dlabel arcanine_hd_part11_draw
     /* 3F51A8 801CE548 F2000000 */ .word 0xF2000000
     /* 3F51AC 801CE54C 0007C03C */ .word 0x0007C03C
     /* 3F51B0 801CE550 FD500000 */ .word 0xFD500000
-    /* 3F51B4 801CE554 80199020 */ .word electabuzz_hd_vtx + 0x1C78
+    /* 3F51B4 801CE554 80199020 */ .word arcanine_tex_fingers_png
     /* 3F51B8 801CE558 E6000000 */ .word 0xE6000000
     /* 3F51BC 801CE55C 00000000 */ .word 0x00000000
     /* 3F51C0 801CE560 F3000000 */ .word 0xF3000000
@@ -3880,7 +3880,7 @@ dlabel arcanine_hd_part12_draw
     /* 3F52A8 801CE648 F5400800 */ .word 0xF5400800
     /* 3F52AC 801CE64C 00094260 */ .word 0x00094260
     /* 3F52B0 801CE650 FD100000 */ .word 0xFD100000
-    /* 3F52B4 801CE654 80197748 */ .word electabuzz_hd_vtx + 0x3A0
+    /* 3F52B4 801CE654 80197748 */ .word arcanine_tex_fur1_pal
     /* 3F52B8 801CE658 E6000000 */ .word 0xE6000000
     /* 3F52BC 801CE65C 00000000 */ .word 0x00000000
     /* 3F52C0 801CE660 F0000000 */ .word 0xF0000000
@@ -3892,7 +3892,7 @@ dlabel arcanine_hd_part12_draw
     /* 3F52D8 801CE678 F2000000 */ .word 0xF2000000
     /* 3F52DC 801CE67C 000FC07C */ .word 0x000FC07C
     /* 3F52E0 801CE680 FD500000 */ .word 0xFD500000
-    /* 3F52E4 801CE684 80197770 */ .word electabuzz_hd_vtx + 0x3C8
+    /* 3F52E4 801CE684 80197770 */ .word arcanine_tex_fur1_png
     /* 3F52E8 801CE688 E6000000 */ .word 0xE6000000
     /* 3F52EC 801CE68C 00000000 */ .word 0x00000000
     /* 3F52F0 801CE690 F3000000 */ .word 0xF3000000
@@ -4078,7 +4078,7 @@ dlabel arcanine_hd_part15_draw
     /* 3F5570 801CE910 F5400400 */ .word 0xF5400400
     /* 3F5574 801CE914 00098250 */ .word 0x00098250
     /* 3F5578 801CE918 FD100000 */ .word 0xFD100000
-    /* 3F557C 801CE91C 80196A08 */ .word 0x80196A08
+    /* 3F557C 801CE91C 80196A08 */ .word arcanine_tex_skin1_pal
     /* 3F5580 801CE920 E6000000 */ .word 0xE6000000
     /* 3F5584 801CE924 00000000 */ .word 0x00000000
     /* 3F5588 801CE928 F0000000 */ .word 0xF0000000
@@ -4088,7 +4088,7 @@ dlabel arcanine_hd_part15_draw
     /* 3F5598 801CE938 F2000000 */ .word 0xF2000000
     /* 3F559C 801CE93C 0007C08C */ .word 0x0007C08C
     /* 3F55A0 801CE940 FD500000 */ .word 0xFD500000
-    /* 3F55A4 801CE944 80196A30 */ .word 0x80196A30
+    /* 3F55A4 801CE944 80196A30 */ .word arcanine_tex_skin1_png
     /* 3F55A8 801CE948 E6000000 */ .word 0xE6000000
     /* 3F55AC 801CE94C 00000000 */ .word 0x00000000
     /* 3F55B0 801CE950 F3000000 */ .word 0xF3000000
@@ -4192,7 +4192,7 @@ dlabel arcanine_hd_part16_draw
     /* 3F5710 801CEAB0 F5400200 */ .word 0xF5400200
     /* 3F5714 801CEAB4 00090240 */ .word 0x00090240
     /* 3F5718 801CEAB8 FD100000 */ .word 0xFD100000
-    /* 3F571C 801CEABC 80198F48 */ .word electabuzz_hd_vtx + 0x1BA0
+    /* 3F571C 801CEABC 80198F48 */ .word arcanine_tex_foot_pal
     /* 3F5720 801CEAC0 E6000000 */ .word 0xE6000000
     /* 3F5724 801CEAC4 00000000 */ .word 0x00000000
     /* 3F5728 801CEAC8 F0000000 */ .word 0xF0000000
@@ -4204,7 +4204,7 @@ dlabel arcanine_hd_part16_draw
     /* 3F5740 801CEAE0 F2000000 */ .word 0xF2000000
     /* 3F5744 801CEAE4 0003C03C */ .word 0x0003C03C
     /* 3F5748 801CEAE8 FD500000 */ .word 0xFD500000
-    /* 3F574C 801CEAEC 80198F70 */ .word electabuzz_hd_vtx + 0x1BC8
+    /* 3F574C 801CEAEC 80198F70 */ .word arcanine_tex_foot_png
     /* 3F5750 801CEAF0 E6000000 */ .word 0xE6000000
     /* 3F5754 801CEAF4 00000000 */ .word 0x00000000
     /* 3F5758 801CEAF8 F3000000 */ .word 0xF3000000
@@ -4222,7 +4222,7 @@ dlabel arcanine_hd_part16_draw
     /* 3F5788 801CEB28 F5400400 */ .word 0xF5400400
     /* 3F578C 801CEB2C 00090250 */ .word 0x00090250
     /* 3F5790 801CEB30 FD100000 */ .word 0xFD100000
-    /* 3F5794 801CEB34 80198FF8 */ .word electabuzz_hd_vtx + 0x1C50
+    /* 3F5794 801CEB34 80198FF8 */ .word arcanine_tex_fingers_pal
     /* 3F5798 801CEB38 E6000000 */ .word 0xE6000000
     /* 3F579C 801CEB3C 00000000 */ .word 0x00000000
     /* 3F57A0 801CEB40 F0000000 */ .word 0xF0000000
@@ -4232,7 +4232,7 @@ dlabel arcanine_hd_part16_draw
     /* 3F57B0 801CEB50 F2000000 */ .word 0xF2000000
     /* 3F57B4 801CEB54 0007C03C */ .word 0x0007C03C
     /* 3F57B8 801CEB58 FD500000 */ .word 0xFD500000
-    /* 3F57BC 801CEB5C 80199020 */ .word electabuzz_hd_vtx + 0x1C78
+    /* 3F57BC 801CEB5C 80199020 */ .word arcanine_tex_fingers_png
     /* 3F57C0 801CEB60 E6000000 */ .word 0xE6000000
     /* 3F57C4 801CEB64 00000000 */ .word 0x00000000
     /* 3F57C8 801CEB68 F3000000 */ .word 0xF3000000
@@ -4324,7 +4324,7 @@ dlabel arcanine_hd_part17_draw
     /* 3F58F8 801CEC98 F5400800 */ .word 0xF5400800
     /* 3F58FC 801CEC9C 00094260 */ .word 0x00094260
     /* 3F5900 801CECA0 FD100000 */ .word 0xFD100000
-    /* 3F5904 801CECA4 80197748 */ .word electabuzz_hd_vtx + 0x3A0
+    /* 3F5904 801CECA4 80197748 */ .word arcanine_tex_fur1_pal
     /* 3F5908 801CECA8 E6000000 */ .word 0xE6000000
     /* 3F590C 801CECAC 00000000 */ .word 0x00000000
     /* 3F5910 801CECB0 F0000000 */ .word 0xF0000000
@@ -4336,7 +4336,7 @@ dlabel arcanine_hd_part17_draw
     /* 3F5928 801CECC8 F2000000 */ .word 0xF2000000
     /* 3F592C 801CECCC 000FC07C */ .word 0x000FC07C
     /* 3F5930 801CECD0 FD500000 */ .word 0xFD500000
-    /* 3F5934 801CECD4 80197770 */ .word electabuzz_hd_vtx + 0x3C8
+    /* 3F5934 801CECD4 80197770 */ .word arcanine_tex_fur1_png
     /* 3F5938 801CECD8 E6000000 */ .word 0xE6000000
     /* 3F593C 801CECDC 00000000 */ .word 0x00000000
     /* 3F5940 801CECE0 F3000000 */ .word 0xF3000000
@@ -4450,7 +4450,7 @@ dlabel arcanine_hd_part18_draw
     /* 3F5AC8 801CEE68 F5400400 */ .word 0xF5400400
     /* 3F5ACC 801CEE6C 00098250 */ .word 0x00098250
     /* 3F5AD0 801CEE70 FD100000 */ .word 0xFD100000
-    /* 3F5AD4 801CEE74 80196A08 */ .word 0x80196A08
+    /* 3F5AD4 801CEE74 80196A08 */ .word arcanine_tex_skin1_pal
     /* 3F5AD8 801CEE78 E6000000 */ .word 0xE6000000
     /* 3F5ADC 801CEE7C 00000000 */ .word 0x00000000
     /* 3F5AE0 801CEE80 F0000000 */ .word 0xF0000000
@@ -4460,7 +4460,7 @@ dlabel arcanine_hd_part18_draw
     /* 3F5AF0 801CEE90 F2000000 */ .word 0xF2000000
     /* 3F5AF4 801CEE94 0007C08C */ .word 0x0007C08C
     /* 3F5AF8 801CEE98 FD500000 */ .word 0xFD500000
-    /* 3F5AFC 801CEE9C 80196A30 */ .word 0x80196A30
+    /* 3F5AFC 801CEE9C 80196A30 */ .word arcanine_tex_skin1_png
     /* 3F5B00 801CEEA0 E6000000 */ .word 0xE6000000
     /* 3F5B04 801CEEA4 00000000 */ .word 0x00000000
     /* 3F5B08 801CEEA8 F3000000 */ .word 0xF3000000
@@ -4558,7 +4558,7 @@ dlabel arcanine_hd_part19_draw
     /* 3F5C50 801CEFF0 F5400200 */ .word 0xF5400200
     /* 3F5C54 801CEFF4 00090240 */ .word 0x00090240
     /* 3F5C58 801CEFF8 FD100000 */ .word 0xFD100000
-    /* 3F5C5C 801CEFFC 80198F48 */ .word electabuzz_hd_vtx + 0x1BA0
+    /* 3F5C5C 801CEFFC 80198F48 */ .word arcanine_tex_foot_pal
     /* 3F5C60 801CF000 E6000000 */ .word 0xE6000000
     /* 3F5C64 801CF004 00000000 */ .word 0x00000000
     /* 3F5C68 801CF008 F0000000 */ .word 0xF0000000
@@ -4570,7 +4570,7 @@ dlabel arcanine_hd_part19_draw
     /* 3F5C80 801CF020 F2000000 */ .word 0xF2000000
     /* 3F5C84 801CF024 0003C03C */ .word 0x0003C03C
     /* 3F5C88 801CF028 FD500000 */ .word 0xFD500000
-    /* 3F5C8C 801CF02C 80198F70 */ .word electabuzz_hd_vtx + 0x1BC8
+    /* 3F5C8C 801CF02C 80198F70 */ .word arcanine_tex_foot_png
     /* 3F5C90 801CF030 E6000000 */ .word 0xE6000000
     /* 3F5C94 801CF034 00000000 */ .word 0x00000000
     /* 3F5C98 801CF038 F3000000 */ .word 0xF3000000
@@ -4588,7 +4588,7 @@ dlabel arcanine_hd_part19_draw
     /* 3F5CC8 801CF068 F5400400 */ .word 0xF5400400
     /* 3F5CCC 801CF06C 00090250 */ .word 0x00090250
     /* 3F5CD0 801CF070 FD100000 */ .word 0xFD100000
-    /* 3F5CD4 801CF074 80198FF8 */ .word electabuzz_hd_vtx + 0x1C50
+    /* 3F5CD4 801CF074 80198FF8 */ .word arcanine_tex_fingers_pal
     /* 3F5CD8 801CF078 E6000000 */ .word 0xE6000000
     /* 3F5CDC 801CF07C 00000000 */ .word 0x00000000
     /* 3F5CE0 801CF080 F0000000 */ .word 0xF0000000
@@ -4598,7 +4598,7 @@ dlabel arcanine_hd_part19_draw
     /* 3F5CF0 801CF090 F2000000 */ .word 0xF2000000
     /* 3F5CF4 801CF094 0007C03C */ .word 0x0007C03C
     /* 3F5CF8 801CF098 FD500000 */ .word 0xFD500000
-    /* 3F5CFC 801CF09C 80199020 */ .word electabuzz_hd_vtx + 0x1C78
+    /* 3F5CFC 801CF09C 80199020 */ .word arcanine_tex_fingers_png
     /* 3F5D00 801CF0A0 E6000000 */ .word 0xE6000000
     /* 3F5D04 801CF0A4 00000000 */ .word 0x00000000
     /* 3F5D08 801CF0A8 F3000000 */ .word 0xF3000000
@@ -4690,7 +4690,7 @@ dlabel arcanine_hd_part20_draw
     /* 3F5E38 801CF1D8 F5400800 */ .word 0xF5400800
     /* 3F5E3C 801CF1DC 00094260 */ .word 0x00094260
     /* 3F5E40 801CF1E0 FD100000 */ .word 0xFD100000
-    /* 3F5E44 801CF1E4 80197748 */ .word electabuzz_hd_vtx + 0x3A0
+    /* 3F5E44 801CF1E4 80197748 */ .word arcanine_tex_fur1_pal
     /* 3F5E48 801CF1E8 E6000000 */ .word 0xE6000000
     /* 3F5E4C 801CF1EC 00000000 */ .word 0x00000000
     /* 3F5E50 801CF1F0 F0000000 */ .word 0xF0000000
@@ -4702,7 +4702,7 @@ dlabel arcanine_hd_part20_draw
     /* 3F5E68 801CF208 F2000000 */ .word 0xF2000000
     /* 3F5E6C 801CF20C 000FC07C */ .word 0x000FC07C
     /* 3F5E70 801CF210 FD500000 */ .word 0xFD500000
-    /* 3F5E74 801CF214 80197770 */ .word electabuzz_hd_vtx + 0x3C8
+    /* 3F5E74 801CF214 80197770 */ .word arcanine_tex_fur1_png
     /* 3F5E78 801CF218 E6000000 */ .word 0xE6000000
     /* 3F5E7C 801CF21C 00000000 */ .word 0x00000000
     /* 3F5E80 801CF220 F3000000 */ .word 0xF3000000

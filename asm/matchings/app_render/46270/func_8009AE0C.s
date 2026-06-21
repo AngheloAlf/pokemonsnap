@@ -55,8 +55,8 @@ glabel func_8009AE0C
     /* 46840 8009AE90 3C180055 */  lui        $t8, %hi(D_54D6A0)
     /* 46844 8009AE94 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 46848 8009AE98 2718D6A0 */  addiu      $t8, $t8, %lo(D_54D6A0)
-    /* 4684C 8009AE9C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 46850 8009AEA0 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 4684C 8009AE9C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 46850 8009AEA0 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 46854 8009AEA4 0C000B08 */  jal        dmaReadRom
     /* 46858 8009AEA8 03043023 */   subu      $a2, $t8, $a0
     /* 4685C 8009AEAC 3C040008 */  lui        $a0, %hi(D_7D3B0)
@@ -96,8 +96,8 @@ glabel func_8009AE0C
     /* 468E0 8009AF30 3C0A0055 */  lui        $t2, %hi(D_54D6A0)
     /* 468E4 8009AF34 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 468E8 8009AF38 254AD6A0 */  addiu      $t2, $t2, %lo(D_54D6A0)
-    /* 468EC 8009AF3C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 468F0 8009AF40 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 468EC 8009AF3C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 468F0 8009AF40 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 468F4 8009AF44 0C000B08 */  jal        dmaReadRom
     /* 468F8 8009AF48 01443023 */   subu      $a2, $t2, $a0
     /* 468FC 8009AF4C 3C040008 */  lui        $a0, %hi(D_7D3B0)
@@ -128,8 +128,8 @@ glabel func_8009AE0C
     /* 46960 8009AFB0 3C0E0055 */  lui        $t6, %hi(D_557050)
     /* 46964 8009AFB4 24844130 */  addiu      $a0, $a0, %lo(D_554130)
     /* 46968 8009AFB8 25CE7050 */  addiu      $t6, $t6, %lo(D_557050)
-    /* 4696C 8009AFBC 3C058034 */  lui        $a1, %hi(vulpix_part3_draw_near)
-    /* 46970 8009AFC0 24A54780 */  addiu      $a1, $a1, %lo(vulpix_part3_draw_near)
+    /* 4696C 8009AFBC 3C058034 */  lui        $a1, %hi(D_80344780)
+    /* 46970 8009AFC0 24A54780 */  addiu      $a1, $a1, %lo(D_80344780)
     /* 46974 8009AFC4 0C000B08 */  jal        dmaReadRom
     /* 46978 8009AFC8 01C43023 */   subu      $a2, $t6, $a0
     /* 4697C 8009AFCC 100000B8 */  b          .L8009B2B0
@@ -169,8 +169,8 @@ glabel func_8009AE0C
     /* 46A00 8009B050 3C080055 */  lui        $t0, %hi(D_54D6A0)
     /* 46A04 8009B054 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 46A08 8009B058 2508D6A0 */  addiu      $t0, $t0, %lo(D_54D6A0)
-    /* 46A0C 8009B05C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 46A10 8009B060 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 46A0C 8009B05C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 46A10 8009B060 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 46A14 8009B064 0C000B08 */  jal        dmaReadRom
     /* 46A18 8009B068 01043023 */   subu      $a2, $t0, $a0
     /* 46A1C 8009B06C 3C040008 */  lui        $a0, %hi(D_7D3B0)
@@ -201,8 +201,8 @@ glabel func_8009AE0C
     /* 46A80 8009B0D0 3C0C0055 */  lui        $t4, %hi(D_557050)
     /* 46A84 8009B0D4 24844130 */  addiu      $a0, $a0, %lo(D_554130)
     /* 46A88 8009B0D8 258C7050 */  addiu      $t4, $t4, %lo(D_557050)
-    /* 46A8C 8009B0DC 3C058034 */  lui        $a1, %hi(vulpix_part3_draw_near)
-    /* 46A90 8009B0E0 24A54780 */  addiu      $a1, $a1, %lo(vulpix_part3_draw_near)
+    /* 46A8C 8009B0DC 3C058034 */  lui        $a1, %hi(D_80344780)
+    /* 46A90 8009B0E0 24A54780 */  addiu      $a1, $a1, %lo(D_80344780)
     /* 46A94 8009B0E4 0C000B08 */  jal        dmaReadRom
     /* 46A98 8009B0E8 01843023 */   subu      $a2, $t4, $a0
     /* 46A9C 8009B0EC 10000070 */  b          .L8009B2B0
@@ -242,8 +242,8 @@ glabel func_8009AE0C
     /* 46B20 8009B170 3C180055 */  lui        $t8, %hi(D_54D6A0)
     /* 46B24 8009B174 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 46B28 8009B178 2718D6A0 */  addiu      $t8, $t8, %lo(D_54D6A0)
-    /* 46B2C 8009B17C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 46B30 8009B180 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 46B2C 8009B17C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 46B30 8009B180 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 46B34 8009B184 0C000B08 */  jal        dmaReadRom
     /* 46B38 8009B188 03043023 */   subu      $a2, $t8, $a0
     /* 46B3C 8009B18C 3C040008 */  lui        $a0, %hi(D_7D3B0)
@@ -283,8 +283,8 @@ glabel func_8009AE0C
     /* 46BC0 8009B210 3C0A0055 */  lui        $t2, %hi(D_54D6A0)
     /* 46BC4 8009B214 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 46BC8 8009B218 254AD6A0 */  addiu      $t2, $t2, %lo(D_54D6A0)
-    /* 46BCC 8009B21C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 46BD0 8009B220 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 46BCC 8009B21C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 46BD0 8009B220 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 46BD4 8009B224 0C000B08 */  jal        dmaReadRom
     /* 46BD8 8009B228 01443023 */   subu      $a2, $t2, $a0
     /* 46BDC 8009B22C 10000020 */  b          .L8009B2B0
@@ -308,8 +308,8 @@ glabel func_8009AE0C
     /* 46C20 8009B270 3C0C0055 */  lui        $t4, %hi(D_54D6A0)
     /* 46C24 8009B274 2484B5D0 */  addiu      $a0, $a0, %lo(D_54B5D0)
     /* 46C28 8009B278 258CD6A0 */  addiu      $t4, $t4, %lo(D_54D6A0)
-    /* 46C2C 8009B27C 3C058035 */  lui        $a1, %hi(magikarp_vtx)
-    /* 46C30 8009B280 24A5E130 */  addiu      $a1, $a1, %lo(magikarp_vtx)
+    /* 46C2C 8009B27C 3C058035 */  lui        $a1, %hi(D_8034E130)
+    /* 46C30 8009B280 24A5E130 */  addiu      $a1, $a1, %lo(D_8034E130)
     /* 46C34 8009B284 0C000B08 */  jal        dmaReadRom
     /* 46C38 8009B288 01843023 */   subu      $a2, $t4, $a0
     /* 46C3C 8009B28C 10000008 */  b          .L8009B2B0

@@ -30,21 +30,21 @@ enddlabel D_80341BD0_792DD0
 nonmatching D_80341C18_792E18
 
 dlabel D_80341C18_792E18
-    /* 792E18 80341C18 8018EC50 */ .word magnemite_hd_vtx + 0x338
-    /* 792E1C 80341C1C 8018F260 */ .word magnemite_hd_vtx + 0x948
-    /* 792E20 80341C20 8018F870 */ .word magnemite_hd_vtx + 0xF58
-    /* 792E24 80341C24 801906C0 */ .word staryu_hd_vtx + 0x15B8
-    /* 792E28 80341C28 8018D3F0 */ .word gyarados_hd_vtx + 0x1A68
+    /* 792E18 80341C18 8018EC50 */ .word vulpix_tex_eye_frame0_png
+    /* 792E1C 80341C1C 8018F260 */ .word vulpix_tex_eye_frame1_png
+    /* 792E20 80341C20 8018F870 */ .word vulpix_tex_eye_frame2_png
+    /* 792E24 80341C24 801906C0 */ .word vulpix_tex_eye_frame3_png
+    /* 792E28 80341C28 8018D3F0 */ .word vulpix_tex_eye_frame4_png
 enddlabel D_80341C18_792E18
 
 nonmatching D_80341C2C_792E2C
 
 dlabel D_80341C2C_792E2C
-    /* 792E2C 80341C2C 8018EC50 */ .word magnemite_hd_vtx + 0x338
-    /* 792E30 80341C30 8018F260 */ .word magnemite_hd_vtx + 0x948
-    /* 792E34 80341C34 8018F870 */ .word magnemite_hd_vtx + 0xF58
-    /* 792E38 80341C38 801906C0 */ .word staryu_hd_vtx + 0x15B8
-    /* 792E3C 80341C3C 8018D3F0 */ .word gyarados_hd_vtx + 0x1A68
+    /* 792E2C 80341C2C 8018EC50 */ .word vulpix_tex_eye_frame0_png
+    /* 792E30 80341C30 8018F260 */ .word vulpix_tex_eye_frame1_png
+    /* 792E34 80341C34 8018F870 */ .word vulpix_tex_eye_frame2_png
+    /* 792E38 80341C38 801906C0 */ .word vulpix_tex_eye_frame3_png
+    /* 792E3C 80341C3C 8018D3F0 */ .word vulpix_tex_eye_frame4_png
 enddlabel D_80341C2C_792E2C
 
 nonmatching D_80341C40_792E40
@@ -2342,7 +2342,7 @@ dlabel vulpix_part0_draw_near
     /* 7951A0 80343FA0 F5480800 */ .word 0xF5480800
     /* 7951A4 80343FA4 00094250 */ .word 0x00094250
     /* 7951A8 80343FA8 FD100000 */ .word 0xFD100000
-    /* 7951AC 80343FAC 8018CBD8 */ .word kakuna_hd_vtx + 0xEE8
+    /* 7951AC 80343FAC 8018CBD8 */ .word vulpix_tex_belly_pal
     /* 7951B0 80343FB0 E6000000 */ .word 0xE6000000
     /* 7951B4 80343FB4 00000000 */ .word 0x00000000
     /* 7951B8 80343FB8 F0000000 */ .word 0xF0000000
@@ -2354,7 +2354,7 @@ dlabel vulpix_part0_draw_near
     /* 7951D0 80343FD0 F2000000 */ .word 0xF2000000
     /* 7951D4 80343FD4 0007C07C */ .word 0x0007C07C
     /* 7951D8 80343FD8 FD500000 */ .word 0xFD500000
-    /* 7951DC 80343FDC 8018CDE0 */ .word kakuna_hd_vtx + 0x10F0
+    /* 7951DC 80343FDC 8018CDE0 */ .word vulpix_tex_belly_png
     /* 7951E0 80343FE0 E6000000 */ .word 0xE6000000
     /* 7951E4 80343FE4 00000000 */ .word 0x00000000
     /* 7951E8 80343FE8 F3000000 */ .word 0xF3000000
@@ -2413,7 +2413,7 @@ dlabel vulpix_part0_draw_far
     /* 7952A8 803440A8 F5480800 */ .word 0xF5480800
     /* 7952AC 803440AC 00094250 */ .word 0x00094250
     /* 7952B0 803440B0 FD100000 */ .word 0xFD100000
-    /* 7952B4 803440B4 8018CBD8 */ .word kakuna_hd_vtx + 0xEE8
+    /* 7952B4 803440B4 8018CBD8 */ .word vulpix_tex_belly_pal
     /* 7952B8 803440B8 E6000000 */ .word 0xE6000000
     /* 7952BC 803440BC 00000000 */ .word 0x00000000
     /* 7952C0 803440C0 F0000000 */ .word 0xF0000000
@@ -2425,7 +2425,7 @@ dlabel vulpix_part0_draw_far
     /* 7952D8 803440D8 F2000000 */ .word 0xF2000000
     /* 7952DC 803440DC 0007C07C */ .word 0x0007C07C
     /* 7952E0 803440E0 FD500000 */ .word 0xFD500000
-    /* 7952E4 803440E4 8018CDE0 */ .word kakuna_hd_vtx + 0x10F0
+    /* 7952E4 803440E4 8018CDE0 */ .word vulpix_tex_belly_png
     /* 7952E8 803440E8 E6000000 */ .word 0xE6000000
     /* 7952EC 803440EC 00000000 */ .word 0x00000000
     /* 7952F0 803440F0 F3000000 */ .word 0xF3000000
@@ -2643,7 +2643,7 @@ dlabel vulpix_part2_draw_near
     /* 7955A0 803443A0 F5400400 */ .word 0xF5400400
     /* 7955A4 803443A4 00094250 */ .word 0x00094250
     /* 7955A8 803443A8 FD100000 */ .word 0xFD100000
-    /* 7955AC 803443AC 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 7955AC 803443AC 8018C778 */ .word vulpix_tex_pad_pal
     /* 7955B0 803443B0 E6000000 */ .word 0xE6000000
     /* 7955B4 803443B4 00000000 */ .word 0x00000000
     /* 7955B8 803443B8 F0000000 */ .word 0xF0000000
@@ -2655,7 +2655,7 @@ dlabel vulpix_part2_draw_near
     /* 7955D0 803443D0 F2000000 */ .word 0xF2000000
     /* 7955D4 803443D4 0007C07C */ .word 0x0007C07C
     /* 7955D8 803443D8 FD500000 */ .word 0xFD500000
-    /* 7955DC 803443DC 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 7955DC 803443DC 8018C7A0 */ .word vulpix_tex_pad_png
     /* 7955E0 803443E0 E6000000 */ .word 0xE6000000
     /* 7955E4 803443E4 00000000 */ .word 0x00000000
     /* 7955E8 803443E8 F3000000 */ .word 0xF3000000
@@ -2673,7 +2673,7 @@ dlabel vulpix_part2_draw_near
     /* 795618 80344418 F5480800 */ .word 0xF5480800
     /* 79561C 8034441C 00094250 */ .word 0x00094250
     /* 795620 80344420 FD100000 */ .word 0xFD100000
-    /* 795624 80344424 8018B758 */ .word graveler_hd_model + 0x230
+    /* 795624 80344424 8018B758 */ .word vulpix_tex_claw_pal
     /* 795628 80344428 E6000000 */ .word 0xE6000000
     /* 79562C 8034442C 00000000 */ .word 0x00000000
     /* 795630 80344430 F0000000 */ .word 0xF0000000
@@ -2681,7 +2681,7 @@ dlabel vulpix_part2_draw_near
     /* 795638 80344438 E7000000 */ .word 0xE7000000
     /* 79563C 8034443C 00000000 */ .word 0x00000000
     /* 795640 80344440 FD500000 */ .word 0xFD500000
-    /* 795644 80344444 8018B960 */ .word 0x8018B960
+    /* 795644 80344444 8018B960 */ .word vulpix_tex_claw_png
     /* 795648 80344448 E6000000 */ .word 0xE6000000
     /* 79564C 8034444C 00000000 */ .word 0x00000000
     /* 795650 80344450 F3000000 */ .word 0xF3000000
@@ -2703,7 +2703,7 @@ dlabel vulpix_part2_draw_near
     /* 795690 80344490 F5481000 */ .word 0xF5481000
     /* 795694 80344494 00094260 */ .word 0x00094260
     /* 795698 80344498 FD100000 */ .word 0xFD100000
-    /* 79569C 8034449C 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 79569C 8034449C 8018BD68 */ .word vulpix_tex_paw_pal
     /* 7956A0 803444A0 E6000000 */ .word 0xE6000000
     /* 7956A4 803444A4 00000000 */ .word 0x00000000
     /* 7956A8 803444A8 F0000000 */ .word 0xF0000000
@@ -2713,7 +2713,7 @@ dlabel vulpix_part2_draw_near
     /* 7956B8 803444B8 F2000000 */ .word 0xF2000000
     /* 7956BC 803444BC 000FC07C */ .word 0x000FC07C
     /* 7956C0 803444C0 FD500000 */ .word 0xFD500000
-    /* 7956C4 803444C4 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 7956C4 803444C4 8018BF70 */ .word vulpix_tex_paw_png
     /* 7956C8 803444C8 E6000000 */ .word 0xE6000000
     /* 7956CC 803444CC 00000000 */ .word 0x00000000
     /* 7956D0 803444D0 F3000000 */ .word 0xF3000000
@@ -2764,7 +2764,7 @@ dlabel vulpix_part2_draw_far
     /* 795770 80344570 F5400400 */ .word 0xF5400400
     /* 795774 80344574 00094250 */ .word 0x00094250
     /* 795778 80344578 FD100000 */ .word 0xFD100000
-    /* 79577C 8034457C 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 79577C 8034457C 8018C778 */ .word vulpix_tex_pad_pal
     /* 795780 80344580 E6000000 */ .word 0xE6000000
     /* 795784 80344584 00000000 */ .word 0x00000000
     /* 795788 80344588 F0000000 */ .word 0xF0000000
@@ -2776,7 +2776,7 @@ dlabel vulpix_part2_draw_far
     /* 7957A0 803445A0 F2000000 */ .word 0xF2000000
     /* 7957A4 803445A4 0007C07C */ .word 0x0007C07C
     /* 7957A8 803445A8 FD500000 */ .word 0xFD500000
-    /* 7957AC 803445AC 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 7957AC 803445AC 8018C7A0 */ .word vulpix_tex_pad_png
     /* 7957B0 803445B0 E6000000 */ .word 0xE6000000
     /* 7957B4 803445B4 00000000 */ .word 0x00000000
     /* 7957B8 803445B8 F3000000 */ .word 0xF3000000
@@ -2794,7 +2794,7 @@ dlabel vulpix_part2_draw_far
     /* 7957E8 803445E8 F5481000 */ .word 0xF5481000
     /* 7957EC 803445EC 00094260 */ .word 0x00094260
     /* 7957F0 803445F0 FD100000 */ .word 0xFD100000
-    /* 7957F4 803445F4 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 7957F4 803445F4 8018BD68 */ .word vulpix_tex_paw_pal
     /* 7957F8 803445F8 E6000000 */ .word 0xE6000000
     /* 7957FC 803445FC 00000000 */ .word 0x00000000
     /* 795800 80344600 F0000000 */ .word 0xF0000000
@@ -2804,7 +2804,7 @@ dlabel vulpix_part2_draw_far
     /* 795810 80344610 F2000000 */ .word 0xF2000000
     /* 795814 80344614 000FC07C */ .word 0x000FC07C
     /* 795818 80344618 FD500000 */ .word 0xFD500000
-    /* 79581C 8034461C 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 79581C 8034461C 8018BF70 */ .word vulpix_tex_paw_png
     /* 795820 80344620 E6000000 */ .word 0xE6000000
     /* 795824 80344624 00000000 */ .word 0x00000000
     /* 795828 80344628 F3000000 */ .word 0xF3000000
@@ -3006,7 +3006,7 @@ dlabel vulpix_part4_draw_near
     /* 795A98 80344898 F5400400 */ .word 0xF5400400
     /* 795A9C 8034489C 00094250 */ .word 0x00094250
     /* 795AA0 803448A0 FD100000 */ .word 0xFD100000
-    /* 795AA4 803448A4 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 795AA4 803448A4 8018C778 */ .word vulpix_tex_pad_pal
     /* 795AA8 803448A8 E6000000 */ .word 0xE6000000
     /* 795AAC 803448AC 00000000 */ .word 0x00000000
     /* 795AB0 803448B0 F0000000 */ .word 0xF0000000
@@ -3018,7 +3018,7 @@ dlabel vulpix_part4_draw_near
     /* 795AC8 803448C8 F2000000 */ .word 0xF2000000
     /* 795ACC 803448CC 0007C07C */ .word 0x0007C07C
     /* 795AD0 803448D0 FD500000 */ .word 0xFD500000
-    /* 795AD4 803448D4 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 795AD4 803448D4 8018C7A0 */ .word vulpix_tex_pad_png
     /* 795AD8 803448D8 E6000000 */ .word 0xE6000000
     /* 795ADC 803448DC 00000000 */ .word 0x00000000
     /* 795AE0 803448E0 F3000000 */ .word 0xF3000000
@@ -3036,7 +3036,7 @@ dlabel vulpix_part4_draw_near
     /* 795B10 80344910 F5480800 */ .word 0xF5480800
     /* 795B14 80344914 00094250 */ .word 0x00094250
     /* 795B18 80344918 FD100000 */ .word 0xFD100000
-    /* 795B1C 8034491C 8018B758 */ .word graveler_hd_model + 0x230
+    /* 795B1C 8034491C 8018B758 */ .word vulpix_tex_claw_pal
     /* 795B20 80344920 E6000000 */ .word 0xE6000000
     /* 795B24 80344924 00000000 */ .word 0x00000000
     /* 795B28 80344928 F0000000 */ .word 0xF0000000
@@ -3044,7 +3044,7 @@ dlabel vulpix_part4_draw_near
     /* 795B30 80344930 E7000000 */ .word 0xE7000000
     /* 795B34 80344934 00000000 */ .word 0x00000000
     /* 795B38 80344938 FD500000 */ .word 0xFD500000
-    /* 795B3C 8034493C 8018B960 */ .word 0x8018B960
+    /* 795B3C 8034493C 8018B960 */ .word vulpix_tex_claw_png
     /* 795B40 80344940 E6000000 */ .word 0xE6000000
     /* 795B44 80344944 00000000 */ .word 0x00000000
     /* 795B48 80344948 F3000000 */ .word 0xF3000000
@@ -3064,7 +3064,7 @@ dlabel vulpix_part4_draw_near
     /* 795B80 80344980 F5481000 */ .word 0xF5481000
     /* 795B84 80344984 00094260 */ .word 0x00094260
     /* 795B88 80344988 FD100000 */ .word 0xFD100000
-    /* 795B8C 8034498C 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 795B8C 8034498C 8018BD68 */ .word vulpix_tex_paw_pal
     /* 795B90 80344990 E6000000 */ .word 0xE6000000
     /* 795B94 80344994 00000000 */ .word 0x00000000
     /* 795B98 80344998 F0000000 */ .word 0xF0000000
@@ -3074,7 +3074,7 @@ dlabel vulpix_part4_draw_near
     /* 795BA8 803449A8 F2000000 */ .word 0xF2000000
     /* 795BAC 803449AC 000FC07C */ .word 0x000FC07C
     /* 795BB0 803449B0 FD500000 */ .word 0xFD500000
-    /* 795BB4 803449B4 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 795BB4 803449B4 8018BF70 */ .word vulpix_tex_paw_png
     /* 795BB8 803449B8 E6000000 */ .word 0xE6000000
     /* 795BBC 803449BC 00000000 */ .word 0x00000000
     /* 795BC0 803449C0 F3000000 */ .word 0xF3000000
@@ -3119,7 +3119,7 @@ dlabel vulpix_part4_draw_far
     /* 795C48 80344A48 F5400400 */ .word 0xF5400400
     /* 795C4C 80344A4C 00094250 */ .word 0x00094250
     /* 795C50 80344A50 FD100000 */ .word 0xFD100000
-    /* 795C54 80344A54 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 795C54 80344A54 8018C778 */ .word vulpix_tex_pad_pal
     /* 795C58 80344A58 E6000000 */ .word 0xE6000000
     /* 795C5C 80344A5C 00000000 */ .word 0x00000000
     /* 795C60 80344A60 F0000000 */ .word 0xF0000000
@@ -3131,7 +3131,7 @@ dlabel vulpix_part4_draw_far
     /* 795C78 80344A78 F2000000 */ .word 0xF2000000
     /* 795C7C 80344A7C 0007C07C */ .word 0x0007C07C
     /* 795C80 80344A80 FD500000 */ .word 0xFD500000
-    /* 795C84 80344A84 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 795C84 80344A84 8018C7A0 */ .word vulpix_tex_pad_png
     /* 795C88 80344A88 E6000000 */ .word 0xE6000000
     /* 795C8C 80344A8C 00000000 */ .word 0x00000000
     /* 795C90 80344A90 F3000000 */ .word 0xF3000000
@@ -3149,7 +3149,7 @@ dlabel vulpix_part4_draw_far
     /* 795CC0 80344AC0 F5481000 */ .word 0xF5481000
     /* 795CC4 80344AC4 00094260 */ .word 0x00094260
     /* 795CC8 80344AC8 FD100000 */ .word 0xFD100000
-    /* 795CCC 80344ACC 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 795CCC 80344ACC 8018BD68 */ .word vulpix_tex_paw_pal
     /* 795CD0 80344AD0 E6000000 */ .word 0xE6000000
     /* 795CD4 80344AD4 00000000 */ .word 0x00000000
     /* 795CD8 80344AD8 F0000000 */ .word 0xF0000000
@@ -3159,7 +3159,7 @@ dlabel vulpix_part4_draw_far
     /* 795CE8 80344AE8 F2000000 */ .word 0xF2000000
     /* 795CEC 80344AEC 000FC07C */ .word 0x000FC07C
     /* 795CF0 80344AF0 FD500000 */ .word 0xFD500000
-    /* 795CF4 80344AF4 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 795CF4 80344AF4 8018BF70 */ .word vulpix_tex_paw_png
     /* 795CF8 80344AF8 E6000000 */ .word 0xE6000000
     /* 795CFC 80344AFC 00000000 */ .word 0x00000000
     /* 795D00 80344B00 F3000000 */ .word 0xF3000000
@@ -3270,7 +3270,7 @@ dlabel vulpix_part5_draw_near
     /* 795E40 80344C40 F5480800 */ .word 0xF5480800
     /* 795E44 80344C44 00094250 */ .word 0x00094250
     /* 795E48 80344C48 FD100000 */ .word 0xFD100000
-    /* 795E4C 80344C4C 8018EA48 */ .word magnemite_hd_vtx + 0x130
+    /* 795E4C 80344C4C 8018EA48 */ .word vulpix_tex_eye_frame0_pal
     /* 795E50 80344C50 E6000000 */ .word 0xE6000000
     /* 795E54 80344C54 00000000 */ .word 0x00000000
     /* 795E58 80344C58 F0000000 */ .word 0xF0000000
@@ -3298,7 +3298,7 @@ dlabel vulpix_part5_draw_near
     /* 795EB0 80344CB0 F5480800 */ .word 0xF5480800
     /* 795EB4 80344CB4 00094250 */ .word 0x00094250
     /* 795EB8 80344CB8 FD100000 */ .word 0xFD100000
-    /* 795EBC 80344CBC 8018EA48 */ .word magnemite_hd_vtx + 0x130
+    /* 795EBC 80344CBC 8018EA48 */ .word vulpix_tex_eye_frame0_pal
     /* 795EC0 80344CC0 E6000000 */ .word 0xE6000000
     /* 795EC4 80344CC4 00000000 */ .word 0x00000000
     /* 795EC8 80344CC8 F0000000 */ .word 0xF0000000
@@ -3326,7 +3326,7 @@ dlabel vulpix_part5_draw_near
     /* 795F20 80344D20 F5400400 */ .word 0xF5400400
     /* 795F24 80344D24 00094250 */ .word 0x00094250
     /* 795F28 80344D28 FD100000 */ .word 0xFD100000
-    /* 795F2C 80344D2C 8018C9A8 */ .word kakuna_hd_vtx + 0xCB8
+    /* 795F2C 80344D2C 8018C9A8 */ .word vulpix_tex_nose_pal
     /* 795F30 80344D30 E6000000 */ .word 0xE6000000
     /* 795F34 80344D34 00000000 */ .word 0x00000000
     /* 795F38 80344D38 F0000000 */ .word 0xF0000000
@@ -3338,7 +3338,7 @@ dlabel vulpix_part5_draw_near
     /* 795F50 80344D50 F2000000 */ .word 0xF2000000
     /* 795F54 80344D54 0007C07C */ .word 0x0007C07C
     /* 795F58 80344D58 FD500000 */ .word 0xFD500000
-    /* 795F5C 80344D5C 8018C9D0 */ .word kakuna_hd_vtx + 0xCE0
+    /* 795F5C 80344D5C 8018C9D0 */ .word vulpix_tex_nose_png
     /* 795F60 80344D60 E6000000 */ .word 0xE6000000
     /* 795F64 80344D64 00000000 */ .word 0x00000000
     /* 795F68 80344D68 F3000000 */ .word 0xF3000000
@@ -3360,7 +3360,7 @@ dlabel vulpix_part5_draw_near
     /* 795FA8 80344DA8 F5480800 */ .word 0xF5480800
     /* 795FAC 80344DAC 00094250 */ .word 0x00094250
     /* 795FB0 80344DB0 FD100000 */ .word 0xFD100000
-    /* 795FB4 80344DB4 8018FC78 */ .word magnemite_hd_vtx + 0x1360
+    /* 795FB4 80344DB4 8018FC78 */ .word vulpix_tex_ear_pal
     /* 795FB8 80344DB8 E6000000 */ .word 0xE6000000
     /* 795FBC 80344DBC 00000000 */ .word 0x00000000
     /* 795FC0 80344DC0 F0000000 */ .word 0xF0000000
@@ -3368,7 +3368,7 @@ dlabel vulpix_part5_draw_near
     /* 795FC8 80344DC8 E7000000 */ .word 0xE7000000
     /* 795FCC 80344DCC 00000000 */ .word 0x00000000
     /* 795FD0 80344DD0 FD500000 */ .word 0xFD500000
-    /* 795FD4 80344DD4 8018FE80 */ .word magnemite_hd_vtx + 0x1568
+    /* 795FD4 80344DD4 8018FE80 */ .word vulpix_tex_ear_png
     /* 795FD8 80344DD8 E6000000 */ .word 0xE6000000
     /* 795FDC 80344DDC 00000000 */ .word 0x00000000
     /* 795FE0 80344DE0 F3000000 */ .word 0xF3000000
@@ -3390,7 +3390,7 @@ dlabel vulpix_part5_draw_near
     /* 796020 80344E20 F5400400 */ .word 0xF5400400
     /* 796024 80344E24 00094250 */ .word 0x00094250
     /* 796028 80344E28 FD100000 */ .word 0xFD100000
-    /* 79602C 80344E2C 8018E818 */ .word 0x8018E818
+    /* 79602C 80344E2C 8018E818 */ .word vulpix_tex_bang_pal
     /* 796030 80344E30 E6000000 */ .word 0xE6000000
     /* 796034 80344E34 00000000 */ .word 0x00000000
     /* 796038 80344E38 F0000000 */ .word 0xF0000000
@@ -3398,7 +3398,7 @@ dlabel vulpix_part5_draw_near
     /* 796040 80344E40 E7000000 */ .word 0xE7000000
     /* 796044 80344E44 00000000 */ .word 0x00000000
     /* 796048 80344E48 FD500000 */ .word 0xFD500000
-    /* 79604C 80344E4C 8018E840 */ .word 0x8018E840
+    /* 79604C 80344E4C 8018E840 */ .word vulpix_tex_bang_png
     /* 796050 80344E50 E6000000 */ .word 0xE6000000
     /* 796054 80344E54 00000000 */ .word 0x00000000
     /* 796058 80344E58 F3000000 */ .word 0xF3000000
@@ -3424,7 +3424,7 @@ dlabel vulpix_part5_draw_near
     /* 7960A8 80344EA8 F5481000 */ .word 0xF5481000
     /* 7960AC 80344EAC 00094260 */ .word 0x00094260
     /* 7960B0 80344EB0 FD100000 */ .word 0xFD100000
-    /* 7960B4 80344EB4 8018DE08 */ .word 0x8018DE08
+    /* 7960B4 80344EB4 8018DE08 */ .word vulpix_tex_hair_pal
     /* 7960B8 80344EB8 E6000000 */ .word 0xE6000000
     /* 7960BC 80344EBC 00000000 */ .word 0x00000000
     /* 7960C0 80344EC0 F0000000 */ .word 0xF0000000
@@ -3434,7 +3434,7 @@ dlabel vulpix_part5_draw_near
     /* 7960D0 80344ED0 F2000000 */ .word 0xF2000000
     /* 7960D4 80344ED4 000FC07C */ .word 0x000FC07C
     /* 7960D8 80344ED8 FD500000 */ .word 0xFD500000
-    /* 7960DC 80344EDC 8018E010 */ .word 0x8018E010
+    /* 7960DC 80344EDC 8018E010 */ .word vulpix_tex_hair_png
     /* 7960E0 80344EE0 E6000000 */ .word 0xE6000000
     /* 7960E4 80344EE4 00000000 */ .word 0x00000000
     /* 7960E8 80344EE8 F3000000 */ .word 0xF3000000
@@ -3458,7 +3458,7 @@ dlabel vulpix_part5_draw_near
     /* 796130 80344F30 F5480800 */ .word 0xF5480800
     /* 796134 80344F34 00094250 */ .word 0x00094250
     /* 796138 80344F38 FD100000 */ .word 0xFD100000
-    /* 79613C 80344F3C 8018D7F8 */ .word 0x8018D7F8
+    /* 79613C 80344F3C 8018D7F8 */ .word vulpix_tex_curl_pal
     /* 796140 80344F40 E6000000 */ .word 0xE6000000
     /* 796144 80344F44 00000000 */ .word 0x00000000
     /* 796148 80344F48 F0000000 */ .word 0xF0000000
@@ -3468,7 +3468,7 @@ dlabel vulpix_part5_draw_near
     /* 796158 80344F58 F2000000 */ .word 0xF2000000
     /* 79615C 80344F5C 0007C07C */ .word 0x0007C07C
     /* 796160 80344F60 FD500000 */ .word 0xFD500000
-    /* 796164 80344F64 8018DA00 */ .word 0x8018DA00
+    /* 796164 80344F64 8018DA00 */ .word vulpix_tex_curl_png
     /* 796168 80344F68 E6000000 */ .word 0xE6000000
     /* 79616C 80344F6C 00000000 */ .word 0x00000000
     /* 796170 80344F70 F3000000 */ .word 0xF3000000
@@ -3579,7 +3579,7 @@ dlabel vulpix_part5_draw_far
     /* 796300 80345100 F5480800 */ .word 0xF5480800
     /* 796304 80345104 00094250 */ .word 0x00094250
     /* 796308 80345108 FD100000 */ .word 0xFD100000
-    /* 79630C 8034510C 8018EA48 */ .word magnemite_hd_vtx + 0x130
+    /* 79630C 8034510C 8018EA48 */ .word vulpix_tex_eye_frame0_pal
     /* 796310 80345110 E6000000 */ .word 0xE6000000
     /* 796314 80345114 00000000 */ .word 0x00000000
     /* 796318 80345118 F0000000 */ .word 0xF0000000
@@ -3605,7 +3605,7 @@ dlabel vulpix_part5_draw_far
     /* 796368 80345168 F5480800 */ .word 0xF5480800
     /* 79636C 8034516C 00094250 */ .word 0x00094250
     /* 796370 80345170 FD100000 */ .word 0xFD100000
-    /* 796374 80345174 8018EA48 */ .word magnemite_hd_vtx + 0x130
+    /* 796374 80345174 8018EA48 */ .word vulpix_tex_eye_frame0_pal
     /* 796378 80345178 E6000000 */ .word 0xE6000000
     /* 79637C 8034517C 00000000 */ .word 0x00000000
     /* 796380 80345180 F0000000 */ .word 0xF0000000
@@ -3631,7 +3631,7 @@ dlabel vulpix_part5_draw_far
     /* 7963D0 803451D0 F5400400 */ .word 0xF5400400
     /* 7963D4 803451D4 00094250 */ .word 0x00094250
     /* 7963D8 803451D8 FD100000 */ .word 0xFD100000
-    /* 7963DC 803451DC 8018C9A8 */ .word kakuna_hd_vtx + 0xCB8
+    /* 7963DC 803451DC 8018C9A8 */ .word vulpix_tex_nose_pal
     /* 7963E0 803451E0 E6000000 */ .word 0xE6000000
     /* 7963E4 803451E4 00000000 */ .word 0x00000000
     /* 7963E8 803451E8 F0000000 */ .word 0xF0000000
@@ -3643,7 +3643,7 @@ dlabel vulpix_part5_draw_far
     /* 796400 80345200 F2000000 */ .word 0xF2000000
     /* 796404 80345204 0007C07C */ .word 0x0007C07C
     /* 796408 80345208 FD500000 */ .word 0xFD500000
-    /* 79640C 8034520C 8018C9D0 */ .word kakuna_hd_vtx + 0xCE0
+    /* 79640C 8034520C 8018C9D0 */ .word vulpix_tex_nose_png
     /* 796410 80345210 E6000000 */ .word 0xE6000000
     /* 796414 80345214 00000000 */ .word 0x00000000
     /* 796418 80345218 F3000000 */ .word 0xF3000000
@@ -3661,7 +3661,7 @@ dlabel vulpix_part5_draw_far
     /* 796448 80345248 F5480800 */ .word 0xF5480800
     /* 79644C 8034524C 00094250 */ .word 0x00094250
     /* 796450 80345250 FD100000 */ .word 0xFD100000
-    /* 796454 80345254 8018FC78 */ .word magnemite_hd_vtx + 0x1360
+    /* 796454 80345254 8018FC78 */ .word vulpix_tex_ear_pal
     /* 796458 80345258 E6000000 */ .word 0xE6000000
     /* 79645C 8034525C 00000000 */ .word 0x00000000
     /* 796460 80345260 F0000000 */ .word 0xF0000000
@@ -3669,7 +3669,7 @@ dlabel vulpix_part5_draw_far
     /* 796468 80345268 E7000000 */ .word 0xE7000000
     /* 79646C 8034526C 00000000 */ .word 0x00000000
     /* 796470 80345270 FD500000 */ .word 0xFD500000
-    /* 796474 80345274 8018FE80 */ .word magnemite_hd_vtx + 0x1568
+    /* 796474 80345274 8018FE80 */ .word vulpix_tex_ear_png
     /* 796478 80345278 E6000000 */ .word 0xE6000000
     /* 79647C 8034527C 00000000 */ .word 0x00000000
     /* 796480 80345280 F3000000 */ .word 0xF3000000
@@ -3687,7 +3687,7 @@ dlabel vulpix_part5_draw_far
     /* 7964B0 803452B0 F5400400 */ .word 0xF5400400
     /* 7964B4 803452B4 00094250 */ .word 0x00094250
     /* 7964B8 803452B8 FD100000 */ .word 0xFD100000
-    /* 7964BC 803452BC 8018E818 */ .word 0x8018E818
+    /* 7964BC 803452BC 8018E818 */ .word vulpix_tex_bang_pal
     /* 7964C0 803452C0 E6000000 */ .word 0xE6000000
     /* 7964C4 803452C4 00000000 */ .word 0x00000000
     /* 7964C8 803452C8 F0000000 */ .word 0xF0000000
@@ -3695,7 +3695,7 @@ dlabel vulpix_part5_draw_far
     /* 7964D0 803452D0 E7000000 */ .word 0xE7000000
     /* 7964D4 803452D4 00000000 */ .word 0x00000000
     /* 7964D8 803452D8 FD500000 */ .word 0xFD500000
-    /* 7964DC 803452DC 8018E840 */ .word 0x8018E840
+    /* 7964DC 803452DC 8018E840 */ .word vulpix_tex_bang_png
     /* 7964E0 803452E0 E6000000 */ .word 0xE6000000
     /* 7964E4 803452E4 00000000 */ .word 0x00000000
     /* 7964E8 803452E8 F3000000 */ .word 0xF3000000
@@ -3715,7 +3715,7 @@ dlabel vulpix_part5_draw_far
     /* 796520 80345320 F5481000 */ .word 0xF5481000
     /* 796524 80345324 00094260 */ .word 0x00094260
     /* 796528 80345328 FD100000 */ .word 0xFD100000
-    /* 79652C 8034532C 8018DE08 */ .word 0x8018DE08
+    /* 79652C 8034532C 8018DE08 */ .word vulpix_tex_hair_pal
     /* 796530 80345330 E6000000 */ .word 0xE6000000
     /* 796534 80345334 00000000 */ .word 0x00000000
     /* 796538 80345338 F0000000 */ .word 0xF0000000
@@ -3725,7 +3725,7 @@ dlabel vulpix_part5_draw_far
     /* 796548 80345348 F2000000 */ .word 0xF2000000
     /* 79654C 8034534C 000FC07C */ .word 0x000FC07C
     /* 796550 80345350 FD500000 */ .word 0xFD500000
-    /* 796554 80345354 8018E010 */ .word 0x8018E010
+    /* 796554 80345354 8018E010 */ .word vulpix_tex_hair_png
     /* 796558 80345358 E6000000 */ .word 0xE6000000
     /* 79655C 8034535C 00000000 */ .word 0x00000000
     /* 796560 80345360 F3000000 */ .word 0xF3000000
@@ -3747,7 +3747,7 @@ dlabel vulpix_part5_draw_far
     /* 7965A0 803453A0 F5480800 */ .word 0xF5480800
     /* 7965A4 803453A4 00094250 */ .word 0x00094250
     /* 7965A8 803453A8 FD100000 */ .word 0xFD100000
-    /* 7965AC 803453AC 8018D7F8 */ .word 0x8018D7F8
+    /* 7965AC 803453AC 8018D7F8 */ .word vulpix_tex_curl_pal
     /* 7965B0 803453B0 E6000000 */ .word 0xE6000000
     /* 7965B4 803453B4 00000000 */ .word 0x00000000
     /* 7965B8 803453B8 F0000000 */ .word 0xF0000000
@@ -3757,7 +3757,7 @@ dlabel vulpix_part5_draw_far
     /* 7965C8 803453C8 F2000000 */ .word 0xF2000000
     /* 7965CC 803453CC 0007C07C */ .word 0x0007C07C
     /* 7965D0 803453D0 FD500000 */ .word 0xFD500000
-    /* 7965D4 803453D4 8018DA00 */ .word 0x8018DA00
+    /* 7965D4 803453D4 8018DA00 */ .word vulpix_tex_curl_png
     /* 7965D8 803453D8 E6000000 */ .word 0xE6000000
     /* 7965DC 803453DC 00000000 */ .word 0x00000000
     /* 7965E0 803453E0 F3000000 */ .word 0xF3000000
@@ -3914,7 +3914,7 @@ dlabel vulpix_part6_draw_near
     /* 7967D8 803455D8 F5480800 */ .word 0xF5480800
     /* 7967DC 803455DC 00094250 */ .word 0x00094250
     /* 7967E0 803455E0 FD100000 */ .word 0xFD100000
-    /* 7967E4 803455E4 8018CBD8 */ .word kakuna_hd_vtx + 0xEE8
+    /* 7967E4 803455E4 8018CBD8 */ .word vulpix_tex_belly_pal
     /* 7967E8 803455E8 E6000000 */ .word 0xE6000000
     /* 7967EC 803455EC 00000000 */ .word 0x00000000
     /* 7967F0 803455F0 F0000000 */ .word 0xF0000000
@@ -3926,7 +3926,7 @@ dlabel vulpix_part6_draw_near
     /* 796808 80345608 F2000000 */ .word 0xF2000000
     /* 79680C 8034560C 0007C07C */ .word 0x0007C07C
     /* 796810 80345610 FD500000 */ .word 0xFD500000
-    /* 796814 80345614 8018CDE0 */ .word kakuna_hd_vtx + 0x10F0
+    /* 796814 80345614 8018CDE0 */ .word vulpix_tex_belly_png
     /* 796818 80345618 E6000000 */ .word 0xE6000000
     /* 79681C 8034561C 00000000 */ .word 0x00000000
     /* 796820 80345620 F3000000 */ .word 0xF3000000
@@ -4001,7 +4001,7 @@ dlabel vulpix_part6_draw_far
     /* 796920 80345720 F5480800 */ .word 0xF5480800
     /* 796924 80345724 00094250 */ .word 0x00094250
     /* 796928 80345728 FD100000 */ .word 0xFD100000
-    /* 79692C 8034572C 8018CBD8 */ .word kakuna_hd_vtx + 0xEE8
+    /* 79692C 8034572C 8018CBD8 */ .word vulpix_tex_belly_pal
     /* 796930 80345730 E6000000 */ .word 0xE6000000
     /* 796934 80345734 00000000 */ .word 0x00000000
     /* 796938 80345738 F0000000 */ .word 0xF0000000
@@ -4013,7 +4013,7 @@ dlabel vulpix_part6_draw_far
     /* 796950 80345750 F2000000 */ .word 0xF2000000
     /* 796954 80345754 0007C07C */ .word 0x0007C07C
     /* 796958 80345758 FD500000 */ .word 0xFD500000
-    /* 79695C 8034575C 8018CDE0 */ .word kakuna_hd_vtx + 0x10F0
+    /* 79695C 8034575C 8018CDE0 */ .word vulpix_tex_belly_png
     /* 796960 80345760 E6000000 */ .word 0xE6000000
     /* 796964 80345764 00000000 */ .word 0x00000000
     /* 796968 80345768 F3000000 */ .word 0xF3000000
@@ -4091,7 +4091,7 @@ dlabel vulpix_part7_draw_near
     /* 796A60 80345860 F5400400 */ .word 0xF5400400
     /* 796A64 80345864 00094250 */ .word 0x00094250
     /* 796A68 80345868 FD100000 */ .word 0xFD100000
-    /* 796A6C 8034586C 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796A6C 8034586C 80190288 */ .word vulpix_tex_tail_pal
     /* 796A70 80345870 E6000000 */ .word 0xE6000000
     /* 796A74 80345874 00000000 */ .word 0x00000000
     /* 796A78 80345878 F0000000 */ .word 0xF0000000
@@ -4103,7 +4103,7 @@ dlabel vulpix_part7_draw_near
     /* 796A90 80345890 F2000000 */ .word 0xF2000000
     /* 796A94 80345894 0007C07C */ .word 0x0007C07C
     /* 796A98 80345898 FD500000 */ .word 0xFD500000
-    /* 796A9C 8034589C 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796A9C 8034589C 801902B0 */ .word vulpix_tex_tail_png
     /* 796AA0 803458A0 E6000000 */ .word 0xE6000000
     /* 796AA4 803458A4 00000000 */ .word 0x00000000
     /* 796AA8 803458A8 F3000000 */ .word 0xF3000000
@@ -4164,7 +4164,7 @@ dlabel vulpix_part7_draw_far
     /* 796B70 80345970 F5400400 */ .word 0xF5400400
     /* 796B74 80345974 00094250 */ .word 0x00094250
     /* 796B78 80345978 FD100000 */ .word 0xFD100000
-    /* 796B7C 8034597C 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796B7C 8034597C 80190288 */ .word vulpix_tex_tail_pal
     /* 796B80 80345980 E6000000 */ .word 0xE6000000
     /* 796B84 80345984 00000000 */ .word 0x00000000
     /* 796B88 80345988 F0000000 */ .word 0xF0000000
@@ -4176,7 +4176,7 @@ dlabel vulpix_part7_draw_far
     /* 796BA0 803459A0 F2000000 */ .word 0xF2000000
     /* 796BA4 803459A4 0007C07C */ .word 0x0007C07C
     /* 796BA8 803459A8 FD500000 */ .word 0xFD500000
-    /* 796BAC 803459AC 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796BAC 803459AC 801902B0 */ .word vulpix_tex_tail_png
     /* 796BB0 803459B0 E6000000 */ .word 0xE6000000
     /* 796BB4 803459B4 00000000 */ .word 0x00000000
     /* 796BB8 803459B8 F3000000 */ .word 0xF3000000
@@ -4236,7 +4236,7 @@ dlabel vulpix_part8_draw_near
     /* 796C68 80345A68 F5400400 */ .word 0xF5400400
     /* 796C6C 80345A6C 00094250 */ .word 0x00094250
     /* 796C70 80345A70 FD100000 */ .word 0xFD100000
-    /* 796C74 80345A74 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796C74 80345A74 80190288 */ .word vulpix_tex_tail_pal
     /* 796C78 80345A78 E6000000 */ .word 0xE6000000
     /* 796C7C 80345A7C 00000000 */ .word 0x00000000
     /* 796C80 80345A80 F0000000 */ .word 0xF0000000
@@ -4248,7 +4248,7 @@ dlabel vulpix_part8_draw_near
     /* 796C98 80345A98 F2000000 */ .word 0xF2000000
     /* 796C9C 80345A9C 0007C07C */ .word 0x0007C07C
     /* 796CA0 80345AA0 FD500000 */ .word 0xFD500000
-    /* 796CA4 80345AA4 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796CA4 80345AA4 801902B0 */ .word vulpix_tex_tail_png
     /* 796CA8 80345AA8 E6000000 */ .word 0xE6000000
     /* 796CAC 80345AAC 00000000 */ .word 0x00000000
     /* 796CB0 80345AB0 F3000000 */ .word 0xF3000000
@@ -4309,7 +4309,7 @@ dlabel vulpix_part8_draw_far
     /* 796D78 80345B78 F5400400 */ .word 0xF5400400
     /* 796D7C 80345B7C 00094250 */ .word 0x00094250
     /* 796D80 80345B80 FD100000 */ .word 0xFD100000
-    /* 796D84 80345B84 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796D84 80345B84 80190288 */ .word vulpix_tex_tail_pal
     /* 796D88 80345B88 E6000000 */ .word 0xE6000000
     /* 796D8C 80345B8C 00000000 */ .word 0x00000000
     /* 796D90 80345B90 F0000000 */ .word 0xF0000000
@@ -4321,7 +4321,7 @@ dlabel vulpix_part8_draw_far
     /* 796DA8 80345BA8 F2000000 */ .word 0xF2000000
     /* 796DAC 80345BAC 0007C07C */ .word 0x0007C07C
     /* 796DB0 80345BB0 FD500000 */ .word 0xFD500000
-    /* 796DB4 80345BB4 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796DB4 80345BB4 801902B0 */ .word vulpix_tex_tail_png
     /* 796DB8 80345BB8 E6000000 */ .word 0xE6000000
     /* 796DBC 80345BBC 00000000 */ .word 0x00000000
     /* 796DC0 80345BC0 F3000000 */ .word 0xF3000000
@@ -4381,7 +4381,7 @@ dlabel vulpix_part9_draw_near
     /* 796E70 80345C70 F5400400 */ .word 0xF5400400
     /* 796E74 80345C74 00094250 */ .word 0x00094250
     /* 796E78 80345C78 FD100000 */ .word 0xFD100000
-    /* 796E7C 80345C7C 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796E7C 80345C7C 80190288 */ .word vulpix_tex_tail_pal
     /* 796E80 80345C80 E6000000 */ .word 0xE6000000
     /* 796E84 80345C84 00000000 */ .word 0x00000000
     /* 796E88 80345C88 F0000000 */ .word 0xF0000000
@@ -4393,7 +4393,7 @@ dlabel vulpix_part9_draw_near
     /* 796EA0 80345CA0 F2000000 */ .word 0xF2000000
     /* 796EA4 80345CA4 0007C07C */ .word 0x0007C07C
     /* 796EA8 80345CA8 FD500000 */ .word 0xFD500000
-    /* 796EAC 80345CAC 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796EAC 80345CAC 801902B0 */ .word vulpix_tex_tail_png
     /* 796EB0 80345CB0 E6000000 */ .word 0xE6000000
     /* 796EB4 80345CB4 00000000 */ .word 0x00000000
     /* 796EB8 80345CB8 F3000000 */ .word 0xF3000000
@@ -4454,7 +4454,7 @@ dlabel vulpix_part9_draw_far
     /* 796F80 80345D80 F5400400 */ .word 0xF5400400
     /* 796F84 80345D84 00094250 */ .word 0x00094250
     /* 796F88 80345D88 FD100000 */ .word 0xFD100000
-    /* 796F8C 80345D8C 80190288 */ .word staryu_hd_vtx + 0x1180
+    /* 796F8C 80345D8C 80190288 */ .word vulpix_tex_tail_pal
     /* 796F90 80345D90 E6000000 */ .word 0xE6000000
     /* 796F94 80345D94 00000000 */ .word 0x00000000
     /* 796F98 80345D98 F0000000 */ .word 0xF0000000
@@ -4466,7 +4466,7 @@ dlabel vulpix_part9_draw_far
     /* 796FB0 80345DB0 F2000000 */ .word 0xF2000000
     /* 796FB4 80345DB4 0007C07C */ .word 0x0007C07C
     /* 796FB8 80345DB8 FD500000 */ .word 0xFD500000
-    /* 796FBC 80345DBC 801902B0 */ .word staryu_hd_vtx + 0x11A8
+    /* 796FBC 80345DBC 801902B0 */ .word vulpix_tex_tail_png
     /* 796FC0 80345DC0 E6000000 */ .word 0xE6000000
     /* 796FC4 80345DC4 00000000 */ .word 0x00000000
     /* 796FC8 80345DC8 F3000000 */ .word 0xF3000000
@@ -4779,7 +4779,7 @@ dlabel vulpix_part12_draw_near
     /* 7973B8 803461B8 F5400400 */ .word 0xF5400400
     /* 7973BC 803461BC 00094250 */ .word 0x00094250
     /* 7973C0 803461C0 FD100000 */ .word 0xFD100000
-    /* 7973C4 803461C4 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 7973C4 803461C4 8018C778 */ .word vulpix_tex_pad_pal
     /* 7973C8 803461C8 E6000000 */ .word 0xE6000000
     /* 7973CC 803461CC 00000000 */ .word 0x00000000
     /* 7973D0 803461D0 F0000000 */ .word 0xF0000000
@@ -4791,7 +4791,7 @@ dlabel vulpix_part12_draw_near
     /* 7973E8 803461E8 F2000000 */ .word 0xF2000000
     /* 7973EC 803461EC 0007C07C */ .word 0x0007C07C
     /* 7973F0 803461F0 FD500000 */ .word 0xFD500000
-    /* 7973F4 803461F4 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 7973F4 803461F4 8018C7A0 */ .word vulpix_tex_pad_png
     /* 7973F8 803461F8 E6000000 */ .word 0xE6000000
     /* 7973FC 803461FC 00000000 */ .word 0x00000000
     /* 797400 80346200 F3000000 */ .word 0xF3000000
@@ -4809,7 +4809,7 @@ dlabel vulpix_part12_draw_near
     /* 797430 80346230 F5480800 */ .word 0xF5480800
     /* 797434 80346234 00094250 */ .word 0x00094250
     /* 797438 80346238 FD100000 */ .word 0xFD100000
-    /* 79743C 8034623C 8018B758 */ .word graveler_hd_model + 0x230
+    /* 79743C 8034623C 8018B758 */ .word vulpix_tex_claw_pal
     /* 797440 80346240 E6000000 */ .word 0xE6000000
     /* 797444 80346244 00000000 */ .word 0x00000000
     /* 797448 80346248 F0000000 */ .word 0xF0000000
@@ -4817,7 +4817,7 @@ dlabel vulpix_part12_draw_near
     /* 797450 80346250 E7000000 */ .word 0xE7000000
     /* 797454 80346254 00000000 */ .word 0x00000000
     /* 797458 80346258 FD500000 */ .word 0xFD500000
-    /* 79745C 8034625C 8018B960 */ .word 0x8018B960
+    /* 79745C 8034625C 8018B960 */ .word vulpix_tex_claw_png
     /* 797460 80346260 E6000000 */ .word 0xE6000000
     /* 797464 80346264 00000000 */ .word 0x00000000
     /* 797468 80346268 F3000000 */ .word 0xF3000000
@@ -4841,7 +4841,7 @@ dlabel vulpix_part12_draw_near
     /* 7974B0 803462B0 F5481000 */ .word 0xF5481000
     /* 7974B4 803462B4 00094260 */ .word 0x00094260
     /* 7974B8 803462B8 FD100000 */ .word 0xFD100000
-    /* 7974BC 803462BC 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 7974BC 803462BC 8018BD68 */ .word vulpix_tex_paw_pal
     /* 7974C0 803462C0 E6000000 */ .word 0xE6000000
     /* 7974C4 803462C4 00000000 */ .word 0x00000000
     /* 7974C8 803462C8 F0000000 */ .word 0xF0000000
@@ -4851,7 +4851,7 @@ dlabel vulpix_part12_draw_near
     /* 7974D8 803462D8 F2000000 */ .word 0xF2000000
     /* 7974DC 803462DC 000FC07C */ .word 0x000FC07C
     /* 7974E0 803462E0 FD500000 */ .word 0xFD500000
-    /* 7974E4 803462E4 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 7974E4 803462E4 8018BF70 */ .word vulpix_tex_paw_png
     /* 7974E8 803462E8 E6000000 */ .word 0xE6000000
     /* 7974EC 803462EC 00000000 */ .word 0x00000000
     /* 7974F0 803462F0 F3000000 */ .word 0xF3000000
@@ -4892,7 +4892,7 @@ dlabel vulpix_part12_draw_far
     /* 797568 80346368 F5400400 */ .word 0xF5400400
     /* 79756C 8034636C 00094250 */ .word 0x00094250
     /* 797570 80346370 FD100000 */ .word 0xFD100000
-    /* 797574 80346374 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 797574 80346374 8018C778 */ .word vulpix_tex_pad_pal
     /* 797578 80346378 E6000000 */ .word 0xE6000000
     /* 79757C 8034637C 00000000 */ .word 0x00000000
     /* 797580 80346380 F0000000 */ .word 0xF0000000
@@ -4904,7 +4904,7 @@ dlabel vulpix_part12_draw_far
     /* 797598 80346398 F2000000 */ .word 0xF2000000
     /* 79759C 8034639C 0007C07C */ .word 0x0007C07C
     /* 7975A0 803463A0 FD500000 */ .word 0xFD500000
-    /* 7975A4 803463A4 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 7975A4 803463A4 8018C7A0 */ .word vulpix_tex_pad_png
     /* 7975A8 803463A8 E6000000 */ .word 0xE6000000
     /* 7975AC 803463AC 00000000 */ .word 0x00000000
     /* 7975B0 803463B0 F3000000 */ .word 0xF3000000
@@ -4922,7 +4922,7 @@ dlabel vulpix_part12_draw_far
     /* 7975E0 803463E0 F5481000 */ .word 0xF5481000
     /* 7975E4 803463E4 00094260 */ .word 0x00094260
     /* 7975E8 803463E8 FD100000 */ .word 0xFD100000
-    /* 7975EC 803463EC 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 7975EC 803463EC 8018BD68 */ .word vulpix_tex_paw_pal
     /* 7975F0 803463F0 E6000000 */ .word 0xE6000000
     /* 7975F4 803463F4 00000000 */ .word 0x00000000
     /* 7975F8 803463F8 F0000000 */ .word 0xF0000000
@@ -4932,7 +4932,7 @@ dlabel vulpix_part12_draw_far
     /* 797608 80346408 F2000000 */ .word 0xF2000000
     /* 79760C 8034640C 000FC07C */ .word 0x000FC07C
     /* 797610 80346410 FD500000 */ .word 0xFD500000
-    /* 797614 80346414 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 797614 80346414 8018BF70 */ .word vulpix_tex_paw_png
     /* 797618 80346418 E6000000 */ .word 0xE6000000
     /* 79761C 8034641C 00000000 */ .word 0x00000000
     /* 797620 80346420 F3000000 */ .word 0xF3000000
@@ -5243,7 +5243,7 @@ dlabel vulpix_part15_draw_near
     /* 797A08 80346808 F5400400 */ .word 0xF5400400
     /* 797A0C 8034680C 00094250 */ .word 0x00094250
     /* 797A10 80346810 FD100000 */ .word 0xFD100000
-    /* 797A14 80346814 8018C778 */ .word kakuna_hd_vtx + 0xA88
+    /* 797A14 80346814 8018C778 */ .word vulpix_tex_pad_pal
     /* 797A18 80346818 E6000000 */ .word 0xE6000000
     /* 797A1C 8034681C 00000000 */ .word 0x00000000
     /* 797A20 80346820 F0000000 */ .word 0xF0000000
@@ -5255,7 +5255,7 @@ dlabel vulpix_part15_draw_near
     /* 797A38 80346838 F2000000 */ .word 0xF2000000
     /* 797A3C 8034683C 0007C07C */ .word 0x0007C07C
     /* 797A40 80346840 FD500000 */ .word 0xFD500000
-    /* 797A44 80346844 8018C7A0 */ .word kakuna_hd_vtx + 0xAB0
+    /* 797A44 80346844 8018C7A0 */ .word vulpix_tex_pad_png
     /* 797A48 80346848 E6000000 */ .word 0xE6000000
     /* 797A4C 8034684C 00000000 */ .word 0x00000000
     /* 797A50 80346850 F3000000 */ .word 0xF3000000
@@ -5273,7 +5273,7 @@ dlabel vulpix_part15_draw_near
     /* 797A80 80346880 F5480800 */ .word 0xF5480800
     /* 797A84 80346884 00094250 */ .word 0x00094250
     /* 797A88 80346888 FD100000 */ .word 0xFD100000
-    /* 797A8C 8034688C 8018B758 */ .word graveler_hd_model + 0x230
+    /* 797A8C 8034688C 8018B758 */ .word vulpix_tex_claw_pal
     /* 797A90 80346890 E6000000 */ .word 0xE6000000
     /* 797A94 80346894 00000000 */ .word 0x00000000
     /* 797A98 80346898 F0000000 */ .word 0xF0000000
@@ -5281,7 +5281,7 @@ dlabel vulpix_part15_draw_near
     /* 797AA0 803468A0 E7000000 */ .word 0xE7000000
     /* 797AA4 803468A4 00000000 */ .word 0x00000000
     /* 797AA8 803468A8 FD500000 */ .word 0xFD500000
-    /* 797AAC 803468AC 8018B960 */ .word 0x8018B960
+    /* 797AAC 803468AC 8018B960 */ .word vulpix_tex_claw_png
     /* 797AB0 803468B0 E6000000 */ .word 0xE6000000
     /* 797AB4 803468B4 00000000 */ .word 0x00000000
     /* 797AB8 803468B8 F3000000 */ .word 0xF3000000
@@ -5305,7 +5305,7 @@ dlabel vulpix_part15_draw_near
     /* 797B00 80346900 F5481000 */ .word 0xF5481000
     /* 797B04 80346904 00094260 */ .word 0x00094260
     /* 797B08 80346908 FD100000 */ .word 0xFD100000
-    /* 797B0C 8034690C 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 797B0C 8034690C 8018BD68 */ .word vulpix_tex_paw_pal
     /* 797B10 80346910 E6000000 */ .word 0xE6000000
     /* 797B14 80346914 00000000 */ .word 0x00000000
     /* 797B18 80346918 F0000000 */ .word 0xF0000000
@@ -5315,7 +5315,7 @@ dlabel vulpix_part15_draw_near
     /* 797B28 80346928 F2000000 */ .word 0xF2000000
     /* 797B2C 8034692C 000FC07C */ .word 0x000FC07C
     /* 797B30 80346930 FD500000 */ .word 0xFD500000
-    /* 797B34 80346934 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 797B34 80346934 8018BF70 */ .word vulpix_tex_paw_png
     /* 797B38 80346938 E6000000 */ .word 0xE6000000
     /* 797B3C 8034693C 00000000 */ .word 0x00000000
     /* 797B40 80346940 F3000000 */ .word 0xF3000000
@@ -5356,7 +5356,7 @@ dlabel vulpix_part15_draw_far
     /* 797BB8 803469B8 F5481000 */ .word 0xF5481000
     /* 797BBC 803469BC 00094260 */ .word 0x00094260
     /* 797BC0 803469C0 FD100000 */ .word 0xFD100000
-    /* 797BC4 803469C4 8018BD68 */ .word kakuna_hd_vtx + 0x78
+    /* 797BC4 803469C4 8018BD68 */ .word vulpix_tex_paw_pal
     /* 797BC8 803469C8 E6000000 */ .word 0xE6000000
     /* 797BCC 803469CC 00000000 */ .word 0x00000000
     /* 797BD0 803469D0 F0000000 */ .word 0xF0000000
@@ -5368,7 +5368,7 @@ dlabel vulpix_part15_draw_far
     /* 797BE8 803469E8 F2000000 */ .word 0xF2000000
     /* 797BEC 803469EC 000FC07C */ .word 0x000FC07C
     /* 797BF0 803469F0 FD500000 */ .word 0xFD500000
-    /* 797BF4 803469F4 8018BF70 */ .word kakuna_hd_vtx + 0x280
+    /* 797BF4 803469F4 8018BF70 */ .word vulpix_tex_paw_png
     /* 797BF8 803469F8 E6000000 */ .word 0xE6000000
     /* 797BFC 803469FC 00000000 */ .word 0x00000000
     /* 797C00 80346A00 F3000000 */ .word 0xF3000000

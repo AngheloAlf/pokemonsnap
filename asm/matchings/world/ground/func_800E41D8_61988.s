@@ -1,11 +1,11 @@
-nonmatching getGroundAt, 0xE4
+nonmatching func_800E41D8_61988, 0xE4
 
-glabel getGroundAt
+glabel func_800E41D8_61988
     /* 61988 800E41D8 27BDFFE0 */  addiu      $sp, $sp, -0x20
     /* 6198C 800E41DC AFBF0014 */  sw         $ra, 0x14($sp)
     /* 61990 800E41E0 AFA60028 */  sw         $a2, 0x28($sp)
     /* 61994 800E41E4 E7AC0020 */  swc1       $f12, 0x20($sp)
-    /* 61998 800E41E8 0C038861 */  jal        getCurrentWorldBlock
+    /* 61998 800E41E8 0C038861 */  jal        func_800E2184_5F934
     /* 6199C 800E41EC E7AE0024 */   swc1      $f14, 0x24($sp)
     /* 619A0 800E41F0 8FA40028 */  lw         $a0, 0x28($sp)
     /* 619A4 800E41F4 C7AC0020 */  lwc1       $f12, 0x20($sp)
@@ -62,4 +62,4 @@ glabel getGroundAt
     /* 61A60 800E42B0 27BD0020 */  addiu      $sp, $sp, 0x20
     /* 61A64 800E42B4 03E00008 */  jr         $ra
     /* 61A68 800E42B8 00000000 */   nop
-endlabel getGroundAt
+endlabel func_800E41D8_61988

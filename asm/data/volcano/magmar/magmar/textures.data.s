@@ -9,6 +9,11 @@ nonmatching D_8012DAE0_354760
 dlabel D_8012DAE0_354760
     /* 354760 8012DAE0 00000000 */ .word 0x00000000
     /* 354764 8012DAE4 00000000 */ .word 0x00000000
+enddlabel D_8012DAE0_354760
+
+nonmatching magmar_tex_skin1_pal
+
+dlabel magmar_tex_skin1_pal
     /* 354768 8012DAE8 FFFFFECD */ .word 0xFFFFFECD
     /* 35476C 8012DAEC FE8DFE0B */ .word 0xFE8DFE0B
     /* 354770 8012DAF0 FD4BF50B */ .word 0xFD4BF50B
@@ -19,6 +24,11 @@ dlabel D_8012DAE0_354760
     /* 354784 8012DB04 E1870001 */ .word 0xE1870001
     /* 354788 8012DB08 00000000 */ .word 0x00000000
     /* 35478C 8012DB0C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_skin1_pal
+
+nonmatching magmar_tex_skin1_png
+
+dlabel magmar_tex_skin1_png
     /* 354790 8012DB10 11111111 */ .word 0x11111111
     /* 354794 8012DB14 11111111 */ .word 0x11111111
     /* 354798 8012DB18 11111111 */ .word 0x11111111
@@ -277,6 +287,11 @@ dlabel D_8012DAE0_354760
     /* 354B8C 8012DF0C DDDDDDDD */ .word 0xDDDDDDDD
     /* 354B90 8012DF10 00000000 */ .word 0x00000000
     /* 354B94 8012DF14 00000000 */ .word 0x00000000
+enddlabel magmar_tex_skin1_png
+
+nonmatching magmar_tex_eye_frame0_pal
+
+dlabel magmar_tex_eye_frame0_pal
     /* 354B98 8012DF18 FFFFFFFF */ .word 0xFFFFFFFF
     /* 354B9C 8012DF1C F7FDEFBB */ .word 0xF7FDEFBB
     /* 354BA0 8012DF20 EF7BE9C7 */ .word 0xEF7BE9C7
@@ -407,6 +422,11 @@ dlabel D_8012DAE0_354760
     /* 354D94 8012E114 00010001 */ .word 0x00010001
     /* 354D98 8012E118 00000000 */ .word 0x00000000
     /* 354D9C 8012E11C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_eye_frame0_pal
+
+nonmatching magmar_tex_eye_frame0_png
+
+dlabel magmar_tex_eye_frame0_png
     /* 354DA0 8012E120 08080808 */ .word 0x08080808
     /* 354DA4 8012E124 08080808 */ .word 0x08080808
     /* 354DA8 8012E128 08080808 */ .word 0x08080808
@@ -1051,6 +1071,11 @@ dlabel D_8012DAE0_354760
     /* 3557A4 8012EB24 00010001 */ .word 0x00010001
     /* 3557A8 8012EB28 00000000 */ .word 0x00000000
     /* 3557AC 8012EB2C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_eye_frame0_png
+
+nonmatching magmar_tex_eye_frame1_png
+
+dlabel magmar_tex_eye_frame1_png
     /* 3557B0 8012EB30 08080808 */ .word 0x08080808
     /* 3557B4 8012EB34 08080808 */ .word 0x08080808
     /* 3557B8 8012EB38 08080808 */ .word 0x08080808
@@ -1695,6 +1720,11 @@ dlabel D_8012DAE0_354760
     /* 3561B4 8012F534 00010001 */ .word 0x00010001
     /* 3561B8 8012F538 00000000 */ .word 0x00000000
     /* 3561BC 8012F53C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_eye_frame1_png
+
+nonmatching magmar_tex_eye_frame2_png
+
+dlabel magmar_tex_eye_frame2_png
     /* 3561C0 8012F540 08080808 */ .word 0x08080808
     /* 3561C4 8012F544 08080808 */ .word 0x08080808
     /* 3561C8 8012F548 08080808 */ .word 0x08080808
@@ -2339,6 +2369,11 @@ dlabel D_8012DAE0_354760
     /* 356BC4 8012FF44 00010001 */ .word 0x00010001
     /* 356BC8 8012FF48 00000000 */ .word 0x00000000
     /* 356BCC 8012FF4C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_eye_frame2_png
+
+nonmatching magmar_tex_eye_frame3_png
+
+dlabel magmar_tex_eye_frame3_png
     /* 356BD0 8012FF50 08080808 */ .word 0x08080808
     /* 356BD4 8012FF54 08080808 */ .word 0x08080808
     /* 356BD8 8012FF58 08080808 */ .word 0x08080808
@@ -2853,6 +2888,11 @@ dlabel D_8012DAE0_354760
     /* 3573CC 8013074C 08080808 */ .word 0x08080808
     /* 3573D0 80130750 00000000 */ .word 0x00000000
     /* 3573D4 80130754 00000000 */ .word 0x00000000
+enddlabel magmar_tex_eye_frame3_png
+
+nonmatching magmar_tex_flame_frame0_png
+
+dlabel magmar_tex_flame_frame0_png
     /* 3573D8 80130758 00000000 */ .word 0x00000000
     /* 3573DC 8013075C 00000000 */ .word 0x00000000
     /* 3573E0 80130760 00000000 */ .word 0x00000000
@@ -3111,6 +3151,11 @@ dlabel D_8012DAE0_354760
     /* 3577D4 80130B54 00000000 */ .word 0x00000000
     /* 3577D8 80130B58 00000000 */ .word 0x00000000
     /* 3577DC 80130B5C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_flame_frame0_png
+
+nonmatching magmar_tex_flame_frame1_png
+
+dlabel magmar_tex_flame_frame1_png
     /* 3577E0 80130B60 00000000 */ .word 0x00000000
     /* 3577E4 80130B64 00000000 */ .word 0x00000000
     /* 3577E8 80130B68 00000000 */ .word 0x00000000
@@ -3369,6 +3414,11 @@ dlabel D_8012DAE0_354760
     /* 357BDC 80130F5C 00000000 */ .word 0x00000000
     /* 357BE0 80130F60 00000000 */ .word 0x00000000
     /* 357BE4 80130F64 00000000 */ .word 0x00000000
+enddlabel magmar_tex_flame_frame1_png
+
+nonmatching magmar_tex_flame_frame2_png
+
+dlabel magmar_tex_flame_frame2_png
     /* 357BE8 80130F68 00000000 */ .word 0x00000000
     /* 357BEC 80130F6C 00000000 */ .word 0x00000000
     /* 357BF0 80130F70 00000000 */ .word 0x00000000
@@ -3627,6 +3677,11 @@ dlabel D_8012DAE0_354760
     /* 357FE4 80131364 00000000 */ .word 0x00000000
     /* 357FE8 80131368 00000000 */ .word 0x00000000
     /* 357FEC 8013136C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_flame_frame2_png
+
+nonmatching magmar_tex_flame_frame3_png
+
+dlabel magmar_tex_flame_frame3_png
     /* 357FF0 80131370 00000000 */ .word 0x00000000
     /* 357FF4 80131374 00000000 */ .word 0x00000000
     /* 357FF8 80131378 00000000 */ .word 0x00000000
@@ -3885,6 +3940,11 @@ dlabel D_8012DAE0_354760
     /* 3583EC 8013176C 00000000 */ .word 0x00000000
     /* 3583F0 80131770 00000000 */ .word 0x00000000
     /* 3583F4 80131774 00000000 */ .word 0x00000000
+enddlabel magmar_tex_flame_frame3_png
+
+nonmatching magmar_tex_shackles_pal
+
+dlabel magmar_tex_shackles_pal
     /* 3583F8 80131778 FFFF529D */ .word 0xFFFF529D
     /* 3583FC 8013177C 4A5B4A59 */ .word 0x4A5B4A59
     /* 358400 80131780 4A574217 */ .word 0x4A574217
@@ -3895,6 +3955,11 @@ dlabel D_8012DAE0_354760
     /* 358414 80131794 74F37A05 */ .word 0x74F37A05
     /* 358418 80131798 00000000 */ .word 0x00000000
     /* 35841C 8013179C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_shackles_pal
+
+nonmatching magmar_tex_shackles_png
+
+dlabel magmar_tex_shackles_png
     /* 358420 801317A0 CB987632 */ .word 0xCB987632
     /* 358424 801317A4 124678AB */ .word 0x124678AB
     /* 358428 801317A8 CB987632 */ .word 0xCB987632
@@ -3913,6 +3978,11 @@ dlabel D_8012DAE0_354760
     /* 35845C 801317DC 124678AB */ .word 0x124678AB
     /* 358460 801317E0 00000000 */ .word 0x00000000
     /* 358464 801317E4 00000000 */ .word 0x00000000
+enddlabel magmar_tex_shackles_png
+
+nonmatching magmar_tex_beak_pal
+
+dlabel magmar_tex_beak_pal
     /* 358468 801317E8 FFFFFDD3 */ .word 0xFFFFFDD3
     /* 35846C 801317EC FD93FD53 */ .word 0xFD93FD53
     /* 358470 801317F0 F553F513 */ .word 0xF553F513
@@ -4043,6 +4113,11 @@ dlabel D_8012DAE0_354760
     /* 358664 801319E4 00010001 */ .word 0x00010001
     /* 358668 801319E8 00000000 */ .word 0x00000000
     /* 35866C 801319EC 00000000 */ .word 0x00000000
+enddlabel magmar_tex_beak_pal
+
+nonmatching magmar_tex_beak_png
+
+dlabel magmar_tex_beak_png
     /* 358670 801319F0 02020106 */ .word 0x02020106
     /* 358674 801319F4 15161414 */ .word 0x15161414
     /* 358678 801319F8 14141414 */ .word 0x14141414
@@ -4173,6 +4248,11 @@ dlabel D_8012DAE0_354760
     /* 35886C 80131BEC 14141414 */ .word 0x14141414
     /* 358870 80131BF0 00000000 */ .word 0x00000000
     /* 358874 80131BF4 00000000 */ .word 0x00000000
+enddlabel magmar_tex_beak_png
+
+nonmatching magmar_tex_mouth_pal
+
+dlabel magmar_tex_mouth_pal
     /* 358878 80131BF8 FFFFFD93 */ .word 0xFFFFFD93
     /* 35887C 80131BFC F553F551 */ .word 0xF553F551
     /* 358880 80131C00 E511E4D1 */ .word 0xE511E4D1
@@ -4303,6 +4383,11 @@ dlabel D_8012DAE0_354760
     /* 358A74 80131DF4 00010001 */ .word 0x00010001
     /* 358A78 80131DF8 00000000 */ .word 0x00000000
     /* 358A7C 80131DFC 00000000 */ .word 0x00000000
+enddlabel magmar_tex_mouth_pal
+
+nonmatching magmar_tex_mouth_png
+
+dlabel magmar_tex_mouth_png
     /* 358A80 80131E00 24242424 */ .word 0x24242424
     /* 358A84 80131E04 24242424 */ .word 0x24242424
     /* 358A88 80131E08 23232323 */ .word 0x23232323
@@ -4369,6 +4454,11 @@ dlabel D_8012DAE0_354760
     /* 358B7C 80131EFC 01010101 */ .word 0x01010101
     /* 358B80 80131F00 00000000 */ .word 0x00000000
     /* 358B84 80131F04 00000000 */ .word 0x00000000
+enddlabel magmar_tex_mouth_png
+
+nonmatching magmar_tex_claw_pal
+
+dlabel magmar_tex_claw_pal
     /* 358B88 80131F08 FFFFF7BD */ .word 0xFFFFF7BD
     /* 358B8C 80131F0C EF7BE739 */ .word 0xEF7BE739
     /* 358B90 80131F10 DEF7D6B5 */ .word 0xDEF7D6B5
@@ -4379,6 +4469,11 @@ dlabel D_8012DAE0_354760
     /* 358BA4 80131F24 42114211 */ .word 0x42114211
     /* 358BA8 80131F28 00000000 */ .word 0x00000000
     /* 358BAC 80131F2C 00000000 */ .word 0x00000000
+enddlabel magmar_tex_claw_pal
+
+nonmatching magmar_tex_claw_png
+
+dlabel magmar_tex_claw_png
     /* 358BB0 80131F30 88888888 */ .word 0x88888888
     /* 358BB4 80131F34 00000000 */ .word 0x00000000
     /* 358BB8 80131F38 77777777 */ .word 0x77777777
@@ -4413,6 +4508,11 @@ dlabel D_8012DAE0_354760
     /* 358C2C 80131FAC 00000000 */ .word 0x00000000
     /* 358C30 80131FB0 00000000 */ .word 0x00000000
     /* 358C34 80131FB4 00000000 */ .word 0x00000000
+enddlabel magmar_tex_claw_png
+
+nonmatching magmar_tex_arm1_pal
+
+dlabel magmar_tex_arm1_pal
     /* 358C38 80131FB8 FFFFEA09 */ .word 0xFFFFEA09
     /* 358C3C 80131FBC E209E207 */ .word 0xE209E207
     /* 358C40 80131FC0 DA09E1C7 */ .word 0xDA09E1C7
@@ -4543,6 +4643,11 @@ dlabel D_8012DAE0_354760
     /* 358E34 801321B4 00011883 */ .word 0x00011883
     /* 358E38 801321B8 00000000 */ .word 0x00000000
     /* 358E3C 801321BC 00000000 */ .word 0x00000000
+enddlabel magmar_tex_arm1_pal
+
+nonmatching magmar_tex_arm1_png
+
+dlabel magmar_tex_arm1_png
     /* 358E40 801321C0 11131111 */ .word 0x11131111
     /* 358E44 801321C4 13151516 */ .word 0x13151516
     /* 358E48 801321C8 16161511 */ .word 0x16161511
@@ -4801,6 +4906,11 @@ dlabel D_8012DAE0_354760
     /* 35923C 801325BC 0E090201 */ .word 0x0E090201
     /* 359240 801325C0 00000000 */ .word 0x00000000
     /* 359244 801325C4 00000000 */ .word 0x00000000
+enddlabel magmar_tex_arm1_png
+
+nonmatching magmar_tex_skin2_pal
+
+dlabel magmar_tex_skin2_pal
     /* 359248 801325C8 FFFFFECD */ .word 0xFFFFFECD
     /* 35924C 801325CC FE8DFE4D */ .word 0xFE8DFE4D
     /* 359250 801325D0 FE0DFE0B */ .word 0xFE0DFE0B
@@ -4931,6 +5041,11 @@ dlabel D_8012DAE0_354760
     /* 359444 801327C4 10851085 */ .word 0x10851085
     /* 359448 801327C8 00000000 */ .word 0x00000000
     /* 35944C 801327CC 00000000 */ .word 0x00000000
+enddlabel magmar_tex_skin2_pal
+
+nonmatching magmar_tex_skin2_png
+
+dlabel magmar_tex_skin2_png
     /* 359450 801327D0 1D1D1D1D */ .word 0x1D1D1D1D
     /* 359454 801327D4 1D1D1D1D */ .word 0x1D1D1D1D
     /* 359458 801327D8 1D1D1D1D */ .word 0x1D1D1D1D
@@ -5443,4 +5558,4 @@ dlabel D_8012DAE0_354760
     /* 359C44 80132FC4 01010101 */ .word 0x01010101
     /* 359C48 80132FC8 01010101 */ .word 0x01010101
     /* 359C4C 80132FCC 01010101 */ .word 0x01010101
-enddlabel D_8012DAE0_354760
+enddlabel magmar_tex_skin2_png

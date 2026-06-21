@@ -27,7 +27,7 @@ dlabel rapidash_matanim_walk
     /* 37FC44 80158FC4 00000000 */ .word 0x00000000
     /* 37FC48 80158FC8 80159D2C */ .word D_80159D2C_3809AC
     /* 37FC4C 80158FCC 00000000 */ .word 0x00000000
-    /* 37FC50 80158FD0 80159D30 */ .word doduo_tex_80159D30_png
+    /* 37FC50 80158FD0 80159D30 */ .word D_80159D30_3809B0
     /* 37FC54 80158FD4 80159D34 */ .word D_80159D34_3809B4
 enddlabel rapidash_matanim_walk
 
@@ -985,11 +985,11 @@ dlabel D_80159D2C_3809AC
     /* 3809AC 80159D2C 8015991C */ .word D_8015991C_38059C
 enddlabel D_80159D2C_3809AC
 
-nonmatching doduo_tex_80159D30_png
+nonmatching D_80159D30_3809B0
 
-dlabel doduo_tex_80159D30_png
+dlabel D_80159D30_3809B0
     /* 3809B0 80159D30 80159A6C */ .word D_80159A6C_3806EC
-enddlabel doduo_tex_80159D30_png
+enddlabel D_80159D30_3809B0
 
 nonmatching D_80159D34_3809B4
 

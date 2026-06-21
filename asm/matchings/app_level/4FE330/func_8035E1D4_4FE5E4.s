@@ -14,7 +14,7 @@ glabel func_8035E1D4_4FE5E4
     /* 4FE60C 8035E1FC C46E000C */  lwc1       $f14, 0xC($v1)
     /* 4FE610 8035E200 C46C0004 */  lwc1       $f12, 0x4($v1)
     /* 4FE614 8035E204 AFA20034 */  sw         $v0, 0x34($sp)
-    /* 4FE618 8035E208 0C039076 */  jal        getGroundAt
+    /* 4FE618 8035E208 0C039076 */  jal        func_800E41D8_61988
     /* 4FE61C 8035E20C AFA3001C */   sw        $v1, 0x1C($sp)
     /* 4FE620 8035E210 8FA3001C */  lw         $v1, 0x1C($sp)
     /* 4FE624 8035E214 C7A40020 */  lwc1       $f4, 0x20($sp)

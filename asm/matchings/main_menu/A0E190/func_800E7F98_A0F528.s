@@ -72,13 +72,13 @@ glabel func_800E7F98_A0F528
     /* A0F5E0 800E8050 0C02FEE4 */  jal        func_800BFB90_5CA30
     /* A0F5E4 800E8054 86450000 */   lh        $a1, 0x0($s2)
     /* A0F5E8 800E8058 24040009 */  addiu      $a0, $zero, 0x9
-    /* A0F5EC 800E805C 0C02FFAF */  jal        setPlayerFlag
+    /* A0F5EC 800E805C 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* A0F5F0 800E8060 82650000 */   lb        $a1, 0x0($s3)
     /* A0F5F4 800E8064 2404000C */  addiu      $a0, $zero, 0xC
-    /* A0F5F8 800E8068 0C02FFAF */  jal        setPlayerFlag
+    /* A0F5F8 800E8068 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* A0F5FC 800E806C 82850000 */   lb        $a1, 0x0($s4)
     /* A0F600 800E8070 2404000D */  addiu      $a0, $zero, 0xD
-    /* A0F604 800E8074 0C02FFAF */  jal        setPlayerFlag
+    /* A0F604 800E8074 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* A0F608 800E8078 82A50000 */   lb        $a1, 0x0($s5)
     /* A0F60C 800E807C 24100001 */  addiu      $s0, $zero, 0x1
   .L800E8080_A0F610:

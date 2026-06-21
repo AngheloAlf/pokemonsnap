@@ -11,7 +11,7 @@ dlabel charmander_modelanim_fall
     /* 3A0404 80179784 80179894 */ .word D_80179894_3A0514
     /* 3A0408 80179788 801798D0 */ .word D_801798D0_3A0550
     /* 3A040C 8017978C 80179978 */ .word D_80179978_3A05F8
-    /* 3A0410 80179790 801799C8 */ .word electrode_tex_explosion2_code
+    /* 3A0410 80179790 801799C8 */ .word D_801799C8_3A0648
     /* 3A0414 80179794 80179A70 */ .word D_80179A70_3A06F0
     /* 3A0418 80179798 80179AC0 */ .word D_80179AC0_3A0740
     /* 3A041C 8017979C 80179B48 */ .word D_80179B48_3A07C8
@@ -175,9 +175,9 @@ dlabel D_80179978_3A05F8
     /* 3A0644 801799C4 00000000 */ .word 0x00000000
 enddlabel D_80179978_3A05F8
 
-nonmatching electrode_tex_explosion2_code
+nonmatching D_801799C8_3A0648
 
-dlabel electrode_tex_explosion2_code
+dlabel D_801799C8_3A0648
     /* 3A0648 801799C8 103B8000 */ .word 0x103B8000
     /* 3A064C 801799CC BF25F097 */ .word 0xBF25F097
     /* 3A0650 801799D0 4048772E */ .word 0x4048772E
@@ -220,7 +220,7 @@ dlabel electrode_tex_explosion2_code
     /* 3A06E4 80179A64 4074A021 */ .word 0x4074A021
     /* 3A06E8 80179A68 BCFE471F */ .word 0xBCFE471F
     /* 3A06EC 80179A6C 00000000 */ .word 0x00000000
-enddlabel electrode_tex_explosion2_code
+enddlabel D_801799C8_3A0648
 
 nonmatching D_80179A70_3A06F0
 

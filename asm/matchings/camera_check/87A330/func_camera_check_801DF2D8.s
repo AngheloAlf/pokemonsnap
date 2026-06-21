@@ -317,7 +317,7 @@ glabel func_camera_check_801DF2D8
     /* 87CF3C 801DF74C 28410004 */  slti       $at, $v0, 0x4
     /* 87CF40 801DF750 14200012 */  bnez       $at, .Lcamera_check_801DF79C
     /* 87CF44 801DF754 24040012 */   addiu     $a0, $zero, 0x12
-    /* 87CF48 801DF758 0C02FFAF */  jal        setPlayerFlag
+    /* 87CF48 801DF758 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 87CF4C 801DF75C 24050001 */   addiu     $a1, $zero, 0x1
     /* 87CF50 801DF760 02002025 */  or         $a0, $s0, $zero
     /* 87CF54 801DF764 0C0DD3CC */  jal        func_80374F30

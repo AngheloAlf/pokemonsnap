@@ -289,6 +289,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A155C 8015B3FC AAAAA888 */ .word 0xAAAAA888
     /* 1A1560 8015B400 00000000 */ .word 0x00000000
     /* 1A1564 8015B404 00000000 */ .word 0x00000000
+enddlabel D_8015AFA0_1A1100
+
+nonmatching magnemite_tex_screw_frame0_pal
+
+dlabel magnemite_tex_screw_frame0_pal
     /* 1A1568 8015B408 FFFF294B */ .word 0xFFFF294B
     /* 1A156C 8015B40C 39CF6319 */ .word 0x39CF6319
     /* 1A1570 8015B410 739D8421 */ .word 0x739D8421
@@ -965,6 +970,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A1FEC 8015BE8C BB333333 */ .word 0xBB333333
     /* 1A1FF0 8015BE90 00000000 */ .word 0x00000000
     /* 1A1FF4 8015BE94 00000000 */ .word 0x00000000
+enddlabel magnemite_tex_screw_frame0_pal
+
+nonmatching magnemite_tex_body_frame0_pal
+
+dlabel magnemite_tex_body_frame0_pal
     /* 1A1FF8 8015BE98 FFFFCEB5 */ .word 0xFFFFCEB5
     /* 1A1FFC 8015BE9C ADEFBE73 */ .word 0xADEFBE73
     /* 1A2000 8015BEA0 9D6BDFBD */ .word 0x9D6BDFBD
@@ -1233,6 +1243,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A241C 8015C2BC 55555555 */ .word 0x55555555
     /* 1A2420 8015C2C0 00000000 */ .word 0x00000000
     /* 1A2424 8015C2C4 00000000 */ .word 0x00000000
+enddlabel magnemite_tex_body_frame0_pal
+
+nonmatching magnemite_tex_eye_frame0_pal
+
+dlabel magnemite_tex_eye_frame0_pal
     /* 1A2428 8015C2C8 FFFF0843 */ .word 0xFFFF0843
     /* 1A242C 8015C2CC 21094211 */ .word 0x21094211
     /* 1A2430 8015C2D0 5295739D */ .word 0x5295739D
@@ -1663,6 +1678,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A2AD4 8015C974 84A50001 */ .word 0x84A50001
     /* 1A2AD8 8015C978 00000000 */ .word 0x00000000
     /* 1A2ADC 8015C97C 00000000 */ .word 0x00000000
+enddlabel magnemite_tex_eye_frame0_pal
+
+nonmatching magnemite_tex_wave_png
+
+dlabel magnemite_tex_wave_png
     /* 1A2AE0 8015C980 00000000 */ .word 0x00000000
     /* 1A2AE4 8015C984 01010100 */ .word 0x01010100
     /* 1A2AE8 8015C988 02020304 */ .word 0x02020304
@@ -2457,6 +2477,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A373C 8015D5DC AAAAAAAA */ .word 0xAAAAAAAA
     /* 1A3740 8015D5E0 00000000 */ .word 0x00000000
     /* 1A3744 8015D5E4 00000000 */ .word 0x00000000
+enddlabel magnemite_tex_wave_png
+
+nonmatching magnemite_tex_magnet_frame0_pal
+
+dlabel magnemite_tex_magnet_frame0_pal
     /* 1A3748 8015D5E8 FFFF4211 */ .word 0xFFFF4211
     /* 1A374C 8015D5EC 4A535AD7 */ .word 0x4A535AD7
     /* 1A3750 8015D5F0 6319D94B */ .word 0x6319D94B
@@ -3261,6 +3286,11 @@ dlabel D_8015AFA0_1A1100
     /* 1A43CC 8015E26C 55666555 */ .word 0x55666555
     /* 1A43D0 8015E270 00000000 */ .word 0x00000000
     /* 1A43D4 8015E274 00000000 */ .word 0x00000000
+enddlabel magnemite_tex_magnet_frame0_pal
+
+nonmatching magnemite_tex_screw_thread_frame0_pal
+
+dlabel magnemite_tex_screw_thread_frame0_pal
     /* 1A43D8 8015E278 FFFF18C7 */ .word 0xFFFF18C7
     /* 1A43DC 8015E27C BDEFC673 */ .word 0xBDEFC673
     /* 1A43E0 8015E280 D6F7B631 */ .word 0xD6F7B631
@@ -3527,4 +3557,4 @@ dlabel D_8015AFA0_1A1100
     /* 1A47F4 8015E694 BBBBBBBB */ .word 0xBBBBBBBB
     /* 1A47F8 8015E698 BBBB2CCD */ .word 0xBBBB2CCD
     /* 1A47FC 8015E69C 1111111D */ .word 0x1111111D
-enddlabel D_8015AFA0_1A1100
+enddlabel magnemite_tex_screw_thread_frame0_pal

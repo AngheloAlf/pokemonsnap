@@ -34,10 +34,10 @@ glabel makePhoto
     /* 48408 8009CA58 00001825 */   or        $v1, $zero, $zero
     /* 4840C 8009CA5C 3C19800C */  lui        $t9, %hi(D_800BDF20)
     /* 48410 8009CA60 2739DF20 */  addiu      $t9, $t9, %lo(D_800BDF20)
-    /* 48414 8009CA64 3C04803B */  lui        $a0, %hi(gPokemonIdInFocus)
+    /* 48414 8009CA64 3C04803B */  lui        $a0, %hi(D_803AE770)
     /* 48418 8009CA68 0000C080 */  sll        $t8, $zero, 2
     /* 4841C 8009CA6C 03191021 */  addu       $v0, $t8, $t9
-    /* 48420 8009CA70 8C84E770 */  lw         $a0, %lo(gPokemonIdInFocus)($a0)
+    /* 48420 8009CA70 8C84E770 */  lw         $a0, %lo(D_803AE770)($a0)
     /* 48424 8009CA74 24050003 */  addiu      $a1, $zero, 0x3
     /* 48428 8009CA78 8C490000 */  lw         $t1, 0x0($v0)
   .L8009CA7C:
@@ -55,8 +55,8 @@ glabel makePhoto
     /* 48450 8009CAA0 1420000A */  bnez       $at, .L8009CACC
     /* 48454 8009CAA4 28610003 */   slti      $at, $v1, 0x3
     /* 48458 8009CAA8 10200008 */  beqz       $at, .L8009CACC
-    /* 4845C 8009CAAC 3C0A803B */   lui       $t2, %hi(gPokemonIdInFocus)
-    /* 48460 8009CAB0 8D4AE770 */  lw         $t2, %lo(gPokemonIdInFocus)($t2)
+    /* 4845C 8009CAAC 3C0A803B */   lui       $t2, %hi(D_803AE770)
+    /* 48460 8009CAB0 8D4AE770 */  lw         $t2, %lo(D_803AE770)($t2)
     /* 48464 8009CAB4 00065880 */  sll        $t3, $a2, 2
     /* 48468 8009CAB8 3C01800C */  lui        $at, %hi(D_800BDF20)
     /* 4846C 8009CABC 002B0821 */  addu       $at, $at, $t3
@@ -64,8 +64,8 @@ glabel makePhoto
     /* 48474 8009CAC4 AC2ADF20 */  sw         $t2, %lo(D_800BDF20)($at)
     /* 48478 8009CAC8 AD0C0000 */  sw         $t4, 0x0($t0)
   .L8009CACC:
-    /* 4847C 8009CACC 3C0F803B */  lui        $t7, %hi(PokemonDetector_TakenPhotoIndex)
-    /* 48480 8009CAD0 8DEFEF30 */  lw         $t7, %lo(PokemonDetector_TakenPhotoIndex)($t7)
+    /* 4847C 8009CACC 3C0F803B */  lui        $t7, %hi(D_803AEF30)
+    /* 48480 8009CAD0 8DEFEF30 */  lw         $t7, %lo(D_803AEF30)($t7)
     /* 48484 8009CAD4 000D6880 */  sll        $t5, $t5, 2
     /* 48488 8009CAD8 01A76821 */  addu       $t5, $t5, $a3
     /* 4848C 8009CADC 000FC100 */  sll        $t8, $t7, 4
@@ -74,12 +74,12 @@ glabel makePhoto
     /* 48498 8009CAE8 030FC021 */  addu       $t8, $t8, $t7
     /* 4849C 8009CAEC 0018C080 */  sll        $t8, $t8, 2
     /* 484A0 8009CAF0 3C0E800B */  lui        $t6, %hi(D_800B0598)
-    /* 484A4 8009CAF4 3C19803B */  lui        $t9, %hi(PokemonDetector_Photo)
+    /* 484A4 8009CAF4 3C19803B */  lui        $t9, %hi(D_803AE788)
     /* 484A8 8009CAF8 030FC021 */  addu       $t8, $t8, $t7
     /* 484AC 8009CAFC 25CE0598 */  addiu      $t6, $t6, %lo(D_800B0598)
     /* 484B0 8009CB00 000D6940 */  sll        $t5, $t5, 5
     /* 484B4 8009CB04 0018C080 */  sll        $t8, $t8, 2
-    /* 484B8 8009CB08 2739E788 */  addiu      $t9, $t9, %lo(PokemonDetector_Photo)
+    /* 484B8 8009CB08 2739E788 */  addiu      $t9, $t9, %lo(D_803AE788)
     /* 484BC 8009CB0C 01AEA021 */  addu       $s4, $t5, $t6
     /* 484C0 8009CB10 03192821 */  addu       $a1, $t8, $t9
     /* 484C4 8009CB14 AFA50038 */  sw         $a1, 0x38($sp)
@@ -116,7 +116,7 @@ glabel makePhoto
     /* 48538 8009CB88 1420FFF8 */  bnez       $at, .L8009CB6C
     /* 4853C 8009CB8C 26520010 */   addiu     $s2, $s2, 0x10
     /* 48540 8009CB90 16A00010 */  bnez       $s5, .L8009CBD4
-    /* 48544 8009CB94 3C09803B */   lui       $t1, %hi(gPokemonIdInFocus)
+    /* 48544 8009CB94 3C09803B */   lui       $t1, %hi(D_803AE770)
     /* 48548 8009CB98 8FB10038 */  lw         $s1, 0x38($sp)
     /* 4854C 8009CB9C 00009025 */  or         $s2, $zero, $zero
     /* 48550 8009CBA0 26900020 */  addiu      $s0, $s4, 0x20
@@ -134,7 +134,7 @@ glabel makePhoto
     /* 4857C 8009CBCC 1000006D */  b          .L8009CD84
     /* 48580 8009CBD0 00000000 */   nop
   .L8009CBD4:
-    /* 48584 8009CBD4 8D29E770 */  lw         $t1, %lo(gPokemonIdInFocus)($t1)
+    /* 48584 8009CBD4 8D29E770 */  lw         $t1, %lo(D_803AE770)($t1)
     /* 48588 8009CBD8 240103EC */  addiu      $at, $zero, 0x3EC
     /* 4858C 8009CBDC 00009025 */  or         $s2, $zero, $zero
     /* 48590 8009CBE0 11210008 */  beq        $t1, $at, .L8009CC04

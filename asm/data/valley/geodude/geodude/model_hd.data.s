@@ -4694,12 +4694,12 @@ dlabel D_80196E18_48D238
     /* 48D23C 80196E1C 80195EB0 */ .word geodude_hd_part2_draw
 enddlabel D_80196E18_48D238
 
-nonmatching jynx_tex_hair_3_png
+nonmatching D_80196E20_48D240
 
-dlabel jynx_tex_hair_3_png
+dlabel D_80196E20_48D240
     /* 48D240 80196E20 00000000 */ .word 0x00000000
     /* 48D244 80196E24 80195FC8 */ .word geodude_hd_part3_draw
-enddlabel jynx_tex_hair_3_png
+enddlabel D_80196E20_48D240
 
 nonmatching D_80196E28_48D248
 
@@ -4816,7 +4816,7 @@ dlabel geodude_hd_model
     /* 48D35C 80196F3C 3F800000 */ .word 0x3F800000
     /* 48D360 80196F40 3F800000 */ .word 0x3F800000
     /* 48D364 80196F44 00000003 */ .word 0x00000003
-    /* 48D368 80196F48 80196E20 */ .word jynx_tex_hair_3_png
+    /* 48D368 80196F48 80196E20 */ .word D_80196E20_48D240
     /* 48D36C 80196F4C 43702E27 */ .word 0x43702E27
     /* 48D370 80196F50 40123B32 */ .word 0x40123B32
     /* 48D374 80196F54 C0350B3D */ .word 0xC0350B3D

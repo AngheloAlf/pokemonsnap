@@ -50,7 +50,7 @@ glabel Items_BounceFromGround
     /* 4FB804 8035B3F4 E6120020 */  swc1       $f18, 0x20($s0)
     /* 4FB808 8035B3F8 462043A0 */  cvt.s.d    $f14, $f8
     /* 4FB80C 8035B3FC E60E0024 */  swc1       $f14, 0x24($s0)
-    /* 4FB810 8035B400 0C039076 */  jal        getGroundAt
+    /* 4FB810 8035B400 0C039076 */  jal        func_800E41D8_61988
     /* 4FB814 8035B404 E7B00058 */   swc1      $f16, 0x58($sp)
     /* 4FB818 8035B408 C6020020 */  lwc1       $f2, 0x20($s0)
     /* 4FB81C 8035B40C C64C0000 */  lwc1       $f12, 0x0($s2)

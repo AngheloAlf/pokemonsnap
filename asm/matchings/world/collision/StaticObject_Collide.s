@@ -38,7 +38,7 @@ glabel StaticObject_Collide
     /* 63A44 800E6294 100000F8 */  b          .L800E6678_63E28
     /* 63A48 800E6298 2402FFFF */   addiu     $v0, $zero, -0x1
   .L800E629C_63A4C:
-    /* 63A4C 800E629C 0C038861 */  jal        getCurrentWorldBlock
+    /* 63A4C 800E629C 0C038861 */  jal        func_800E2184_5F934
     /* 63A50 800E62A0 00000000 */   nop
     /* 63A54 800E62A4 10400006 */  beqz       $v0, .L800E62C0_63A70
     /* 63A58 800E62A8 AFA2018C */   sw        $v0, 0x18C($sp)

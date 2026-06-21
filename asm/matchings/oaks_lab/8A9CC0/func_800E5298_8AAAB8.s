@@ -55,16 +55,16 @@ glabel func_800E5298_8AAAB8
     /* 8AAB74 800E5354 0C0391F0 */  jal        func_800E47C0_8A9FE0
     /* 8AAB78 800E5358 00000000 */   nop
     /* 8AAB7C 800E535C 24040011 */  addiu      $a0, $zero, 0x11
-    /* 8AAB80 800E5360 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAB80 800E5360 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAB84 800E5364 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAB88 800E5368 0C02FF28 */  jal        checkPlayerFlag
     /* 8AAB8C 800E536C 24040014 */   addiu     $a0, $zero, 0x14
     /* 8AAB90 800E5370 1040000A */  beqz       $v0, .L800E539C_8AABBC
     /* 8AAB94 800E5374 24040014 */   addiu     $a0, $zero, 0x14
-    /* 8AAB98 800E5378 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAB98 800E5378 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAB9C 800E537C 00002825 */   or        $a1, $zero, $zero
     /* 8AABA0 800E5380 2404000E */  addiu      $a0, $zero, 0xE
-    /* 8AABA4 800E5384 0C02FFAF */  jal        setPlayerFlag
+    /* 8AABA4 800E5384 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AABA8 800E5388 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AABAC 800E538C 10000003 */  b          .L800E539C_8AABBC
     /* 8AABB0 800E5390 00000000 */   nop
@@ -76,7 +76,7 @@ glabel func_800E5298_8AAAB8
     /* 8AABC0 800E53A0 24040008 */   addiu     $a0, $zero, 0x8
     /* 8AABC4 800E53A4 10400008 */  beqz       $v0, .L800E53C8_8AABE8
     /* 8AABC8 800E53A8 24040006 */   addiu     $a0, $zero, 0x6
-    /* 8AABCC 800E53AC 0C02FFAF */  jal        setPlayerFlag
+    /* 8AABCC 800E53AC 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AABD0 800E53B0 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AABD4 800E53B4 0C03925D */  jal        func_800E4974_8AA194
     /* 8AABD8 800E53B8 00000000 */   nop
@@ -103,7 +103,7 @@ glabel func_800E5298_8AAAB8
     /* 8AAC24 800E5404 00000000 */   nop
     /* 8AAC28 800E5408 10400009 */  beqz       $v0, .L800E5430_8AAC50
     /* 8AAC2C 800E540C 24040007 */   addiu     $a0, $zero, 0x7
-    /* 8AAC30 800E5410 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAC30 800E5410 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAC34 800E5414 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAC38 800E5418 0C0392B0 */  jal        func_800E4AC0_8AA2E0
     /* 8AAC3C 800E541C 00000000 */   nop
@@ -119,7 +119,7 @@ glabel func_800E5298_8AAAB8
     /* 8AAC5C 800E543C 24040800 */   addiu     $a0, $zero, 0x800
     /* 8AAC60 800E5440 10400008 */  beqz       $v0, .L800E5464_8AAC84
     /* 8AAC64 800E5444 24040005 */   addiu     $a0, $zero, 0x5
-    /* 8AAC68 800E5448 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAC68 800E5448 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAC6C 800E544C 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAC70 800E5450 0C0392E8 */  jal        func_800E4BA0_8AA3C0
     /* 8AAC74 800E5454 00000000 */   nop
@@ -216,7 +216,7 @@ glabel func_800E5298_8AAAB8
     /* 8AADB0 800E5590 24040080 */   addiu     $a0, $zero, 0x80
     /* 8AADB4 800E5594 10400005 */  beqz       $v0, .L800E55AC_8AADCC
     /* 8AADB8 800E5598 00002025 */   or        $a0, $zero, $zero
-    /* 8AADBC 800E559C 0C02FFAF */  jal        setPlayerFlag
+    /* 8AADBC 800E559C 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AADC0 800E55A0 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AADC4 800E55A4 0C03938A */  jal        func_800E4E28_8AA648
     /* 8AADC8 800E55A8 00002025 */   or        $a0, $zero, $zero
@@ -225,7 +225,7 @@ glabel func_800E5298_8AAAB8
     /* 8AADD0 800E55B0 24040100 */   addiu     $a0, $zero, 0x100
     /* 8AADD4 800E55B4 10400005 */  beqz       $v0, .L800E55CC_8AADEC
     /* 8AADD8 800E55B8 24040001 */   addiu     $a0, $zero, 0x1
-    /* 8AADDC 800E55BC 0C02FFAF */  jal        setPlayerFlag
+    /* 8AADDC 800E55BC 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AADE0 800E55C0 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AADE4 800E55C4 0C03938A */  jal        func_800E4E28_8AA648
     /* 8AADE8 800E55C8 24040001 */   addiu     $a0, $zero, 0x1
@@ -234,7 +234,7 @@ glabel func_800E5298_8AAAB8
     /* 8AADF0 800E55D0 24040200 */   addiu     $a0, $zero, 0x200
     /* 8AADF4 800E55D4 10400005 */  beqz       $v0, .L800E55EC_8AAE0C
     /* 8AADF8 800E55D8 24040002 */   addiu     $a0, $zero, 0x2
-    /* 8AADFC 800E55DC 0C02FFAF */  jal        setPlayerFlag
+    /* 8AADFC 800E55DC 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAE00 800E55E0 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAE04 800E55E4 0C03938A */  jal        func_800E4E28_8AA648
     /* 8AAE08 800E55E8 24040002 */   addiu     $a0, $zero, 0x2
@@ -256,10 +256,10 @@ glabel func_800E5298_8AAAB8
     /* 8AAE44 800E5624 00000000 */   nop
     /* 8AAE48 800E5628 11800010 */  beqz       $t4, .L800E566C_8AAE8C
     /* 8AAE4C 800E562C 2404000B */   addiu     $a0, $zero, 0xB
-    /* 8AAE50 800E5630 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAE50 800E5630 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAE54 800E5634 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAE58 800E5638 24040014 */  addiu      $a0, $zero, 0x14
-    /* 8AAE5C 800E563C 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAE5C 800E563C 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAE60 800E5640 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAE64 800E5644 0C03940B */  jal        func_800E502C_8AA84C
     /* 8AAE68 800E5648 00000000 */   nop
@@ -275,7 +275,7 @@ glabel func_800E5298_8AAAB8
     /* 8AAE8C 800E566C 1060000E */  beqz       $v1, .L800E56A8_8AAEC8
     /* 8AAE90 800E5670 8FAD0024 */   lw        $t5, 0x24($sp)
     /* 8AAE94 800E5674 2404000B */  addiu      $a0, $zero, 0xB
-    /* 8AAE98 800E5678 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAE98 800E5678 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAE9C 800E567C 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAEA0 800E5680 0C039428 */  jal        func_800E50A0_8AA8C0
     /* 8AAEA4 800E5684 00000000 */   nop
@@ -291,7 +291,7 @@ glabel func_800E5298_8AAAB8
     /* 8AAEC8 800E56A8 11A0000E */  beqz       $t5, .L800E56E4_8AAF04
     /* 8AAECC 800E56AC 8FAE001C */   lw        $t6, 0x1C($sp)
     /* 8AAED0 800E56B0 2404000E */  addiu      $a0, $zero, 0xE
-    /* 8AAED4 800E56B4 0C02FFAF */  jal        setPlayerFlag
+    /* 8AAED4 800E56B4 0C02FFAF */  jal        func_800BFEBC_5CD5C
     /* 8AAED8 800E56B8 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AAEDC 800E56BC 0C03940B */  jal        func_800E502C_8AA84C
     /* 8AAEE0 800E56C0 00000000 */   nop
