@@ -102,7 +102,7 @@ dlabel D_802E0D44_731F44
     /* 731FDC 802E0DDC 80363DBC */ .word pokemonChangeBlock
     /* 731FE0 802E0DE0 80364280 */ .word pokemonRemoveOne
     /* 731FE4 802E0DE4 00000404 */ .word 0x00000404
-    /* 731FE8 802E0DE8 802DE52C */ .word func_802DE52C_72F72C
+    /* 731FE8 802E0DE8 802DE52C */ .word koffing_smoke_Spawn
     /* 731FEC 802E0DEC 80363DBC */ .word pokemonChangeBlock
     /* 731FF0 802E0DF0 80364280 */ .word pokemonRemoveOne
     /* 731FF4 802E0DF4 000003EA */ .word 0x000003EA

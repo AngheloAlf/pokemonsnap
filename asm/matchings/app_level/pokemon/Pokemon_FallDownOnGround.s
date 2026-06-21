@@ -66,7 +66,7 @@ glabel Pokemon_FallDownOnGround
     /* 500F54 80360B44 C6060008 */   lwc1      $f6, 0x8($s0)
   .L80360B48_500F58:
     /* 500F58 80360B48 C60C0004 */  lwc1       $f12, 0x4($s0)
-    /* 500F5C 80360B4C 0C039076 */  jal        func_800E41D8_61988
+    /* 500F5C 80360B4C 0C039076 */  jal        getGroundAt
     /* 500F60 80360B50 C60E000C */   lwc1      $f14, 0xC($s0)
     /* 500F64 80360B54 C6060008 */  lwc1       $f6, 0x8($s0)
   .L80360B58_500F68:

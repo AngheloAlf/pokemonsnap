@@ -5,7 +5,7 @@ glabel func_80360BEC_500FFC
     /* 501000 80360BF0 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 501004 80360BF4 AFA0001C */  sw         $zero, 0x1C($sp)
     /* 501008 80360BF8 AFA60028 */  sw         $a2, 0x28($sp)
-    /* 50100C 80360BFC 0C039076 */  jal        func_800E41D8_61988
+    /* 50100C 80360BFC 0C039076 */  jal        getGroundAt
     /* 501010 80360C00 AFA7002C */   sw        $a3, 0x2C($sp)
     /* 501014 80360C04 8FA7002C */  lw         $a3, 0x2C($sp)
     /* 501018 80360C08 8FA3001C */  lw         $v1, 0x1C($sp)

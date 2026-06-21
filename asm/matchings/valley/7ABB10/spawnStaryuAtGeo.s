@@ -1,6 +1,6 @@
-nonmatching func_802D2580_7ABB10, 0x30
+nonmatching spawnStaryuAtGeo, 0x30
 
-glabel func_802D2580_7ABB10
+glabel spawnStaryuAtGeo
     /* 7ABB10 802D2580 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 7ABB14 802D2584 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 7ABB18 802D2588 3C06802F */  lui        $a2, %hi(extraStaryuDef)
@@ -13,4 +13,4 @@ glabel func_802D2580_7ABB10
     /* 7ABB34 802D25A4 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 7ABB38 802D25A8 03E00008 */  jr         $ra
     /* 7ABB3C 802D25AC 00000000 */   nop
-endlabel func_802D2580_7ABB10
+endlabel spawnStaryuAtGeo

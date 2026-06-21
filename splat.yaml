@@ -5979,6 +5979,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - beach_assets
+    - world
     subsegments:
     - [0x55C110, c]
     - [0x55C870, c]
@@ -6641,6 +6642,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - tunnel_assets
+    - world
     subsegments:
     - [0x5DF5D0, c, main]
     - [0x5DFD40, c, sounds]
@@ -7053,6 +7055,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - cave_assets
+    - world
     subsegments:
     - [0x6401B0, c]
     - [0x640900, c]
@@ -7776,6 +7779,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - river_assets
+    - world
     subsegments:
     - [0x6C05E0, c]
     - [0x6C1090, c]
@@ -8279,6 +8283,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - volcano_assets
+    - world
     subsegments:
     - [0x7272E0, c, main]
     - [0x728490, c, magmar/code]
@@ -9066,6 +9071,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - valley_assets
+    - world
     subsegments:
     - [0x79F1B0, c]
     - [0x79FB70, c]
@@ -9816,6 +9822,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - rainbow_assets
+    - world
     subsegments:
     - [0x825E30, c, main]
     - [0x826700, pad]
@@ -10217,6 +10224,8 @@ segments:
     vram: 0x801DC8C0
     bss_size: 0x2D210
     exclusive_ram_id: level
+    prioritized_segments:
+    - window
     subsegments:
     - [0x9D3230, c]
     - [0x9D3660, c]
@@ -10254,6 +10263,8 @@ segments:
     vram: 0x801DC8C0
     bss_size: 0x32020
     exclusive_ram_id: level
+    prioritized_segments:
+    - window
     subsegments:
     - [0xA084B0, c]
     - [0xA08D10, .data, A084B0]

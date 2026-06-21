@@ -1,6 +1,6 @@
-nonmatching func_802DE52C_72F72C, 0x38
+nonmatching koffing_smoke_Spawn, 0x38
 
-glabel func_802DE52C_72F72C
+glabel koffing_smoke_Spawn
     /* 72F72C 802DE52C 27BDFFE0 */  addiu      $sp, $sp, -0x20
     /* 72F730 802DE530 8FAE0030 */  lw         $t6, 0x30($sp)
     /* 72F734 802DE534 3C0F802E */  lui        $t7, %hi(koffing_smokeData)
@@ -15,7 +15,7 @@ glabel func_802DE52C_72F72C
     /* 72F758 802DE558 27BD0020 */  addiu      $sp, $sp, 0x20
     /* 72F75C 802DE55C 03E00008 */  jr         $ra
     /* 72F760 802DE560 00000000 */   nop
-endlabel func_802DE52C_72F72C
+endlabel koffing_smoke_Spawn
     /* 72F764 802DE564 00000000 */  nop
     /* 72F768 802DE568 00000000 */  nop
     /* 72F76C 802DE56C 00000000 */  nop

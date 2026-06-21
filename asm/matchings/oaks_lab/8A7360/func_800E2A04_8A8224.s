@@ -22,12 +22,12 @@ glabel func_800E2A04_8A8224
     /* 8A8234 800E2A14 AFB10018 */  sw         $s1, 0x18($sp)
     /* 8A8238 800E2A18 AFB00014 */  sw         $s0, 0x14($sp)
     /* 8A823C 800E2A1C 2405000C */  addiu      $a1, $zero, 0xC
-    /* 8A8240 800E2A20 0C0DB2D6 */  jal        func_8036CB58
+    /* 8A8240 800E2A20 0C0DB2D6 */  jal        func_8036CB58_840308
     /* 8A8244 800E2A24 AFA40024 */   sw        $a0, 0x24($sp)
-    /* 8A8248 800E2A28 0C0DB512 */  jal        func_8036D448
+    /* 8A8248 800E2A28 0C0DB512 */  jal        func_8036D448_840BF8
     /* 8A824C 800E2A2C 24040001 */   addiu     $a0, $zero, 0x1
     /* 8A8250 800E2A30 2404FFFF */  addiu      $a0, $zero, -0x1
-    /* 8A8254 800E2A34 0C0DB4FA */  jal        func_8036D3E8
+    /* 8A8254 800E2A34 0C0DB4FA */  jal        func_8036D3E8_840B98
     /* 8A8258 800E2A38 24050003 */   addiu     $a1, $zero, 0x3
     /* 8A825C 800E2A3C 0C0300A4 */  jal        func_800C0290_5D130
     /* 8A8260 800E2A40 00000000 */   nop
@@ -59,14 +59,14 @@ glabel func_800E2A04_8A8224
     /* 8A82C8 800E2AA8 00000000 */   nop
     /* 8A82CC 800E2AAC 0C0DBAE0 */  jal        func_8036EB80
     /* 8A82D0 800E2AB0 00002025 */   or        $a0, $zero, $zero
-    /* 8A82D4 800E2AB4 0C0DB528 */  jal        func_8036D4A0
+    /* 8A82D4 800E2AB4 0C0DB528 */  jal        func_8036D4A0_840C50
     /* 8A82D8 800E2AB8 24040002 */   addiu     $a0, $zero, 0x2
     /* 8A82DC 800E2ABC 3C058019 */  lui        $a1, %hi(D_80195888_95B0A8)
     /* 8A82E0 800E2AC0 24A55888 */  addiu      $a1, $a1, %lo(D_80195888_95B0A8)
     /* 8A82E4 800E2AC4 8FA40024 */  lw         $a0, 0x24($sp)
     /* 8A82E8 800E2AC8 0C038A58 */  jal        func_800E2960_8A8180
     /* 8A82EC 800E2ACC 00003025 */   or        $a2, $zero, $zero
-    /* 8A82F0 800E2AD0 0C0DB528 */  jal        func_8036D4A0
+    /* 8A82F0 800E2AD0 0C0DB528 */  jal        func_8036D4A0_840C50
     /* 8A82F4 800E2AD4 00002025 */   or        $a0, $zero, $zero
     /* 8A82F8 800E2AD8 10000003 */  b          .L800E2AE8_8A8308
     /* 8A82FC 800E2ADC 00000000 */   nop
@@ -116,7 +116,7 @@ glabel func_800E2A04_8A8224
     /* 8A839C 800E2B7C 24040003 */  addiu      $a0, $zero, 0x3
     /* 8A83A0 800E2B80 0C03986D */  jal        func_800E61B4_8AB9D4
     /* 8A83A4 800E2B84 00002825 */   or        $a1, $zero, $zero
-    /* 8A83A8 800E2B88 0C0DAA39 */  jal        func_8036A8E4
+    /* 8A83A8 800E2B88 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 8A83AC 800E2B8C 8FA40024 */   lw        $a0, 0x24($sp)
   .L800E2B90_8A83B0:
     /* 8A83B0 800E2B90 0C002F2A */  jal        ohWait

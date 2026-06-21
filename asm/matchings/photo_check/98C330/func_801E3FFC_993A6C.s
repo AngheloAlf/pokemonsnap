@@ -12,7 +12,7 @@ glabel func_801E3FFC_993A6C
     /* 993A8C 801E401C 3C06801F */  lui        $a2, %hi(D_801F2910_9A2380)
     /* 993A90 801E4020 24C62910 */  addiu      $a2, $a2, %lo(D_801F2910_9A2380)
     /* 993A94 801E4024 00002025 */  or         $a0, $zero, $zero
-    /* 993A98 801E4028 0C0DC745 */  jal        func_80371D14
+    /* 993A98 801E4028 0C0DC745 */  jal        func_80371D14_8454C4
     /* 993A9C 801E402C 24050006 */   addiu     $a1, $zero, 0x6
     /* 993AA0 801E4030 AFA2001C */  sw         $v0, 0x1C($sp)
     /* 993AA4 801E4034 8FAE001C */  lw         $t6, 0x1C($sp)
@@ -36,7 +36,7 @@ glabel func_801E3FFC_993A6C
     /* 993AEC 801E407C 3C06801F */  lui        $a2, %hi(D_801F2378_9A1DE8)
     /* 993AF0 801E4080 24C62378 */  addiu      $a2, $a2, %lo(D_801F2378_9A1DE8)
     /* 993AF4 801E4084 00002025 */  or         $a0, $zero, $zero
-    /* 993AF8 801E4088 0C0DC745 */  jal        func_80371D14
+    /* 993AF8 801E4088 0C0DC745 */  jal        func_80371D14_8454C4
     /* 993AFC 801E408C 24050006 */   addiu     $a1, $zero, 0x6
     /* 993B00 801E4090 AFA2001C */  sw         $v0, 0x1C($sp)
     /* 993B04 801E4094 8FAC001C */  lw         $t4, 0x1C($sp)
@@ -58,7 +58,7 @@ glabel func_801E3FFC_993A6C
     /* 993B44 801E40D4 3C06801F */  lui        $a2, %hi(D_801F26B0_9A2120)
     /* 993B48 801E40D8 24C626B0 */  addiu      $a2, $a2, %lo(D_801F26B0_9A2120)
     /* 993B4C 801E40DC 00002025 */  or         $a0, $zero, $zero
-    /* 993B50 801E40E0 0C0DC745 */  jal        func_80371D14
+    /* 993B50 801E40E0 0C0DC745 */  jal        func_80371D14_8454C4
     /* 993B54 801E40E4 24050006 */   addiu     $a1, $zero, 0x6
     /* 993B58 801E40E8 AFA2001C */  sw         $v0, 0x1C($sp)
     /* 993B5C 801E40EC 8FA8001C */  lw         $t0, 0x1C($sp)
@@ -78,7 +78,7 @@ glabel func_801E3FFC_993A6C
     /* 993B94 801E4124 3C06801F */  lui        $a2, %hi(D_801F2AD0_9A2540)
     /* 993B98 801E4128 24C62AD0 */  addiu      $a2, $a2, %lo(D_801F2AD0_9A2540)
     /* 993B9C 801E412C 00002025 */  or         $a0, $zero, $zero
-    /* 993BA0 801E4130 0C0DC745 */  jal        func_80371D14
+    /* 993BA0 801E4130 0C0DC745 */  jal        func_80371D14_8454C4
     /* 993BA4 801E4134 24050006 */   addiu     $a1, $zero, 0x6
     /* 993BA8 801E4138 AFA2001C */  sw         $v0, 0x1C($sp)
     /* 993BAC 801E413C 8FAE001C */  lw         $t6, 0x1C($sp)

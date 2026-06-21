@@ -4,7 +4,7 @@ glabel func_8009FBC4
     /* 4B574 8009FBC4 27BDFFE0 */  addiu      $sp, $sp, -0x20
     /* 4B578 8009FBC8 AFBF001C */  sw         $ra, 0x1C($sp)
     /* 4B57C 8009FBCC AFB10018 */  sw         $s1, 0x18($sp)
-    /* 4B580 8009FBD0 0C038C19 */  jal        destroyWorld
+    /* 4B580 8009FBD0 0C038C19 */  jal        func_800E3064
     /* 4B584 8009FBD4 AFB00014 */   sw        $s0, 0x14($sp)
     /* 4B588 8009FBD8 3C0E800C */  lui        $t6, %hi(D_800BDF1E)
     /* 4B58C 8009FBDC 91CEDF1E */  lbu        $t6, %lo(D_800BDF1E)($t6)

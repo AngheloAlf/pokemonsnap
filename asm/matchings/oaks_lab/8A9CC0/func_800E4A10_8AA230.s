@@ -23,7 +23,7 @@ glabel func_800E4A10_8AA230
     /* 8AA250 800E4A30 24040001 */   addiu     $a0, $zero, 0x1
     /* 8AA254 800E4A34 0C038C8C */  jal        func_800E3230_8A8A50
     /* 8AA258 800E4A38 00000000 */   nop
-    /* 8AA25C 800E4A3C 0C0DC30D */  jal        func_80370C34
+    /* 8AA25C 800E4A3C 0C0DC30D */  jal        func_80370C34_8443E4
     /* 8AA260 800E4A40 00402025 */   or        $a0, $v0, $zero
     /* 8AA264 800E4A44 24040001 */  addiu      $a0, $zero, 0x1
     /* 8AA268 800E4A48 0C0DC240 */  jal        func_80370900

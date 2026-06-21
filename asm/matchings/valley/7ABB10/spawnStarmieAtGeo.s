@@ -1,6 +1,6 @@
-nonmatching func_802D25B0_7ABB40, 0x30
+nonmatching spawnStarmieAtGeo, 0x30
 
-glabel func_802D25B0_7ABB40
+glabel spawnStarmieAtGeo
     /* 7ABB40 802D25B0 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 7ABB44 802D25B4 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 7ABB48 802D25B8 3C06802F */  lui        $a2, %hi(extraStarmieDef)
@@ -13,4 +13,4 @@ glabel func_802D25B0_7ABB40
     /* 7ABB64 802D25D4 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 7ABB68 802D25D8 03E00008 */  jr         $ra
     /* 7ABB6C 802D25DC 00000000 */   nop
-endlabel func_802D25B0_7ABB40
+endlabel spawnStarmieAtGeo

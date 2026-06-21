@@ -3,12 +3,12 @@ nonmatching func_801DD1A8_9FAE68, 0xC8
 glabel func_801DD1A8_9FAE68
     /* 9FAE68 801DD1A8 27BDFFD8 */  addiu      $sp, $sp, -0x28
     /* 9FAE6C 801DD1AC AFBF001C */  sw         $ra, 0x1C($sp)
-    /* 9FAE70 801DD1B0 0C0DC029 */  jal        func_803700A4
+    /* 9FAE70 801DD1B0 0C0DC029 */  jal        func_803700A4_843854
     /* 9FAE74 801DD1B4 00002025 */   or        $a0, $zero, $zero
     /* 9FAE78 801DD1B8 2404FFFF */  addiu      $a0, $zero, -0x1
     /* 9FAE7C 801DD1BC 0C077813 */  jal        func_801DE04C_9FBD0C
     /* 9FAE80 801DD1C0 2405FFFF */   addiu     $a1, $zero, -0x1
-    /* 9FAE84 801DD1C4 0C0DB528 */  jal        func_8036D4A0
+    /* 9FAE84 801DD1C4 0C0DB528 */  jal        func_8036D4A0_840C50
     /* 9FAE88 801DD1C8 00002025 */   or        $a0, $zero, $zero
     /* 9FAE8C 801DD1CC 0C07772A */  jal        func_801DDCA8_9FB968
     /* 9FAE90 801DD1D0 2404000D */   addiu     $a0, $zero, 0xD

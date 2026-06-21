@@ -10,13 +10,13 @@ glabel func_801E37A0_9AD9F0
     /* 9ADA08 801E37B8 25EF8B98 */  addiu      $t7, $t7, %lo(D_80208B98_9D2DE8)
     /* 9ADA0C 801E37BC 3C018025 */  lui        $at, %hi(D_80250120_A1A370)
     /* 9ADA10 801E37C0 AC2F0120 */  sw         $t7, %lo(D_80250120_A1A370)($at)
-    /* 9ADA14 801E37C4 0C0DC180 */  jal        func_80370600
+    /* 9ADA14 801E37C4 0C0DC180 */  jal        func_80370600_843DB0
     /* 9ADA18 801E37C8 00000000 */   nop
     /* 9ADA1C 801E37CC 3C018025 */  lui        $at, %hi(D_80250124_A1A374)
     /* 9ADA20 801E37D0 AC220124 */  sw         $v0, %lo(D_80250124_A1A374)($at)
     /* 9ADA24 801E37D4 3C018021 */  lui        $at, %hi(D_80208B94_9D2DE4)
     /* 9ADA28 801E37D8 AC208B94 */  sw         $zero, %lo(D_80208B94_9D2DE4)($at)
-    /* 9ADA2C 801E37DC 0C0DC04D */  jal        func_80370134
+    /* 9ADA2C 801E37DC 0C0DC04D */  jal        func_80370134_8438E4
     /* 9ADA30 801E37E0 00000000 */   nop
     /* 9ADA34 801E37E4 24040018 */  addiu      $a0, $zero, 0x18
     /* 9ADA38 801E37E8 0C02AA17 */  jal        func_800AA85C

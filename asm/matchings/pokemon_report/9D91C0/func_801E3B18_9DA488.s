@@ -25,11 +25,11 @@ glabel func_801E3B18_9DA488
     /* 9DA498 801E3B28 00000000 */   nop
     /* 9DA49C 801E3B2C 3C018023 */  lui        $at, %hi(D_80230E10_A27780)
     /* 9DA4A0 801E3B30 AC220E10 */  sw         $v0, %lo(D_80230E10_A27780)($at)
-    /* 9DA4A4 801E3B34 0C0DC180 */  jal        func_80370600
+    /* 9DA4A4 801E3B34 0C0DC180 */  jal        func_80370600_843DB0
     /* 9DA4A8 801E3B38 00000000 */   nop
     /* 9DA4AC 801E3B3C 3C018023 */  lui        $at, %hi(D_80230E14_A27784)
     /* 9DA4B0 801E3B40 AC220E14 */  sw         $v0, %lo(D_80230E14_A27784)($at)
-    /* 9DA4B4 801E3B44 0C0DC04D */  jal        func_80370134
+    /* 9DA4B4 801E3B44 0C0DC04D */  jal        func_80370134_8438E4
     /* 9DA4B8 801E3B48 00000000 */   nop
     /* 9DA4BC 801E3B4C 3C018020 */  lui        $at, %hi(D_80202EC0_9F9830)
     /* 9DA4C0 801E3B50 AC202EC0 */  sw         $zero, %lo(D_80202EC0_9F9830)($at)

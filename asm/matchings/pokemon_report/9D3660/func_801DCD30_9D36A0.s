@@ -11,7 +11,7 @@ glabel func_801DCD30_9D36A0
     /* 9D36BC 801DCD4C 8FA40028 */  lw         $a0, 0x28($sp)
     /* 9D36C0 801DCD50 01C02825 */  or         $a1, $t6, $zero
     /* 9D36C4 801DCD54 01C03025 */  or         $a2, $t6, $zero
-    /* 9D36C8 801DCD58 0C0DB492 */  jal        func_8036D248
+    /* 9D36C8 801DCD58 0C0DB492 */  jal        func_8036D248_8409F8
     /* 9D36CC 801DCD5C 01C03825 */   or        $a3, $t6, $zero
     /* 9D36D0 801DCD60 10000001 */  b          .L801DCD68_9D36D8
     /* 9D36D4 801DCD64 00000000 */   nop

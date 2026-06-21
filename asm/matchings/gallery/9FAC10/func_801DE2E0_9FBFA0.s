@@ -7,7 +7,7 @@ glabel func_801DE2E0_9FBFA0
     /* 9FBFAC 801DE2EC 3C058023 */  lui        $a1, %hi(D_80230874_A4E534)
     /* 9FBFB0 801DE2F0 8CA50874 */  lw         $a1, %lo(D_80230874_A4E534)($a1)
     /* 9FBFB4 801DE2F4 8FA40018 */  lw         $a0, 0x18($sp)
-    /* 9FBFB8 801DE2F8 0C0DD1C5 */  jal        func_80374714
+    /* 9FBFB8 801DE2F8 0C0DD1C5 */  jal        func_80374714_847EC4
     /* 9FBFBC 801DE2FC 24A50010 */   addiu     $a1, $a1, 0x10
     /* 9FBFC0 801DE300 10000001 */  b          .L801DE308_9FBFC8
     /* 9FBFC4 801DE304 00000000 */   nop

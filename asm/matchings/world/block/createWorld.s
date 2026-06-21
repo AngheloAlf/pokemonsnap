@@ -1,6 +1,6 @@
-nonmatching func_800E2F38_606E8, 0xD8
+nonmatching createWorld, 0xD8
 
-glabel func_800E2F38_606E8
+glabel createWorld
     /* 606E8 800E2F38 27BDFFC8 */  addiu      $sp, $sp, -0x38
     /* 606EC 800E2F3C AFBF0034 */  sw         $ra, 0x34($sp)
     /* 606F0 800E2F40 AFB00030 */  sw         $s0, 0x30($sp)
@@ -49,7 +49,7 @@ glabel func_800E2F38_606E8
     /* 60794 800E2FE4 AFA8001C */  sw         $t0, 0x1C($sp)
     /* 60798 800E2FE8 0C038B09 */  jal        func_800E2C24_603D4
     /* 6079C 800E2FEC AFA90020 */   sw        $t1, 0x20($sp)
-    /* 607A0 800E2FF0 0C03869E */  jal        func_800E1A78_5F228
+    /* 607A0 800E2FF0 0C03869E */  jal        setSkyBoxAnimationSpeed
     /* 607A4 800E2FF4 C60C0010 */   lwc1      $f12, 0x10($s0)
     /* 607A8 800E2FF8 24020001 */  addiu      $v0, $zero, 0x1
   .L800E2FFC_607AC:
@@ -58,4 +58,4 @@ glabel func_800E2F38_606E8
     /* 607B4 800E3004 27BD0038 */  addiu      $sp, $sp, 0x38
     /* 607B8 800E3008 03E00008 */  jr         $ra
     /* 607BC 800E300C 00000000 */   nop
-endlabel func_800E2F38_606E8
+endlabel createWorld

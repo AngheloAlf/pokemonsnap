@@ -29,7 +29,7 @@ glabel Pokemon_ChangeBlockAndRemove
     /* 503174 80362D64 E7A60014 */  swc1       $f6, 0x14($sp)
     /* 503178 80362D68 0C0D8FAD */  jal        pokemonChangeBlockOnGround
     /* 50317C 80362D6C E7A80018 */   swc1      $f8, 0x18($sp)
-    /* 503180 80362D70 0C038861 */  jal        func_800E2184_5F934
+    /* 503180 80362D70 0C038861 */  jal        getCurrentWorldBlock
     /* 503184 80362D74 00000000 */   nop
     /* 503188 80362D78 8FA4002C */  lw         $a0, 0x2C($sp)
     /* 50318C 80362D7C 8C580000 */  lw         $t8, 0x0($v0)

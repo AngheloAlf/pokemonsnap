@@ -1,6 +1,6 @@
-nonmatching func_800E4040_617F0, 0x64
+nonmatching setHeightMap, 0x64
 
-glabel func_800E4040_617F0
+glabel setHeightMap
     /* 617F0 800E4040 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 617F4 800E4044 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 617F8 800E4048 14800003 */  bnez       $a0, .L800E4058_61808
@@ -30,4 +30,4 @@ glabel func_800E4040_617F0
     /* 61848 800E4098 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 6184C 800E409C 03E00008 */  jr         $ra
     /* 61850 800E40A0 00000000 */   nop
-endlabel func_800E4040_617F0
+endlabel setHeightMap

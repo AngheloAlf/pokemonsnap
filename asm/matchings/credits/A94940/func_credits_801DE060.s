@@ -35,7 +35,7 @@ glabel func_credits_801DE060
     /* A94C94 801DE0D4 8E2F0000 */  lw         $t7, 0x0($s1)
     /* A94C98 801DE0D8 11E00016 */  beqz       $t7, .Lcredits_801DE134
     /* A94C9C 801DE0DC 00000000 */   nop
-    /* A94CA0 801DE0E0 0C0DB53C */  jal        func_8036D4F0
+    /* A94CA0 801DE0E0 0C0DB53C */  jal        func_8036D4F0_840CA0
     /* A94CA4 801DE0E4 8E240008 */   lw        $a0, 0x8($s1)
     /* A94CA8 801DE0E8 C6040004 */  lwc1       $f4, 0x4($s0)
     /* A94CAC 801DE0EC 04410003 */  bgez       $v0, .Lcredits_801DE0FC
@@ -47,10 +47,10 @@ glabel func_credits_801DE060
     /* A94CC0 801DE100 0278C823 */  subu       $t9, $s3, $t8
     /* A94CC4 801DE104 AE190000 */  sw         $t9, 0x0($s0)
     /* A94CC8 801DE108 8E04000C */  lw         $a0, 0xC($s0)
-    /* A94CCC 801DE10C 0C0DAA39 */  jal        func_8036A8E4
+    /* A94CCC 801DE10C 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* A94CD0 801DE110 E6060004 */   swc1      $f6, 0x4($s0)
     /* A94CD4 801DE114 8E04000C */  lw         $a0, 0xC($s0)
-    /* A94CD8 801DE118 0C0DB226 */  jal        func_8036C898
+    /* A94CD8 801DE118 0C0DB226 */  jal        UIElement_PrintText
     /* A94CDC 801DE11C 8E250008 */   lw        $a1, 0x8($s1)
     /* A94CE0 801DE120 26310010 */  addiu      $s1, $s1, 0x10
   .Lcredits_801DE124:
@@ -162,7 +162,7 @@ glabel func_credits_801DE060
     /* A94E64 801DE2A4 00000000 */   nop
     /* A94E68 801DE2A8 10400006 */  beqz       $v0, .Lcredits_801DE2C4
     /* A94E6C 801DE2AC 00408025 */   or        $s0, $v0, $zero
-    /* A94E70 801DE2B0 0C0DAA39 */  jal        func_8036A8E4
+    /* A94E70 801DE2B0 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* A94E74 801DE2B4 8C44000C */   lw        $a0, 0xC($v0)
     /* A94E78 801DE2B8 C6100004 */  lwc1       $f16, 0x4($s0)
     /* A94E7C 801DE2BC 46148480 */  add.s      $f18, $f16, $f20

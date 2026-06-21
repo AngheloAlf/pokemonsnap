@@ -1,6 +1,6 @@
-nonmatching func_800E40A4_61854, 0x64
+nonmatching setCeilingMap, 0x64
 
-glabel func_800E40A4_61854
+glabel setCeilingMap
     /* 61854 800E40A4 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 61858 800E40A8 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 6185C 800E40AC 14800003 */  bnez       $a0, .L800E40BC_6186C
@@ -30,4 +30,4 @@ glabel func_800E40A4_61854
     /* 618AC 800E40FC 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 618B0 800E4100 03E00008 */  jr         $ra
     /* 618B4 800E4104 00000000 */   nop
-endlabel func_800E40A4_61854
+endlabel setCeilingMap

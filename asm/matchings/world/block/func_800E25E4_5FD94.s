@@ -12,8 +12,8 @@ glabel func_800E25E4_5FD94
     /* 5FDB4 800E2604 1000002A */  b          .L800E26B0_5FE60
     /* 5FDB8 800E2608 00001025 */   or        $v0, $zero, $zero
   .L800E260C_5FDBC:
-    /* 5FDBC 800E260C 3C01800E */  lui        $at, %hi(D_800E6AD0_64280)
-    /* 5FDC0 800E2610 AC316AD0 */  sw         $s1, %lo(D_800E6AD0_64280)($at)
+    /* 5FDBC 800E260C 3C01800E */  lui        $at, %hi(CurrentWorldBlock)
+    /* 5FDC0 800E2610 AC316AD0 */  sw         $s1, %lo(CurrentWorldBlock)($at)
     /* 5FDC4 800E2614 0C0388A0 */  jal        func_800E2280_5FA30
     /* 5FDC8 800E2618 02202025 */   or        $a0, $s1, $zero
     /* 5FDCC 800E261C 3C13800E */  lui        $s3, %hi(D_800E6AFC_642AC)

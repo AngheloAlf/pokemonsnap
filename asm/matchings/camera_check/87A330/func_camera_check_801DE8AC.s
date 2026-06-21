@@ -26,7 +26,7 @@ glabel func_camera_check_801DE8AC
     /* 87C0EC 801DE8FC 3C058025 */  lui        $a1, %hi(D_camera_check_802498FC)
     /* 87C0F0 801DE900 8CA598FC */  lw         $a1, %lo(D_camera_check_802498FC)($a1)
     /* 87C0F4 801DE904 00402025 */  or         $a0, $v0, $zero
-    /* 87C0F8 801DE908 0C0DD1C5 */  jal        func_80374714
+    /* 87C0F8 801DE908 0C0DD1C5 */  jal        func_80374714_847EC4
     /* 87C0FC 801DE90C 24A50010 */   addiu     $a1, $a1, 0x10
     /* 87C100 801DE910 3C048025 */  lui        $a0, %hi(D_camera_check_802498F0)
     /* 87C104 801DE914 248498F0 */  addiu      $a0, $a0, %lo(D_camera_check_802498F0)

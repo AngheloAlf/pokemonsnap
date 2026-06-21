@@ -20,17 +20,17 @@ glabel func_801DE2BC_9A850C
     /* 9A8548 801DE2F8 8CA5010C */  lw         $a1, %lo(D_8025010C_A1A35C)($a1)
     /* 9A854C 801DE2FC 00408025 */  or         $s0, $v0, $zero
     /* 9A8550 801DE300 02002025 */  or         $a0, $s0, $zero
-    /* 9A8554 801DE304 0C0DD1C5 */  jal        func_80374714
+    /* 9A8554 801DE304 0C0DD1C5 */  jal        func_80374714_847EC4
     /* 9A8558 801DE308 24A50010 */   addiu     $a1, $a1, 0x10
     /* 9A855C 801DE30C 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
     /* 9A8560 801DE310 8C84FFFC */  lw         $a0, %lo(D_8024FFFC_A1A24C)($a0)
-    /* 9A8564 801DE314 0C0DB469 */  jal        func_8036D1A4
+    /* 9A8564 801DE314 0C0DB469 */  jal        func_8036D1A4_840954
     /* 9A8568 801DE318 24050001 */   addiu     $a1, $zero, 0x1
     /* 9A856C 801DE31C 0C07787F */  jal        func_801DE1FC_9A844C
     /* 9A8570 801DE320 8FA40028 */   lw        $a0, 0x28($sp)
     /* 9A8574 801DE324 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
     /* 9A8578 801DE328 8C84FFFC */  lw         $a0, %lo(D_8024FFFC_A1A24C)($a0)
-    /* 9A857C 801DE32C 0C0DB469 */  jal        func_8036D1A4
+    /* 9A857C 801DE32C 0C0DB469 */  jal        func_8036D1A4_840954
     /* 9A8580 801DE330 00002825 */   or        $a1, $zero, $zero
     /* 9A8584 801DE334 10000001 */  b          .L801DE33C_9A858C
     /* 9A8588 801DE338 00000000 */   nop

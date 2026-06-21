@@ -1,6 +1,6 @@
-nonmatching func_8036F78C_842F3C, 0x10C
+nonmatching UIFrame_Create, 0x10C
 
-glabel func_8036F78C_842F3C
+glabel UIFrame_Create
     /* 842F3C 8036F78C 27BDFFD0 */  addiu      $sp, $sp, -0x30
     /* 842F40 8036F790 AFB50028 */  sw         $s5, 0x28($sp)
     /* 842F44 8036F794 AFB40024 */  sw         $s4, 0x24($sp)
@@ -71,6 +71,6 @@ glabel func_8036F78C_842F3C
     /* 84303C 8036F88C 8FB50028 */  lw         $s5, 0x28($sp)
     /* 843040 8036F890 03E00008 */  jr         $ra
     /* 843044 8036F894 27BD0030 */   addiu     $sp, $sp, 0x30
-endlabel func_8036F78C_842F3C
+endlabel UIFrame_Create
     /* 843048 8036F898 00000000 */  nop
     /* 84304C 8036F89C 00000000 */  nop

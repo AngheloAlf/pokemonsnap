@@ -14,16 +14,16 @@ glabel func_800E2960_8A8180
     /* 8A81A8 800E2988 00C09025 */   or        $s2, $a2, $zero
     /* 8A81AC 800E298C 24134000 */  addiu      $s3, $zero, 0x4000
   .L800E2990_8A81B0:
-    /* 8A81B0 800E2990 0C0DAA39 */  jal        func_8036A8E4
+    /* 8A81B0 800E2990 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 8A81B4 800E2994 02202025 */   or        $a0, $s1, $zero
     /* 8A81B8 800E2998 0C02FD26 */  jal        getPlayerName
     /* 8A81BC 800E299C 00000000 */   nop
     /* 8A81C0 800E29A0 02202025 */  or         $a0, $s1, $zero
     /* 8A81C4 800E29A4 8E050000 */  lw         $a1, 0x0($s0)
-    /* 8A81C8 800E29A8 0C0DD467 */  jal        func_8037519C
+    /* 8A81C8 800E29A8 0C0DD467 */  jal        func_8037519C_84894C
     /* 8A81CC 800E29AC 00403025 */   or        $a2, $v0, $zero
     /* 8A81D0 800E29B0 02202025 */  or         $a0, $s1, $zero
-    /* 8A81D4 800E29B4 0C0DD3CC */  jal        func_80374F30
+    /* 8A81D4 800E29B4 0C0DD3CC */  jal        func_80374F30_8486E0
     /* 8A81D8 800E29B8 24050001 */   addiu     $a1, $zero, 0x1
     /* 8A81DC 800E29BC 52400006 */  beql       $s2, $zero, .L800E29D8_8A81F8
     /* 8A81E0 800E29C0 8E0F0004 */   lw        $t7, 0x4($s0)

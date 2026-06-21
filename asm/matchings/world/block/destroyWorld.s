@@ -1,6 +1,6 @@
-nonmatching func_800E3064_60814, 0x4C
+nonmatching destroyWorld, 0x4C
 
-glabel func_800E3064_60814
+glabel destroyWorld
     /* 60814 800E3064 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 60818 800E3068 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 6081C 800E306C 0C038649 */  jal        func_800E1924_5F0D4
@@ -21,4 +21,4 @@ glabel func_800E3064_60814
     /* 60854 800E30A4 AC206AF8 */  sw         $zero, %lo(D_800E6AF8_642A8)($at)
     /* 60858 800E30A8 03E00008 */  jr         $ra
     /* 6085C 800E30AC 27BD0018 */   addiu     $sp, $sp, 0x18
-endlabel func_800E3064_60814
+endlabel destroyWorld

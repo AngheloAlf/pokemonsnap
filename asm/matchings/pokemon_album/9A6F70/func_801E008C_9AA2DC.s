@@ -12,21 +12,21 @@ glabel func_801E008C_9AA2DC
     /* 9AA2FC 801E00AC 00000000 */   nop
   .L801E00B0_9AA300:
     /* 9AA300 801E00B0 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
-    /* 9AA304 801E00B4 0C0DAA39 */  jal        func_8036A8E4
+    /* 9AA304 801E00B4 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 9AA308 801E00B8 8C84FFFC */   lw        $a0, %lo(D_8024FFFC_A1A24C)($a0)
     /* 9AA30C 801E00BC 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
     /* 9AA310 801E00C0 8C84FFFC */  lw         $a0, %lo(D_8024FFFC_A1A24C)($a0)
-    /* 9AA314 801E00C4 0C0DB2D6 */  jal        func_8036CB58
+    /* 9AA314 801E00C4 0C0DB2D6 */  jal        func_8036CB58_840308
     /* 9AA318 801E00C8 2405000C */   addiu     $a1, $zero, 0xC
-    /* 9AA31C 801E00CC 0C0DB512 */  jal        func_8036D448
+    /* 9AA31C 801E00CC 0C0DB512 */  jal        func_8036D448_840BF8
     /* 9AA320 801E00D0 00002025 */   or        $a0, $zero, $zero
     /* 9AA324 801E00D4 00002025 */  or         $a0, $zero, $zero
-    /* 9AA328 801E00D8 0C0DB4FA */  jal        func_8036D3E8
+    /* 9AA328 801E00D8 0C0DB4FA */  jal        func_8036D3E8_840B98
     /* 9AA32C 801E00DC 24050004 */   addiu     $a1, $zero, 0x4
     /* 9AA330 801E00E0 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
     /* 9AA334 801E00E4 8C84FFFC */  lw         $a0, %lo(D_8024FFFC_A1A24C)($a0)
     /* 9AA338 801E00E8 00002825 */  or         $a1, $zero, $zero
-    /* 9AA33C 801E00EC 0C0DAE7B */  jal        func_8036B9EC
+    /* 9AA33C 801E00EC 0C0DAE7B */  jal        func_8036B9EC_83F19C
     /* 9AA340 801E00F0 00003025 */   or        $a2, $zero, $zero
     /* 9AA344 801E00F4 8FA40060 */  lw         $a0, 0x60($sp)
     /* 9AA348 801E00F8 0C07735F */  jal        func_801DCD7C_9A6FCC
@@ -38,7 +38,7 @@ glabel func_801E008C_9AA2DC
     /* 9AA360 801E0110 00000000 */   nop
     /* 9AA364 801E0114 3C048025 */  lui        $a0, %hi(D_8024FFFC_A1A24C)
     /* 9AA368 801E0118 8C84FFFC */  lw         $a0, %lo(D_8024FFFC_A1A24C)($a0)
-    /* 9AA36C 801E011C 0C0DB226 */  jal        func_8036C898
+    /* 9AA36C 801E011C 0C0DB226 */  jal        UIElement_PrintText
     /* 9AA370 801E0120 27A50020 */   addiu     $a1, $sp, 0x20
   .L801E0124_9AA374:
     /* 9AA374 801E0124 3C198025 */  lui        $t9, %hi(D_802500BE_A1A30E)

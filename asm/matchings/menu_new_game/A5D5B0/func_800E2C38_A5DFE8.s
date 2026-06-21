@@ -37,14 +37,14 @@ glabel func_800E2C38_A5DFE8
     /* A5E05C 800E2CAC 8E440000 */  lw         $a0, 0x0($s2)
     /* A5E060 800E2CB0 240500FF */  addiu      $a1, $zero, 0xFF
     /* A5E064 800E2CB4 240600FF */  addiu      $a2, $zero, 0xFF
-    /* A5E068 800E2CB8 0C0DB492 */  jal        func_8036D248
+    /* A5E068 800E2CB8 0C0DB492 */  jal        func_8036D248_8409F8
     /* A5E06C 800E2CBC 240700FF */   addiu     $a3, $zero, 0xFF
     /* A5E070 800E2CC0 10000005 */  b          .L800E2CD8_A5E088
     /* A5E074 800E2CC4 00000000 */   nop
   .L800E2CC8_A5E078:
     /* A5E078 800E2CC8 8E440000 */  lw         $a0, 0x0($s2)
     /* A5E07C 800E2CCC 240700FF */  addiu      $a3, $zero, 0xFF
-    /* A5E080 800E2CD0 0C0DB492 */  jal        func_8036D248
+    /* A5E080 800E2CD0 0C0DB492 */  jal        func_8036D248_8409F8
     /* A5E084 800E2CD4 AFA00010 */   sw        $zero, 0x10($sp)
   .L800E2CD8_A5E088:
     /* A5E088 800E2CD8 0C002F2A */  jal        ohWait

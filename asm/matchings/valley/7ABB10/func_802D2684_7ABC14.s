@@ -5,9 +5,9 @@ glabel func_802D2684_7ABC14
     /* 7ABC18 802D2688 AFBF001C */  sw         $ra, 0x1C($sp)
     /* 7ABC1C 802D268C AFB00018 */  sw         $s0, 0x18($sp)
     /* 7ABC20 802D2690 8C820058 */  lw         $v0, 0x58($a0)
-    /* 7ABC24 802D2694 3C05802D */  lui        $a1, %hi(func_802D25B0_7ABB40)
+    /* 7ABC24 802D2694 3C05802D */  lui        $a1, %hi(spawnStarmieAtGeo)
     /* 7ABC28 802D2698 00808025 */  or         $s0, $a0, $zero
-    /* 7ABC2C 802D269C 24A525B0 */  addiu      $a1, $a1, %lo(func_802D25B0_7ABB40)
+    /* 7ABC2C 802D269C 24A525B0 */  addiu      $a1, $a1, %lo(spawnStarmieAtGeo)
     /* 7ABC30 802D26A0 24060001 */  addiu      $a2, $zero, 0x1
     /* 7ABC34 802D26A4 24070001 */  addiu      $a3, $zero, 0x1
     /* 7ABC38 802D26A8 0C00230A */  jal        omCreateProcess

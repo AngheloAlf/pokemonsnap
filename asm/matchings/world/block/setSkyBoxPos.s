@@ -1,6 +1,6 @@
-nonmatching func_800E20F8_5F8A8, 0x8C
+nonmatching setSkyBoxPos, 0x8C
 
-glabel func_800E20F8_5F8A8
+glabel setSkyBoxPos
     /* 5F8A8 800E20F8 27BDFFE8 */  addiu      $sp, $sp, -0x18
     /* 5F8AC 800E20FC AFA70024 */  sw         $a3, 0x24($sp)
     /* 5F8B0 800E2100 3C07800E */  lui        $a3, %hi(D_800E6AE8_64298)
@@ -38,4 +38,4 @@ glabel func_800E20F8_5F8A8
     /* 5F928 800E2178 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 5F92C 800E217C 03E00008 */  jr         $ra
     /* 5F930 800E2180 00000000 */   nop
-endlabel func_800E20F8_5F8A8
+endlabel setSkyBoxPos

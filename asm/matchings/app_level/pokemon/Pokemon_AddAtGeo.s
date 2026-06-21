@@ -7,7 +7,7 @@ glabel Pokemon_AddAtGeo
     /* 500240 8035FE30 AFA50064 */  sw         $a1, 0x64($sp)
     /* 500244 8035FE34 AFA60068 */  sw         $a2, 0x68($sp)
     /* 500248 8035FE38 8C830058 */  lw         $v1, 0x58($a0)
-    /* 50024C 8035FE3C 0C038861 */  jal        func_800E2184_5F934
+    /* 50024C 8035FE3C 0C038861 */  jal        getCurrentWorldBlock
     /* 500250 8035FE40 AFA30028 */   sw        $v1, 0x28($sp)
     /* 500254 8035FE44 44800000 */  mtc1       $zero, $f0
     /* 500258 8035FE48 3C013F80 */  lui        $at, (0x3F800000 >> 16)

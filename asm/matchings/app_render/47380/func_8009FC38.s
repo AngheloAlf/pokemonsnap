@@ -12,7 +12,7 @@ glabel func_8009FC38
     /* 4B608 8009FC58 8FBF0014 */   lw        $ra, 0x14($sp)
     /* 4B60C 8009FC5C 04400006 */  bltz       $v0, .L8009FC78
     /* 4B610 8009FC60 00000000 */   nop
-    /* 4B614 8009FC64 0C038C19 */  jal        destroyWorld
+    /* 4B614 8009FC64 0C038C19 */  jal        func_800E3064
     /* 4B618 8009FC68 00000000 */   nop
     /* 4B61C 8009FC6C 8FAF0018 */  lw         $t7, 0x18($sp)
     /* 4B620 8009FC70 8DE50000 */  lw         $a1, 0x0($t7)

@@ -10,7 +10,7 @@ glabel func_camera_check_801E1BD4
     /* 87F3DC 801E1BEC AFA00038 */   sw        $zero, 0x38($sp)
     /* 87F3E0 801E1BF0 0C077E6C */  jal        func_camera_check_801DF9B0
     /* 87F3E4 801E1BF4 AFA20030 */   sw        $v0, 0x30($sp)
-    /* 87F3E8 801E1BF8 0C0DC30D */  jal        func_80370C34
+    /* 87F3E8 801E1BF8 0C0DC30D */  jal        func_80370C34_8443E4
     /* 87F3EC 801E1BFC 00402025 */   or        $a0, $v0, $zero
     /* 87F3F0 801E1C00 0C02FF28 */  jal        checkPlayerFlag
     /* 87F3F4 801E1C04 24040008 */   addiu     $a0, $zero, 0x8
@@ -39,7 +39,7 @@ glabel func_camera_check_801E1BD4
     /* 87F444 801E1C54 00000000 */   nop
     /* 87F448 801E1C58 0C078E44 */  jal        func_camera_check_801E3910
     /* 87F44C 801E1C5C 00002025 */   or        $a0, $zero, $zero
-    /* 87F450 801E1C60 0C0DC029 */  jal        func_803700A4
+    /* 87F450 801E1C60 0C0DC029 */  jal        func_803700A4_843854
     /* 87F454 801E1C64 24040001 */   addiu     $a0, $zero, 0x1
     /* 87F458 801E1C68 0C002F2A */  jal        ohWait
     /* 87F45C 801E1C6C 24040001 */   addiu     $a0, $zero, 0x1
@@ -134,7 +134,7 @@ glabel func_camera_check_801E1BD4
     /* 87F5A8 801E1DB8 0C07758C */  jal        func_camera_check_801DD630
     /* 87F5AC 801E1DBC 00000000 */   nop
     /* 87F5B0 801E1DC0 2404003E */  addiu      $a0, $zero, 0x3E
-    /* 87F5B4 801E1DC4 0C0DC00E */  jal        func_80370038
+    /* 87F5B4 801E1DC4 0C0DC00E */  jal        func_80370038_8437E8
     /* 87F5B8 801E1DC8 2405000D */   addiu     $a1, $zero, 0xD
     /* 87F5BC 801E1DCC 00002025 */  or         $a0, $zero, $zero
     /* 87F5C0 801E1DD0 00002825 */  or         $a1, $zero, $zero
@@ -178,7 +178,7 @@ glabel func_camera_check_801E1BD4
     /* 87F648 801E1E58 0C07758C */  jal        func_camera_check_801DD630
     /* 87F64C 801E1E5C 00000000 */   nop
     /* 87F650 801E1E60 2404003E */  addiu      $a0, $zero, 0x3E
-    /* 87F654 801E1E64 0C0DC00E */  jal        func_80370038
+    /* 87F654 801E1E64 0C0DC00E */  jal        func_80370038_8437E8
     /* 87F658 801E1E68 2405000D */   addiu     $a1, $zero, 0xD
     /* 87F65C 801E1E6C 00002025 */  or         $a0, $zero, $zero
     /* 87F660 801E1E70 00002825 */  or         $a1, $zero, $zero

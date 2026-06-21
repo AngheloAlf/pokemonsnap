@@ -44,7 +44,7 @@ nonmatching D_802E3368_734568
 
 dlabel D_802E3368_734568
     /* 734568 802E3368 00000404 */ .word 0x00000404
-    /* 73456C 802E336C 802DE52C */ .word func_802DE52C_72F72C
+    /* 73456C 802E336C 802DE52C */ .word koffing_smoke_Spawn
     /* 734570 802E3370 80363DBC */ .word pokemonChangeBlock
     /* 734574 802E3374 80364280 */ .word pokemonRemoveOne
 enddlabel D_802E3368_734568

@@ -114,10 +114,10 @@ glabel func_camera_check_801DECCC
     /* 87C5A0 801DEDB0 8FA4004C */  lw         $a0, 0x4C($sp)
   .Lcamera_check_801DEDB4:
     /* 87C5A4 801DEDB4 00002825 */  or         $a1, $zero, $zero
-    /* 87C5A8 801DEDB8 0C0DAE7B */  jal        func_8036B9EC
+    /* 87C5A8 801DEDB8 0C0DAE7B */  jal        func_8036B9EC_83F19C
     /* 87C5AC 801DEDBC 00003025 */   or        $a2, $zero, $zero
     /* 87C5B0 801DEDC0 8FA4004C */  lw         $a0, 0x4C($sp)
-    /* 87C5B4 801DEDC4 0C0DB226 */  jal        func_8036C898
+    /* 87C5B4 801DEDC4 0C0DB226 */  jal        UIElement_PrintText
     /* 87C5B8 801DEDC8 27A50024 */   addiu     $a1, $sp, 0x24
     /* 87C5BC 801DEDCC 0C008A39 */  jal        auPlaySound
     /* 87C5C0 801DEDD0 2404005C */   addiu     $a0, $zero, 0x5C

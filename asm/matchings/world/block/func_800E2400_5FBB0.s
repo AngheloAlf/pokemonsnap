@@ -2,8 +2,8 @@ nonmatching func_800E2400_5FBB0, 0x1E4
 
 glabel func_800E2400_5FBB0
     /* 5FBB0 800E2400 27BDFFD0 */  addiu      $sp, $sp, -0x30
-    /* 5FBB4 800E2404 3C03800E */  lui        $v1, %hi(D_800E6AD0_64280)
-    /* 5FBB8 800E2408 24636AD0 */  addiu      $v1, $v1, %lo(D_800E6AD0_64280)
+    /* 5FBB4 800E2404 3C03800E */  lui        $v1, %hi(CurrentWorldBlock)
+    /* 5FBB8 800E2408 24636AD0 */  addiu      $v1, $v1, %lo(CurrentWorldBlock)
     /* 5FBBC 800E240C AFB40028 */  sw         $s4, 0x28($sp)
     /* 5FBC0 800E2410 8C740000 */  lw         $s4, 0x0($v1)
     /* 5FBC4 800E2414 AFBF002C */  sw         $ra, 0x2C($sp)
@@ -121,8 +121,8 @@ glabel func_800E2400_5FBB0
     /* 5FD64 800E25B4 5614FFEF */  bnel       $s0, $s4, .L800E2574_5FD24
     /* 5FD68 800E25B8 8E420000 */   lw        $v0, 0x0($s2)
   .L800E25BC_5FD6C:
-    /* 5FD6C 800E25BC 3C02800E */  lui        $v0, %hi(D_800E6AD0_64280)
-    /* 5FD70 800E25C0 8C426AD0 */  lw         $v0, %lo(D_800E6AD0_64280)($v0)
+    /* 5FD6C 800E25BC 3C02800E */  lui        $v0, %hi(CurrentWorldBlock)
+    /* 5FD70 800E25C0 8C426AD0 */  lw         $v0, %lo(CurrentWorldBlock)($v0)
   .L800E25C4_5FD74:
     /* 5FD74 800E25C4 8FBF002C */  lw         $ra, 0x2C($sp)
     /* 5FD78 800E25C8 8FB00018 */  lw         $s0, 0x18($sp)

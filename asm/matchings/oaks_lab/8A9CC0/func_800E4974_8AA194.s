@@ -29,7 +29,7 @@ glabel func_800E4974_8AA194
     /* 8AA1F8 800E49D8 0C039231 */  jal        func_800E48C4_8AA0E4
     /* 8AA1FC 800E49DC 00000000 */   nop
     /* 8AA200 800E49E0 8FA4002C */  lw         $a0, 0x2C($sp)
-    /* 8AA204 800E49E4 0C0DD3CC */  jal        func_80374F30
+    /* 8AA204 800E49E4 0C0DD3CC */  jal        func_80374F30_8486E0
     /* 8AA208 800E49E8 24050001 */   addiu     $a1, $zero, 0x1
     /* 8AA20C 800E49EC 8FA4002C */  lw         $a0, 0x2C($sp)
     /* 8AA210 800E49F0 27A50018 */  addiu      $a1, $sp, 0x18

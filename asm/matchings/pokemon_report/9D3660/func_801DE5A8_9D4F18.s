@@ -7,7 +7,7 @@ glabel func_801DE5A8_9D4F18
     /* 9D4F24 801DE5B4 AFB10020 */  sw         $s1, 0x20($sp)
     /* 9D4F28 801DE5B8 AFB0001C */  sw         $s0, 0x1C($sp)
     /* 9D4F2C 801DE5BC 3C048023 */  lui        $a0, %hi(D_80230C1C_A2758C)
-    /* 9D4F30 801DE5C0 0C0DAA39 */  jal        func_8036A8E4
+    /* 9D4F30 801DE5C0 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 9D4F34 801DE5C4 8C840C1C */   lw        $a0, %lo(D_80230C1C_A2758C)($a0)
     /* 9D4F38 801DE5C8 3C048023 */  lui        $a0, %hi(D_80230C1C_A2758C)
     /* 9D4F3C 801DE5CC 240E00FF */  addiu      $t6, $zero, 0xFF
@@ -16,7 +16,7 @@ glabel func_801DE5A8_9D4F18
     /* 9D4F48 801DE5D8 24050001 */  addiu      $a1, $zero, 0x1
     /* 9D4F4C 801DE5DC 00003025 */  or         $a2, $zero, $zero
     /* 9D4F50 801DE5E0 00003825 */  or         $a3, $zero, $zero
-    /* 9D4F54 801DE5E4 0C0DAE1C */  jal        func_8036B870
+    /* 9D4F54 801DE5E4 0C0DAE1C */  jal        func_8036B870_83F020
     /* 9D4F58 801DE5E8 AFA00010 */   sw        $zero, 0x10($sp)
     /* 9D4F5C 801DE5EC 3C048023 */  lui        $a0, %hi(D_80230C1C_A2758C)
     /* 9D4F60 801DE5F0 240F00AB */  addiu      $t7, $zero, 0xAB
@@ -25,12 +25,12 @@ glabel func_801DE5A8_9D4F18
     /* 9D4F6C 801DE5FC 00002825 */  or         $a1, $zero, $zero
     /* 9D4F70 801DE600 24060085 */  addiu      $a2, $zero, 0x85
     /* 9D4F74 801DE604 24070093 */  addiu      $a3, $zero, 0x93
-    /* 9D4F78 801DE608 0C0DAE1C */  jal        func_8036B870
+    /* 9D4F78 801DE608 0C0DAE1C */  jal        func_8036B870_83F020
     /* 9D4F7C 801DE60C AFA00014 */   sw        $zero, 0x14($sp)
     /* 9D4F80 801DE610 3C048023 */  lui        $a0, %hi(D_80230C1C_A2758C)
     /* 9D4F84 801DE614 8C840C1C */  lw         $a0, %lo(D_80230C1C_A2758C)($a0)
     /* 9D4F88 801DE618 00002825 */  or         $a1, $zero, $zero
-    /* 9D4F8C 801DE61C 0C0DAE7B */  jal        func_8036B9EC
+    /* 9D4F8C 801DE61C 0C0DAE7B */  jal        func_8036B9EC_83F19C
     /* 9D4F90 801DE620 00003025 */   or        $a2, $zero, $zero
     /* 9D4F94 801DE624 8FB80030 */  lw         $t8, 0x30($sp)
     /* 9D4F98 801DE628 3C018023 */  lui        $at, %hi(D_80230C24_A27594)

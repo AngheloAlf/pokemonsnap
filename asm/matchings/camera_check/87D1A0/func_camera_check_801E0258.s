@@ -26,7 +26,7 @@ glabel func_camera_check_801E0258
     /* 87DAA0 801E02B0 0C0775B4 */  jal        func_camera_check_801DD6D0
     /* 87DAA4 801E02B4 00000000 */   nop
   .Lcamera_check_801E02B8:
-    /* 87DAA8 801E02B8 0C0DC4FB */  jal        func_803713EC
+    /* 87DAA8 801E02B8 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 87DAAC 801E02BC 24040003 */   addiu     $a0, $zero, 0x3
     /* 87DAB0 801E02C0 8FBF0014 */  lw         $ra, 0x14($sp)
     /* 87DAB4 801E02C4 27BD0018 */  addiu      $sp, $sp, 0x18

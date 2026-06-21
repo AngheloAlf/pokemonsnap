@@ -15,13 +15,13 @@ glabel func_801DCFE0_A08BD0
     /* A08BFC 801DD00C 3C04801E */  lui        $a0, %hi(D_801DD260_A08E50)
     /* A08C00 801DD010 3C050003 */  lui        $a1, (0x32000 >> 16)
     /* A08C04 801DD014 34A52000 */  ori        $a1, $a1, (0x32000 & 0xFFFF)
-    /* A08C08 801DD018 0C0DA8FE */  jal        func_8036A3F8
+    /* A08C08 801DD018 0C0DA8FE */  jal        func_8036A3F8_83DBA8
     /* A08C0C 801DD01C 2484D260 */   addiu     $a0, $a0, %lo(D_801DD260_A08E50)
     /* A08C10 801DD020 0C02AB8A */  jal        func_800AAE28
     /* A08C14 801DD024 00000000 */   nop
     /* A08C18 801DD028 0C077399 */  jal        func_801DCE64_A08A54
     /* A08C1C 801DD02C 00000000 */   nop
-    /* A08C20 801DD030 0C0DBAE6 */  jal        func_8036EB98
+    /* A08C20 801DD030 0C0DBAE6 */  jal        func_8036EB98_842348
     /* A08C24 801DD034 00000000 */   nop
     /* A08C28 801DD038 00002025 */  or         $a0, $zero, $zero
     /* A08C2C 801DD03C 0C008915 */  jal        auSetBGMVolume

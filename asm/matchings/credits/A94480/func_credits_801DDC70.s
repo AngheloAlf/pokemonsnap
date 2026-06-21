@@ -19,7 +19,7 @@ glabel func_credits_801DDC70
     /* A94868 801DDCA8 E6140004 */  swc1       $f20, 0x4($s0)
     /* A9486C 801DDCAC AE120000 */  sw         $s2, 0x0($s0)
     /* A94870 801DDCB0 4616A500 */  add.s      $f20, $f20, $f22
-    /* A94874 801DDCB4 0C0DB528 */  jal        func_8036D4A0
+    /* A94874 801DDCB4 0C0DB528 */  jal        func_8036D4A0_840C50
     /* A94878 801DDCB8 00002025 */   or        $a0, $zero, $zero
     /* A9487C 801DDCBC C6040004 */  lwc1       $f4, 0x4($s0)
     /* A94880 801DDCC0 8E040000 */  lw         $a0, 0x0($s0)
@@ -29,24 +29,24 @@ glabel func_credits_801DDC70
     /* A94890 801DDCD0 240600FC */  addiu      $a2, $zero, 0xFC
     /* A94894 801DDCD4 2407000F */  addiu      $a3, $zero, 0xF
     /* A94898 801DDCD8 44053000 */  mfc1       $a1, $f6
-    /* A9489C 801DDCDC 0C0DAB1B */  jal        func_8036AC6C
+    /* A9489C 801DDCDC 0C0DAB1B */  jal        func_8036AC6C_83E41C
     /* A948A0 801DDCE0 00000000 */   nop
     /* A948A4 801DDCE4 AE02000C */  sw         $v0, 0xC($s0)
     /* A948A8 801DDCE8 00402025 */  or         $a0, $v0, $zero
-    /* A948AC 801DDCEC 0C0DB2D6 */  jal        func_8036CB58
+    /* A948AC 801DDCEC 0C0DB2D6 */  jal        func_8036CB58_840308
     /* A948B0 801DDCF0 2405000C */   addiu     $a1, $zero, 0xC
-    /* A948B4 801DDCF4 0C0DADCD */  jal        func_8036B734
+    /* A948B4 801DDCF4 0C0DADCD */  jal        func_8036B734_83EEE4
     /* A948B8 801DDCF8 8E04000C */   lw        $a0, 0xC($s0)
     /* A948BC 801DDCFC 8E04000C */  lw         $a0, 0xC($s0)
     /* A948C0 801DDD00 00002825 */  or         $a1, $zero, $zero
-    /* A948C4 801DDD04 0C0DAE7B */  jal        func_8036B9EC
+    /* A948C4 801DDD04 0C0DAE7B */  jal        func_8036B9EC_83F19C
     /* A948C8 801DDD08 00003025 */   or        $a2, $zero, $zero
     /* A948CC 801DDD0C 8E04000C */  lw         $a0, 0xC($s0)
     /* A948D0 801DDD10 AFA00014 */  sw         $zero, 0x14($sp)
     /* A948D4 801DDD14 AFA00010 */  sw         $zero, 0x10($sp)
     /* A948D8 801DDD18 00002825 */  or         $a1, $zero, $zero
     /* A948DC 801DDD1C 00003025 */  or         $a2, $zero, $zero
-    /* A948E0 801DDD20 0C0DAE1C */  jal        func_8036B870
+    /* A948E0 801DDD20 0C0DAE1C */  jal        func_8036B870_83F020
     /* A948E4 801DDD24 00003825 */   or        $a3, $zero, $zero
     /* A948E8 801DDD28 26310001 */  addiu      $s1, $s1, 0x1
     /* A948EC 801DDD2C 00118C00 */  sll        $s1, $s1, 16

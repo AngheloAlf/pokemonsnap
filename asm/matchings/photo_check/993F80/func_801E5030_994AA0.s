@@ -78,7 +78,7 @@ glabel func_801E5030_994AA0
     /* 994BC4 801E5154 00000000 */   nop
   .L801E5158_994BC8:
     /* 994BC8 801E5158 8FAB0024 */  lw         $t3, 0x24($sp)
-    /* 994BCC 801E515C 0C0DD14B */  jal        func_8037452C
+    /* 994BCC 801E515C 0C0DD14B */  jal        func_8037452C_847CDC
     /* 994BD0 801E5160 8D640000 */   lw        $a0, 0x0($t3)
     /* 994BD4 801E5164 AFA20030 */  sw         $v0, 0x30($sp)
     /* 994BD8 801E5168 8FAC0024 */  lw         $t4, 0x24($sp)

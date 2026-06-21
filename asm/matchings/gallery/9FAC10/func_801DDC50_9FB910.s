@@ -14,7 +14,7 @@ glabel func_801DDC50_9FB910
     /* 9FB938 801DDC78 00AF2821 */  addu       $a1, $a1, $t7
     /* 9FB93C 801DDC7C 8CA5084C */  lw         $a1, %lo(D_8023084C_A4E50C)($a1)
     /* 9FB940 801DDC80 02002025 */  or         $a0, $s0, $zero
-    /* 9FB944 801DDC84 0C0DD1C5 */  jal        func_80374714
+    /* 9FB944 801DDC84 0C0DD1C5 */  jal        func_80374714_847EC4
     /* 9FB948 801DDC88 24A50010 */   addiu     $a1, $a1, 0x10
     /* 9FB94C 801DDC8C 10000001 */  b          .L801DDC94_9FB954
     /* 9FB950 801DDC90 00000000 */   nop

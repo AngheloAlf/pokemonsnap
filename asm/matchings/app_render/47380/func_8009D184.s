@@ -17,7 +17,7 @@ glabel func_8009D184
     /* 48B68 8009D1B8 24060064 */  addiu      $a2, $zero, 0x64
     /* 48B6C 8009D1BC 2407007E */  addiu      $a3, $zero, 0x7E
     /* 48B70 8009D1C0 AFAF0014 */  sw         $t7, 0x14($sp)
-    /* 48B74 8009D1C4 0C038BCE */  jal        createWorld
+    /* 48B74 8009D1C4 0C038BCE */  jal        func_800E2F38
     /* 48B78 8009D1C8 AFAE0010 */   sw        $t6, 0x10($sp)
     /* 48B7C 8009D1CC 44806000 */  mtc1       $zero, $f12
     /* 48B80 8009D1D0 0C03869E */  jal        setSkyBoxAnimationSpeed

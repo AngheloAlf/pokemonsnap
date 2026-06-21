@@ -141,7 +141,7 @@ glabel func_801E2AC0_9D9430
     /* 9D9634 801E2CC4 000528C0 */  sll        $a1, $a1, 3
     /* 9D9638 801E2CC8 00A12823 */  subu       $a1, $a1, $at
     /* 9D963C 801E2CCC 24A50038 */  addiu      $a1, $a1, 0x38
-    /* 9D9640 801E2CD0 0C0DBFF8 */  jal        func_8036FFE0
+    /* 9D9640 801E2CD0 0C0DBFF8 */  jal        func_8036FFE0_843790
     /* 9D9644 801E2CD4 2484006B */   addiu     $a0, $a0, 0x6B
   .L801E2CD8_9D9648:
     /* 9D9648 801E2CD8 10000003 */  b          .L801E2CE8_9D9658

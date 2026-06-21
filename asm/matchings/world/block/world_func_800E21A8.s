@@ -1,6 +1,6 @@
-nonmatching func_800E21A8_5F958, 0x3C
+nonmatching world_func_800E21A8, 0x3C
 
-glabel func_800E21A8_5F958
+glabel world_func_800E21A8
     /* 5F958 800E21A8 3C0142C8 */  lui        $at, (0x42C80000 >> 16)
     /* 5F95C 800E21AC 44810000 */  mtc1       $at, $f0
     /* 5F960 800E21B0 00000000 */  nop
@@ -18,4 +18,4 @@ glabel func_800E21A8_5F958
     /* 5F988 800E21D8 00000000 */   nop
     /* 5F98C 800E21DC 03E00008 */  jr         $ra
     /* 5F990 800E21E0 00000000 */   nop
-endlabel func_800E21A8_5F958
+endlabel world_func_800E21A8

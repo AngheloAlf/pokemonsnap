@@ -12,7 +12,7 @@ glabel func_camera_check_801E0330
     /* 87DB40 801E0350 00003025 */   or        $a2, $zero, $zero
     /* 87DB44 801E0354 0C077691 */  jal        func_camera_check_801DDA44
     /* 87DB48 801E0358 00002025 */   or        $a0, $zero, $zero
-    /* 87DB4C 801E035C 0C0DC4FB */  jal        func_803713EC
+    /* 87DB4C 801E035C 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 87DB50 801E0360 24040007 */   addiu     $a0, $zero, 0x7
     /* 87DB54 801E0364 8FBF0014 */  lw         $ra, 0x14($sp)
     /* 87DB58 801E0368 27BD0018 */  addiu      $sp, $sp, 0x18

@@ -5,11 +5,11 @@ glabel func_801E2340_9D8CB0
     /* 9D8CB4 801E2344 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 9D8CB8 801E2348 240E001E */  addiu      $t6, $zero, 0x1E
     /* 9D8CBC 801E234C AFAE0018 */  sw         $t6, 0x18($sp)
-    /* 9D8CC0 801E2350 0C0DC029 */  jal        func_803700A4
+    /* 9D8CC0 801E2350 0C0DC029 */  jal        func_803700A4_843854
     /* 9D8CC4 801E2354 00002025 */   or        $a0, $zero, $zero
-    /* 9D8CC8 801E2358 0C0DC4F2 */  jal        func_803713C8
+    /* 9D8CC8 801E2358 0C0DC4F2 */  jal        func_803713C8_844B78
     /* 9D8CCC 801E235C 00002025 */   or        $a0, $zero, $zero
-    /* 9D8CD0 801E2360 0C0DC292 */  jal        func_80370A48
+    /* 9D8CD0 801E2360 0C0DC292 */  jal        func_80370A48_8441F8
     /* 9D8CD4 801E2364 00000000 */   nop
     /* 9D8CD8 801E2368 0C002F2A */  jal        ohWait
     /* 9D8CDC 801E236C 24040015 */   addiu     $a0, $zero, 0x15
@@ -74,10 +74,10 @@ glabel func_801E2340_9D8CB0
     /* 9D8DB0 801E2440 0C077F49 */  jal        func_801DFD24_9D6694
     /* 9D8DB4 801E2444 00002025 */   or        $a0, $zero, $zero
     /* 9D8DB8 801E2448 3C048023 */  lui        $a0, %hi(D_80230C38_A275A8)
-    /* 9D8DBC 801E244C 0C0DAD7C */  jal        func_8036B5F0
+    /* 9D8DBC 801E244C 0C0DAD7C */  jal        func_8036B5F0_83EDA0
     /* 9D8DC0 801E2450 8C840C38 */   lw        $a0, %lo(D_80230C38_A275A8)($a0)
     /* 9D8DC4 801E2454 3C048023 */  lui        $a0, %hi(D_80230C30_A275A0)
-    /* 9D8DC8 801E2458 0C0DAD7C */  jal        func_8036B5F0
+    /* 9D8DC8 801E2458 0C0DAD7C */  jal        func_8036B5F0_83EDA0
     /* 9D8DCC 801E245C 8C840C30 */   lw        $a0, %lo(D_80230C30_A275A0)($a0)
     /* 9D8DD0 801E2460 0C07738F */  jal        func_801DCE3C_9D37AC
     /* 9D8DD4 801E2464 00000000 */   nop
@@ -85,7 +85,7 @@ glabel func_801E2340_9D8CB0
     /* 9D8DDC 801E246C 00002025 */   or        $a0, $zero, $zero
     /* 9D8DE0 801E2470 3C018023 */  lui        $at, %hi(D_80230C74_A275E4)
     /* 9D8DE4 801E2474 AC200C74 */  sw         $zero, %lo(D_80230C74_A275E4)($at)
-    /* 9D8DE8 801E2478 0C0DC169 */  jal        func_803705A4
+    /* 9D8DE8 801E2478 0C0DC169 */  jal        func_803705A4_843D54
     /* 9D8DEC 801E247C 00000000 */   nop
     /* 9D8DF0 801E2480 00002025 */  or         $a0, $zero, $zero
     /* 9D8DF4 801E2484 0C0088DD */  jal        auPlaySong

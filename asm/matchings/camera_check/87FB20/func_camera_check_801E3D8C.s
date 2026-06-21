@@ -5,7 +5,7 @@ glabel func_camera_check_801E3D8C
     /* 881580 801E3D90 AFBF001C */  sw         $ra, 0x1C($sp)
     /* 881584 801E3D94 AFB00018 */  sw         $s0, 0x18($sp)
     /* 881588 801E3D98 00A08025 */  or         $s0, $a1, $zero
-    /* 88158C 801E3D9C 0C0DD14B */  jal        func_8037452C
+    /* 88158C 801E3D9C 0C0DD14B */  jal        func_8037452C_847CDC
     /* 881590 801E3DA0 AFA40028 */   sw        $a0, 0x28($sp)
     /* 881594 801E3DA4 8FAE0028 */  lw         $t6, 0x28($sp)
     /* 881598 801E3DA8 00401825 */  or         $v1, $v0, $zero

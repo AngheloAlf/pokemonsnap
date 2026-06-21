@@ -96,7 +96,7 @@ glabel pokemonAdd
     /* 503FA8 80363B98 3C058039 */  lui        $a1, %hi(D_80393A8C_533E9C)
     /* 503FAC 80363B9C 00408025 */  or         $s0, $v0, $zero
     /* 503FB0 80363BA0 24A53A8C */  addiu      $a1, $a1, %lo(D_80393A8C_533E9C)
-    /* 503FB4 80363BA4 0C039006 */  jal        func_800E4018_617C8
+    /* 503FB4 80363BA4 0C039006 */  jal        notNull_DEBUG
     /* 503FB8 80363BA8 00402025 */   or        $a0, $v0, $zero
     /* 503FBC 80363BAC 14400007 */  bnez       $v0, .L80363BCC_503FDC
     /* 503FC0 80363BB0 00000000 */   nop

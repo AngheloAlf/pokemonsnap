@@ -16,14 +16,14 @@ glabel func_801DDA68_98D4D8
     /* 98D504 801DDA94 00000000 */   nop
     /* 98D508 801DDA98 3C048023 */  lui        $a0, %hi(D_802290E0_9D8B50)
     /* 98D50C 801DDA9C 8C8490E0 */  lw         $a0, %lo(D_802290E0_9D8B50)($a0)
-    /* 98D510 801DDAA0 0C0DB469 */  jal        func_8036D1A4
+    /* 98D510 801DDAA0 0C0DB469 */  jal        func_8036D1A4_840954
     /* 98D514 801DDAA4 00002825 */   or        $a1, $zero, $zero
     /* 98D518 801DDAA8 10000005 */  b          .L801DDAC0_98D530
     /* 98D51C 801DDAAC 00000000 */   nop
   .L801DDAB0_98D520:
     /* 98D520 801DDAB0 3C048023 */  lui        $a0, %hi(D_802290E0_9D8B50)
     /* 98D524 801DDAB4 8C8490E0 */  lw         $a0, %lo(D_802290E0_9D8B50)($a0)
-    /* 98D528 801DDAB8 0C0DB469 */  jal        func_8036D1A4
+    /* 98D528 801DDAB8 0C0DB469 */  jal        func_8036D1A4_840954
     /* 98D52C 801DDABC 24050001 */   addiu     $a1, $zero, 0x1
   .L801DDAC0_98D530:
     /* 98D530 801DDAC0 10000001 */  b          .L801DDAC8_98D538

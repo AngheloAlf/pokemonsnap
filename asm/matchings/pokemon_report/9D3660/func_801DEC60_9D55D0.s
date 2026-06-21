@@ -189,7 +189,7 @@ glabel func_801DEC60_9D55D0
     /* 9D5884 801DEF14 8CA50C14 */  lw         $a1, %lo(D_80230C14_A27584)($a1)
     /* 9D5888 801DEF18 00408025 */  or         $s0, $v0, $zero
     /* 9D588C 801DEF1C 02002025 */  or         $a0, $s0, $zero
-    /* 9D5890 801DEF20 0C0DD1C5 */  jal        func_80374714
+    /* 9D5890 801DEF20 0C0DD1C5 */  jal        func_80374714_847EC4
     /* 9D5894 801DEF24 24A50010 */   addiu     $a1, $a1, 0x10
   .L801DEF28_9D5898:
     /* 9D5898 801DEF28 0C077EF4 */  jal        func_801DFBD0_9D6540
@@ -200,12 +200,12 @@ glabel func_801DEC60_9D55D0
     /* 9D58AC 801DEF3C 8F180DB4 */  lw         $t8, %lo(D_80230DB4_A27724)($t8)
     /* 9D58B0 801DEF40 1B000005 */  blez       $t8, .L801DEF58_9D58C8
     /* 9D58B4 801DEF44 00000000 */   nop
-    /* 9D58B8 801DEF48 0C0DC4F5 */  jal        func_803713D4
+    /* 9D58B8 801DEF48 0C0DC4F5 */  jal        func_803713D4_844B84
     /* 9D58BC 801DEF4C 24040001 */   addiu     $a0, $zero, 0x1
     /* 9D58C0 801DEF50 10000003 */  b          .L801DEF60_9D58D0
     /* 9D58C4 801DEF54 00000000 */   nop
   .L801DEF58_9D58C8:
-    /* 9D58C8 801DEF58 0C0DC4FB */  jal        func_803713EC
+    /* 9D58C8 801DEF58 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 9D58CC 801DEF5C 24040001 */   addiu     $a0, $zero, 0x1
   .L801DEF60_9D58D0:
     /* 9D58D0 801DEF60 0C02FE19 */  jal        func_800BF864_5C704
@@ -216,12 +216,12 @@ glabel func_801DEC60_9D55D0
     /* 9D58E4 801DEF74 0328082A */  slt        $at, $t9, $t0
     /* 9D58E8 801DEF78 10200005 */  beqz       $at, .L801DEF90_9D5900
     /* 9D58EC 801DEF7C 00000000 */   nop
-    /* 9D58F0 801DEF80 0C0DC4F5 */  jal        func_803713D4
+    /* 9D58F0 801DEF80 0C0DC4F5 */  jal        func_803713D4_844B84
     /* 9D58F4 801DEF84 24040002 */   addiu     $a0, $zero, 0x2
     /* 9D58F8 801DEF88 10000003 */  b          .L801DEF98_9D5908
     /* 9D58FC 801DEF8C 00000000 */   nop
   .L801DEF90_9D5900:
-    /* 9D5900 801DEF90 0C0DC4FB */  jal        func_803713EC
+    /* 9D5900 801DEF90 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 9D5904 801DEF94 24040002 */   addiu     $a0, $zero, 0x2
   .L801DEF98_9D5908:
     /* 9D5908 801DEF98 0C002F2A */  jal        ohWait

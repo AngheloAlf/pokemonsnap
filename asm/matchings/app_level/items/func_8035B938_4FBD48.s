@@ -87,7 +87,7 @@ glabel func_8035B938_4FBD48
     /* 4FBE18 8035BA08 1000022B */  b          .L8035C2B8_4FC6C8
     /* 4FBE1C 8035BA0C 8FBF002C */   lw        $ra, 0x2C($sp)
   .L8035BA10_4FBE20:
-    /* 4FBE20 8035BA10 0C039076 */  jal        func_800E41D8_61988
+    /* 4FBE20 8035BA10 0C039076 */  jal        getGroundAt
     /* 4FBE24 8035BA14 27A600F4 */   addiu     $a2, $sp, 0xF4
     /* 4FBE28 8035BA18 27B000B8 */  addiu      $s0, $sp, 0xB8
     /* 4FBE2C 8035BA1C 02003025 */  or         $a2, $s0, $zero

@@ -1,6 +1,6 @@
-nonmatching func_800E6778_63F28, 0x6C
+nonmatching InitOneCollisionModel, 0x6C
 
-glabel func_800E6778_63F28
+glabel InitOneCollisionModel
     /* 63F28 800E6778 27BDFFC0 */  addiu      $sp, $sp, -0x40
     /* 63F2C 800E677C AFBF0024 */  sw         $ra, 0x24($sp)
     /* 63F30 800E6780 AFB20020 */  sw         $s2, 0x20($sp)
@@ -31,4 +31,4 @@ glabel func_800E6778_63F28
     /* 63F88 800E67D8 8FB20020 */  lw         $s2, 0x20($sp)
     /* 63F8C 800E67DC 03E00008 */  jr         $ra
     /* 63F90 800E67E0 27BD0040 */   addiu     $sp, $sp, 0x40
-endlabel func_800E6778_63F28
+endlabel InitOneCollisionModel

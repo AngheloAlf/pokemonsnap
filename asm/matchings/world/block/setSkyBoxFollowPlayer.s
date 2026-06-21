@@ -1,6 +1,6 @@
-nonmatching func_800E20B4_5F864, 0x44
+nonmatching setSkyBoxFollowPlayer, 0x44
 
-glabel func_800E20B4_5F864
+glabel setSkyBoxFollowPlayer
     /* 5F864 800E20B4 3C04800E */  lui        $a0, %hi(D_800E6AE8_64298)
     /* 5F868 800E20B8 8C846AE8 */  lw         $a0, %lo(D_800E6AE8_64298)($a0)
     /* 5F86C 800E20BC 27BDFFE8 */  addiu      $sp, $sp, -0x18
@@ -20,4 +20,4 @@ glabel func_800E20B4_5F864
     /* 5F89C 800E20EC 27BD0018 */  addiu      $sp, $sp, 0x18
     /* 5F8A0 800E20F0 03E00008 */  jr         $ra
     /* 5F8A4 800E20F4 00000000 */   nop
-endlabel func_800E20B4_5F864
+endlabel setSkyBoxFollowPlayer

@@ -29,7 +29,7 @@ glabel func_800E270C_5FEBC
     /* 5FF20 800E2770 51000011 */  beql       $t0, $zero, .L800E27B8_5FF68
     /* 5FF24 800E2774 8FBF0014 */   lw        $ra, 0x14($sp)
     /* 5FF28 800E2778 C42C6AEC */  lwc1       $f12, %lo(D_800E6AEC_6429C)($at)
-    /* 5FF2C 800E277C 0C03886A */  jal        func_800E21A8_5F958
+    /* 5FF2C 800E277C 0C03886A */  jal        world_func_800E21A8
     /* 5FF30 800E2780 AFA3001C */   sw        $v1, 0x1C($sp)
     /* 5FF34 800E2784 8FA3001C */  lw         $v1, 0x1C($sp)
     /* 5FF38 800E2788 44060000 */  mfc1       $a2, $f0

@@ -16,7 +16,7 @@ glabel func_8009C4F4
     /* 47ED4 8009C524 8FAB001C */  lw         $t3, 0x1C($sp)
     /* 47ED8 8009C528 8D6C0008 */  lw         $t4, 0x8($t3)
     /* 47EDC 8009C52C 8D8D0000 */  lw         $t5, 0x0($t4)
-    /* 47EE0 8009C530 0C038867 */  jal        getGlobalTime
+    /* 47EE0 8009C530 0C038867 */  jal        func_800E219C
     /* 47EE4 8009C534 A08D0001 */   sb        $t5, 0x1($a0)
     /* 47EE8 8009C538 8FA40018 */  lw         $a0, 0x18($sp)
     /* 47EEC 8009C53C 8FA60020 */  lw         $a2, 0x20($sp)

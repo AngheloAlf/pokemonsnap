@@ -3,7 +3,7 @@ nonmatching func_80363D8C_50419C, 0x30
 glabel func_80363D8C_50419C
     /* 50419C 80363D8C 27BDFFD0 */  addiu      $sp, $sp, -0x30
     /* 5041A0 80363D90 AFBF0014 */  sw         $ra, 0x14($sp)
-    /* 5041A4 80363D94 0C039076 */  jal        func_800E41D8_61988
+    /* 5041A4 80363D94 0C039076 */  jal        getGroundAt
     /* 5041A8 80363D98 27A6001C */   addiu     $a2, $sp, 0x1C
     /* 5041AC 80363D9C 10400003 */  beqz       $v0, .L80363DAC_5041BC
     /* 5041B0 80363DA0 8FBF0014 */   lw        $ra, 0x14($sp)

@@ -89,13 +89,13 @@ glabel func_camera_check_801E15B4
     /* 87EDC4 801E15D4 AFB1001C */  sw         $s1, 0x1C($sp)
     /* 87EDC8 801E15D8 AFB00018 */  sw         $s0, 0x18($sp)
     /* 87EDCC 801E15DC 24150001 */  addiu      $s5, $zero, 0x1
-    /* 87EDD0 801E15E0 0C0DC029 */  jal        func_803700A4
+    /* 87EDD0 801E15E0 0C0DC029 */  jal        func_803700A4_843854
     /* 87EDD4 801E15E4 00002025 */   or        $a0, $zero, $zero
     /* 87EDD8 801E15E8 0C07774A */  jal        func_camera_check_801DDD28
     /* 87EDDC 801E15EC 24040001 */   addiu     $a0, $zero, 0x1
     /* 87EDE0 801E15F0 0C0772D0 */  jal        func_camera_check_801DCB40
     /* 87EDE4 801E15F4 00000000 */   nop
-    /* 87EDE8 801E15F8 0C0DAA39 */  jal        func_8036A8E4
+    /* 87EDE8 801E15F8 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 87EDEC 801E15FC 00402025 */   or        $a0, $v0, $zero
     /* 87EDF0 801E1600 0C078B81 */  jal        func_camera_check_801E2E04
     /* 87EDF4 801E1604 00000000 */   nop
@@ -118,7 +118,7 @@ glabel func_camera_check_801E15B4
     /* 87EE34 801E1644 00409025 */   or        $s2, $v0, $zero
     /* 87EE38 801E1648 0C0772D0 */  jal        func_camera_check_801DCB40
     /* 87EE3C 801E164C 0000A825 */   or        $s5, $zero, $zero
-    /* 87EE40 801E1650 0C0DAA39 */  jal        func_8036A8E4
+    /* 87EE40 801E1650 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 87EE44 801E1654 00402025 */   or        $a0, $v0, $zero
     /* 87EE48 801E1658 02928026 */  xor        $s0, $s4, $s2
     /* 87EE4C 801E165C 2E100001 */  sltiu      $s0, $s0, 0x1
@@ -134,7 +134,7 @@ glabel func_camera_check_801E15B4
     /* 87EE74 801E1684 00000000 */   nop
     /* 87EE78 801E1688 3C058021 */  lui        $a1, %hi(D_camera_check_80209518)
     /* 87EE7C 801E168C 24A59518 */  addiu      $a1, $a1, %lo(D_camera_check_80209518)
-    /* 87EE80 801E1690 0C0DB226 */  jal        func_8036C898
+    /* 87EE80 801E1690 0C0DB226 */  jal        UIElement_PrintText
     /* 87EE84 801E1694 00402025 */   or        $a0, $v0, $zero
     /* 87EE88 801E1698 1000002F */  b          .Lcamera_check_801E1758
     /* 87EE8C 801E169C 00000000 */   nop
@@ -147,7 +147,7 @@ glabel func_camera_check_801E15B4
     /* 87EEA4 801E16B4 00000000 */   nop
     /* 87EEA8 801E16B8 3C058021 */  lui        $a1, %hi(D_camera_check_80209560)
     /* 87EEAC 801E16BC 24A59560 */  addiu      $a1, $a1, %lo(D_camera_check_80209560)
-    /* 87EEB0 801E16C0 0C0DD467 */  jal        func_8037519C
+    /* 87EEB0 801E16C0 0C0DD467 */  jal        func_8037519C_84894C
     /* 87EEB4 801E16C4 00402025 */   or        $a0, $v0, $zero
     /* 87EEB8 801E16C8 12000009 */  beqz       $s0, .Lcamera_check_801E16F0
     /* 87EEBC 801E16CC 00000000 */   nop
@@ -155,7 +155,7 @@ glabel func_camera_check_801E15B4
     /* 87EEC4 801E16D4 00000000 */   nop
     /* 87EEC8 801E16D8 3C058021 */  lui        $a1, %hi(D_camera_check_8020959C)
     /* 87EECC 801E16DC 24A5959C */  addiu      $a1, $a1, %lo(D_camera_check_8020959C)
-    /* 87EED0 801E16E0 0C0DB226 */  jal        func_8036C898
+    /* 87EED0 801E16E0 0C0DB226 */  jal        UIElement_PrintText
     /* 87EED4 801E16E4 00402025 */   or        $a0, $v0, $zero
     /* 87EED8 801E16E8 1000001B */  b          .Lcamera_check_801E1758
     /* 87EEDC 801E16EC 00000000 */   nop
@@ -165,7 +165,7 @@ glabel func_camera_check_801E15B4
     /* 87EEE8 801E16F8 3C058021 */  lui        $a1, %hi(D_camera_check_802095B4)
     /* 87EEEC 801E16FC 24A595B4 */  addiu      $a1, $a1, %lo(D_camera_check_802095B4)
     /* 87EEF0 801E1700 00402025 */  or         $a0, $v0, $zero
-    /* 87EEF4 801E1704 0C0DD467 */  jal        func_8037519C
+    /* 87EEF4 801E1704 0C0DD467 */  jal        func_8037519C_84894C
     /* 87EEF8 801E1708 02923023 */   subu      $a2, $s4, $s2
     /* 87EEFC 801E170C 10000012 */  b          .Lcamera_check_801E1758
     /* 87EF00 801E1710 00000000 */   nop
@@ -176,7 +176,7 @@ glabel func_camera_check_801E15B4
     /* 87EF10 801E1720 00000000 */   nop
     /* 87EF14 801E1724 3C058021 */  lui        $a1, %hi(D_camera_check_802095C8)
     /* 87EF18 801E1728 24A595C8 */  addiu      $a1, $a1, %lo(D_camera_check_802095C8)
-    /* 87EF1C 801E172C 0C0DB226 */  jal        func_8036C898
+    /* 87EF1C 801E172C 0C0DB226 */  jal        UIElement_PrintText
     /* 87EF20 801E1730 00402025 */   or        $a0, $v0, $zero
     /* 87EF24 801E1734 10000008 */  b          .Lcamera_check_801E1758
     /* 87EF28 801E1738 00000000 */   nop
@@ -186,7 +186,7 @@ glabel func_camera_check_801E15B4
     /* 87EF34 801E1744 3C058021 */  lui        $a1, %hi(D_camera_check_80209624)
     /* 87EF38 801E1748 24A59624 */  addiu      $a1, $a1, %lo(D_camera_check_80209624)
     /* 87EF3C 801E174C 00402025 */  or         $a0, $v0, $zero
-    /* 87EF40 801E1750 0C0DD467 */  jal        func_8037519C
+    /* 87EF40 801E1750 0C0DD467 */  jal        func_8037519C_84894C
     /* 87EF44 801E1754 02923023 */   subu      $a2, $s4, $s2
   .Lcamera_check_801E1758:
     /* 87EF48 801E1758 0C078936 */  jal        func_camera_check_801E24D8
@@ -207,7 +207,7 @@ glabel func_camera_check_801E15B4
   .Lcamera_check_801E1794:
     /* 87EF84 801E1794 0C078096 */  jal        func_camera_check_801E0258
     /* 87EF88 801E1798 00002025 */   or        $a0, $zero, $zero
-    /* 87EF8C 801E179C 0C0DC029 */  jal        func_803700A4
+    /* 87EF8C 801E179C 0C0DC029 */  jal        func_803700A4_843854
     /* 87EF90 801E17A0 24040001 */   addiu     $a0, $zero, 0x1
     /* 87EF94 801E17A4 0C008A39 */  jal        auPlaySound
     /* 87EF98 801E17A8 24040048 */   addiu     $a0, $zero, 0x48
@@ -220,7 +220,7 @@ glabel func_camera_check_801E15B4
     /* 87EFB0 801E17C0 00617024 */   and       $t6, $v1, $at
     /* 87EFB4 801E17C4 0C0772D0 */  jal        func_camera_check_801DCB40
     /* 87EFB8 801E17C8 00000000 */   nop
-    /* 87EFBC 801E17CC 0C0DAA39 */  jal        func_8036A8E4
+    /* 87EFBC 801E17CC 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 87EFC0 801E17D0 00402025 */   or        $a0, $v0, $zero
     /* 87EFC4 801E17D4 8E2B0018 */  lw         $t3, 0x18($s1)
     /* 87EFC8 801E17D8 000B6900 */  sll        $t5, $t3, 4
@@ -230,7 +230,7 @@ glabel func_camera_check_801E15B4
     /* 87EFD8 801E17E8 00000000 */   nop
     /* 87EFDC 801E17EC 3C058021 */  lui        $a1, %hi(D_camera_check_80209670)
     /* 87EFE0 801E17F0 24A59670 */  addiu      $a1, $a1, %lo(D_camera_check_80209670)
-    /* 87EFE4 801E17F4 0C0DB226 */  jal        func_8036C898
+    /* 87EFE4 801E17F4 0C0DB226 */  jal        UIElement_PrintText
     /* 87EFE8 801E17F8 00402025 */   or        $a0, $v0, $zero
     /* 87EFEC 801E17FC 10000007 */  b          .Lcamera_check_801E181C
     /* 87EFF0 801E1800 00000000 */   nop
@@ -239,7 +239,7 @@ glabel func_camera_check_801E15B4
     /* 87EFF8 801E1808 00000000 */   nop
     /* 87EFFC 801E180C 3C058021 */  lui        $a1, %hi(D_camera_check_80209680)
     /* 87F000 801E1810 24A59680 */  addiu      $a1, $a1, %lo(D_camera_check_80209680)
-    /* 87F004 801E1814 0C0DB226 */  jal        func_8036C898
+    /* 87F004 801E1814 0C0DB226 */  jal        UIElement_PrintText
     /* 87F008 801E1818 00402025 */   or        $a0, $v0, $zero
   .Lcamera_check_801E181C:
     /* 87F00C 801E181C 0C07800D */  jal        func_camera_check_801E0034
@@ -254,7 +254,7 @@ glabel func_camera_check_801E15B4
     /* 87F030 801E1840 00002025 */   or        $a0, $zero, $zero
     /* 87F034 801E1844 0C008A39 */  jal        auPlaySound
     /* 87F038 801E1848 24040048 */   addiu     $a0, $zero, 0x48
-    /* 87F03C 801E184C 0C0DC029 */  jal        func_803700A4
+    /* 87F03C 801E184C 0C0DC029 */  jal        func_803700A4_843854
     /* 87F040 801E1850 24040001 */   addiu     $a0, $zero, 0x1
     /* 87F044 801E1854 10000026 */  b          .Lcamera_check_801E18F0
     /* 87F048 801E1858 24020001 */   addiu     $v0, $zero, 0x1

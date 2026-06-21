@@ -7,12 +7,12 @@ glabel func_camera_check_801E0374
     /* 87DB70 801E0380 AFBF0014 */  sw         $ra, 0x14($sp)
     /* 87DB74 801E0384 1DC00005 */  bgtz       $t6, .Lcamera_check_801E039C
     /* 87DB78 801E0388 00000000 */   nop
-    /* 87DB7C 801E038C 0C0DC4FB */  jal        func_803713EC
+    /* 87DB7C 801E038C 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 87DB80 801E0390 24040001 */   addiu     $a0, $zero, 0x1
     /* 87DB84 801E0394 10000003 */  b          .Lcamera_check_801E03A4
     /* 87DB88 801E0398 00000000 */   nop
   .Lcamera_check_801E039C:
-    /* 87DB8C 801E039C 0C0DC4F5 */  jal        func_803713D4
+    /* 87DB8C 801E039C 0C0DC4F5 */  jal        func_803713D4_844B84
     /* 87DB90 801E03A0 24040001 */   addiu     $a0, $zero, 0x1
   .Lcamera_check_801E03A4:
     /* 87DB94 801E03A4 0C07894D */  jal        func_camera_check_801E2534
@@ -23,12 +23,12 @@ glabel func_camera_check_801E0374
     /* 87DBA8 801E03B8 01F8082A */  slt        $at, $t7, $t8
     /* 87DBAC 801E03BC 14200005 */  bnez       $at, .Lcamera_check_801E03D4
     /* 87DBB0 801E03C0 00000000 */   nop
-    /* 87DBB4 801E03C4 0C0DC4FB */  jal        func_803713EC
+    /* 87DBB4 801E03C4 0C0DC4FB */  jal        func_803713EC_844B9C
     /* 87DBB8 801E03C8 24040002 */   addiu     $a0, $zero, 0x2
     /* 87DBBC 801E03CC 10000004 */  b          .Lcamera_check_801E03E0
     /* 87DBC0 801E03D0 8FBF0014 */   lw        $ra, 0x14($sp)
   .Lcamera_check_801E03D4:
-    /* 87DBC4 801E03D4 0C0DC4F5 */  jal        func_803713D4
+    /* 87DBC4 801E03D4 0C0DC4F5 */  jal        func_803713D4_844B84
     /* 87DBC8 801E03D8 24040002 */   addiu     $a0, $zero, 0x2
     /* 87DBCC 801E03DC 8FBF0014 */  lw         $ra, 0x14($sp)
   .Lcamera_check_801E03E0:

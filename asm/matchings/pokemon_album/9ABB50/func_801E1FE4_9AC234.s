@@ -103,7 +103,7 @@ glabel func_801E1FE4_9AC234
     /* 9AC3B0 801E2160 00A12823 */  subu       $a1, $a1, $at
     /* 9AC3B4 801E2164 00042040 */  sll        $a0, $a0, 1
     /* 9AC3B8 801E2168 2484006B */  addiu      $a0, $a0, 0x6B
-    /* 9AC3BC 801E216C 0C0DC001 */  jal        func_80370004
+    /* 9AC3BC 801E216C 0C0DC001 */  jal        func_80370004_8437B4
     /* 9AC3C0 801E2170 24A50038 */   addiu     $a1, $a1, 0x38
     /* 9AC3C4 801E2174 3C088021 */  lui        $t0, %hi(D_80208B94_9D2DE4)
     /* 9AC3C8 801E2178 8D088B94 */  lw         $t0, %lo(D_80208B94_9D2DE4)($t0)
@@ -162,7 +162,7 @@ glabel func_801E1FE4_9AC234
     /* 9AC494 801E2244 00A12823 */  subu       $a1, $a1, $at
     /* 9AC498 801E2248 00042040 */  sll        $a0, $a0, 1
     /* 9AC49C 801E224C 2484006B */  addiu      $a0, $a0, 0x6B
-    /* 9AC4A0 801E2250 0C0DC001 */  jal        func_80370004
+    /* 9AC4A0 801E2250 0C0DC001 */  jal        func_80370004_8437B4
     /* 9AC4A4 801E2254 24A50038 */   addiu     $a1, $a1, 0x38
     /* 9AC4A8 801E2258 3C198021 */  lui        $t9, %hi(D_80208B94_9D2DE4)
     /* 9AC4AC 801E225C 8F398B94 */  lw         $t9, %lo(D_80208B94_9D2DE4)($t9)
@@ -238,7 +238,7 @@ glabel func_801E1FE4_9AC234
     /* 9AC5B4 801E2364 00A12823 */  subu       $a1, $a1, $at
     /* 9AC5B8 801E2368 00042040 */  sll        $a0, $a0, 1
     /* 9AC5BC 801E236C 24840063 */  addiu      $a0, $a0, 0x63
-    /* 9AC5C0 801E2370 0C0DBFF8 */  jal        func_8036FFE0
+    /* 9AC5C0 801E2370 0C0DBFF8 */  jal        func_8036FFE0_843790
     /* 9AC5C4 801E2374 24A50030 */   addiu     $a1, $a1, 0x30
     /* 9AC5C8 801E2378 8FA9001C */  lw         $t1, 0x1C($sp)
     /* 9AC5CC 801E237C 8FAF0020 */  lw         $t7, 0x20($sp)
@@ -273,7 +273,7 @@ glabel func_801E1FE4_9AC234
     /* 9AC63C 801E23EC 00A12823 */  subu       $a1, $a1, $at
     /* 9AC640 801E23F0 00042040 */  sll        $a0, $a0, 1
     /* 9AC644 801E23F4 2484006B */  addiu      $a0, $a0, 0x6B
-    /* 9AC648 801E23F8 0C0DBFF8 */  jal        func_8036FFE0
+    /* 9AC648 801E23F8 0C0DBFF8 */  jal        func_8036FFE0_843790
     /* 9AC64C 801E23FC 24A50038 */   addiu     $a1, $a1, 0x38
     /* 9AC650 801E2400 2404FFFF */  addiu      $a0, $zero, -0x1
     /* 9AC654 801E2404 0C07777E */  jal        func_801DDDF8_9A8048

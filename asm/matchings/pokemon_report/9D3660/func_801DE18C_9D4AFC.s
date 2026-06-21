@@ -20,7 +20,7 @@ glabel func_801DE18C_9D4AFC
     /* 9D4B3C 801DE1CC 8F240000 */   lw        $a0, 0x0($t9)
     /* 9D4B40 801DE1D0 00408025 */  or         $s0, $v0, $zero
     /* 9D4B44 801DE1D4 02002825 */  or         $a1, $s0, $zero
-    /* 9D4B48 801DE1D8 0C0DD433 */  jal        func_803750CC
+    /* 9D4B48 801DE1D8 0C0DD433 */  jal        func_803750CC_84887C
     /* 9D4B4C 801DE1DC 02202025 */   or        $a0, $s1, $zero
     /* 9D4B50 801DE1E0 10000003 */  b          .L801DE1F0_9D4B60
     /* 9D4B54 801DE1E4 00000000 */   nop

@@ -33,7 +33,7 @@ glabel func_8035E298_4FE6A8
     /* 4FE718 8035E308 02203025 */   or        $a2, $s1, $zero
     /* 4FE71C 8035E30C C7AC004C */  lwc1       $f12, 0x4C($sp)
     /* 4FE720 8035E310 C7AE0054 */  lwc1       $f14, 0x54($sp)
-    /* 4FE724 8035E314 0C039076 */  jal        func_800E41D8_61988
+    /* 4FE724 8035E314 0C039076 */  jal        getGroundAt
     /* 4FE728 8035E318 02003025 */   or        $a2, $s0, $zero
     /* 4FE72C 8035E31C C7A00028 */  lwc1       $f0, 0x28($sp)
     /* 4FE730 8035E320 C7A40050 */  lwc1       $f4, 0x50($sp)

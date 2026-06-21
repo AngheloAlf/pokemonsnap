@@ -38,7 +38,7 @@ glabel func_801DC9E8_A085D8
     /* A08660 801DCA70 AD0A0050 */  sw         $t2, 0x50($t0)
     /* A08664 801DCA74 3C04801E */  lui        $a0, %hi(D_801DD254_A08E44)
     /* A08668 801DCA78 8C84D254 */  lw         $a0, %lo(D_801DD254_A08E44)($a0)
-    /* A0866C 801DCA7C 0C0DBF95 */  jal        func_8036FE54
+    /* A0866C 801DCA7C 0C0DBF95 */  jal        func_8036FE54_843604
     /* A08670 801DCA80 24050001 */   addiu     $a1, $zero, 0x1
     /* A08674 801DCA84 0C029D18 */  jal        func_800A7460
     /* A08678 801DCA88 00000000 */   nop
@@ -54,7 +54,7 @@ glabel func_801DC9E8_A085D8
   .L801DCAAC_A0869C:
     /* A0869C 801DCAAC 3C04801E */  lui        $a0, %hi(D_801DD258_A08E48)
     /* A086A0 801DCAB0 8C84D258 */  lw         $a0, %lo(D_801DD258_A08E48)($a0)
-    /* A086A4 801DCAB4 0C0DB469 */  jal        func_8036D1A4
+    /* A086A4 801DCAB4 0C0DB469 */  jal        func_8036D1A4_840954
     /* A086A8 801DCAB8 00002825 */   or        $a1, $zero, $zero
     /* A086AC 801DCABC 3C01801E */  lui        $at, %hi(D_801DD25C_A08E4C)
     /* A086B0 801DCAC0 AC20D25C */  sw         $zero, %lo(D_801DD25C_A08E4C)($at)
@@ -114,30 +114,30 @@ glabel func_801DC9E8_A085D8
     /* A08778 801DCB88 00000000 */   nop
     /* A0877C 801DCB8C 3C04801E */  lui        $a0, %hi(D_801DD254_A08E44)
     /* A08780 801DCB90 8C84D254 */  lw         $a0, %lo(D_801DD254_A08E44)($a0)
-    /* A08784 801DCB94 0C0DBC37 */  jal        func_8036F0DC
+    /* A08784 801DCB94 0C0DBC37 */  jal        func_8036F0DC_84288C
     /* A08788 801DCB98 24050001 */   addiu     $a1, $zero, 0x1
     /* A0878C 801DCB9C 3C04801E */  lui        $a0, %hi(D_801DD254_A08E44)
     /* A08790 801DCBA0 8C84D254 */  lw         $a0, %lo(D_801DD254_A08E44)($a0)
-    /* A08794 801DCBA4 0C0DBC28 */  jal        func_8036F0A0
+    /* A08794 801DCBA4 0C0DBC28 */  jal        UIFrame_ShowBackground
     /* A08798 801DCBA8 24050001 */   addiu     $a1, $zero, 0x1
     /* A0879C 801DCBAC 3C04801E */  lui        $a0, %hi(D_801DD258_A08E48)
     /* A087A0 801DCBB0 8C84D258 */  lw         $a0, %lo(D_801DD258_A08E48)($a0)
-    /* A087A4 801DCBB4 0C0DB469 */  jal        func_8036D1A4
+    /* A087A4 801DCBB4 0C0DB469 */  jal        func_8036D1A4_840954
     /* A087A8 801DCBB8 00002825 */   or        $a1, $zero, $zero
     /* A087AC 801DCBBC 1000000D */  b          .L801DCBF4_A087E4
     /* A087B0 801DCBC0 00000000 */   nop
   .L801DCBC4_A087B4:
     /* A087B4 801DCBC4 3C04801E */  lui        $a0, %hi(D_801DD254_A08E44)
     /* A087B8 801DCBC8 8C84D254 */  lw         $a0, %lo(D_801DD254_A08E44)($a0)
-    /* A087BC 801DCBCC 0C0DBC37 */  jal        func_8036F0DC
+    /* A087BC 801DCBCC 0C0DBC37 */  jal        func_8036F0DC_84288C
     /* A087C0 801DCBD0 00002825 */   or        $a1, $zero, $zero
     /* A087C4 801DCBD4 3C04801E */  lui        $a0, %hi(D_801DD254_A08E44)
     /* A087C8 801DCBD8 8C84D254 */  lw         $a0, %lo(D_801DD254_A08E44)($a0)
-    /* A087CC 801DCBDC 0C0DBC28 */  jal        func_8036F0A0
+    /* A087CC 801DCBDC 0C0DBC28 */  jal        UIFrame_ShowBackground
     /* A087D0 801DCBE0 00002825 */   or        $a1, $zero, $zero
     /* A087D4 801DCBE4 3C04801E */  lui        $a0, %hi(D_801DD258_A08E48)
     /* A087D8 801DCBE8 8C84D258 */  lw         $a0, %lo(D_801DD258_A08E48)($a0)
-    /* A087DC 801DCBEC 0C0DB469 */  jal        func_8036D1A4
+    /* A087DC 801DCBEC 0C0DB469 */  jal        func_8036D1A4_840954
     /* A087E0 801DCBF0 24050001 */   addiu     $a1, $zero, 0x1
   .L801DCBF4_A087E4:
     /* A087E4 801DCBF4 8FA9003C */  lw         $t1, 0x3C($sp)

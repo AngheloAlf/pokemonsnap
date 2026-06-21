@@ -90,17 +90,17 @@ glabel func_800E28C0_A5DC70
     /* A5DD5C 800E29AC 1000FFF9 */  b          .L800E2994_A5DD44
     /* A5DD60 800E29B0 24C60001 */   addiu     $a2, $a2, 0x1
   .L800E29B4_A5DD64:
-    /* A5DD64 800E29B4 0C0DAA39 */  jal        func_8036A8E4
+    /* A5DD64 800E29B4 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* A5DD68 800E29B8 8C848110 */   lw        $a0, %lo(D_80118110_A934C0)($a0)
     /* A5DD6C 800E29BC 3C048012 */  lui        $a0, %hi(D_80118110_A934C0)
     /* A5DD70 800E29C0 8C848110 */  lw         $a0, %lo(D_80118110_A934C0)($a0)
     /* A5DD74 800E29C4 00002825 */  or         $a1, $zero, $zero
-    /* A5DD78 800E29C8 0C0DAE7B */  jal        func_8036B9EC
+    /* A5DD78 800E29C8 0C0DAE7B */  jal        func_8036B9EC_83F19C
     /* A5DD7C 800E29CC 00003025 */   or        $a2, $zero, $zero
     /* A5DD80 800E29D0 3C048012 */  lui        $a0, %hi(D_80118110_A934C0)
     /* A5DD84 800E29D4 3C058017 */  lui        $a1, %hi(D_80168130_AE34E0)
     /* A5DD88 800E29D8 24A58130 */  addiu      $a1, $a1, %lo(D_80168130_AE34E0)
-    /* A5DD8C 800E29DC 0C0DB226 */  jal        func_8036C898
+    /* A5DD8C 800E29DC 0C0DB226 */  jal        UIElement_PrintText
     /* A5DD90 800E29E0 8C848110 */   lw        $a0, %lo(D_80118110_A934C0)($a0)
     /* A5DD94 800E29E4 240F000A */  addiu      $t7, $zero, 0xA
     /* A5DD98 800E29E8 AFAF0010 */  sw         $t7, 0x10($sp)

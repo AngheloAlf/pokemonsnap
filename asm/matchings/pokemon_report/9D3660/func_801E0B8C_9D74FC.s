@@ -6,21 +6,21 @@ glabel func_801E0B8C_9D74FC
     /* 9D7504 801E0B94 AFA40020 */  sw         $a0, 0x20($sp)
     /* 9D7508 801E0B98 AFA50024 */  sw         $a1, 0x24($sp)
     /* 9D750C 801E0B9C AFA60028 */  sw         $a2, 0x28($sp)
-    /* 9D7510 801E0BA0 0C0DB528 */  jal        func_8036D4A0
+    /* 9D7510 801E0BA0 0C0DB528 */  jal        func_8036D4A0_840C50
     /* 9D7514 801E0BA4 24040002 */   addiu     $a0, $zero, 0x2
     /* 9D7518 801E0BA8 8FAE0024 */  lw         $t6, 0x24($sp)
     /* 9D751C 801E0BAC 8DCF0000 */  lw         $t7, 0x0($t6)
     /* 9D7520 801E0BB0 11E0001A */  beqz       $t7, .L801E0C1C_9D758C
     /* 9D7524 801E0BB4 00000000 */   nop
   .L801E0BB8_9D7528:
-    /* 9D7528 801E0BB8 0C0DAA39 */  jal        func_8036A8E4
+    /* 9D7528 801E0BB8 0C0DAA39 */  jal        func_8036A8E4_83E094
     /* 9D752C 801E0BBC 8FA40020 */   lw        $a0, 0x20($sp)
     /* 9D7530 801E0BC0 8FB80024 */  lw         $t8, 0x24($sp)
     /* 9D7534 801E0BC4 8FA40020 */  lw         $a0, 0x20($sp)
-    /* 9D7538 801E0BC8 0C0DB226 */  jal        func_8036C898
+    /* 9D7538 801E0BC8 0C0DB226 */  jal        UIElement_PrintText
     /* 9D753C 801E0BCC 8F050000 */   lw        $a1, 0x0($t8)
     /* 9D7540 801E0BD0 8FA40020 */  lw         $a0, 0x20($sp)
-    /* 9D7544 801E0BD4 0C0DD3CC */  jal        func_80374F30
+    /* 9D7544 801E0BD4 0C0DD3CC */  jal        func_80374F30_8486E0
     /* 9D7548 801E0BD8 24050001 */   addiu     $a1, $zero, 0x1
     /* 9D754C 801E0BDC AFA2001C */  sw         $v0, 0x1C($sp)
     /* 9D7550 801E0BE0 8FB90028 */  lw         $t9, 0x28($sp)

@@ -6,18 +6,18 @@ glabel func_801DCBF4_9D3564
     /* 9D356C 801DCBFC 3C048020 */  lui        $a0, %hi(D_80203C10_9FA580)
     /* 9D3570 801DCC00 3C050002 */  lui        $a1, (0x2D000 >> 16)
     /* 9D3574 801DCC04 34A5D000 */  ori        $a1, $a1, (0x2D000 & 0xFFFF)
-    /* 9D3578 801DCC08 0C0DA8FE */  jal        func_8036A3F8
+    /* 9D3578 801DCC08 0C0DA8FE */  jal        func_8036A3F8_83DBA8
     /* 9D357C 801DCC0C 24843C10 */   addiu     $a0, $a0, %lo(D_80203C10_9FA580)
     /* 9D3580 801DCC10 0C02AB8A */  jal        func_800AAE28
     /* 9D3584 801DCC14 00000000 */   nop
     /* 9D3588 801DCC18 0C077292 */  jal        func_801DCA48_9D33B8
     /* 9D358C 801DCC1C 00000000 */   nop
-    /* 9D3590 801DCC20 0C0DD350 */  jal        func_80374D40
+    /* 9D3590 801DCC20 0C0DD350 */  jal        func_80374D40_8484F0
     /* 9D3594 801DCC24 00000000 */   nop
     /* 9D3598 801DCC28 24040001 */  addiu      $a0, $zero, 0x1
     /* 9D359C 801DCC2C 0C029FDA */  jal        func_800A7F68
     /* 9D35A0 801DCC30 24050101 */   addiu     $a1, $zero, 0x101
-    /* 9D35A4 801DCC34 0C0DBAE6 */  jal        func_8036EB98
+    /* 9D35A4 801DCC34 0C0DBAE6 */  jal        func_8036EB98_842348
     /* 9D35A8 801DCC38 00000000 */   nop
     /* 9D35AC 801DCC3C 00002025 */  or         $a0, $zero, $zero
     /* 9D35B0 801DCC40 0C0088DD */  jal        auPlaySong

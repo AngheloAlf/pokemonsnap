@@ -13,10 +13,10 @@ glabel func_800E1FEC_8A780C
     /* 8A7830 800E2010 8F186B2C */  lw         $t8, %lo(D_80206B2C_9CC34C)($t8)
     /* 8A7834 800E2014 8DEF57F4 */  lw         $t7, %lo(D_801957F4_95B014)($t7)
     /* 8A7838 800E2018 00002025 */  or         $a0, $zero, $zero
-    /* 8A783C 800E201C 0C0DB512 */  jal        func_8036D448
+    /* 8A783C 800E201C 0C0DB512 */  jal        func_8036D448_840BF8
     /* 8A7840 800E2020 AF0F0044 */   sw        $t7, 0x44($t8)
     /* 8A7844 800E2024 00002025 */  or         $a0, $zero, $zero
-    /* 8A7848 800E2028 0C0DB4FA */  jal        func_8036D3E8
+    /* 8A7848 800E2028 0C0DB4FA */  jal        func_8036D3E8_840B98
     /* 8A784C 800E202C 24050004 */   addiu     $a1, $zero, 0x4
     /* 8A7850 800E2030 0C038747 */  jal        func_800E1D1C_8A753C
     /* 8A7854 800E2034 24040001 */   addiu     $a0, $zero, 0x1

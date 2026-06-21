@@ -9,12 +9,12 @@ glabel func_credits_801DD340
     /* A93F14 801DD354 1080001C */  beqz       $a0, .Lcredits_801DD3C8
     /* A93F18 801DD358 AFB00018 */   sw        $s0, 0x18($sp)
   .Lcredits_801DD35C:
-    /* A93F1C 801DD35C 0C0DA865 */  jal        func_8036A194
+    /* A93F1C 801DD35C 0C0DA865 */  jal        UIMem_Allocate
     /* A93F20 801DD360 24040080 */   addiu     $a0, $zero, 0x80
     /* A93F24 801DD364 00408825 */  or         $s1, $v0, $zero
     /* A93F28 801DD368 00008025 */  or         $s0, $zero, $zero
   .Lcredits_801DD36C:
-    /* A93F2C 801DD36C 0C0DA865 */  jal        func_8036A194
+    /* A93F2C 801DD36C 0C0DA865 */  jal        UIMem_Allocate
     /* A93F30 801DD370 24040F50 */   addiu     $a0, $zero, 0xF50
     /* A93F34 801DD374 8E4E0044 */  lw         $t6, 0x44($s2)
     /* A93F38 801DD378 00101900 */  sll        $v1, $s0, 4
