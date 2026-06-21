@@ -1,9 +1,9 @@
-D_0E000000 = 0xE000000;
-D_0E000008 = 0xE000008;
-D_0E000010 = 0xE000010;
-D_0E000018 = 0xE000018;
-D_0E000020 = 0xE000020;
-D_0E000028 = 0xE000028;
+D_0E000000 = 0x0E000000; // absolute:True type:Gfx
+D_0E000008 = 0x0E000008; // absolute:True type:Gfx
+D_0E000010 = 0x0E000010; // absolute:True type:Gfx
+D_0E000018 = 0x0E000018; // absolute:True type:Gfx
+D_0E000020 = 0x0E000020; // absolute:True type:Gfx
+D_0E000028 = 0x0E000028; // absolute:True type:Gfx
 
 game_main = 0x80000870;
 
