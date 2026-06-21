@@ -10,7 +10,7 @@ tools/ido7.1/
 tools/asm_proc/
 
 *.bin
-*.ld
+
 *.o
 *.z64
 
