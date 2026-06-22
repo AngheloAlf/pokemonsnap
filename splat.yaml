@@ -10087,6 +10087,8 @@ segments:
     vram: 0x801DC8C0
     bss_size: 0x408F0
     exclusive_ram_id: level
+    prioritized_segments:
+    - window
     subsegments:
     - [0x87A0B0, c]
     - [0x87A320, pad] # padding
