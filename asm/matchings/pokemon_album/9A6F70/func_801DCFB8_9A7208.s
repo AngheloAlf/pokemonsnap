@@ -56,7 +56,7 @@ glabel func_801DCFB8_9A7208
     /* 9A72C4 801DD074 240500FF */  addiu      $a1, $zero, 0xFF
     /* 9A72C8 801DD078 240600FF */  addiu      $a2, $zero, 0xFF
     /* 9A72CC 801DD07C 240700FF */  addiu      $a3, $zero, 0xFF
-    /* 9A72D0 801DD080 0C0DB492 */  jal        func_8036D248_8409F8
+    /* 9A72D0 801DD080 0C0DB492 */  jal        func_8036D248
     /* 9A72D4 801DD084 AFB00010 */   sw        $s0, 0x10($sp)
     /* 9A72D8 801DD088 0C002F2A */  jal        ohWait
     /* 9A72DC 801DD08C 24040001 */   addiu     $a0, $zero, 0x1

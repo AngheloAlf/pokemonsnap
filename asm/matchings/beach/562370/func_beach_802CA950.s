@@ -69,10 +69,10 @@ glabel func_beach_802CA950
     /* 562AC4 802CAA54 0C0023CB */  jal        omEndProcess
     /* 562AC8 802CAA58 00002025 */   or        $a0, $zero, $zero
   .Lbeach_802CAA5C:
-    /* 562ACC 802CAA5C 3C048014 */  lui        $a0, %hi(computer_vtx + 0x2D0)
+    /* 562ACC 802CAA5C 3C048014 */  lui        $a0, %hi(D_8013B030)
     /* 562AD0 802CAA60 3C058014 */  lui        $a1, %hi(D_8013BAA0)
     /* 562AD4 802CAA64 24A5BAA0 */  addiu      $a1, $a1, %lo(D_8013BAA0)
-    /* 562AD8 802CAA68 2484B030 */  addiu      $a0, $a0, %lo(computer_vtx + 0x2D0)
+    /* 562AD8 802CAA68 2484B030 */  addiu      $a0, $a0, %lo(D_8013B030)
     /* 562ADC 802CAA6C 24060000 */  addiu      $a2, $zero, 0x0
     /* 562AE0 802CAA70 0C0D97CE */  jal        PlayerModel_SetAnimation
     /* 562AE4 802CAA74 3C073F00 */   lui       $a3, (0x3F000000 >> 16)

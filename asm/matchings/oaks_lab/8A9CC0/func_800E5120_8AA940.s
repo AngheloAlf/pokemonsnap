@@ -49,21 +49,21 @@ glabel func_800E5120_8AA940
     /* 8AA950 800E5130 AFA2001C */  sw         $v0, 0x1C($sp)
     /* 8AA954 800E5134 0C0DBAE0 */  jal        func_8036EB80
     /* 8AA958 800E5138 00002025 */   or        $a0, $zero, $zero
-    /* 8AA95C 800E513C 0C0DB528 */  jal        func_8036D4A0_840C50
+    /* 8AA95C 800E513C 0C0DB528 */  jal        func_8036D4A0
     /* 8AA960 800E5140 24040002 */   addiu     $a0, $zero, 0x2
     /* 8AA964 800E5144 3C05801C */  lui        $a1, %hi(D_801C6A7C_98C29C)
     /* 8AA968 800E5148 24A56A7C */  addiu      $a1, $a1, %lo(D_801C6A7C_98C29C)
-    /* 8AA96C 800E514C 0C0DB226 */  jal        UIElement_PrintText
+    /* 8AA96C 800E514C 0C0DB226 */  jal        func_8036C898
     /* 8AA970 800E5150 8FA4001C */   lw        $a0, 0x1C($sp)
-    /* 8AA974 800E5154 0C0DB528 */  jal        func_8036D4A0_840C50
+    /* 8AA974 800E5154 0C0DB528 */  jal        func_8036D4A0
     /* 8AA978 800E5158 00002025 */   or        $a0, $zero, $zero
     /* 8AA97C 800E515C 8FA4001C */  lw         $a0, 0x1C($sp)
     /* 8AA980 800E5160 00002825 */  or         $a1, $zero, $zero
-    /* 8AA984 800E5164 0C0DAE7B */  jal        func_8036B9EC_83F19C
+    /* 8AA984 800E5164 0C0DAE7B */  jal        func_8036B9EC
     /* 8AA988 800E5168 24060020 */   addiu     $a2, $zero, 0x20
     /* 8AA98C 800E516C 3C05801C */  lui        $a1, %hi(D_801C6A94_98C2B4)
     /* 8AA990 800E5170 24A56A94 */  addiu      $a1, $a1, %lo(D_801C6A94_98C2B4)
-    /* 8AA994 800E5174 0C0DB226 */  jal        UIElement_PrintText
+    /* 8AA994 800E5174 0C0DB226 */  jal        func_8036C898
     /* 8AA998 800E5178 8FA4001C */   lw        $a0, 0x1C($sp)
     /* 8AA99C 800E517C 0C002F2A */  jal        ohWait
     /* 8AA9A0 800E5180 24040001 */   addiu     $a0, $zero, 0x1
@@ -85,23 +85,23 @@ glabel func_800E5120_8AA940
   .L800E51BC_8AA9DC:
     /* 8AA9DC 800E51BC 0C008A39 */  jal        auPlaySound
     /* 8AA9E0 800E51C0 24040053 */   addiu     $a0, $zero, 0x53
-    /* 8AA9E4 800E51C4 0C0DAA39 */  jal        func_8036A8E4_83E094
+    /* 8AA9E4 800E51C4 0C0DAA39 */  jal        func_8036A8E4
     /* 8AA9E8 800E51C8 8FA4001C */   lw        $a0, 0x1C($sp)
     /* 8AA9EC 800E51CC 8FA4001C */  lw         $a0, 0x1C($sp)
     /* 8AA9F0 800E51D0 00002825 */  or         $a1, $zero, $zero
-    /* 8AA9F4 800E51D4 0C0DAE7B */  jal        func_8036B9EC_83F19C
+    /* 8AA9F4 800E51D4 0C0DAE7B */  jal        func_8036B9EC
     /* 8AA9F8 800E51D8 00003025 */   or        $a2, $zero, $zero
     /* 8AA9FC 800E51DC 3C05801C */  lui        $a1, %hi(D_801C6AAC_98C2CC)
     /* 8AAA00 800E51E0 24A56AAC */  addiu      $a1, $a1, %lo(D_801C6AAC_98C2CC)
-    /* 8AAA04 800E51E4 0C0DB226 */  jal        UIElement_PrintText
+    /* 8AAA04 800E51E4 0C0DB226 */  jal        func_8036C898
     /* 8AAA08 800E51E8 8FA4001C */   lw        $a0, 0x1C($sp)
     /* 8AAA0C 800E51EC 8FA4001C */  lw         $a0, 0x1C($sp)
     /* 8AAA10 800E51F0 00002825 */  or         $a1, $zero, $zero
-    /* 8AAA14 800E51F4 0C0DAE7B */  jal        func_8036B9EC_83F19C
+    /* 8AAA14 800E51F4 0C0DAE7B */  jal        func_8036B9EC
     /* 8AAA18 800E51F8 24060020 */   addiu     $a2, $zero, 0x20
     /* 8AAA1C 800E51FC 3C05801C */  lui        $a1, %hi(D_801C6AC8_98C2E8)
     /* 8AAA20 800E5200 24A56AC8 */  addiu      $a1, $a1, %lo(D_801C6AC8_98C2E8)
-    /* 8AAA24 800E5204 0C0DB226 */  jal        UIElement_PrintText
+    /* 8AAA24 800E5204 0C0DB226 */  jal        func_8036C898
     /* 8AAA28 800E5208 8FA4001C */   lw        $a0, 0x1C($sp)
     /* 8AAA2C 800E520C 00002025 */  or         $a0, $zero, $zero
     /* 8AAA30 800E5210 00002825 */  or         $a1, $zero, $zero
@@ -118,7 +118,7 @@ glabel func_800E5120_8AA940
   .L800E523C_8AAA5C:
     /* 8AAA5C 800E523C 0C002F2A */  jal        ohWait
     /* 8AAA60 800E5240 24040006 */   addiu     $a0, $zero, 0x6
-    /* 8AAA64 800E5244 0C0DAA39 */  jal        func_8036A8E4_83E094
+    /* 8AAA64 800E5244 0C0DAA39 */  jal        func_8036A8E4
     /* 8AAA68 800E5248 8FA4001C */   lw        $a0, 0x1C($sp)
     /* 8AAA6C 800E524C 00002025 */  or         $a0, $zero, $zero
     /* 8AAA70 800E5250 0C029E18 */  jal        func_800A7860

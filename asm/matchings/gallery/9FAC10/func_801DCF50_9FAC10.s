@@ -26,7 +26,7 @@ glabel func_801DCF50_9FAC10
     /* 9FAC64 801DCFA4 0C077E14 */  jal        func_801DF850_9FD510
     /* 9FAC68 801DCFA8 00000000 */   nop
     /* 9FAC6C 801DCFAC 00408025 */  or         $s0, $v0, $zero
-    /* 9FAC70 801DCFB0 0C0DC30D */  jal        func_80370C34_8443E4
+    /* 9FAC70 801DCFB0 0C0DC30D */  jal        func_80370C34
     /* 9FAC74 801DCFB4 02002025 */   or        $a0, $s0, $zero
     /* 9FAC78 801DCFB8 0C00139F */  jal        contIsPrinterAvailable
     /* 9FAC7C 801DCFBC 00000000 */   nop

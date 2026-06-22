@@ -6,10 +6,10 @@ glabel func_801DCCFC_98C76C
     /* 98C774 801DCD04 AFA40030 */  sw         $a0, 0x30($sp)
     /* 98C778 801DCD08 AFA50034 */  sw         $a1, 0x34($sp)
     /* 98C77C 801DCD0C 8FA40030 */  lw         $a0, 0x30($sp)
-    /* 98C780 801DCD10 0C0DBDA1 */  jal        UIFrame_SetStyle
+    /* 98C780 801DCD10 0C0DBDA1 */  jal        func_8036F684
     /* 98C784 801DCD14 24050001 */   addiu     $a1, $zero, 0x1
     /* 98C788 801DCD18 8FA40030 */  lw         $a0, 0x30($sp)
-    /* 98C78C 801DCD1C 0C0DBC28 */  jal        UIFrame_ShowBackground
+    /* 98C78C 801DCD1C 0C0DBC28 */  jal        func_8036F0A0
     /* 98C790 801DCD20 24050001 */   addiu     $a1, $zero, 0x1
     /* 98C794 801DCD24 3C0E801F */  lui        $t6, %hi(D_801F3E38_9A38A8)
     /* 98C798 801DCD28 8DCE3E38 */  lw         $t6, %lo(D_801F3E38_9A38A8)($t6)
@@ -120,7 +120,7 @@ glabel func_801DCCFC_98C76C
   .L801DCEA4_98C914:
     /* 98C914 801DCEA4 8FA40030 */  lw         $a0, 0x30($sp)
     /* 98C918 801DCEA8 8FA50024 */  lw         $a1, 0x24($sp)
-    /* 98C91C 801DCEAC 0C0DBC7D */  jal        UIFrame_SetPos
+    /* 98C91C 801DCEAC 0C0DBC7D */  jal        func_8036F1F4
     /* 98C920 801DCEB0 8FA6001C */   lw        $a2, 0x1C($sp)
     /* 98C924 801DCEB4 8FA90020 */  lw         $t1, 0x20($sp)
     /* 98C928 801DCEB8 8FAA0024 */  lw         $t2, 0x24($sp)
@@ -149,7 +149,7 @@ glabel func_801DCCFC_98C76C
     /* 98C980 801DCF10 00000000 */   nop
     /* 98C984 801DCF14 8FA40030 */  lw         $a0, 0x30($sp)
     /* 98C988 801DCF18 24050038 */  addiu      $a1, $zero, 0x38
-    /* 98C98C 801DCF1C 0C0DBC7D */  jal        UIFrame_SetPos
+    /* 98C98C 801DCF1C 0C0DBC7D */  jal        func_8036F1F4
     /* 98C990 801DCF20 240600A5 */   addiu     $a2, $zero, 0xA5
     /* 98C994 801DCF24 8FA40030 */  lw         $a0, 0x30($sp)
     /* 98C998 801DCF28 240500D0 */  addiu      $a1, $zero, 0xD0

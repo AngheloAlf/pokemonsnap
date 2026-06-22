@@ -2785,7 +2785,7 @@ dlabel charmander_hd_part5_draw
     /* 3E42F8 801BD698 E7000000 */ .word 0xE7000000
     /* 3E42FC 801BD69C 00000000 */ .word 0x00000000
     /* 3E4300 801BD6A0 FD100000 */ .word 0xFD100000
-    /* 3E4304 801BD6A4 801739A8 */ .word charmander_tex_eye_pal
+    /* 3E4304 801BD6A4 801739A8 */ .word charmander_tex_eye_frame0_pal
     /* 3E4308 801BD6A8 E6000000 */ .word 0xE6000000
     /* 3E430C 801BD6AC 00000000 */ .word 0x00000000
     /* 3E4310 801BD6B0 F0000000 */ .word 0xF0000000

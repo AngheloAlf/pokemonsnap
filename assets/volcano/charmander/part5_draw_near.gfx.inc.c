@@ -2,7 +2,7 @@
 
 Gfx charmander_part5_draw_near[] = {
     gsDPPipeSync(),
-    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, charmander_tex_eye_pal),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, charmander_tex_eye_frame0_pal),
     gsDPLoadSync(),
     gsDPLoadTLUTCmd(5, 15),
     gsDPPipeSync(),

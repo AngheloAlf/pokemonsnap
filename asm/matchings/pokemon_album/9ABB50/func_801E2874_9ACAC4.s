@@ -16,12 +16,12 @@ glabel func_801E2874_9ACAC4
     /* 9ACAF0 801E28A0 AC2F8B90 */  sw         $t7, %lo(D_80208B90_9D2DE0)($at)
     /* 9ACAF4 801E28A4 AFA00028 */  sw         $zero, 0x28($sp)
     /* 9ACAF8 801E28A8 3C048021 */  lui        $a0, %hi(D_80208B98_9D2DE8)
-    /* 9ACAFC 801E28AC 0C0DC30D */  jal        func_80370C34_8443E4
+    /* 9ACAFC 801E28AC 0C0DC30D */  jal        func_80370C34
     /* 9ACB00 801E28B0 24848B98 */   addiu     $a0, $a0, %lo(D_80208B98_9D2DE8)
     /* 9ACB04 801E28B4 2404003E */  addiu      $a0, $zero, 0x3E
-    /* 9ACB08 801E28B8 0C0DC00E */  jal        func_80370038_8437E8
+    /* 9ACB08 801E28B8 0C0DC00E */  jal        func_80370038
     /* 9ACB0C 801E28BC 2405000C */   addiu     $a1, $zero, 0xC
-    /* 9ACB10 801E28C0 0C0DC029 */  jal        func_803700A4_843854
+    /* 9ACB10 801E28C0 0C0DC029 */  jal        func_803700A4
     /* 9ACB14 801E28C4 24040001 */   addiu     $a0, $zero, 0x1
   .L801E28C8_9ACB18:
     /* 9ACB18 801E28C8 0C02A8E3 */  jal        func_800AA38C
@@ -61,7 +61,7 @@ glabel func_801E2874_9ACAC4
     /* 9ACB9C 801E294C 1000000B */  b          .L801E297C_9ACBCC
     /* 9ACBA0 801E2950 00000000 */   nop
   .L801E2954_9ACBA4:
-    /* 9ACBA4 801E2954 0C0DC292 */  jal        func_80370A48_8441F8
+    /* 9ACBA4 801E2954 0C0DC292 */  jal        func_80370A48
     /* 9ACBA8 801E2958 00000000 */   nop
     /* 9ACBAC 801E295C 0C078268 */  jal        func_801E09A0_9AABF0
     /* 9ACBB0 801E2960 00002025 */   or        $a0, $zero, $zero

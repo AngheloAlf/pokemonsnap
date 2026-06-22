@@ -15,9 +15,9 @@ glabel func_camera_check_801DCA60
     /* 87A27C 801DCA8C 00000000 */   nop
     /* 87A280 801DCA90 0C0DBAE6 */  jal        func_8036EB98_842348
     /* 87A284 801DCA94 00000000 */   nop
-    /* 87A288 801DCA98 0C0DD4A1 */  jal        func_80375284
+    /* 87A288 801DCA98 0C0DD4A1 */  jal        func_80375284_848A34
     /* 87A28C 801DCA9C 24040003 */   addiu     $a0, $zero, 0x3
-    /* 87A290 801DCAA0 0C0DD4A1 */  jal        func_80375284
+    /* 87A290 801DCAA0 0C0DD4A1 */  jal        func_80375284_848A34
     /* 87A294 801DCAA4 24040002 */   addiu     $a0, $zero, 0x2
     /* 87A298 801DCAA8 00002025 */  or         $a0, $zero, $zero
     /* 87A29C 801DCAAC 0C008915 */  jal        auSetBGMVolume

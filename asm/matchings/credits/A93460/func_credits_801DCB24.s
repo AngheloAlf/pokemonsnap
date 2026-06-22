@@ -2,12 +2,12 @@ nonmatching func_credits_801DCB24, 0xCC
 
 glabel func_credits_801DCB24
     /* A936E4 801DCB24 3C01801F */  lui        $at, %hi(D_credits_801ECDA0)
-    /* A936E8 801DCB28 3C0E8037 */  lui        $t6, %hi(D_80369F80)
+    /* A936E8 801DCB28 3C0E8037 */  lui        $t6, %hi(UIMem_Link)
     /* A936EC 801DCB2C 3C0F801F */  lui        $t7, %hi(D_801ED020)
     /* A936F0 801DCB30 27BDFFE0 */  addiu      $sp, $sp, -0x20
     /* A936F4 801DCB34 AC24CDA0 */  sw         $a0, %lo(D_credits_801ECDA0)($at)
     /* A936F8 801DCB38 25EFD020 */  addiu      $t7, $t7, %lo(D_801ED020)
-    /* A936FC 801DCB3C 25CE9F80 */  addiu      $t6, $t6, %lo(D_80369F80)
+    /* A936FC 801DCB3C 25CE9F80 */  addiu      $t6, $t6, %lo(UIMem_Link)
     /* A93700 801DCB40 AFBF001C */  sw         $ra, 0x1C($sp)
     /* A93704 801DCB44 01CFC023 */  subu       $t8, $t6, $t7
     /* A93708 801DCB48 3C01801E */  lui        $at, %hi(D_credits_801DEC40)

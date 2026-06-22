@@ -23,11 +23,11 @@ glabel func_credits_801DC8C4
     /* A934C8 801DC908 0C001E17 */  jal        mlHeapAlloc
     /* A934CC 801DC90C AFA50040 */   sw        $a1, 0x40($sp)
     /* A934D0 801DC910 8FA50040 */  lw         $a1, 0x40($sp)
-    /* A934D4 801DC914 0C0DA8FE */  jal        func_8036A3F8_83DBA8
+    /* A934D4 801DC914 0C0DA8FE */  jal        func_8036A3F8
     /* A934D8 801DC918 00402025 */   or        $a0, $v0, $zero
     /* A934DC 801DC91C 0C02AB8A */  jal        func_800AAE28
     /* A934E0 801DC920 00000000 */   nop
-    /* A934E4 801DC924 0C0DD350 */  jal        func_80374D40_8484F0
+    /* A934E4 801DC924 0C0DD350 */  jal        func_80374D40
     /* A934E8 801DC928 00000000 */   nop
     /* A934EC 801DC92C 240F00FF */  addiu      $t7, $zero, 0xFF
     /* A934F0 801DC930 AFAF0010 */  sw         $t7, 0x10($sp)

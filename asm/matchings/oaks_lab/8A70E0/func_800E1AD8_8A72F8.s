@@ -12,11 +12,11 @@ glabel func_800E1AD8_8A72F8
     /* 8A7318 800E1AF8 3C04800E */  lui        $a0, %hi(D_800E6740_8ABF60)
     /* 8A731C 800E1AFC 0C001EF1 */  jal        viApplyScreenSettings
     /* 8A7320 800E1B00 24846740 */   addiu     $a0, $a0, %lo(D_800E6740_8ABF60)
-    /* 8A7324 800E1B04 3C0E8037 */  lui        $t6, %hi(D_80369F80)
+    /* 8A7324 800E1B04 3C0E8037 */  lui        $t6, %hi(UIMem_Link)
     /* 8A7328 800E1B08 3C0F8020 */  lui        $t7, %hi(D_80206B90)
     /* 8A732C 800E1B0C 3C04800E */  lui        $a0, %hi(D_800E675C_8ABF7C)
     /* 8A7330 800E1B10 25EF6B90 */  addiu      $t7, $t7, %lo(D_80206B90)
-    /* 8A7334 800E1B14 25CE9F80 */  addiu      $t6, $t6, %lo(D_80369F80)
+    /* 8A7334 800E1B14 25CE9F80 */  addiu      $t6, $t6, %lo(UIMem_Link)
     /* 8A7338 800E1B18 2484675C */  addiu      $a0, $a0, %lo(D_800E675C_8ABF7C)
     /* 8A733C 800E1B1C 01CFC023 */  subu       $t8, $t6, $t7
     /* 8A7340 800E1B20 0C001CEB */  jal        omSetupScene

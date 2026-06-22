@@ -82,8 +82,8 @@ glabel func_8009A8F0
     /* 4638C 8009A9DC 3C0A001F */  lui        $t2, %hi(D_1F5E70)
     /* 46390 8009A9E0 24841D90 */  addiu      $a0, $a0, %lo(D_1D1D90)
     /* 46394 8009A9E4 254A5E70 */  addiu      $t2, $t2, %lo(D_1F5E70)
-    /* 46398 8009A9E8 3C058019 */  lui        $a1, %hi(D_8018BC50_1D1D90)
-    /* 4639C 8009A9EC 24A5BC50 */  addiu      $a1, $a1, %lo(D_8018BC50_1D1D90)
+    /* 46398 8009A9E8 3C058019 */  lui        $a1, %hi(D_8018BC50)
+    /* 4639C 8009A9EC 24A5BC50 */  addiu      $a1, $a1, %lo(D_8018BC50)
     /* 463A0 8009A9F0 0C000B08 */  jal        dmaReadRom
     /* 463A4 8009A9F4 01443023 */   subu      $a2, $t2, $a0
     /* 463A8 8009A9F8 3C040007 */  lui        $a0, %hi(D_731B0)
@@ -144,8 +144,8 @@ glabel func_8009A8F0
     /* 46480 8009AAD0 3C19002A */  lui        $t9, %hi(D_29A190)
     /* 46484 8009AAD4 2484AB80 */  addiu      $a0, $a0, %lo(D_27AB80)
     /* 46488 8009AAD8 2739A190 */  addiu      $t9, $t9, %lo(D_29A190)
-    /* 4648C 8009AADC 3C05801B */  lui        $a1, %hi(D_801AEDF0_27AB80)
-    /* 46490 8009AAE0 24A5EDF0 */  addiu      $a1, $a1, %lo(D_801AEDF0_27AB80)
+    /* 4648C 8009AADC 3C05801B */  lui        $a1, %hi(D_801AEDF0)
+    /* 46490 8009AAE0 24A5EDF0 */  addiu      $a1, $a1, %lo(D_801AEDF0)
     /* 46494 8009AAE4 0C000B08 */  jal        dmaReadRom
     /* 46498 8009AAE8 03243023 */   subu      $a2, $t9, $a0
     /* 4649C 8009AAEC 3C04000A */  lui        $a0, %hi(D_99F70)
@@ -284,8 +284,8 @@ glabel func_8009A8F0
     /* 466A8 8009ACF8 3C0D003F */  lui        $t5, %hi(D_3F63D0)
     /* 466AC 8009ACFC 24840560 */  addiu      $a0, $a0, %lo(D_3D0560)
     /* 466B0 8009AD00 25AD63D0 */  addiu      $t5, $t5, %lo(D_3F63D0)
-    /* 466B4 8009AD04 3C05801B */  lui        $a1, %hi(D_801A9900_3D0560)
-    /* 466B8 8009AD08 24A59900 */  addiu      $a1, $a1, %lo(D_801A9900_3D0560)
+    /* 466B4 8009AD04 3C05801B */  lui        $a1, %hi(D_801A9900)
+    /* 466B8 8009AD08 24A59900 */  addiu      $a1, $a1, %lo(D_801A9900)
     /* 466BC 8009AD0C 0C000B08 */  jal        dmaReadRom
     /* 466C0 8009AD10 01A43023 */   subu      $a2, $t5, $a0
     /* 466C4 8009AD14 3C040007 */  lui        $a0, %hi(D_731B0)

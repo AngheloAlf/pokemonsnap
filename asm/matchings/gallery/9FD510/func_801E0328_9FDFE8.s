@@ -45,9 +45,9 @@ glabel func_801E0328_9FDFE8
     /* 9FDFE8 801E0328 27BDFFD8 */  addiu      $sp, $sp, -0x28
     /* 9FDFEC 801E032C AFBF0014 */  sw         $ra, 0x14($sp)
     /* 9FDFF0 801E0330 2404003E */  addiu      $a0, $zero, 0x3E
-    /* 9FDFF4 801E0334 0C0DC00E */  jal        func_80370038_8437E8
+    /* 9FDFF4 801E0334 0C0DC00E */  jal        func_80370038
     /* 9FDFF8 801E0338 2405000C */   addiu     $a1, $zero, 0xC
-    /* 9FDFFC 801E033C 0C0DC029 */  jal        func_803700A4_843854
+    /* 9FDFFC 801E033C 0C0DC029 */  jal        func_803700A4
     /* 9FE000 801E0340 24040001 */   addiu     $a0, $zero, 0x1
     /* 9FE004 801E0344 3C058023 */  lui        $a1, %hi(D_802308A4_A4E564)
     /* 9FE008 801E0348 24A508A4 */  addiu      $a1, $a1, %lo(D_802308A4_A4E564)

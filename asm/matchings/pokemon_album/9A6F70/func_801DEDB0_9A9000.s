@@ -29,7 +29,7 @@ glabel func_801DEDB0_9A9000
     /* 9A9058 801DEE08 03082821 */  addu       $a1, $t8, $t0
     /* 9A905C 801DEE0C 24A50043 */  addiu      $a1, $a1, 0x43
     /* 9A9060 801DEE10 2406003C */  addiu      $a2, $zero, 0x3C
-    /* 9A9064 801DEE14 0C0DAB1B */  jal        func_8036AC6C_83E41C
+    /* 9A9064 801DEE14 0C0DAB1B */  jal        func_8036AC6C
     /* 9A9068 801DEE18 24070008 */   addiu     $a3, $zero, 0x8
     /* 9A906C 801DEE1C 8FAA0024 */  lw         $t2, 0x24($sp)
     /* 9A9070 801DEE20 3C018025 */  lui        $at, %hi(D_80250008_A1A258)
@@ -46,7 +46,7 @@ glabel func_801DEDB0_9A9000
     /* 9A909C 801DEE4C 24050001 */  addiu      $a1, $zero, 0x1
     /* 9A90A0 801DEE50 00003025 */  or         $a2, $zero, $zero
     /* 9A90A4 801DEE54 00003825 */  or         $a3, $zero, $zero
-    /* 9A90A8 801DEE58 0C0DAE1C */  jal        func_8036B870_83F020
+    /* 9A90A8 801DEE58 0C0DAE1C */  jal        func_8036B870
     /* 9A90AC 801DEE5C AFA00010 */   sw        $zero, 0x10($sp)
     /* 9A90B0 801DEE60 8FAE0024 */  lw         $t6, 0x24($sp)
     /* 9A90B4 801DEE64 3C048025 */  lui        $a0, %hi(D_80250008_A1A258)
@@ -57,32 +57,32 @@ glabel func_801DEDB0_9A9000
     /* 9A90C8 801DEE78 00003025 */  or         $a2, $zero, $zero
     /* 9A90CC 801DEE7C 00003825 */  or         $a3, $zero, $zero
     /* 9A90D0 801DEE80 AFA00010 */  sw         $zero, 0x10($sp)
-    /* 9A90D4 801DEE84 0C0DAE1C */  jal        func_8036B870_83F020
+    /* 9A90D4 801DEE84 0C0DAE1C */  jal        func_8036B870
     /* 9A90D8 801DEE88 AFA00014 */   sw        $zero, 0x14($sp)
-    /* 9A90DC 801DEE8C 0C0DB512 */  jal        func_8036D448_840BF8
+    /* 9A90DC 801DEE8C 0C0DB512 */  jal        func_8036D448
     /* 9A90E0 801DEE90 00002025 */   or        $a0, $zero, $zero
     /* 9A90E4 801DEE94 00002025 */  or         $a0, $zero, $zero
-    /* 9A90E8 801DEE98 0C0DB4FA */  jal        func_8036D3E8_840B98
+    /* 9A90E8 801DEE98 0C0DB4FA */  jal        func_8036D3E8
     /* 9A90EC 801DEE9C 24050004 */   addiu     $a1, $zero, 0x4
     /* 9A90F0 801DEEA0 8FB80024 */  lw         $t8, 0x24($sp)
     /* 9A90F4 801DEEA4 3C048025 */  lui        $a0, %hi(D_80250008_A1A258)
     /* 9A90F8 801DEEA8 00184080 */  sll        $t0, $t8, 2
     /* 9A90FC 801DEEAC 00882021 */  addu       $a0, $a0, $t0
-    /* 9A9100 801DEEB0 0C0DADCD */  jal        func_8036B734_83EEE4
+    /* 9A9100 801DEEB0 0C0DADCD */  jal        func_8036B734
     /* 9A9104 801DEEB4 8C840008 */   lw        $a0, %lo(D_80250008_A1A258)($a0)
     /* 9A9108 801DEEB8 8FA90024 */  lw         $t1, 0x24($sp)
     /* 9A910C 801DEEBC 3C048025 */  lui        $a0, %hi(D_80250008_A1A258)
     /* 9A9110 801DEEC0 24050008 */  addiu      $a1, $zero, 0x8
     /* 9A9114 801DEEC4 00095080 */  sll        $t2, $t1, 2
     /* 9A9118 801DEEC8 008A2021 */  addu       $a0, $a0, $t2
-    /* 9A911C 801DEECC 0C0DB2D6 */  jal        func_8036CB58_840308
+    /* 9A911C 801DEECC 0C0DB2D6 */  jal        func_8036CB58
     /* 9A9120 801DEED0 8C840008 */   lw        $a0, %lo(D_80250008_A1A258)($a0)
     /* 9A9124 801DEED4 8FAB0024 */  lw         $t3, 0x24($sp)
     /* 9A9128 801DEED8 3C048025 */  lui        $a0, %hi(D_80250008_A1A258)
     /* 9A912C 801DEEDC 24050001 */  addiu      $a1, $zero, 0x1
     /* 9A9130 801DEEE0 000B6080 */  sll        $t4, $t3, 2
     /* 9A9134 801DEEE4 008C2021 */  addu       $a0, $a0, $t4
-    /* 9A9138 801DEEE8 0C0DB469 */  jal        func_8036D1A4_840954
+    /* 9A9138 801DEEE8 0C0DB469 */  jal        func_8036D1A4
     /* 9A913C 801DEEEC 8C840008 */   lw        $a0, %lo(D_80250008_A1A258)($a0)
     /* 9A9140 801DEEF0 8FAD0024 */  lw         $t5, 0x24($sp)
     /* 9A9144 801DEEF4 25AF0001 */  addiu      $t7, $t5, 0x1

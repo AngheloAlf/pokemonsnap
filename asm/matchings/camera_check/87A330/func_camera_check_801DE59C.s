@@ -93,7 +93,7 @@ glabel func_camera_check_801DE59C
     /* 87BDBC 801DE5CC 00002825 */  or         $a1, $zero, $zero
     /* 87BDC0 801DE5D0 2406000C */  addiu      $a2, $zero, 0xC
     /* 87BDC4 801DE5D4 24070053 */  addiu      $a3, $zero, 0x53
-    /* 87BDC8 801DE5D8 0C0DA96E */  jal        func_8036A5B8
+    /* 87BDC8 801DE5D8 0C0DA96E */  jal        func_8036A5B8_83DD68
     /* 87BDCC 801DE5DC 02002025 */   or        $a0, $s0, $zero
     /* 87BDD0 801DE5E0 240F0032 */  addiu      $t7, $zero, 0x32
     /* 87BDD4 801DE5E4 AFAF0010 */  sw         $t7, 0x10($sp)
@@ -104,7 +104,7 @@ glabel func_camera_check_801DE59C
     /* 87BDE8 801DE5F8 AFA00014 */  sw         $zero, 0x14($sp)
     /* 87BDEC 801DE5FC AFA00018 */  sw         $zero, 0x18($sp)
     /* 87BDF0 801DE600 AFA0001C */  sw         $zero, 0x1C($sp)
-    /* 87BDF4 801DE604 0C0DA96E */  jal        func_8036A5B8
+    /* 87BDF4 801DE604 0C0DA96E */  jal        func_8036A5B8_83DD68
     /* 87BDF8 801DE608 AFA00020 */   sw        $zero, 0x20($sp)
     /* 87BDFC 801DE60C 2418004E */  addiu      $t8, $zero, 0x4E
     /* 87BE00 801DE610 AFB80010 */  sw         $t8, 0x10($sp)
@@ -115,7 +115,7 @@ glabel func_camera_check_801DE59C
     /* 87BE14 801DE624 AFA00014 */  sw         $zero, 0x14($sp)
     /* 87BE18 801DE628 AFA00018 */  sw         $zero, 0x18($sp)
     /* 87BE1C 801DE62C AFA0001C */  sw         $zero, 0x1C($sp)
-    /* 87BE20 801DE630 0C0DA96E */  jal        func_8036A5B8
+    /* 87BE20 801DE630 0C0DA96E */  jal        func_8036A5B8_83DD68
     /* 87BE24 801DE634 AFA00020 */   sw        $zero, 0x20($sp)
     /* 87BE28 801DE638 2419006A */  addiu      $t9, $zero, 0x6A
     /* 87BE2C 801DE63C AFB90010 */  sw         $t9, 0x10($sp)
@@ -126,7 +126,7 @@ glabel func_camera_check_801DE59C
     /* 87BE40 801DE650 AFA00014 */  sw         $zero, 0x14($sp)
     /* 87BE44 801DE654 AFA00018 */  sw         $zero, 0x18($sp)
     /* 87BE48 801DE658 AFA0001C */  sw         $zero, 0x1C($sp)
-    /* 87BE4C 801DE65C 0C0DA96E */  jal        func_8036A5B8
+    /* 87BE4C 801DE65C 0C0DA96E */  jal        func_8036A5B8_83DD68
     /* 87BE50 801DE660 AFA00020 */   sw        $zero, 0x20($sp)
     /* 87BE54 801DE664 02002025 */  or         $a0, $s0, $zero
     /* 87BE58 801DE668 00002825 */  or         $a1, $zero, $zero

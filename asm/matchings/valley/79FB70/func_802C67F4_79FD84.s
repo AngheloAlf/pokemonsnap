@@ -28,11 +28,11 @@ glabel func_802C67F4_79FD84
     /* 79FDE4 802C6854 4481A000 */  mtc1       $at, $f20
     /* 79FDE8 802C6858 E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 79FDEC 802C685C C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 79FDF0 802C6860 3C058012 */  lui        $a1, %hi(tunnel_block1_vtx + 0xB90)
+    /* 79FDF0 802C6860 3C058012 */  lui        $a1, %hi(D_80121D30)
     /* 79FDF4 802C6864 4406B000 */  mfc1       $a2, $f22
     /* 79FDF8 802C6868 E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 79FDFC 802C686C C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 79FE00 802C6870 24A51D30 */  addiu      $a1, $a1, %lo(tunnel_block1_vtx + 0xB90)
+    /* 79FE00 802C6870 24A51D30 */  addiu      $a1, $a1, %lo(D_80121D30)
     /* 79FE04 802C6874 02202025 */  or         $a0, $s1, $zero
     /* 79FE08 802C6878 E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 79FE0C 802C687C C630004C */  lwc1       $f16, 0x4C($s1)
@@ -48,11 +48,11 @@ glabel func_802C67F4_79FD84
     /* 79FE34 802C68A4 0C00230A */  jal        omCreateProcess
     /* 79FE38 802C68A8 24070001 */   addiu     $a3, $zero, 0x1
     /* 79FE3C 802C68AC 3C048012 */  lui        $a0, %hi(D_80120520)
-    /* 79FE40 802C68B0 3C058012 */  lui        $a1, %hi(tunnel_block1_vtx + 0x100)
+    /* 79FE40 802C68B0 3C058012 */  lui        $a1, %hi(D_801212A0)
     /* 79FE44 802C68B4 4406B000 */  mfc1       $a2, $f22
     /* 79FE48 802C68B8 4407A000 */  mfc1       $a3, $f20
     /* 79FE4C 802C68BC 0040A825 */  or         $s5, $v0, $zero
-    /* 79FE50 802C68C0 24A512A0 */  addiu      $a1, $a1, %lo(tunnel_block1_vtx + 0x100)
+    /* 79FE50 802C68C0 24A512A0 */  addiu      $a1, $a1, %lo(D_801212A0)
     /* 79FE54 802C68C4 0C0D97CE */  jal        PlayerModel_SetAnimation
     /* 79FE58 802C68C8 24840520 */   addiu     $a0, $a0, %lo(D_80120520)
     /* 79FE5C 802C68CC 3C14802D */  lui        $s4, %hi(D_802D2A80_7AC010)

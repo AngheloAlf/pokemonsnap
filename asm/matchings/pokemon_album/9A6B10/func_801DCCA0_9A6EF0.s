@@ -7,10 +7,10 @@ glabel func_801DCCA0_9A6EF0
     /* 9A6EFC 801DCCAC 3C04801E */  lui        $a0, %hi(D_801E4250_9AE4A0)
     /* 9A6F00 801DCCB0 0C001EF1 */  jal        viApplyScreenSettings
     /* 9A6F04 801DCCB4 24844250 */   addiu     $a0, $a0, %lo(D_801E4250_9AE4A0)
-    /* 9A6F08 801DCCB8 3C0E8037 */  lui        $t6, %hi(D_80369F80)
+    /* 9A6F08 801DCCB8 3C0E8037 */  lui        $t6, %hi(UIMem_Link)
     /* 9A6F0C 801DCCBC 3C0F8025 */  lui        $t7, %hi(D_80250950)
     /* 9A6F10 801DCCC0 25EF0950 */  addiu      $t7, $t7, %lo(D_80250950)
-    /* 9A6F14 801DCCC4 25CE9F80 */  addiu      $t6, $t6, %lo(D_80369F80)
+    /* 9A6F14 801DCCC4 25CE9F80 */  addiu      $t6, $t6, %lo(UIMem_Link)
     /* 9A6F18 801DCCC8 01CFC023 */  subu       $t8, $t6, $t7
     /* 9A6F1C 801DCCCC 3C01801E */  lui        $at, %hi(D_801E427C_9AE4CC)
     /* 9A6F20 801DCCD0 AC38427C */  sw         $t8, %lo(D_801E427C_9AE4CC)($at)

@@ -22,7 +22,7 @@ glabel func_801DDB54_9A7DA4
     /* 9A7DEC 801DDB9C 00B92821 */  addu       $a1, $a1, $t9
     /* 9A7DF0 801DDBA0 8CA500C4 */  lw         $a1, %lo(D_802500C4_A1A314)($a1)
     /* 9A7DF4 801DDBA4 02002025 */  or         $a0, $s0, $zero
-    /* 9A7DF8 801DDBA8 0C0DD1C5 */  jal        func_80374714_847EC4
+    /* 9A7DF8 801DDBA8 0C0DD1C5 */  jal        func_80374714
     /* 9A7DFC 801DDBAC 24A50010 */   addiu     $a1, $a1, 0x10
     /* 9A7E00 801DDBB0 10400014 */  beqz       $v0, .L801DDC04_9A7E54
     /* 9A7E04 801DDBB4 00000000 */   nop

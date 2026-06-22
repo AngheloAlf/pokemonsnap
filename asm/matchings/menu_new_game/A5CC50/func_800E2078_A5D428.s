@@ -5,7 +5,7 @@ glabel func_800E2078_A5D428
     /* A5D42C 800E207C AFBF003C */  sw         $ra, 0x3C($sp)
     /* A5D430 800E2080 3C048012 */  lui        $a0, %hi(D_80118118_A934C8)
     /* A5D434 800E2084 24848118 */  addiu      $a0, $a0, %lo(D_80118118_A934C8)
-    /* A5D438 800E2088 0C0DA8FE */  jal        func_8036A3F8_83DBA8
+    /* A5D438 800E2088 0C0DA8FE */  jal        func_8036A3F8
     /* A5D43C 800E208C 3C050005 */   lui       $a1, (0x50000 >> 16)
     /* A5D440 800E2090 0C02AB8A */  jal        func_800AAE28
     /* A5D444 800E2094 00000000 */   nop
@@ -14,7 +14,7 @@ glabel func_800E2078_A5D428
     /* A5D450 800E20A0 24050006 */   addiu     $a1, $zero, 0x6
     /* A5D454 800E20A4 0C02AA1C */  jal        func_800AA870
     /* A5D458 800E20A8 3C04000F */   lui       $a0, (0xF0000 >> 16)
-    /* A5D45C 800E20AC 0C0DBAE6 */  jal        func_8036EB98_842348
+    /* A5D45C 800E20AC 0C0DBAE6 */  jal        func_8036EB98
     /* A5D460 800E20B0 00000000 */   nop
     /* A5D464 800E20B4 00002025 */  or         $a0, $zero, $zero
     /* A5D468 800E20B8 3C058000 */  lui        $a1, (0x80000000 >> 16)

@@ -12,10 +12,10 @@ glabel func_801DD09C_A08C8C
     /* A08CAC 801DD0BC 240F0017 */  addiu      $t7, $zero, 0x17
     /* A08CB0 801DD0C0 3C01800B */  lui        $at, %hi(D_800AF3C0)
     /* A08CB4 801DD0C4 AC2FF3C0 */  sw         $t7, %lo(D_800AF3C0)($at)
-    /* A08CB8 801DD0C8 3C188037 */  lui        $t8, %hi(D_80369F80)
+    /* A08CB8 801DD0C8 3C188037 */  lui        $t8, %hi(UIMem_Link)
     /* A08CBC 801DD0CC 3C198021 */  lui        $t9, %hi(D_8020F260)
     /* A08CC0 801DD0D0 2739F260 */  addiu      $t9, $t9, %lo(D_8020F260)
-    /* A08CC4 801DD0D4 27189F80 */  addiu      $t8, $t8, %lo(D_80369F80)
+    /* A08CC4 801DD0D4 27189F80 */  addiu      $t8, $t8, %lo(UIMem_Link)
     /* A08CC8 801DD0D8 03194023 */  subu       $t0, $t8, $t9
     /* A08CCC 801DD0DC 3C01801E */  lui        $at, %hi(D_801DD15C_A08D4C)
     /* A08CD0 801DD0E0 AC28D15C */  sw         $t0, %lo(D_801DD15C_A08D4C)($at)

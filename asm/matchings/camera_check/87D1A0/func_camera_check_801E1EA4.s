@@ -66,7 +66,7 @@ glabel func_camera_check_801E1EA4
     /* 87F704 801E1F14 0C0775B4 */  jal        func_camera_check_801DD6D0
     /* 87F708 801E1F18 00000000 */   nop
     /* 87F70C 801E1F1C 24040001 */  addiu      $a0, $zero, 0x1
-    /* 87F710 801E1F20 0C0DC183 */  jal        func_8037060C
+    /* 87F710 801E1F20 0C0DC183 */  jal        func_8037060C_843DBC
     /* 87F714 801E1F24 24050016 */   addiu     $a1, $zero, 0x16
     /* 87F718 801E1F28 0C0772D0 */  jal        func_camera_check_801DCB40
     /* 87F71C 801E1F2C 00000000 */   nop
@@ -141,7 +141,7 @@ glabel func_camera_check_801E1EA4
     /* 87F818 801E2028 0C078F09 */  jal        func_camera_check_801E3C24
     /* 87F81C 801E202C 00002025 */   or        $a0, $zero, $zero
     /* 87F820 801E2030 00002025 */  or         $a0, $zero, $zero
-    /* 87F824 801E2034 0C0DC183 */  jal        func_8037060C
+    /* 87F824 801E2034 0C0DC183 */  jal        func_8037060C_843DBC
     /* 87F828 801E2038 00002825 */   or        $a1, $zero, $zero
     /* 87F82C 801E203C 0C0DC029 */  jal        func_803700A4_843854
     /* 87F830 801E2040 24040001 */   addiu     $a0, $zero, 0x1

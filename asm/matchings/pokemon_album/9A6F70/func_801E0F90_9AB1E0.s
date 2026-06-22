@@ -12,13 +12,13 @@ glabel func_801E0F90_9AB1E0
     /* 9AB200 801E0FB0 8FA50020 */   lw        $a1, 0x20($sp)
     /* 9AB204 801E0FB4 3C048025 */  lui        $a0, %hi(D_8024FFF4_A1A244)
     /* 9AB208 801E0FB8 8C84FFF4 */  lw         $a0, %lo(D_8024FFF4_A1A244)($a0)
-    /* 9AB20C 801E0FBC 0C0DB469 */  jal        func_8036D1A4_840954
+    /* 9AB20C 801E0FBC 0C0DB469 */  jal        func_8036D1A4
     /* 9AB210 801E0FC0 00002825 */   or        $a1, $zero, $zero
-    /* 9AB214 801E0FC4 0C0DB528 */  jal        func_8036D4A0_840C50
+    /* 9AB214 801E0FC4 0C0DB528 */  jal        func_8036D4A0
     /* 9AB218 801E0FC8 00002025 */   or        $a0, $zero, $zero
-    /* 9AB21C 801E0FCC 0C0DC5CB */  jal        func_8037172C_844EDC
+    /* 9AB21C 801E0FCC 0C0DC5CB */  jal        func_8037172C
     /* 9AB220 801E0FD0 24040001 */   addiu     $a0, $zero, 0x1
-    /* 9AB224 801E0FD4 0C0DC029 */  jal        func_803700A4_843854
+    /* 9AB224 801E0FD4 0C0DC029 */  jal        func_803700A4
     /* 9AB228 801E0FD8 24040001 */   addiu     $a0, $zero, 0x1
     /* 9AB22C 801E0FDC 0C002F2A */  jal        ohWait
     /* 9AB230 801E0FE0 24040015 */   addiu     $a0, $zero, 0x15

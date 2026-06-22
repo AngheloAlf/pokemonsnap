@@ -157,7 +157,7 @@ glabel func_8009D65C
     /* 491D4 8009D824 92450001 */  lbu        $a1, 0x1($s2)
     /* 491D8 8009D828 00003025 */  or         $a2, $zero, $zero
     /* 491DC 8009D82C 00003825 */  or         $a3, $zero, $zero
-    /* 491E0 8009D830 0C038FBA */  jal        func_800E3EE8_61698
+    /* 491E0 8009D830 0C038FBA */  jal        func_800E3EE8
     /* 491E4 8009D834 30A5000F */   andi      $a1, $a1, 0xF
     /* 491E8 8009D838 0C038864 */  jal        func_800E2190
     /* 491EC 8009D83C 00000000 */   nop

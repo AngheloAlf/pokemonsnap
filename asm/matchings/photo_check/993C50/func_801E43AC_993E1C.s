@@ -7,7 +7,7 @@ glabel func_801E43AC_993E1C
     /* 993E28 801E43B8 24040001 */   addiu     $a0, $zero, 0x1
     /* 993E2C 801E43BC 0C077679 */  jal        func_801DD9E4_98D454
     /* 993E30 801E43C0 00002025 */   or        $a0, $zero, $zero
-    /* 993E34 801E43C4 0C0DC4FB */  jal        func_803713EC_844B9C
+    /* 993E34 801E43C4 0C0DC4FB */  jal        func_803713EC
     /* 993E38 801E43C8 24040007 */   addiu     $a0, $zero, 0x7
     /* 993E3C 801E43CC 10000001 */  b          .L801E43D4_993E44
     /* 993E40 801E43D0 00000000 */   nop

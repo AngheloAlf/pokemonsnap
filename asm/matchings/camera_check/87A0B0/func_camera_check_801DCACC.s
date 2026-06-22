@@ -12,11 +12,11 @@ glabel func_camera_check_801DCACC
     /* 87A2DC 801DCAEC 3C04801E */  lui        $a0, %hi(D_camera_check_801E4060)
     /* 87A2E0 801DCAF0 0C001EF1 */  jal        viApplyScreenSettings
     /* 87A2E4 801DCAF4 24844060 */   addiu     $a0, $a0, %lo(D_camera_check_801E4060)
-    /* 87A2E8 801DCAF8 3C0E8037 */  lui        $t6, %hi(D_80369F80)
+    /* 87A2E8 801DCAF8 3C0E8037 */  lui        $t6, %hi(UIMem_Link)
     /* 87A2EC 801DCAFC 3C0F8025 */  lui        $t7, %hi(D_8024A1E0)
     /* 87A2F0 801DCB00 3C04801E */  lui        $a0, %hi(D_camera_check_801E407C)
     /* 87A2F4 801DCB04 25EFA1E0 */  addiu      $t7, $t7, %lo(D_8024A1E0)
-    /* 87A2F8 801DCB08 25CE9F80 */  addiu      $t6, $t6, %lo(D_80369F80)
+    /* 87A2F8 801DCB08 25CE9F80 */  addiu      $t6, $t6, %lo(UIMem_Link)
     /* 87A2FC 801DCB0C 2484407C */  addiu      $a0, $a0, %lo(D_camera_check_801E407C)
     /* 87A300 801DCB10 01CFC023 */  subu       $t8, $t6, $t7
     /* 87A304 801DCB14 0C001CEB */  jal        omSetupScene

@@ -2469,7 +2469,7 @@ dlabel charmander_part5_draw_near
     /* 789AD8 803388D8 E7000000 */ .word 0xE7000000
     /* 789ADC 803388DC 00000000 */ .word 0x00000000
     /* 789AE0 803388E0 FD100000 */ .word 0xFD100000
-    /* 789AE4 803388E4 801739A8 */ .word charmander_tex_eye_pal
+    /* 789AE4 803388E4 801739A8 */ .word charmander_tex_eye_frame0_pal
     /* 789AE8 803388E8 E6000000 */ .word 0xE6000000
     /* 789AEC 803388EC 00000000 */ .word 0x00000000
     /* 789AF0 803388F0 F0000000 */ .word 0xF0000000
@@ -2724,7 +2724,7 @@ dlabel charmander_part5_draw_far
     /* 789EC0 80338CC0 E7000000 */ .word 0xE7000000
     /* 789EC4 80338CC4 00000000 */ .word 0x00000000
     /* 789EC8 80338CC8 FD100000 */ .word 0xFD100000
-    /* 789ECC 80338CCC 801739A8 */ .word charmander_tex_eye_pal
+    /* 789ECC 80338CCC 801739A8 */ .word charmander_tex_eye_frame0_pal
     /* 789ED0 80338CD0 E6000000 */ .word 0xE6000000
     /* 789ED4 80338CD4 00000000 */ .word 0x00000000
     /* 789ED8 80338CD8 F0000000 */ .word 0xF0000000

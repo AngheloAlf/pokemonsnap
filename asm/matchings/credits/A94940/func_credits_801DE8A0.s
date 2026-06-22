@@ -9,7 +9,7 @@ glabel func_credits_801DE8A0
     /* A95474 801DE8B4 10400004 */  beqz       $v0, .Lcredits_801DE8C8
     /* A95478 801DE8B8 00402025 */   or        $a0, $v0, $zero
     /* A9547C 801DE8BC 8FA50018 */  lw         $a1, 0x18($sp)
-    /* A95480 801DE8C0 0C0DD1C5 */  jal        func_80374714_847EC4
+    /* A95480 801DE8C0 0C0DD1C5 */  jal        func_80374714
     /* A95484 801DE8C4 24A50010 */   addiu     $a1, $a1, 0x10
   .Lcredits_801DE8C8:
     /* A95488 801DE8C8 8FBF0014 */  lw         $ra, 0x14($sp)

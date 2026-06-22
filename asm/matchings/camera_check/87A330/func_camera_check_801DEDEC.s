@@ -113,7 +113,7 @@ glabel func_camera_check_801DEDEC
     /* 87C6C8 801DEED8 8FBF0024 */   lw        $ra, 0x24($sp)
     /* 87C6CC 801DEEDC 0C026E60 */  jal        getLevelId
     /* 87C6D0 801DEEE0 00000000 */   nop
-    /* 87C6D4 801DEEE4 0C0DD47E */  jal        func_803751F8
+    /* 87C6D4 801DEEE4 0C0DD47E */  jal        func_803751F8_8489A8
     /* 87C6D8 801DEEE8 00402025 */   or        $a0, $v0, $zero
     /* 87C6DC 801DEEEC 0C026E60 */  jal        getLevelId
     /* 87C6E0 801DEEF0 AFA2002C */   sw        $v0, 0x2C($sp)
@@ -171,7 +171,7 @@ glabel func_camera_check_801DEDEC
     /* 87C7A8 801DEFB8 02002025 */   or        $a0, $s0, $zero
     /* 87C7AC 801DEFBC 0C026E60 */  jal        getLevelId
     /* 87C7B0 801DEFC0 00000000 */   nop
-    /* 87C7B4 801DEFC4 0C0DD47E */  jal        func_803751F8
+    /* 87C7B4 801DEFC4 0C0DD47E */  jal        func_803751F8_8489A8
     /* 87C7B8 801DEFC8 00402025 */   or        $a0, $v0, $zero
     /* 87C7BC 801DEFCC 0C026E60 */  jal        getLevelId
     /* 87C7C0 801DEFD0 AFA2002C */   sw        $v0, 0x2C($sp)
@@ -211,7 +211,7 @@ glabel func_camera_check_801DEDEC
     /* 87C840 801DF050 02002025 */   or        $a0, $s0, $zero
     /* 87C844 801DF054 0C026E60 */  jal        getLevelId
     /* 87C848 801DF058 00000000 */   nop
-    /* 87C84C 801DF05C 0C0DD47E */  jal        func_803751F8
+    /* 87C84C 801DF05C 0C0DD47E */  jal        func_803751F8_8489A8
     /* 87C850 801DF060 00402025 */   or        $a0, $v0, $zero
     /* 87C854 801DF064 3C048025 */  lui        $a0, %hi(D_camera_check_80249928)
     /* 87C858 801DF068 3C058021 */  lui        $a1, %hi(D_camera_check_80208B30)

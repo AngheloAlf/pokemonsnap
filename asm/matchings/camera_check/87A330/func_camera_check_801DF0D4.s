@@ -134,7 +134,7 @@ glabel func_camera_check_801DF0D4
     /* 87C9E0 801DF1F0 8FA50030 */   lw        $a1, 0x30($sp)
     /* 87C9E4 801DF1F4 0C026E60 */  jal        getLevelId
     /* 87C9E8 801DF1F8 00000000 */   nop
-    /* 87C9EC 801DF1FC 0C0DD47E */  jal        func_803751F8
+    /* 87C9EC 801DF1FC 0C0DD47E */  jal        func_803751F8_8489A8
     /* 87C9F0 801DF200 00402025 */   or        $a0, $v0, $zero
     /* 87C9F4 801DF204 8FB80030 */  lw         $t8, 0x30($sp)
     /* 87C9F8 801DF208 24040001 */  addiu      $a0, $zero, 0x1

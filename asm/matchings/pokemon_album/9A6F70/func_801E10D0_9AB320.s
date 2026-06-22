@@ -6,7 +6,7 @@ glabel func_801E10D0_9AB320
     /* 9AB328 801E10D8 3C068020 */  lui        $a2, %hi(D_801FFA10_9C9C60)
     /* 9AB32C 801E10DC 24C6FA10 */  addiu      $a2, $a2, %lo(D_801FFA10_9C9C60)
     /* 9AB330 801E10E0 00002025 */  or         $a0, $zero, $zero
-    /* 9AB334 801E10E4 0C0DC71A */  jal        func_80371C68_845418
+    /* 9AB334 801E10E4 0C0DC71A */  jal        func_80371C68
     /* 9AB338 801E10E8 24050006 */   addiu     $a1, $zero, 0x6
     /* 9AB33C 801E10EC AFA2001C */  sw         $v0, 0x1C($sp)
     /* 9AB340 801E10F0 8FAE001C */  lw         $t6, 0x1C($sp)

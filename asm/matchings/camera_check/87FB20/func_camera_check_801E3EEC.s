@@ -37,7 +37,7 @@ glabel func_camera_check_801E3EEC
     /* 88175C 801E3F6C 1A80000D */  blez       $s4, .Lcamera_check_801E3FA4
     /* 881760 801E3F70 00008025 */   or        $s0, $zero, $zero
   .Lcamera_check_801E3F74:
-    /* 881764 801E3F74 0C0DD1AD */  jal        func_803746B4
+    /* 881764 801E3F74 0C0DD1AD */  jal        func_803746B4_847E64
     /* 881768 801E3F78 02002025 */   or        $a0, $s0, $zero
     /* 88176C 801E3F7C 00402025 */  or         $a0, $v0, $zero
     /* 881770 801E3F80 0C078F63 */  jal        func_camera_check_801E3D8C

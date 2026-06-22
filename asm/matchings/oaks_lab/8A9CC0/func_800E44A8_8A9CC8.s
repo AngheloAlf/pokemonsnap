@@ -50,7 +50,7 @@ glabel func_800E44A8_8A9CC8
   .L800E454C_8A9D6C:
     /* 8A9D6C 800E454C 0C002F2A */  jal        ohWait
     /* 8A9D70 800E4550 24040001 */   addiu     $a0, $zero, 0x1
-    /* 8A9D74 800E4554 0C0DAA39 */  jal        func_8036A8E4_83E094
+    /* 8A9D74 800E4554 0C0DAA39 */  jal        func_8036A8E4
     /* 8A9D78 800E4558 8FA40020 */   lw        $a0, 0x20($sp)
     /* 8A9D7C 800E455C 0C0DBAE0 */  jal        func_8036EB80
     /* 8A9D80 800E4560 24040001 */   addiu     $a0, $zero, 0x1
