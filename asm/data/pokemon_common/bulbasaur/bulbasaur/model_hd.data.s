@@ -30,7 +30,7 @@ dlabel D_803A71EC_83A21C
     /* 83A21C 803A71EC 8011CFE0 */ .word bulbasaur_tex_eye0_png
     /* 83A220 803A71F0 8011D210 */ .word bulbasaur_tex_eye1_png
     /* 83A224 803A71F4 8011D438 */ .word bulbasaur_tex_eye2_png
-    /* 83A228 803A71F8 8011D668 */ .word D_8011D668_8E2E88
+    /* 83A228 803A71F8 8011D668 */ .word bulbasaur_tex_eye3_png
     /* 83A22C 803A71FC 8011DCA8 */ .word bulbasaur_tex_eye4_png
 enddlabel D_803A71EC_83A21C
 

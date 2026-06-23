@@ -7,10 +7,10 @@ glabel func_800E218C_A5D53C
     /* A5D548 800E2198 3C04800E */  lui        $a0, %hi(D_800E357C_A5E92C)
     /* A5D54C 800E219C 0C001EF1 */  jal        viApplyScreenSettings
     /* A5D550 800E21A0 2484357C */   addiu     $a0, $a0, %lo(D_800E357C_A5E92C)
-    /* A5D554 800E21A4 3C0E8037 */  lui        $t6, %hi(UIMem_Link)
+    /* A5D554 800E21A4 3C0E8037 */  lui        $t6, %hi(D_80369F80)
     /* A5D558 800E21A8 3C0F8017 */  lui        $t7, %hi(D_8016A010)
     /* A5D55C 800E21AC 25EFA010 */  addiu      $t7, $t7, %lo(D_8016A010)
-    /* A5D560 800E21B0 25CE9F80 */  addiu      $t6, $t6, %lo(UIMem_Link)
+    /* A5D560 800E21B0 25CE9F80 */  addiu      $t6, $t6, %lo(D_80369F80)
     /* A5D564 800E21B4 01CFC023 */  subu       $t8, $t6, $t7
     /* A5D568 800E21B8 3C01800E */  lui        $at, %hi(D_800E3618_A5E9C8)
     /* A5D56C 800E21BC AC383618 */  sw         $t8, %lo(D_800E3618_A5E9C8)($at)

@@ -107,7 +107,7 @@ dlabel D_beach_8032B934
     /* 5C39AC 8032B93C 8017A490 */ .word snorlax_tex_8017A490
     /* 5C39B0 8032B940 8017A698 */ .word snorlax_tex_8017A698
     /* 5C39B4 8032B944 8017A8A0 */ .word snorlax_tex_8017A8A0
-    /* 5C39B8 8032B948 8017AAA8 */ .word D_8017AAA8_3A1728
+    /* 5C39B8 8032B948 8017AAA8 */ .word snorlax_tex_8017AAA8
     /* 5C39BC 8032B94C 8017ACB0 */ .word snorlax_tex_8017ACB0
 enddlabel D_beach_8032B934
 

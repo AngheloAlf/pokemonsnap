@@ -737,9 +737,9 @@ nonmatching D_8033ABC4_6BD074
 dlabel D_8033ABC4_6BD074
     /* 6BD074 8033ABC4 801A7A48 */ .word weepinbell_tex_801A7A48
     /* 6BD078 8033ABC8 801A5988 */ .word weepinbell_tex_801A5988
-    /* 6BD07C 8033ABCC 801A7218 */ .word electrode_hd_vtx + 0x760
+    /* 6BD07C 8033ABCC 801A7218 */ .word weepinbell_tex_801A7218
     /* 6BD080 8033ABD0 801A69E8 */ .word weepinbell_tex_801A69E8
-    /* 6BD084 8033ABD4 801A61B8 */ .word haunter_hd_model + 0x4F8
+    /* 6BD084 8033ABD4 801A61B8 */ .word weepinbell_tex_801A61B8
 enddlabel D_8033ABC4_6BD074
 
 nonmatching D_8033ABD8_6BD088
@@ -747,9 +747,9 @@ nonmatching D_8033ABD8_6BD088
 dlabel D_8033ABD8_6BD088
     /* 6BD088 8033ABD8 801A7A48 */ .word weepinbell_tex_801A7A48
     /* 6BD08C 8033ABDC 801A5988 */ .word weepinbell_tex_801A5988
-    /* 6BD090 8033ABE0 801A61B8 */ .word haunter_hd_model + 0x4F8
+    /* 6BD090 8033ABE0 801A61B8 */ .word weepinbell_tex_801A61B8
     /* 6BD094 8033ABE4 801A69E8 */ .word weepinbell_tex_801A69E8
-    /* 6BD098 8033ABE8 801A7218 */ .word electrode_hd_vtx + 0x760
+    /* 6BD098 8033ABE8 801A7218 */ .word weepinbell_tex_801A7218
     /* 6BD09C 8033ABEC 00000000 */ .word 0x00000000
 enddlabel D_8033ABD8_6BD088
 
@@ -2475,7 +2475,7 @@ dlabel weepinbell_part3_draw_near
     /* 6BEA58 8033C5A8 F2000000 */ .word 0xF2000000
     /* 6BEA5C 8033C5AC 0007C07C */ .word 0x0007C07C
     /* 6BEA60 8033C5B0 FD500000 */ .word 0xFD500000
-    /* 6BEA64 8033C5B4 801A5758 */ .word haunter_hd_part22_draw
+    /* 6BEA64 8033C5B4 801A5758 */ .word weepinbell_tex_801A5758_png
     /* 6BEA68 8033C5B8 E6000000 */ .word 0xE6000000
     /* 6BEA6C 8033C5BC 00000000 */ .word 0x00000000
     /* 6BEA70 8033C5C0 F3000000 */ .word 0xF3000000
@@ -2564,7 +2564,7 @@ dlabel weepinbell_part3_draw_far
     /* 6BEBA8 8033C6F8 F2000000 */ .word 0xF2000000
     /* 6BEBAC 8033C6FC 0007C07C */ .word 0x0007C07C
     /* 6BEBB0 8033C700 FD500000 */ .word 0xFD500000
-    /* 6BEBB4 8033C704 801A5758 */ .word haunter_hd_part22_draw
+    /* 6BEBB4 8033C704 801A5758 */ .word weepinbell_tex_801A5758_png
     /* 6BEBB8 8033C708 E6000000 */ .word 0xE6000000
     /* 6BEBBC 8033C70C 00000000 */ .word 0x00000000
     /* 6BEBC0 8033C710 F3000000 */ .word 0xF3000000

@@ -1616,7 +1616,7 @@ dlabel diglett_part4_draw_near
     /* 62AC68 8032DB98 F5400400 */ .word 0xF5400400
     /* 62AC6C 8032DB9C 00094250 */ .word 0x00094250
     /* 62AC70 8032DBA0 FD100000 */ .word 0xFD100000
-    /* 62AC74 8032DBA4 80160C88 */ .word sandshrew_tex_80160C88
+    /* 62AC74 8032DBA4 80160C88 */ .word diglett_tex_left_eye_frame0_pal
     /* 62AC78 8032DBA8 E6000000 */ .word 0xE6000000
     /* 62AC7C 8032DBAC 00000000 */ .word 0x00000000
     /* 62AC80 8032DBB0 F0000000 */ .word 0xF0000000

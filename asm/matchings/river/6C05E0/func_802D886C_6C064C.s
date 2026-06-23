@@ -12,12 +12,12 @@ glabel func_802D886C_6C064C
     /* 6C066C 802D888C 25088824 */  addiu      $t0, $t0, %lo(func_802D8824_6C0604)
     /* 6C0670 802D8890 27398848 */  addiu      $t9, $t9, %lo(func_802D8848_6C0628)
     /* 6C0674 802D8894 27188800 */  addiu      $t8, $t8, %lo(func_802D8800_6C05E0)
-    /* 6C0678 802D8898 3C048013 */  lui        $a0, %hi(tunnel_block4_vtx + 0x910)
+    /* 6C0678 802D8898 3C048013 */  lui        $a0, %hi(D_8012AC90)
     /* 6C067C 802D889C 240E0009 */  addiu      $t6, $zero, 0x9
     /* 6C0680 802D88A0 240F0003 */  addiu      $t7, $zero, 0x3
     /* 6C0684 802D88A4 AFAF0014 */  sw         $t7, 0x14($sp)
     /* 6C0688 802D88A8 AFAE0010 */  sw         $t6, 0x10($sp)
-    /* 6C068C 802D88AC 2484AC90 */  addiu      $a0, $a0, %lo(tunnel_block4_vtx + 0x910)
+    /* 6C068C 802D88AC 2484AC90 */  addiu      $a0, $a0, %lo(D_8012AC90)
     /* 6C0690 802D88B0 AFB80018 */  sw         $t8, 0x18($sp)
     /* 6C0694 802D88B4 AFB9001C */  sw         $t9, 0x1C($sp)
     /* 6C0698 802D88B8 AFA80020 */  sw         $t0, 0x20($sp)

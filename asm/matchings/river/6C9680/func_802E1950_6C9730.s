@@ -7,8 +7,8 @@ glabel func_802E1950_6C9730
     /* 6C973C 802E195C AFBF0014 */  sw         $ra, 0x14($sp)
     /* 6C9740 802E1960 10800005 */  beqz       $a0, .L802E1978_6C9758
     /* 6C9744 802E1964 E7AC0018 */   swc1      $f12, 0x18($sp)
-    /* 6C9748 802E1968 3C058015 */  lui        $a1, %hi(moltres_egg_vtx + 0x220)
-    /* 6C974C 802E196C 24A5EA10 */  addiu      $a1, $a1, %lo(moltres_egg_vtx + 0x220)
+    /* 6C9748 802E1968 3C058015 */  lui        $a1, %hi(D_8014EA10)
+    /* 6C974C 802E196C 24A5EA10 */  addiu      $a1, $a1, %lo(D_8014EA10)
     /* 6C9750 802E1970 0C004153 */  jal        animSetCameraAnimation
     /* 6C9754 802E1974 8FA60018 */   lw        $a2, 0x18($sp)
   .L802E1978_6C9758:

@@ -47,7 +47,7 @@ nonmatching D_802EE9D0_5EBAA0
 dlabel D_802EE9D0_5EBAA0
     /* 5EBAA0 802EE9D0 3F19999A */ .word 0x3F19999A
     /* 5EBAA4 802EE9D4 41200000 */ .word 0x41200000
-    /* 5EBAA8 802EE9D8 80162960 */ .word growlithe_tex_fur2_png
+    /* 5EBAA8 802EE9D8 80162960 */ .word diglett_modelanim_rise
     /* 5EBAAC 802EE9DC 80163D40 */ .word diglett_matanim_rise
     /* 5EBAB0 802EE9E0 802EE990 */ .word D_802EE990_5EBA60
 enddlabel D_802EE9D0_5EBAA0

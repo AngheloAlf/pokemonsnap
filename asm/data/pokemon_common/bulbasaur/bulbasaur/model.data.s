@@ -30,7 +30,7 @@ dlabel D_8033F6FC_55708C
     /* 55708C 8033F6FC 8011CFE0 */ .word bulbasaur_tex_eye0_png
     /* 557090 8033F700 8011D210 */ .word bulbasaur_tex_eye1_png
     /* 557094 8033F704 8011D438 */ .word bulbasaur_tex_eye2_png
-    /* 557098 8033F708 8011D668 */ .word D_8011D668_8E2E88
+    /* 557098 8033F708 8011D668 */ .word bulbasaur_tex_eye3_png
     /* 55709C 8033F70C 8011DCA8 */ .word bulbasaur_tex_eye4_png
 enddlabel D_8033F6FC_55708C
 

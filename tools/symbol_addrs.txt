@@ -7598,3 +7598,5 @@ fx_createEffect = 0x800A6C48; // segment:app_render
 fx_effectProcDefault = 0x800BE2A8; // segment:app_render
 fx_ejectEffectDObj = 0x800A716C; // segment:app_render
 
+gate_materials = 0x800F07A0; // segment:world
+evolution_controller_materials = 0x800F41D0; // segment:world

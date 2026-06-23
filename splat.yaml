@@ -20,6 +20,7 @@ options:
   create_undefined_funcs_auto: false
   subalign: 16
   libultra_symbols: True
+  dump_symbols: True
 segments:
   - [0x000000, header, header]
   - [0x000040, bin, boot]
@@ -764,15 +765,15 @@ segments:
 
     - [0xA74F0, bin, A74F0] # , data]
     - [0xDEDB0, bin, butterfree/textures]
-    - [0xE4E98, bin, doduo/textures]
-    - [0xEDF88, bin, eevee/textures]
-    - [0xF7AD8, bin, kangaskhan/textures]
-    - [0x105E88, bin, snorlax/textures]
-    - [0x10E9A8, bin, lapras/textures]
+    - [0xE4E90, bin, doduo/textures]
+    - [0xEDF80, bin, eevee/textures]
+    - [0xF7AD0, bin, kangaskhan/textures]
+    - [0x105E80, bin, snorlax/textures]
+    - [0x10E9A0, bin, lapras/textures]
     - [0x110970, bin, chansey/textures]
-    - [0x116A38, bin, meowth/textures]
-    - [0x12A988, bin, pidgey/textures]
-    - [0x135318, bin, scyther/textures]
+    - [0x116A30, bin, meowth/textures]
+    - [0x12A980, bin, pidgey/textures]
+    - [0x135310, bin, scyther/textures]
 
     - { name: bss_801B02F0, type: bss, vram: 0x801B02F0 }
 
@@ -2268,7 +2269,7 @@ segments:
     - [0x2F2F20, bin, shellder2/textures]
     - [0x2F42F0, bin, metapod/textures]
     - [0x2F5A30, bin, slowpoke/textures]
-    - [0x301E58, bin, slowbro/textures]
+    - [0x301E50, bin, slowbro/textures]
 
     - { name: bss_8019AEC0, type: bss, vram: 0x8019AEC0 }
 
@@ -4858,9 +4859,9 @@ segments:
     - [0x44FE20, bin, dratini/textures]
     - [0x454C90, bin, sandshrew/textures]
     - [0x460130, bin, sandslash/textures]
-    - [0x467C98, bin, starmie/textures]
+    - [0x467C90, bin, starmie/textures]
     - [0x46B500, bin, goldeen/textures]
-    - [0x471E98, bin, squirtle/textures]
+    - [0x471E90, bin, squirtle/textures]
 
     - { name: bss_80186AF0, type: bss, vram: 0x80186AF0 }
 
@@ -5212,7 +5213,7 @@ segments:
     - [0x4A8160, c]
 
     - [0x4A8170, bin] # , data]
-    - [0x4D8CE8, bin, mew/textures]
+    - [0x4D8CE0, bin, mew/textures]
 
     - { name: bss_80139C30, type: bss, vram: 0x80139C30 }
 
@@ -10230,6 +10231,8 @@ segments:
     vram: 0x800E18A0
     bss_size: 0x100
     exclusive_ram_id: level
+    prioritized_segments:
+    - app_level
     subsegments:
     - [0xA08E30, c]
     - [0xA0BE70, c]

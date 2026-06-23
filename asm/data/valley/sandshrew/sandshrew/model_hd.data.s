@@ -2711,7 +2711,7 @@ dlabel sandshrew_hd_part5_draw
     /* 49AFF0 801A4BD0 F2000000 */ .word 0xF2000000
     /* 49AFF4 801A4BD4 0007C07C */ .word 0x0007C07C
     /* 49AFF8 801A4BD8 FD100000 */ .word 0xFD100000
-    /* 49AFFC 801A4BDC 80161CA8 */ .word growlithe_tex_eye_frame0_pal
+    /* 49AFFC 801A4BDC 80161CA8 */ .word sandshrew_tex_80161CA8
     /* 49B000 801A4BE0 E6000000 */ .word 0xE6000000
     /* 49B004 801A4BE4 00000000 */ .word 0x00000000
     /* 49B008 801A4BE8 F3000000 */ .word 0xF3000000

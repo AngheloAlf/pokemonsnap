@@ -2,7 +2,7 @@
     "search.useIgnoreFiles": false,
     "search.exclude": {
         "**/*.o": true,
-        ".splat/": true,
+        // ".splat/": true,
         "**/.git": true,
         "expected/**": true,
         "build/pokemonsnap.map": false,

@@ -27,8 +27,8 @@ dlabel D_802E3418_734618
     /* 73461C 802E341C */ .asciz "Bp"
     /* 42700000 */
 .align 2
-    /* 734620 802E3420 800F55F0 */ .word 0x800F55F0
-    /* 734624 802E3424 800F58C0 */ .word 0x800F58C0
+    /* 734620 802E3420 800F55F0 */ .word evolution_controller_modelanim
+    /* 734624 802E3424 800F58C0 */ .word evolution_controller_matanim
     /* 734628 802E3428 00000000 */ .word 0x00000000
 enddlabel D_802E3418_734618
 
@@ -43,8 +43,8 @@ dlabel D_802E342C_73462C
     /* 734630 802E3430 */ .asciz "Bp"
     /* 42700000 */
 .align 2
-    /* 734634 802E3434 800F55F0 */ .word 0x800F55F0
-    /* 734638 802E3438 800F58C0 */ .word 0x800F58C0
+    /* 734634 802E3434 800F55F0 */ .word evolution_controller_modelanim
+    /* 734638 802E3438 800F58C0 */ .word evolution_controller_matanim
     /* 73463C 802E343C 802E3410 */ .word D_802E3410_734610
 enddlabel D_802E342C_73462C
 
@@ -59,8 +59,8 @@ dlabel D_802E3440_734640
     /* 734644 802E3444 */ .asciz "Bp"
     /* 42700000 */
 .align 2
-    /* 734648 802E3448 800F55F0 */ .word 0x800F55F0
-    /* 73464C 802E344C 800F58C0 */ .word 0x800F58C0
+    /* 734648 802E3448 800F55F0 */ .word evolution_controller_modelanim
+    /* 73464C 802E344C 800F58C0 */ .word evolution_controller_matanim
     /* 734650 802E3450 802E3414 */ .word D_802E3414_734614
 enddlabel D_802E3440_734640
 
@@ -104,7 +104,7 @@ nonmatching D_802E34A8_7346A8
 
 dlabel D_802E34A8_7346A8
     /* 7346A8 802E34A8 800F5490 */ .word 0x800F5490
-    /* 7346AC 802E34AC 800F41D0 */ .word 0x800F41D0
+    /* 7346AC 802E34AC 800F41D0 */ .word evolution_controller_materials
     /* 7346B0 802E34B0 800A1608 */ .word renderModelTypeDFogged
     /* 7346B4 802E34B4 802E3494 */ .word D_802E3494_734694
     /* 7346B8 802E34B8 41A00000 */ .word 0x41A00000

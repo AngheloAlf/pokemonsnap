@@ -22,10 +22,10 @@ glabel func_800E4B4C_A0C0DC
     /* A0C124 800E4B94 8DEF830C */  lw         $t7, %lo(D_800E830C_A0F89C)($t7)
     /* A0C128 800E4B98 3C01423C */  lui        $at, (0x423C0000 >> 16)
     /* A0C12C 800E4B9C 44812000 */  mtc1       $at, $f4
-    /* A0C130 800E4BA0 3C05803B */  lui        $a1, %hi(bulbasaur_hd_vtx + 0xE50)
+    /* A0C130 800E4BA0 3C05803B */  lui        $a1, %hi(D_803A80D0)
     /* A0C134 800E4BA4 ADE30054 */  sw         $v1, 0x54($t7)
     /* A0C138 800E4BA8 4406B000 */  mfc1       $a2, $f22
-    /* A0C13C 800E4BAC 24A580D0 */  addiu      $a1, $a1, %lo(bulbasaur_hd_vtx + 0xE50)
+    /* A0C13C 800E4BAC 24A580D0 */  addiu      $a1, $a1, %lo(D_803A80D0)
     /* A0C140 800E4BB0 E4940078 */  swc1       $f20, 0x78($a0)
     /* A0C144 800E4BB4 0C004153 */  jal        animSetCameraAnimation
     /* A0C148 800E4BB8 E4840028 */   swc1      $f4, 0x28($a0)
@@ -66,9 +66,9 @@ glabel func_800E4B4C_A0C0DC
     /* A0C1D4 800E4C44 0C00316D */  jal        animSetModelAnimationSpeed
     /* A0C1D8 800E4C48 8C848304 */   lw        $a0, %lo(D_800E8304_A0F894)($a0)
     /* A0C1DC 800E4C4C 3C04800F */  lui        $a0, %hi(D_800E8304_A0F894)
-    /* A0C1E0 800E4C50 3C05803A */  lui        $a1, %hi(bulbasaur_hd_vtx + 0xD10)
+    /* A0C1E0 800E4C50 3C05803A */  lui        $a1, %hi(D_803A7F90)
     /* A0C1E4 800E4C54 4406B000 */  mfc1       $a2, $f22
-    /* A0C1E8 800E4C58 24A57F90 */  addiu      $a1, $a1, %lo(bulbasaur_hd_vtx + 0xD10)
+    /* A0C1E8 800E4C58 24A57F90 */  addiu      $a1, $a1, %lo(D_803A7F90)
     /* A0C1EC 800E4C5C 0C003236 */  jal        animSetModelTreeTextureAnimation
     /* A0C1F0 800E4C60 8C848304 */   lw        $a0, %lo(D_800E8304_A0F894)($a0)
     /* A0C1F4 800E4C64 3C04800F */  lui        $a0, %hi(D_800E8304_A0F894)

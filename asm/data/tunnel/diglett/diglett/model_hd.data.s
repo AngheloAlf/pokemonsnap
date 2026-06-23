@@ -2206,7 +2206,7 @@ dlabel diglett_hd_part4_draw
     /* 1D8FF8 80192EB8 E7000000 */ .word 0xE7000000
     /* 1D8FFC 80192EBC 00000000 */ .word 0x00000000
     /* 1D9000 80192EC0 FD100000 */ .word 0xFD100000
-    /* 1D9004 80192EC4 80160C88 */ .word sandshrew_tex_80160C88
+    /* 1D9004 80192EC4 80160C88 */ .word diglett_tex_left_eye_frame0_pal
     /* 1D9008 80192EC8 E6000000 */ .word 0xE6000000
     /* 1D900C 80192ECC 00000000 */ .word 0x00000000
     /* 1D9010 80192ED0 F0000000 */ .word 0xF0000000

@@ -56,9 +56,9 @@ glabel func_802E03C0_6C81A0
     /* 6C8270 802E0490 24060001 */  addiu      $a2, $zero, 0x1
     /* 6C8274 802E0494 0C00230A */  jal        omCreateProcess
     /* 6C8278 802E0498 24070001 */   addiu     $a3, $zero, 0x1
-    /* 6C827C 802E049C 3C018013 */  lui        $at, %hi(tunnel_block4_vtx + 0x920)
+    /* 6C827C 802E049C 3C018013 */  lui        $at, %hi(D_8012ACA0)
     /* 6C8280 802E04A0 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 6C8284 802E04A4 C42CACA0 */   lwc1      $f12, %lo(tunnel_block4_vtx + 0x920)($at)
+    /* 6C8284 802E04A4 C42CACA0 */   lwc1      $f12, %lo(D_8012ACA0)($at)
     /* 6C8288 802E04A8 0C0D97A0 */  jal        PlayerModel_Init
     /* 6C828C 802E04AC 00000000 */   nop
     /* 6C8290 802E04B0 14400008 */  bnez       $v0, .L802E04D4_6C82B4

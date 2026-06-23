@@ -2405,7 +2405,7 @@ dlabel sandshrew_part5_draw_near
     /* 8159F0 8033C460 F2000000 */ .word 0xF2000000
     /* 8159F4 8033C464 0007C07C */ .word 0x0007C07C
     /* 8159F8 8033C468 FD100000 */ .word 0xFD100000
-    /* 8159FC 8033C46C 80161CA8 */ .word growlithe_tex_eye_frame0_pal
+    /* 8159FC 8033C46C 80161CA8 */ .word sandshrew_tex_80161CA8
     /* 815A00 8033C470 E6000000 */ .word 0xE6000000
     /* 815A04 8033C474 00000000 */ .word 0x00000000
     /* 815A08 8033C478 F3000000 */ .word 0xF3000000
@@ -2574,7 +2574,7 @@ dlabel sandshrew_part5_draw_far
     /* 815C80 8033C6F0 F2000000 */ .word 0xF2000000
     /* 815C84 8033C6F4 0007C07C */ .word 0x0007C07C
     /* 815C88 8033C6F8 FD100000 */ .word 0xFD100000
-    /* 815C8C 8033C6FC 80161CA8 */ .word growlithe_tex_eye_frame0_pal
+    /* 815C8C 8033C6FC 80161CA8 */ .word sandshrew_tex_80161CA8
     /* 815C90 8033C700 E6000000 */ .word 0xE6000000
     /* 815C94 8033C704 00000000 */ .word 0x00000000
     /* 815C98 8033C708 F3000000 */ .word 0xF3000000
