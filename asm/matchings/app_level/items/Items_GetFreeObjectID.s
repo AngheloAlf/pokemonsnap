@@ -133,6 +133,5 @@ glabel Items_GetFreeObjectID
   .L80359CC8_4FA0D8:
     /* 4FA0D8 80359CC8 2402012C */  addiu      $v0, $zero, 0x12C
     /* 4FA0DC 80359CCC 03E00008 */  jr         $ra
-  alabel D_80359CD0
     /* 4FA0E0 80359CD0 00000000 */   nop
 endlabel Items_GetFreeObjectID

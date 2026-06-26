@@ -41,8 +41,8 @@ glabel func_802DF880_730A80
     /* 730B14 802DF914 02202025 */   or        $a0, $s1, $zero
     /* 730B18 802DF918 3C013F00 */  lui        $at, (0x3F000000 >> 16)
     /* 730B1C 802DF91C 44812000 */  mtc1       $at, $f4
-    /* 730B20 802DF920 3C058011 */  lui        $a1, %hi(D_8011749C)
-    /* 730B24 802DF924 24A5749C */  addiu      $a1, $a1, %lo(D_8011749C)
+    /* 730B20 802DF920 3C058011 */  lui        $a1, %hi(D_8011749C_33E11C)
+    /* 730B24 802DF924 24A5749C */  addiu      $a1, $a1, %lo(D_8011749C_33E11C)
     /* 730B28 802DF928 02002025 */  or         $a0, $s0, $zero
     /* 730B2C 802DF92C 24060000 */  addiu      $a2, $zero, 0x0
     /* 730B30 802DF930 0C004153 */  jal        animSetCameraAnimation
@@ -53,9 +53,9 @@ glabel func_802DF880_730A80
     /* 730B44 802DF944 24060001 */  addiu      $a2, $zero, 0x1
     /* 730B48 802DF948 0C00230A */  jal        omCreateProcess
     /* 730B4C 802DF94C 24070001 */   addiu     $a3, $zero, 0x1
-    /* 730B50 802DF950 3C018010 */  lui        $at, %hi(D_800FFFC8)
+    /* 730B50 802DF950 3C018010 */  lui        $at, %hi(D_800FFFC8_326C48)
     /* 730B54 802DF954 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 730B58 802DF958 C42CFFC8 */   lwc1      $f12, %lo(D_800FFFC8)($at)
+    /* 730B58 802DF958 C42CFFC8 */   lwc1      $f12, %lo(D_800FFFC8_326C48)($at)
     /* 730B5C 802DF95C 0C0D97A0 */  jal        PlayerModel_Init
     /* 730B60 802DF960 00000000 */   nop
     /* 730B64 802DF964 14400008 */  bnez       $v0, .L802DF988_730B88

@@ -3,10 +3,10 @@ nonmatching func_800E23E4_A09974, 0x9C
 glabel func_800E23E4_A09974
     /* A09974 800E23E4 27BDFFC0 */  addiu      $sp, $sp, -0x40
     /* A09978 800E23E8 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A0997C 800E23EC 3C198035 */  lui        $t9, %hi(D_8034B920)
+    /* A0997C 800E23EC 3C198035 */  lui        $t9, %hi(D_8034B920_main_menu_vpk0)
     /* A09980 800E23F0 AFBF0034 */  sw         $ra, 0x34($sp)
     /* A09984 800E23F4 3C078000 */  lui        $a3, (0x80000000 >> 16)
-    /* A09988 800E23F8 2739B920 */  addiu      $t9, $t9, %lo(D_8034B920)
+    /* A09988 800E23F8 2739B920 */  addiu      $t9, $t9, %lo(D_8034B920_main_menu_vpk0)
     /* A0998C 800E23FC 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A09990 800E2400 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A09994 800E2404 240F0001 */  addiu      $t7, $zero, 0x1

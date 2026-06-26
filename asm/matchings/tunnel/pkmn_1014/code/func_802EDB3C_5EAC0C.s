@@ -35,9 +35,9 @@ glabel func_802EDB3C_5EAC0C
     /* 5EAC84 802EDBB4 00002825 */  or         $a1, $zero, $zero
     /* 5EAC88 802EDBB8 0C008937 */  jal        auSetBGMVolumeSmooth
     /* 5EAC8C 802EDBBC 240600F0 */   addiu     $a2, $zero, 0xF0
-    /* 5EAC90 802EDBC0 3C018012 */  lui        $at, %hi(D_8011E6DC)
+    /* 5EAC90 802EDBC0 3C018012 */  lui        $at, %hi(D_8011E6DC_16483C)
     /* 5EAC94 802EDBC4 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 5EAC98 802EDBC8 C42CE6DC */   lwc1      $f12, %lo(D_8011E6DC)($at)
+    /* 5EAC98 802EDBC8 C42CE6DC */   lwc1      $f12, %lo(D_8011E6DC_16483C)($at)
     /* 5EAC9C 802EDBCC 0C0D61BE */  jal        getMainCamera
     /* 5EACA0 802EDBD0 00000000 */   nop
     /* 5EACA4 802EDBD4 3C03802F */  lui        $v1, %hi(D_802F0214_5ED2E4)

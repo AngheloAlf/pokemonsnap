@@ -15,12 +15,12 @@ glabel func_802E27A8_5DF878
     /* 5DF8A4 802E27D4 25082760 */  addiu      $t0, $t0, %lo(func_802E2760_5DF830)
     /* 5DF8A8 802E27D8 27392784 */  addiu      $t9, $t9, %lo(func_802E2784_5DF854)
     /* 5DF8AC 802E27DC 2718273C */  addiu      $t8, $t8, %lo(func_802E273C_5DF80C)
-    /* 5DF8B0 802E27E0 3C048012 */  lui        $a0, %hi(D_8011E6CC)
+    /* 5DF8B0 802E27E0 3C048012 */  lui        $a0, %hi(D_8011E6CC_16482C)
     /* 5DF8B4 802E27E4 240E0009 */  addiu      $t6, $zero, 0x9
     /* 5DF8B8 802E27E8 240F0003 */  addiu      $t7, $zero, 0x3
     /* 5DF8BC 802E27EC AFAF0014 */  sw         $t7, 0x14($sp)
     /* 5DF8C0 802E27F0 AFAE0010 */  sw         $t6, 0x10($sp)
-    /* 5DF8C4 802E27F4 2484E6CC */  addiu      $a0, $a0, %lo(D_8011E6CC)
+    /* 5DF8C4 802E27F4 2484E6CC */  addiu      $a0, $a0, %lo(D_8011E6CC_16482C)
     /* 5DF8C8 802E27F8 AFB80018 */  sw         $t8, 0x18($sp)
     /* 5DF8CC 802E27FC AFB9001C */  sw         $t9, 0x1C($sp)
     /* 5DF8D0 802E2800 AFA80020 */  sw         $t0, 0x20($sp)

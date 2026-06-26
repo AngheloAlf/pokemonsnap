@@ -24,9 +24,9 @@ glabel func_802D07BC_7A9D4C
     /* 7A9D9C 802D080C 2405000A */  addiu      $a1, $zero, 0xA
     /* 7A9DA0 802D0810 0C002DDD */  jal        cmdSendCommand
     /* 7A9DA4 802D0814 00003025 */   or        $a2, $zero, $zero
-    /* 7A9DA8 802D0818 3C018010 */  lui        $at, %hi(D_80100730)
+    /* 7A9DA8 802D0818 3C018010 */  lui        $at, %hi(D_80100730_3F6B70)
     /* 7A9DAC 802D081C 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 7A9DB0 802D0820 C42C0730 */   lwc1      $f12, %lo(D_80100730)($at)
+    /* 7A9DB0 802D0820 C42C0730 */   lwc1      $f12, %lo(D_80100730_3F6B70)($at)
     /* 7A9DB4 802D0824 0C0D61BE */  jal        getMainCamera
     /* 7A9DB8 802D0828 00000000 */   nop
     /* 7A9DBC 802D082C 3C03802F */  lui        $v1, %hi(D_802EC648_7C5BD8)

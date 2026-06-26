@@ -188,8 +188,8 @@ glabel func_800E28CC_A09E5C
   .L800E2B24_A0A0B4:
     /* A0A0B4 800E2B24 0C003088 */  jal        ohRemoveSprite
     /* A0A0B8 800E2B28 8FA40084 */   lw        $a0, 0x84($sp)
-    /* A0A0BC 800E2B2C 3C05802F */  lui        $a1, %hi(D_802E8DD0)
-    /* A0A0C0 800E2B30 24A58DD0 */  addiu      $a1, $a1, %lo(D_802E8DD0)
+    /* A0A0BC 800E2B2C 3C05802F */  lui        $a1, %hi(D_802E8DD0_main_menu_vpk0)
+    /* A0A0C0 800E2B30 24A58DD0 */  addiu      $a1, $a1, %lo(D_802E8DD0_main_menu_vpk0)
     /* A0A0C4 800E2B34 0C00282D */  jal        omGObjAddSprite
     /* A0A0C8 800E2B38 8FA40084 */   lw        $a0, 0x84($sp)
     /* A0A0CC 800E2B3C 8FA80084 */  lw         $t0, 0x84($sp)

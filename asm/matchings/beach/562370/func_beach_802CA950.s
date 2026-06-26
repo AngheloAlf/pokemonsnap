@@ -42,8 +42,8 @@ glabel func_beach_802CA950
     /* 562A58 802CA9E8 02202025 */   or        $a0, $s1, $zero
     /* 562A5C 802CA9EC 3C013F00 */  lui        $at, (0x3F000000 >> 16)
     /* 562A60 802CA9F0 44812000 */  mtc1       $at, $f4
-    /* 562A64 802CA9F4 3C058014 */  lui        $a1, %hi(D_8013C530)
-    /* 562A68 802CA9F8 24A5C530 */  addiu      $a1, $a1, %lo(D_8013C530)
+    /* 562A64 802CA9F4 3C058014 */  lui        $a1, %hi(D_8013C530_C89C0)
+    /* 562A68 802CA9F8 24A5C530 */  addiu      $a1, $a1, %lo(D_8013C530_C89C0)
     /* 562A6C 802CA9FC 02002025 */  or         $a0, $s0, $zero
     /* 562A70 802CAA00 24060000 */  addiu      $a2, $zero, 0x0
     /* 562A74 802CAA04 0C004153 */  jal        animSetCameraAnimation
@@ -54,9 +54,9 @@ glabel func_beach_802CA950
     /* 562A88 802CAA18 24060001 */  addiu      $a2, $zero, 0x1
     /* 562A8C 802CAA1C 0C00230A */  jal        omCreateProcess
     /* 562A90 802CAA20 24070001 */   addiu     $a3, $zero, 0x1
-    /* 562A94 802CAA24 3C018012 */  lui        $at, %hi(D_8011B924)
+    /* 562A94 802CAA24 3C018012 */  lui        $at, %hi(D_8011B924_A7DB4)
     /* 562A98 802CAA28 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 562A9C 802CAA2C C42CB924 */   lwc1      $f12, %lo(D_8011B924)($at)
+    /* 562A9C 802CAA2C C42CB924 */   lwc1      $f12, %lo(D_8011B924_A7DB4)($at)
     /* 562AA0 802CAA30 0C0D97A0 */  jal        PlayerModel_Init
     /* 562AA4 802CAA34 00000000 */   nop
     /* 562AA8 802CAA38 14400008 */  bnez       $v0, .Lbeach_802CAA5C
@@ -69,10 +69,10 @@ glabel func_beach_802CA950
     /* 562AC4 802CAA54 0C0023CB */  jal        omEndProcess
     /* 562AC8 802CAA58 00002025 */   or        $a0, $zero, $zero
   .Lbeach_802CAA5C:
-    /* 562ACC 802CAA5C 3C048014 */  lui        $a0, %hi(D_8013B030)
-    /* 562AD0 802CAA60 3C058014 */  lui        $a1, %hi(D_8013BAA0)
-    /* 562AD4 802CAA64 24A5BAA0 */  addiu      $a1, $a1, %lo(D_8013BAA0)
-    /* 562AD8 802CAA68 2484B030 */  addiu      $a0, $a0, %lo(D_8013B030)
+    /* 562ACC 802CAA5C 3C048014 */  lui        $a0, %hi(D_8013B030_C74C0)
+    /* 562AD0 802CAA60 3C058014 */  lui        $a1, %hi(D_8013BAA0_C7F30)
+    /* 562AD4 802CAA64 24A5BAA0 */  addiu      $a1, $a1, %lo(D_8013BAA0_C7F30)
+    /* 562AD8 802CAA68 2484B030 */  addiu      $a0, $a0, %lo(D_8013B030_C74C0)
     /* 562ADC 802CAA6C 24060000 */  addiu      $a2, $zero, 0x0
     /* 562AE0 802CAA70 0C0D97CE */  jal        PlayerModel_SetAnimation
     /* 562AE4 802CAA74 3C073F00 */   lui       $a3, (0x3F000000 >> 16)

@@ -3,10 +3,10 @@ nonmatching func_800E61C8_A0D758, 0xC8
 glabel func_800E61C8_A0D758
     /* A0D758 800E61C8 27BDFFC0 */  addiu      $sp, $sp, -0x40
     /* A0D75C 800E61CC 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A0D760 800E61D0 3C198034 */  lui        $t9, %hi(D_80341790)
+    /* A0D760 800E61D0 3C198034 */  lui        $t9, %hi(D_80341790_main_menu_vpk0)
     /* A0D764 800E61D4 AFBF0034 */  sw         $ra, 0x34($sp)
     /* A0D768 800E61D8 3C078000 */  lui        $a3, (0x80000000 >> 16)
-    /* A0D76C 800E61DC 27391790 */  addiu      $t9, $t9, %lo(D_80341790)
+    /* A0D76C 800E61DC 27391790 */  addiu      $t9, $t9, %lo(D_80341790_main_menu_vpk0)
     /* A0D770 800E61E0 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A0D774 800E61E4 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A0D778 800E61E8 240F0001 */  addiu      $t7, $zero, 0x1
@@ -31,12 +31,12 @@ glabel func_800E61C8_A0D758
     /* A0D7C4 800E6234 2409002B */  addiu      $t1, $zero, 0x2B
     /* A0D7C8 800E6238 240A0028 */  addiu      $t2, $zero, 0x28
     /* A0D7CC 800E623C 240B0201 */  addiu      $t3, $zero, 0x201
-    /* A0D7D0 800E6240 3C058034 */  lui        $a1, %hi(bulbasaur_vtx + 0x19D0)
+    /* A0D7D0 800E6240 3C058034 */  lui        $a1, %hi(D_80341160_main_menu_vpk0)
     /* A0D7D4 800E6244 A46A0012 */  sh         $t2, 0x12($v1)
     /* A0D7D8 800E6248 A4690010 */  sh         $t1, 0x10($v1)
     /* A0D7DC 800E624C A46B0024 */  sh         $t3, 0x24($v1)
     /* A0D7E0 800E6250 00402025 */  or         $a0, $v0, $zero
-    /* A0D7E4 800E6254 24A51160 */  addiu      $a1, $a1, %lo(bulbasaur_vtx + 0x19D0)
+    /* A0D7E4 800E6254 24A51160 */  addiu      $a1, $a1, %lo(D_80341160_main_menu_vpk0)
     /* A0D7E8 800E6258 0C00282D */  jal        omGObjAddSprite
     /* A0D7EC 800E625C AFA30038 */   sw        $v1, 0x38($sp)
     /* A0D7F0 800E6260 8FA30038 */  lw         $v1, 0x38($sp)

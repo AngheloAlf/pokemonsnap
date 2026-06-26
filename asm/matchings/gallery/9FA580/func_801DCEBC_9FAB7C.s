@@ -16,10 +16,10 @@ glabel func_801DCEBC_9FAB7C
     /* 9FABA8 801DCEE8 3C01801F */  lui        $at, %hi(D_801EA7F0_A084B0)
     /* 9FABAC 801DCEEC AC20A7F0 */  sw         $zero, %lo(D_801EA7F0_A084B0)($at)
   .L801DCEF0_9FABB0:
-    /* 9FABB0 801DCEF0 3C188037 */  lui        $t8, %hi(D_80369F80)
+    /* 9FABB0 801DCEF0 3C188037 */  lui        $t8, %hi(D_80359CD0_main_menu_vpk0 + 0x102B0)
     /* 9FABB4 801DCEF4 3C198023 */  lui        $t9, %hi(D_80230AF0)
     /* 9FABB8 801DCEF8 27390AF0 */  addiu      $t9, $t9, %lo(D_80230AF0)
-    /* 9FABBC 801DCEFC 27189F80 */  addiu      $t8, $t8, %lo(D_80369F80)
+    /* 9FABBC 801DCEFC 27189F80 */  addiu      $t8, $t8, %lo(D_80359CD0_main_menu_vpk0 + 0x102B0)
     /* 9FABC0 801DCF00 03194023 */  subu       $t0, $t8, $t9
     /* 9FABC4 801DCF04 3C01801E */  lui        $at, %hi(D_801E16BC_9FF37C)
     /* 9FABC8 801DCF08 AC2816BC */  sw         $t0, %lo(D_801E16BC_9FF37C)($at)

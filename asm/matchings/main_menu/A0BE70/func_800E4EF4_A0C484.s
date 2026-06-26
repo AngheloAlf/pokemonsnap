@@ -21,12 +21,12 @@ glabel func_800E4EF4_A0C484
     /* A0C4C8 800E4F38 3C078000 */  lui        $a3, (0x80000000 >> 16)
     /* A0C4CC 800E4F3C 0C002A29 */  jal        omLinkGObjDL
     /* A0C4D0 800E4F40 AFA2002C */   sw        $v0, 0x2C($sp)
-    /* A0C4D4 800E4F44 3C058036 */  lui        $a1, %hi(Items_LinkObject + 0x38)
-    /* A0C4D8 800E4F48 3C068036 */  lui        $a2, %hi(D_80359378)
+    /* A0C4D4 800E4F44 3C058036 */  lui        $a1, %hi(D_80359A20_main_menu_vpk0)
+    /* A0C4D8 800E4F48 3C068036 */  lui        $a2, %hi(D_80359378_main_menu_vpk0)
     /* A0C4DC 800E4F4C 240F001C */  addiu      $t7, $zero, 0x1C
     /* A0C4E0 800E4F50 AFAF0010 */  sw         $t7, 0x10($sp)
-    /* A0C4E4 800E4F54 24C69378 */  addiu      $a2, $a2, %lo(D_80359378)
-    /* A0C4E8 800E4F58 24A59A20 */  addiu      $a1, $a1, %lo(Items_LinkObject + 0x38)
+    /* A0C4E4 800E4F54 24C69378 */  addiu      $a2, $a2, %lo(D_80359378_main_menu_vpk0)
+    /* A0C4E8 800E4F58 24A59A20 */  addiu      $a1, $a1, %lo(D_80359A20_main_menu_vpk0)
     /* A0C4EC 800E4F5C 8FA4002C */  lw         $a0, 0x2C($sp)
     /* A0C4F0 800E4F60 00003825 */  or         $a3, $zero, $zero
     /* A0C4F4 800E4F64 AFA00014 */  sw         $zero, 0x14($sp)

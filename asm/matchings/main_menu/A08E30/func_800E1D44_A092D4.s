@@ -3,11 +3,11 @@ nonmatching func_800E1D44_A092D4, 0xCC
 glabel func_800E1D44_A092D4
     /* A092D4 800E1D44 27BDFFC0 */  addiu      $sp, $sp, -0x40
     /* A092D8 800E1D48 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A092DC 800E1D4C 3C19802E */  lui        $t9, %hi(D_802DABC0)
+    /* A092DC 800E1D4C 3C19802E */  lui        $t9, %hi(D_802DABC0_main_menu_vpk0)
     /* A092E0 800E1D50 AFBF0034 */  sw         $ra, 0x34($sp)
     /* A092E4 800E1D54 AFA40040 */  sw         $a0, 0x40($sp)
     /* A092E8 800E1D58 3C078000 */  lui        $a3, (0x80000000 >> 16)
-    /* A092EC 800E1D5C 2739ABC0 */  addiu      $t9, $t9, %lo(D_802DABC0)
+    /* A092EC 800E1D5C 2739ABC0 */  addiu      $t9, $t9, %lo(D_802DABC0_main_menu_vpk0)
     /* A092F0 800E1D60 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A092F4 800E1D64 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A092F8 800E1D68 240F0001 */  addiu      $t7, $zero, 0x1

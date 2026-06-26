@@ -21,10 +21,10 @@ glabel func_800E5074_A0C604
     /* A0C648 800E50B8 3C078000 */  lui        $a3, (0x80000000 >> 16)
     /* A0C64C 800E50BC 0C002A29 */  jal        omLinkGObjDL
     /* A0C650 800E50C0 AFA2002C */   sw        $v0, 0x2C($sp)
-    /* A0C654 800E50C4 3C058039 */  lui        $a1, %hi(D_80393D30)
+    /* A0C654 800E50C4 3C058039 */  lui        $a1, %hi(D_80393D30_main_menu_vpk0)
     /* A0C658 800E50C8 240F001C */  addiu      $t7, $zero, 0x1C
     /* A0C65C 800E50CC AFAF0010 */  sw         $t7, 0x10($sp)
-    /* A0C660 800E50D0 24A53D30 */  addiu      $a1, $a1, %lo(D_80393D30)
+    /* A0C660 800E50D0 24A53D30 */  addiu      $a1, $a1, %lo(D_80393D30_main_menu_vpk0)
     /* A0C664 800E50D4 8FA4002C */  lw         $a0, 0x2C($sp)
     /* A0C668 800E50D8 00003025 */  or         $a2, $zero, $zero
     /* A0C66C 800E50DC 00003825 */  or         $a3, $zero, $zero

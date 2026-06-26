@@ -15,12 +15,12 @@ glabel func_802BDFA0_640450
     /* 64047C 802BDFCC 2508DF58 */  addiu      $t0, $t0, %lo(func_802BDF58_640408)
     /* 640480 802BDFD0 2739DF7C */  addiu      $t9, $t9, %lo(func_802BDF7C_64042C)
     /* 640484 802BDFD4 2718DF34 */  addiu      $t8, $t8, %lo(func_802BDF34_6403E4)
-    /* 640488 802BDFD8 3C048013 */  lui        $a0, %hi(D_8012A0E8)
+    /* 640488 802BDFD8 3C048013 */  lui        $a0, %hi(D_8012A0E8_1F5E98)
     /* 64048C 802BDFDC 240E0009 */  addiu      $t6, $zero, 0x9
     /* 640490 802BDFE0 240F0003 */  addiu      $t7, $zero, 0x3
     /* 640494 802BDFE4 AFAF0014 */  sw         $t7, 0x14($sp)
     /* 640498 802BDFE8 AFAE0010 */  sw         $t6, 0x10($sp)
-    /* 64049C 802BDFEC 2484A0E8 */  addiu      $a0, $a0, %lo(D_8012A0E8)
+    /* 64049C 802BDFEC 2484A0E8 */  addiu      $a0, $a0, %lo(D_8012A0E8_1F5E98)
     /* 6404A0 802BDFF0 AFB80018 */  sw         $t8, 0x18($sp)
     /* 6404A4 802BDFF4 AFB9001C */  sw         $t9, 0x1C($sp)
     /* 6404A8 802BDFF8 AFA80020 */  sw         $t0, 0x20($sp)

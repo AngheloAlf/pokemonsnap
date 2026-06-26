@@ -28,11 +28,11 @@ glabel func_802ED2E8_5EA3B8
     /* 5EA418 802ED348 4481A000 */  mtc1       $at, $f20
     /* 5EA41C 802ED34C E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 5EA420 802ED350 C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 5EA424 802ED354 3C058014 */  lui        $a1, %hi(D_8013EE60)
+    /* 5EA424 802ED354 3C058014 */  lui        $a1, %hi(D_8013EE60_184FC0)
     /* 5EA428 802ED358 4406B000 */  mfc1       $a2, $f22
     /* 5EA42C 802ED35C E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 5EA430 802ED360 C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 5EA434 802ED364 24A5EE60 */  addiu      $a1, $a1, %lo(D_8013EE60)
+    /* 5EA434 802ED364 24A5EE60 */  addiu      $a1, $a1, %lo(D_8013EE60_184FC0)
     /* 5EA438 802ED368 02202025 */  or         $a0, $s1, $zero
     /* 5EA43C 802ED36C E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 5EA440 802ED370 C630004C */  lwc1       $f16, 0x4C($s1)
@@ -47,14 +47,14 @@ glabel func_802ED2E8_5EA3B8
     /* 5EA464 802ED394 24060001 */  addiu      $a2, $zero, 0x1
     /* 5EA468 802ED398 0C00230A */  jal        omCreateProcess
     /* 5EA46C 802ED39C 24070001 */   addiu     $a3, $zero, 0x1
-    /* 5EA470 802ED3A0 3C048014 */  lui        $a0, %hi(D_8013D920)
-    /* 5EA474 802ED3A4 3C058014 */  lui        $a1, %hi(D_8013E3D0)
+    /* 5EA470 802ED3A0 3C048014 */  lui        $a0, %hi(D_8013D920_183A80)
+    /* 5EA474 802ED3A4 3C058014 */  lui        $a1, %hi(D_8013E3D0_184530)
     /* 5EA478 802ED3A8 4406B000 */  mfc1       $a2, $f22
     /* 5EA47C 802ED3AC 4407A000 */  mfc1       $a3, $f20
     /* 5EA480 802ED3B0 0040A825 */  or         $s5, $v0, $zero
-    /* 5EA484 802ED3B4 24A5E3D0 */  addiu      $a1, $a1, %lo(D_8013E3D0)
+    /* 5EA484 802ED3B4 24A5E3D0 */  addiu      $a1, $a1, %lo(D_8013E3D0_184530)
     /* 5EA488 802ED3B8 0C0D97CE */  jal        PlayerModel_SetAnimation
-    /* 5EA48C 802ED3BC 2484D920 */   addiu     $a0, $a0, %lo(D_8013D920)
+    /* 5EA48C 802ED3BC 2484D920 */   addiu     $a0, $a0, %lo(D_8013D920_183A80)
     /* 5EA490 802ED3C0 3C14802F */  lui        $s4, %hi(D_802F01E0_5ED2B0)
     /* 5EA494 802ED3C4 269401E0 */  addiu      $s4, $s4, %lo(D_802F01E0_5ED2B0)
     /* 5EA498 802ED3C8 3C0E802F */  lui        $t6, %hi(func_802ED050_5EA120)

@@ -28,11 +28,11 @@ glabel func_8034A7C4_829F34
     /* 829F94 8034A824 4481A000 */  mtc1       $at, $f20
     /* 829F98 8034A828 E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 829F9C 8034A82C C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 829FA0 8034A830 3C058012 */  lui        $a1, %hi(D_8011B3E0)
+    /* 829FA0 8034A830 3C058012 */  lui        $a1, %hi(D_8011B3E0_4CD7B0)
     /* 829FA4 8034A834 4406B000 */  mfc1       $a2, $f22
     /* 829FA8 8034A838 E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 829FAC 8034A83C C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 829FB0 8034A840 24A5B3E0 */  addiu      $a1, $a1, %lo(D_8011B3E0)
+    /* 829FB0 8034A840 24A5B3E0 */  addiu      $a1, $a1, %lo(D_8011B3E0_4CD7B0)
     /* 829FB4 8034A844 02202025 */  or         $a0, $s1, $zero
     /* 829FB8 8034A848 E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 829FBC 8034A84C C630004C */  lwc1       $f16, 0x4C($s1)
@@ -47,14 +47,14 @@ glabel func_8034A7C4_829F34
     /* 829FE0 8034A870 24060001 */  addiu      $a2, $zero, 0x1
     /* 829FE4 8034A874 0C00230A */  jal        omCreateProcess
     /* 829FE8 8034A878 24070001 */   addiu     $a3, $zero, 0x1
-    /* 829FEC 8034A87C 3C048012 */  lui        $a0, %hi(D_80119AE0)
-    /* 829FF0 8034A880 3C058012 */  lui        $a1, %hi(D_8011A970)
+    /* 829FEC 8034A87C 3C048012 */  lui        $a0, %hi(D_80119AE0_4CBEB0)
+    /* 829FF0 8034A880 3C058012 */  lui        $a1, %hi(D_8011A970_4CCD40)
     /* 829FF4 8034A884 4406B000 */  mfc1       $a2, $f22
     /* 829FF8 8034A888 4407A000 */  mfc1       $a3, $f20
     /* 829FFC 8034A88C 0040A825 */  or         $s5, $v0, $zero
-    /* 82A000 8034A890 24A5A970 */  addiu      $a1, $a1, %lo(D_8011A970)
+    /* 82A000 8034A890 24A5A970 */  addiu      $a1, $a1, %lo(D_8011A970_4CCD40)
     /* 82A004 8034A894 0C0D97CE */  jal        PlayerModel_SetAnimation
-    /* 82A008 8034A898 24849AE0 */   addiu     $a0, $a0, %lo(D_80119AE0)
+    /* 82A008 8034A898 24849AE0 */   addiu     $a0, $a0, %lo(D_80119AE0_4CBEB0)
     /* 82A00C 8034A89C 3C148035 */  lui        $s4, %hi(D_8034B670_82ADE0)
     /* 82A010 8034A8A0 2694B670 */  addiu      $s4, $s4, %lo(D_8034B670_82ADE0)
     /* 82A014 8034A8A4 3C0E8035 */  lui        $t6, %hi(func_8034A578_829CE8)

@@ -100,15 +100,15 @@ glabel func_802CF114_7A86A4
     /* 7A8704 802CF174 24050001 */  addiu      $a1, $zero, 0x1
     /* 7A8708 802CF178 0C0D7EFC */  jal        Pokemon_WaitForFlag
     /* 7A870C 802CF17C E62400A8 */   swc1      $f4, 0xA8($s1)
-    /* 7A8710 802CF180 3C058012 */  lui        $a1, %hi(D_8011C550)
+    /* 7A8710 802CF180 3C058012 */  lui        $a1, %hi(D_8011C550_412990)
     /* 7A8714 802CF184 3C06802D */  lui        $a2, %hi(D_802D406C_7AD5FC)
     /* 7A8718 802CF188 8CC6406C */  lw         $a2, %lo(D_802D406C_7AD5FC)($a2)
-    /* 7A871C 802CF18C 24A5C550 */  addiu      $a1, $a1, %lo(D_8011C550)
+    /* 7A871C 802CF18C 24A5C550 */  addiu      $a1, $a1, %lo(D_8011C550_412990)
     /* 7A8720 802CF190 0C0D5C3C */  jal        Camera_StartCutScene
     /* 7A8724 802CF194 02002025 */   or        $a0, $s0, $zero
-    /* 7A8728 802CF198 3C018010 */  lui        $at, %hi(D_80100730)
+    /* 7A8728 802CF198 3C018010 */  lui        $at, %hi(D_80100730_3F6B70)
     /* 7A872C 802CF19C 0C03869E */  jal        setSkyBoxAnimationSpeed
-    /* 7A8730 802CF1A0 C42C0730 */   lwc1      $f12, %lo(D_80100730)($at)
+    /* 7A8730 802CF1A0 C42C0730 */   lwc1      $f12, %lo(D_80100730_3F6B70)($at)
     /* 7A8734 802CF1A4 3C028038 */  lui        $v0, %hi(gMainCamera)
     /* 7A8738 802CF1A8 24422C30 */  addiu      $v0, $v0, %lo(gMainCamera)
     /* 7A873C 802CF1AC 3C01802F */  lui        $at, %hi(D_802ECDBC_7C634C)

@@ -3,10 +3,10 @@ nonmatching func_800E2058_A095E8, 0xD4
 glabel func_800E2058_A095E8
     /* A095E8 800E2058 27BDFFB8 */  addiu      $sp, $sp, -0x48
     /* A095EC 800E205C 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A095F0 800E2060 3C19802F */  lui        $t9, %hi(D_802F20F0)
+    /* A095F0 800E2060 3C19802F */  lui        $t9, %hi(D_802F20F0_main_menu_vpk0)
     /* A095F4 800E2064 AFBF003C */  sw         $ra, 0x3C($sp)
     /* A095F8 800E2068 3C078000 */  lui        $a3, (0x80000000 >> 16)
-    /* A095FC 800E206C 273920F0 */  addiu      $t9, $t9, %lo(D_802F20F0)
+    /* A095FC 800E206C 273920F0 */  addiu      $t9, $t9, %lo(D_802F20F0_main_menu_vpk0)
     /* A09600 800E2070 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A09604 800E2074 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A09608 800E2078 240F0001 */  addiu      $t7, $zero, 0x1
@@ -37,8 +37,8 @@ glabel func_800E2058_A095E8
     /* A0966C 800E20DC 02002025 */  or         $a0, $s0, $zero
     /* A09670 800E20E0 0C038628 */  jal        func_800E18A0_A08E30
     /* A09674 800E20E4 24050201 */   addiu     $a1, $zero, 0x201
-    /* A09678 800E20E8 3C058030 */  lui        $a1, %hi(D_802F82C8)
-    /* A0967C 800E20EC 24A582C8 */  addiu      $a1, $a1, %lo(D_802F82C8)
+    /* A09678 800E20E8 3C058030 */  lui        $a1, %hi(D_802F82C8_main_menu_vpk0)
+    /* A0967C 800E20EC 24A582C8 */  addiu      $a1, $a1, %lo(D_802F82C8_main_menu_vpk0)
     /* A09680 800E20F0 0C00282D */  jal        omGObjAddSprite
     /* A09684 800E20F4 8FA40044 */   lw        $a0, 0x44($sp)
     /* A09688 800E20F8 8E100008 */  lw         $s0, 0x8($s0)

@@ -28,11 +28,11 @@ glabel func_beach_802C52EC
     /* 55D3BC 802C534C 4481A000 */  mtc1       $at, $f20
     /* 55D3C0 802C5350 E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 55D3C4 802C5354 C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 55D3C8 802C5358 3C058014 */  lui        $a1, %hi(D_8013DA90)
+    /* 55D3C8 802C5358 3C058014 */  lui        $a1, %hi(D_8013DA90_C9F20)
     /* 55D3CC 802C535C 4406B000 */  mfc1       $a2, $f22
     /* 55D3D0 802C5360 E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 55D3D4 802C5364 C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 55D3D8 802C5368 24A5DA90 */  addiu      $a1, $a1, %lo(D_8013DA90)
+    /* 55D3D8 802C5368 24A5DA90 */  addiu      $a1, $a1, %lo(D_8013DA90_C9F20)
     /* 55D3DC 802C536C 02202025 */  or         $a0, $s1, $zero
     /* 55D3E0 802C5370 E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 55D3E4 802C5374 C630004C */  lwc1       $f16, 0x4C($s1)
@@ -47,14 +47,14 @@ glabel func_beach_802C52EC
     /* 55D408 802C5398 24060001 */  addiu      $a2, $zero, 0x1
     /* 55D40C 802C539C 0C00230A */  jal        omCreateProcess
     /* 55D410 802C53A0 24070001 */   addiu     $a3, $zero, 0x1
-    /* 55D414 802C53A4 3C048014 */  lui        $a0, %hi(D_8013C580)
-    /* 55D418 802C53A8 3C058014 */  lui        $a1, %hi(D_8013CEA0)
+    /* 55D414 802C53A4 3C048014 */  lui        $a0, %hi(D_8013C580_C8A10)
+    /* 55D418 802C53A8 3C058014 */  lui        $a1, %hi(D_8013CEA0_C9330)
     /* 55D41C 802C53AC 4406B000 */  mfc1       $a2, $f22
     /* 55D420 802C53B0 4407A000 */  mfc1       $a3, $f20
     /* 55D424 802C53B4 0040A825 */  or         $s5, $v0, $zero
-    /* 55D428 802C53B8 24A5CEA0 */  addiu      $a1, $a1, %lo(D_8013CEA0)
+    /* 55D428 802C53B8 24A5CEA0 */  addiu      $a1, $a1, %lo(D_8013CEA0_C9330)
     /* 55D42C 802C53BC 0C0D97CE */  jal        PlayerModel_SetAnimation
-    /* 55D430 802C53C0 2484C580 */   addiu     $a0, $a0, %lo(D_8013C580)
+    /* 55D430 802C53C0 2484C580 */   addiu     $a0, $a0, %lo(D_8013C580_C8A10)
     /* 55D434 802C53C4 3C14802D */  lui        $s4, %hi(D_beach_802CC0E0)
     /* 55D438 802C53C8 2694C0E0 */  addiu      $s4, $s4, %lo(D_beach_802CC0E0)
     /* 55D43C 802C53CC 3C0E802C */  lui        $t6, %hi(func_beach_802C51A0)

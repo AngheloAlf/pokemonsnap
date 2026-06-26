@@ -7,7 +7,7 @@
 nonmatching D_803A6600_879DB0
 
 dlabel D_803A6600_879DB0
-    /* 879DB0 803A6600 803A57A0 */ .word 0x803A57A0
+    /* 879DB0 803A6600 803A57A0 */ .word D_803A1BE0_main_menu_vpk0 + 0x3BC0
 enddlabel D_803A6600_879DB0
 
 nonmatching D_803A6604_879DB4

@@ -21,12 +21,12 @@ glabel func_800E4E34_A0C3C4
     /* A0C408 800E4E78 3C078000 */  lui        $a3, (0x80000000 >> 16)
     /* A0C40C 800E4E7C 0C002A29 */  jal        omLinkGObjDL
     /* A0C410 800E4E80 AFA2002C */   sw        $v0, 0x2C($sp)
-    /* A0C414 800E4E84 3C05803A */  lui        $a1, %hi(D_803A1730)
-    /* A0C418 800E4E88 3C06803A */  lui        $a2, %hi(D_8039BC48)
+    /* A0C414 800E4E84 3C05803A */  lui        $a1, %hi(D_803A1730_main_menu_vpk0)
+    /* A0C418 800E4E88 3C06803A */  lui        $a2, %hi(D_8039BC48_main_menu_vpk0)
     /* A0C41C 800E4E8C 240F001C */  addiu      $t7, $zero, 0x1C
     /* A0C420 800E4E90 AFAF0010 */  sw         $t7, 0x10($sp)
-    /* A0C424 800E4E94 24C6BC48 */  addiu      $a2, $a2, %lo(D_8039BC48)
-    /* A0C428 800E4E98 24A51730 */  addiu      $a1, $a1, %lo(D_803A1730)
+    /* A0C424 800E4E94 24C6BC48 */  addiu      $a2, $a2, %lo(D_8039BC48_main_menu_vpk0)
+    /* A0C428 800E4E98 24A51730 */  addiu      $a1, $a1, %lo(D_803A1730_main_menu_vpk0)
     /* A0C42C 800E4E9C 8FA4002C */  lw         $a0, 0x2C($sp)
     /* A0C430 800E4EA0 00003825 */  or         $a3, $zero, $zero
     /* A0C434 800E4EA4 AFA00014 */  sw         $zero, 0x14($sp)

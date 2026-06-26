@@ -3013,7 +3013,7 @@ enddlabel D_beach_802CDAD8
 nonmatching D_beach_802CDAEC
 
 dlabel D_beach_802CDAEC
-    /* 565B5C 802CDAEC 8034FEB8 */ .word 0x8034FEB8
+    /* 565B5C 802CDAEC 8034FEB8 */ .word D_8034FAD8_main_menu_vpk0 + 0x3E0
     /* 565B60 802CDAF0 00000000 */ .word 0x00000000
     /* 565B64 802CDAF4 803594DC */ .word renderPokemonModelTypeBFogged
     /* 565B68 802CDAF8 802CDAD8 */ .word D_beach_802CDAD8

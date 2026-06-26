@@ -4927,22 +4927,38 @@ SECTIONS
     main_menu_ROM_END = __romPos;
     main_menu_VRAM_END = .;
 
-    A0F830_ROM_START = __romPos;
-    A0F830_VRAM = ADDR(.A0F830);
-    .A0F830 : AT(A0F830_ROM_START) SUBALIGN(16)
+    main_menu_vpk0_bss_ROM_START = __romPos;
+    main_menu_vpk0_bss_bss_VRAM = ADDR(.main_menu_vpk0_bss_bss);
+    .main_menu_vpk0_bss_bss 0x802B5000 (NOLOAD) : SUBALIGN(16)
     {
         FILL(0x00000000);
-        A0F830_DATA_START = .;
-        build/assets/A0F830.Vpk0.o(.data);
+        main_menu_vpk0_bss_BSS_START = .;
+        build/asm/data/main_menu_vpk0/main_menu_vpk0_bss.bss.s.o(.bss);
         . = ALIGN(., 16);
-        A0F830_DATA_END = .;
-        A0F830_DATA_SIZE = ABSOLUTE(A0F830_DATA_END - A0F830_DATA_START);
+        main_menu_vpk0_bss_BSS_END = .;
+        main_menu_vpk0_bss_BSS_SIZE = ABSOLUTE(main_menu_vpk0_bss_BSS_END - main_menu_vpk0_bss_BSS_START);
     }
-    __romPos += SIZEOF(.A0F830);
     __romPos = ALIGN(__romPos, 16);
     . = ALIGN(., 16);
-    A0F830_ROM_END = __romPos;
-    A0F830_VRAM_END = .;
+    main_menu_vpk0_bss_ROM_END = __romPos;
+    main_menu_vpk0_bss_VRAM_END = .;
+
+    main_menu_vpk0_ROM_START = __romPos;
+    main_menu_vpk0_VRAM = ADDR(.main_menu_vpk0);
+    .main_menu_vpk0 : AT(main_menu_vpk0_ROM_START) SUBALIGN(16)
+    {
+        FILL(0x00000000);
+        main_menu_vpk0_DATA_START = .;
+        build/assets/main_menu_vpk0.Vpk0.o(.data);
+        . = ALIGN(., 16);
+        main_menu_vpk0_DATA_END = .;
+        main_menu_vpk0_DATA_SIZE = ABSOLUTE(main_menu_vpk0_DATA_END - main_menu_vpk0_DATA_START);
+    }
+    __romPos += SIZEOF(.main_menu_vpk0);
+    __romPos = ALIGN(__romPos, 16);
+    . = ALIGN(., 16);
+    main_menu_vpk0_ROM_END = __romPos;
+    main_menu_vpk0_VRAM_END = .;
 
     menu_new_game_ROM_START = __romPos;
     menu_new_game_VRAM = ADDR(.menu_new_game);
@@ -5083,77 +5099,109 @@ SECTIONS
     intro_code_ROM_END = __romPos;
     intro_code_VRAM_END = .;
 
-    AA0B80_ROM_START = __romPos;
-    AA0B80_VRAM = ADDR(.AA0B80);
-    .AA0B80 : AT(AA0B80_ROM_START) SUBALIGN(16)
+    intro_code_vpk0_bss_ROM_START = __romPos;
+    intro_code_vpk0_bss_bss_VRAM = ADDR(.intro_code_vpk0_bss_bss);
+    .intro_code_vpk0_bss_bss 0x802B5000 (NOLOAD) : SUBALIGN(16)
     {
         FILL(0x00000000);
-        AA0B80_DATA_START = .;
-        build/assets/AA0B80.Vpk0.o(.data);
+        intro_code_vpk0_bss_BSS_START = .;
+        build/asm/data/intro_code_vpk0/intro_code_vpk0_bss.bss.s.o(.bss);
         . = ALIGN(., 16);
-        AA0B80_DATA_END = .;
-        AA0B80_DATA_SIZE = ABSOLUTE(AA0B80_DATA_END - AA0B80_DATA_START);
+        intro_code_vpk0_bss_BSS_END = .;
+        intro_code_vpk0_bss_BSS_SIZE = ABSOLUTE(intro_code_vpk0_bss_BSS_END - intro_code_vpk0_bss_BSS_START);
     }
-    __romPos += SIZEOF(.AA0B80);
     __romPos = ALIGN(__romPos, 16);
     . = ALIGN(., 16);
-    AA0B80_ROM_END = __romPos;
-    AA0B80_VRAM_END = .;
+    intro_code_vpk0_bss_ROM_END = __romPos;
+    intro_code_vpk0_bss_VRAM_END = .;
 
-    AA18E0_ROM_START = __romPos;
-    AA18E0_VRAM = ADDR(.AA18E0);
-    .AA18E0 0x801DC8A0 : AT(AA18E0_ROM_START) SUBALIGN(16)
+    intro_code_vpk0_ROM_START = __romPos;
+    intro_code_vpk0_VRAM = ADDR(.intro_code_vpk0);
+    .intro_code_vpk0 : AT(intro_code_vpk0_ROM_START) SUBALIGN(16)
     {
         FILL(0x00000000);
-        AA18E0_TEXT_START = .;
+        intro_code_vpk0_DATA_START = .;
+        build/assets/intro_code_vpk0.Vpk0.o(.data);
+        . = ALIGN(., 16);
+        intro_code_vpk0_DATA_END = .;
+        intro_code_vpk0_DATA_SIZE = ABSOLUTE(intro_code_vpk0_DATA_END - intro_code_vpk0_DATA_START);
+    }
+    __romPos += SIZEOF(.intro_code_vpk0);
+    __romPos = ALIGN(__romPos, 16);
+    . = ALIGN(., 16);
+    intro_code_vpk0_ROM_END = __romPos;
+    intro_code_vpk0_VRAM_END = .;
+
+    unk_segment_AA18E0_ROM_START = __romPos;
+    unk_segment_AA18E0_VRAM = ADDR(.unk_segment_AA18E0);
+    .unk_segment_AA18E0 0x801DC8A0 : AT(unk_segment_AA18E0_ROM_START) SUBALIGN(16)
+    {
+        FILL(0x00000000);
+        unk_segment_AA18E0_TEXT_START = .;
         build/src/AA18E0.c.o(.text);
         . = ALIGN(., 16);
-        AA18E0_TEXT_END = .;
-        AA18E0_TEXT_SIZE = ABSOLUTE(AA18E0_TEXT_END - AA18E0_TEXT_START);
-        AA18E0_DATA_START = .;
+        unk_segment_AA18E0_TEXT_END = .;
+        unk_segment_AA18E0_TEXT_SIZE = ABSOLUTE(unk_segment_AA18E0_TEXT_END - unk_segment_AA18E0_TEXT_START);
+        unk_segment_AA18E0_DATA_START = .;
         build/src/AA18E0.c.o(.data);
         build/assets/AA20A0.bin.o(.data);
         . = ALIGN(., 16);
-        AA18E0_DATA_END = .;
-        AA18E0_DATA_SIZE = ABSOLUTE(AA18E0_DATA_END - AA18E0_DATA_START);
-        AA18E0_RODATA_START = .;
+        unk_segment_AA18E0_DATA_END = .;
+        unk_segment_AA18E0_DATA_SIZE = ABSOLUTE(unk_segment_AA18E0_DATA_END - unk_segment_AA18E0_DATA_START);
+        unk_segment_AA18E0_RODATA_START = .;
         build/src/AA18E0.c.o(.rodata);
         . = ALIGN(., 16);
-        AA18E0_RODATA_END = .;
-        AA18E0_RODATA_SIZE = ABSOLUTE(AA18E0_RODATA_END - AA18E0_RODATA_START);
+        unk_segment_AA18E0_RODATA_END = .;
+        unk_segment_AA18E0_RODATA_SIZE = ABSOLUTE(unk_segment_AA18E0_RODATA_END - unk_segment_AA18E0_RODATA_START);
     }
-    AA18E0_bss_VRAM = ADDR(.AA18E0_bss);
-    .AA18E0_bss (NOLOAD) : SUBALIGN(16)
+    unk_segment_AA18E0_bss_VRAM = ADDR(.unk_segment_AA18E0_bss);
+    .unk_segment_AA18E0_bss (NOLOAD) : SUBALIGN(16)
     {
         FILL(0x00000000);
-        AA18E0_BSS_START = .;
+        unk_segment_AA18E0_BSS_START = .;
         build/src/AA18E0.c.o(.bss);
         . = ALIGN(., 16);
-        AA18E0_BSS_END = .;
-        AA18E0_BSS_SIZE = ABSOLUTE(AA18E0_BSS_END - AA18E0_BSS_START);
+        unk_segment_AA18E0_BSS_END = .;
+        unk_segment_AA18E0_BSS_SIZE = ABSOLUTE(unk_segment_AA18E0_BSS_END - unk_segment_AA18E0_BSS_START);
     }
-    __romPos += SIZEOF(.AA18E0);
+    __romPos += SIZEOF(.unk_segment_AA18E0);
     __romPos = ALIGN(__romPos, 16);
     . = ALIGN(., 16);
-    AA18E0_ROM_END = __romPos;
-    AA18E0_VRAM_END = .;
+    unk_segment_AA18E0_ROM_END = __romPos;
+    unk_segment_AA18E0_VRAM_END = .;
 
-    AAA610_ROM_START = __romPos;
-    AAA610_VRAM = ADDR(.AAA610);
-    .AAA610 : AT(AAA610_ROM_START) SUBALIGN(16)
+    unk_segment_AA18E0_vpk0_bss_ROM_START = __romPos;
+    unk_segment_AA18E0_vpk0_bss_bss_VRAM = ADDR(.unk_segment_AA18E0_vpk0_bss_bss);
+    .unk_segment_AA18E0_vpk0_bss_bss 0x802B5000 (NOLOAD) : SUBALIGN(16)
     {
         FILL(0x00000000);
-        AAA610_DATA_START = .;
-        build/assets/AAA610.Vpk0.o(.data);
+        unk_segment_AA18E0_vpk0_bss_BSS_START = .;
+        build/asm/data/unk_segment_AA18E0_vpk0/unk_segment_AA18E0_vpk0_bss.bss.s.o(.bss);
         . = ALIGN(., 16);
-        AAA610_DATA_END = .;
-        AAA610_DATA_SIZE = ABSOLUTE(AAA610_DATA_END - AAA610_DATA_START);
+        unk_segment_AA18E0_vpk0_bss_BSS_END = .;
+        unk_segment_AA18E0_vpk0_bss_BSS_SIZE = ABSOLUTE(unk_segment_AA18E0_vpk0_bss_BSS_END - unk_segment_AA18E0_vpk0_bss_BSS_START);
     }
-    __romPos += SIZEOF(.AAA610);
     __romPos = ALIGN(__romPos, 16);
     . = ALIGN(., 16);
-    AAA610_ROM_END = __romPos;
-    AAA610_VRAM_END = .;
+    unk_segment_AA18E0_vpk0_bss_ROM_END = __romPos;
+    unk_segment_AA18E0_vpk0_bss_VRAM_END = .;
+
+    unk_segment_AA18E0_vpk0_ROM_START = __romPos;
+    unk_segment_AA18E0_vpk0_VRAM = ADDR(.unk_segment_AA18E0_vpk0);
+    .unk_segment_AA18E0_vpk0 : AT(unk_segment_AA18E0_vpk0_ROM_START) SUBALIGN(16)
+    {
+        FILL(0x00000000);
+        unk_segment_AA18E0_vpk0_DATA_START = .;
+        build/assets/unk_segment_AA18E0_vpk0.Vpk0.o(.data);
+        . = ALIGN(., 16);
+        unk_segment_AA18E0_vpk0_DATA_END = .;
+        unk_segment_AA18E0_vpk0_DATA_SIZE = ABSOLUTE(unk_segment_AA18E0_vpk0_DATA_END - unk_segment_AA18E0_vpk0_DATA_START);
+    }
+    __romPos += SIZEOF(.unk_segment_AA18E0_vpk0);
+    __romPos = ALIGN(__romPos, 16);
+    . = ALIGN(., 16);
+    unk_segment_AA18E0_vpk0_ROM_END = __romPos;
+    unk_segment_AA18E0_vpk0_VRAM_END = .;
 
     idle_script_beach_ROM_START = __romPos;
     idle_script_beach_VRAM = ADDR(.idle_script_beach);

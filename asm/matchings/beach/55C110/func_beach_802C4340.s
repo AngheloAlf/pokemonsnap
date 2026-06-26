@@ -12,12 +12,12 @@ glabel func_beach_802C4340
     /* 55C3D0 802C4360 250842F8 */  addiu      $t0, $t0, %lo(func_beach_802C42F8)
     /* 55C3D4 802C4364 2739431C */  addiu      $t9, $t9, %lo(func_beach_802C431C)
     /* 55C3D8 802C4368 271842D4 */  addiu      $t8, $t8, %lo(beachPokemonAdd)
-    /* 55C3DC 802C436C 3C048012 */  lui        $a0, %hi(D_8011B914)
+    /* 55C3DC 802C436C 3C048012 */  lui        $a0, %hi(D_8011B914_A7DA4)
     /* 55C3E0 802C4370 240E0009 */  addiu      $t6, $zero, 0x9
     /* 55C3E4 802C4374 240F0003 */  addiu      $t7, $zero, 0x3
     /* 55C3E8 802C4378 AFAF0014 */  sw         $t7, 0x14($sp)
     /* 55C3EC 802C437C AFAE0010 */  sw         $t6, 0x10($sp)
-    /* 55C3F0 802C4380 2484B914 */  addiu      $a0, $a0, %lo(D_8011B914)
+    /* 55C3F0 802C4380 2484B914 */  addiu      $a0, $a0, %lo(D_8011B914_A7DA4)
     /* 55C3F4 802C4384 AFB80018 */  sw         $t8, 0x18($sp)
     /* 55C3F8 802C4388 AFB9001C */  sw         $t9, 0x1C($sp)
     /* 55C3FC 802C438C AFA80020 */  sw         $t0, 0x20($sp)

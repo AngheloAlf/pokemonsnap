@@ -3,10 +3,10 @@ nonmatching func_800E2654_A09BE4, 0x12C
 glabel func_800E2654_A09BE4
     /* A09BE4 800E2654 27BDFFB8 */  addiu      $sp, $sp, -0x48
     /* A09BE8 800E2658 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A09BEC 800E265C 3C198035 */  lui        $t9, %hi(D_8034B020)
+    /* A09BEC 800E265C 3C198035 */  lui        $t9, %hi(D_8034B020_main_menu_vpk0)
     /* A09BF0 800E2660 AFBF003C */  sw         $ra, 0x3C($sp)
     /* A09BF4 800E2664 3C078000 */  lui        $a3, (0x80000000 >> 16)
-    /* A09BF8 800E2668 2739B020 */  addiu      $t9, $t9, %lo(D_8034B020)
+    /* A09BF8 800E2668 2739B020 */  addiu      $t9, $t9, %lo(D_8034B020_main_menu_vpk0)
     /* A09BFC 800E266C 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A09C00 800E2670 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A09C04 800E2674 240F0001 */  addiu      $t7, $zero, 0x1
@@ -37,8 +37,8 @@ glabel func_800E2654_A09BE4
     /* A09C68 800E26D8 24050028 */  addiu      $a1, $zero, 0x28
     /* A09C6C 800E26DC 0C03863F */  jal        func_800E18FC_A08E8C
     /* A09C70 800E26E0 24060083 */   addiu     $a2, $zero, 0x83
-    /* A09C74 800E26E4 3C058035 */  lui        $a1, %hi(D_8034BBB8)
-    /* A09C78 800E26E8 24A5BBB8 */  addiu      $a1, $a1, %lo(D_8034BBB8)
+    /* A09C74 800E26E4 3C058035 */  lui        $a1, %hi(D_8034BBB8_main_menu_vpk0)
+    /* A09C78 800E26E8 24A5BBB8 */  addiu      $a1, $a1, %lo(D_8034BBB8_main_menu_vpk0)
     /* A09C7C 800E26EC 0C00282D */  jal        omGObjAddSprite
     /* A09C80 800E26F0 8FA40044 */   lw        $a0, 0x44($sp)
     /* A09C84 800E26F4 8E100008 */  lw         $s0, 0x8($s0)
@@ -54,8 +54,8 @@ glabel func_800E2654_A09BE4
     /* A09CAC 800E271C 240500AA */  addiu      $a1, $zero, 0xAA
     /* A09CB0 800E2720 0C03863F */  jal        func_800E18FC_A08E8C
     /* A09CB4 800E2724 240600AC */   addiu     $a2, $zero, 0xAC
-    /* A09CB8 800E2728 3C058035 */  lui        $a1, %hi(D_8034C710)
-    /* A09CBC 800E272C 24A5C710 */  addiu      $a1, $a1, %lo(D_8034C710)
+    /* A09CB8 800E2728 3C058035 */  lui        $a1, %hi(D_8034C710_main_menu_vpk0)
+    /* A09CBC 800E272C 24A5C710 */  addiu      $a1, $a1, %lo(D_8034C710_main_menu_vpk0)
     /* A09CC0 800E2730 0C00282D */  jal        omGObjAddSprite
     /* A09CC4 800E2734 8FA40044 */   lw        $a0, 0x44($sp)
     /* A09CC8 800E2738 8E100008 */  lw         $s0, 0x8($s0)

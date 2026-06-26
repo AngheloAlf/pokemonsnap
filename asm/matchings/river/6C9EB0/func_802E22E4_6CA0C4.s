@@ -28,11 +28,11 @@ glabel func_802E22E4_6CA0C4
     /* 6CA124 802E2344 4481A000 */  mtc1       $at, $f20
     /* 6CA128 802E2348 E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 6CA12C 802E234C C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 6CA130 802E2350 3C058015 */  lui        $a1, %hi(D_8014BF30)
+    /* 6CA130 802E2350 3C058015 */  lui        $a1, %hi(D_8014BF30_2BC000)
     /* 6CA134 802E2354 4406B000 */  mfc1       $a2, $f22
     /* 6CA138 802E2358 E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 6CA13C 802E235C C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 6CA140 802E2360 24A5BF30 */  addiu      $a1, $a1, %lo(D_8014BF30)
+    /* 6CA140 802E2360 24A5BF30 */  addiu      $a1, $a1, %lo(D_8014BF30_2BC000)
     /* 6CA144 802E2364 02202025 */  or         $a0, $s1, $zero
     /* 6CA148 802E2368 E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 6CA14C 802E236C C630004C */  lwc1       $f16, 0x4C($s1)
@@ -47,14 +47,14 @@ glabel func_802E22E4_6CA0C4
     /* 6CA170 802E2390 24060001 */  addiu      $a2, $zero, 0x1
     /* 6CA174 802E2394 0C00230A */  jal        omCreateProcess
     /* 6CA178 802E2398 24070001 */   addiu     $a3, $zero, 0x1
-    /* 6CA17C 802E239C 3C048015 */  lui        $a0, %hi(D_8014A660)
-    /* 6CA180 802E23A0 3C058015 */  lui        $a1, %hi(D_8014B450)
+    /* 6CA17C 802E239C 3C048015 */  lui        $a0, %hi(D_8014A660_2BA730)
+    /* 6CA180 802E23A0 3C058015 */  lui        $a1, %hi(D_8014B450_2BB520)
     /* 6CA184 802E23A4 4406B000 */  mfc1       $a2, $f22
     /* 6CA188 802E23A8 4407A000 */  mfc1       $a3, $f20
     /* 6CA18C 802E23AC 0040A825 */  or         $s5, $v0, $zero
-    /* 6CA190 802E23B0 24A5B450 */  addiu      $a1, $a1, %lo(D_8014B450)
+    /* 6CA190 802E23B0 24A5B450 */  addiu      $a1, $a1, %lo(D_8014B450_2BB520)
     /* 6CA194 802E23B4 0C0D97CE */  jal        PlayerModel_SetAnimation
-    /* 6CA198 802E23B8 2484A660 */   addiu     $a0, $a0, %lo(D_8014A660)
+    /* 6CA198 802E23B8 2484A660 */   addiu     $a0, $a0, %lo(D_8014A660_2BA730)
     /* 6CA19C 802E23BC 3C14802E */  lui        $s4, %hi(D_802E4B80_6CC960)
     /* 6CA1A0 802E23C0 26944B80 */  addiu      $s4, $s4, %lo(D_802E4B80_6CC960)
     /* 6CA1A4 802E23C4 3C0E802E */  lui        $t6, %hi(func_802E2120_6C9F00)

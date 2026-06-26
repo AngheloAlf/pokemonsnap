@@ -3,12 +3,12 @@ nonmatching func_800E5468_A0C9F8, 0x10C
 glabel func_800E5468_A0C9F8
     /* A0C9F8 800E5468 27BDFFC0 */  addiu      $sp, $sp, -0x40
     /* A0C9FC 800E546C 3C0E8001 */  lui        $t6, %hi(renDrawSprite)
-    /* A0CA00 800E5470 3C198030 */  lui        $t9, %hi(D_803051F0)
+    /* A0CA00 800E5470 3C198030 */  lui        $t9, %hi(D_803051F0_main_menu_vpk0)
     /* A0CA04 800E5474 3C08800E */  lui        $t0, %hi(func_800E5370_A0C900)
     /* A0CA08 800E5478 AFBF0034 */  sw         $ra, 0x34($sp)
     /* A0CA0C 800E547C 3C078000 */  lui        $a3, (0x80000000 >> 16)
     /* A0CA10 800E5480 25085370 */  addiu      $t0, $t0, %lo(func_800E5370_A0C900)
-    /* A0CA14 800E5484 273951F0 */  addiu      $t9, $t9, %lo(D_803051F0)
+    /* A0CA14 800E5484 273951F0 */  addiu      $t9, $t9, %lo(D_803051F0_main_menu_vpk0)
     /* A0CA18 800E5488 25CE7768 */  addiu      $t6, $t6, %lo(renDrawSprite)
     /* A0CA1C 800E548C 3C058001 */  lui        $a1, %hi(ohUpdateDefault)
     /* A0CA20 800E5490 240F0001 */  addiu      $t7, $zero, 0x1
@@ -33,12 +33,12 @@ glabel func_800E5468_A0C9F8
     /* A0CA6C 800E54DC 240B0062 */  addiu      $t3, $zero, 0x62
     /* A0CA70 800E54E0 240C0044 */  addiu      $t4, $zero, 0x44
     /* A0CA74 800E54E4 240D0201 */  addiu      $t5, $zero, 0x201
-    /* A0CA78 800E54E8 3C058030 */  lui        $a1, %hi(D_803072A0)
+    /* A0CA78 800E54E8 3C058030 */  lui        $a1, %hi(D_803072A0_main_menu_vpk0)
     /* A0CA7C 800E54EC A46C0012 */  sh         $t4, 0x12($v1)
     /* A0CA80 800E54F0 A46B0010 */  sh         $t3, 0x10($v1)
     /* A0CA84 800E54F4 A46D0024 */  sh         $t5, 0x24($v1)
     /* A0CA88 800E54F8 8CC40000 */  lw         $a0, 0x0($a2)
-    /* A0CA8C 800E54FC 24A572A0 */  addiu      $a1, $a1, %lo(D_803072A0)
+    /* A0CA8C 800E54FC 24A572A0 */  addiu      $a1, $a1, %lo(D_803072A0_main_menu_vpk0)
     /* A0CA90 800E5500 0C00282D */  jal        omGObjAddSprite
     /* A0CA94 800E5504 AFA3003C */   sw        $v1, 0x3C($sp)
     /* A0CA98 800E5508 8FA3003C */  lw         $v1, 0x3C($sp)
@@ -48,12 +48,12 @@ glabel func_800E5468_A0C9F8
     /* A0CAA8 800E5518 240F0067 */  addiu      $t7, $zero, 0x67
     /* A0CAAC 800E551C 24180201 */  addiu      $t8, $zero, 0x201
     /* A0CAB0 800E5520 24C68318 */  addiu      $a2, $a2, %lo(D_800E8318_A0F8A8)
-    /* A0CAB4 800E5524 3C058031 */  lui        $a1, %hi(D_80308A00)
+    /* A0CAB4 800E5524 3C058031 */  lui        $a1, %hi(D_80308A00_main_menu_vpk0)
     /* A0CAB8 800E5528 A46F0012 */  sh         $t7, 0x12($v1)
     /* A0CABC 800E552C A46E0010 */  sh         $t6, 0x10($v1)
     /* A0CAC0 800E5530 A4780024 */  sh         $t8, 0x24($v1)
     /* A0CAC4 800E5534 8CC40000 */  lw         $a0, 0x0($a2)
-    /* A0CAC8 800E5538 24A58A00 */  addiu      $a1, $a1, %lo(D_80308A00)
+    /* A0CAC8 800E5538 24A58A00 */  addiu      $a1, $a1, %lo(D_80308A00_main_menu_vpk0)
     /* A0CACC 800E553C 0C00282D */  jal        omGObjAddSprite
     /* A0CAD0 800E5540 AFA3003C */   sw        $v1, 0x3C($sp)
     /* A0CAD4 800E5544 8FA3003C */  lw         $v1, 0x3C($sp)

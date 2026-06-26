@@ -28,11 +28,11 @@ glabel func_802E0948_731B48
     /* 731BA8 802E09A8 4481A000 */  mtc1       $at, $f20
     /* 731BAC 802E09AC E7A600AC */  swc1       $f6, 0xAC($sp)
     /* 731BB0 802E09B0 C6280044 */  lwc1       $f8, 0x44($s1)
-    /* 731BB4 802E09B4 3C058012 */  lui        $a1, %hi(D_80118D90)
+    /* 731BB4 802E09B4 3C058012 */  lui        $a1, %hi(D_80118D90_33FA10)
     /* 731BB8 802E09B8 4406B000 */  mfc1       $a2, $f22
     /* 731BBC 802E09BC E7A800A8 */  swc1       $f8, 0xA8($sp)
     /* 731BC0 802E09C0 C62A0048 */  lwc1       $f10, 0x48($s1)
-    /* 731BC4 802E09C4 24A58D90 */  addiu      $a1, $a1, %lo(D_80118D90)
+    /* 731BC4 802E09C4 24A58D90 */  addiu      $a1, $a1, %lo(D_80118D90_33FA10)
     /* 731BC8 802E09C8 02202025 */  or         $a0, $s1, $zero
     /* 731BCC 802E09CC E7AA00A4 */  swc1       $f10, 0xA4($sp)
     /* 731BD0 802E09D0 C630004C */  lwc1       $f16, 0x4C($s1)

@@ -12,12 +12,12 @@ glabel func_802D63B0_7275B0
     /* 7275D0 802D63D0 25086368 */  addiu      $t0, $t0, %lo(func_802D6368_727568)
     /* 7275D4 802D63D4 2739638C */  addiu      $t9, $t9, %lo(func_802D638C_72758C)
     /* 7275D8 802D63D8 27186344 */  addiu      $t8, $t8, %lo(func_802D6344_727544)
-    /* 7275DC 802D63DC 3C048010 */  lui        $a0, %hi(D_800FFFB8)
+    /* 7275DC 802D63DC 3C048010 */  lui        $a0, %hi(D_800FFFB8_326C38)
     /* 7275E0 802D63E0 240E0009 */  addiu      $t6, $zero, 0x9
     /* 7275E4 802D63E4 240F0003 */  addiu      $t7, $zero, 0x3
     /* 7275E8 802D63E8 AFAF0014 */  sw         $t7, 0x14($sp)
     /* 7275EC 802D63EC AFAE0010 */  sw         $t6, 0x10($sp)
-    /* 7275F0 802D63F0 2484FFB8 */  addiu      $a0, $a0, %lo(D_800FFFB8)
+    /* 7275F0 802D63F0 2484FFB8 */  addiu      $a0, $a0, %lo(D_800FFFB8_326C38)
     /* 7275F4 802D63F4 AFB80018 */  sw         $t8, 0x18($sp)
     /* 7275F8 802D63F8 AFB9001C */  sw         $t9, 0x1C($sp)
     /* 7275FC 802D63FC AFA80020 */  sw         $t0, 0x20($sp)
