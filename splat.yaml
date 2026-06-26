@@ -10231,6 +10231,8 @@ segments:
     bss_size: 0x100
     exclusive_ram_id: level
     prioritized_segments:
+    - main_menu_vpk0_bss
+    - main_menu_vpk0
     - app_level
     subsegments:
     - [0xA08E30, c]
@@ -10244,7 +10246,22 @@ segments:
     - [0xA0F810, .rodata, A0E190]
     - { name: bss_800E82A0, type: bss, vram: 0x800E82A0 }
 
-  - { start: 0xA0F830, type: vpk0, align: 16 }
+  # Sentinel segment to simplify symbolizing.
+  # Ideally symbols would be grabbed directly from the vpk0 segment itself.
+  - start: 0xA0F830
+    type: code
+    align: 16
+    name: main_menu_vpk0_bss
+    dir: main_menu_vpk0
+    vram: 0x802B5000 # hardcoded VPK_VRAM
+    bss_size: 0xF3770
+    exclusive_ram_id: vpk0
+    symbol_name_format: $VRAM_main_menu_vpk0
+    symbol_name_format_no_rom: $VRAM_main_menu_vpk0
+    subsegments:
+    - { name: main_menu_vpk0_bss, type: bss, vram: 0x802B5000 } # placeholder for symbolizing
+
+  - { start: 0xA0F830, type: vpk0, align: 16, name: main_menu_vpk0 }
   - [0xA5CC46]
 
   - name: menu_new_game
@@ -10293,31 +10310,69 @@ segments:
     - [0xAA0000, .rodata, A94480]
     - [0xAA0010, .rodata, A94940]
     - { name: bss_801E9A90, type: bss, vram: 0x801E9A90 }
+
   - name: intro_code
     type: code
     start: 0xAA0650
     vram: 0x800E18A0
     bss_size: 0x10
     exclusive_ram_id: level
+    prioritized_segments:
+    - intro_code_vpk0_bss
+    - intro_code_vpk0
     subsegments:
     - [0xAA0650, c]
     - [0xAA0A60, .data, AA0650]
     - { start: auto, name: AA0650, type: .bss, vram: 0x800E1DD0 }
 
-  - { start: 0xAA0B80, type: vpk0, align: 16 }
+  # Sentinel segment to simplify symbolizing.
+  # Ideally symbols would be grabbed directly from the vpk0 segment itself.
+  - start: 0xAA0B80
+    type: code
+    align: 16
+    name: intro_code_vpk0_bss
+    dir: intro_code_vpk0
+    vram: 0x802B5000 # hardcoded VPK_VRAM
+    bss_size: 0x7110
+    exclusive_ram_id: vpk0
+    symbol_name_format: $VRAM_intro_code_vpk0
+    symbol_name_format_no_rom: $VRAM_intro_code_vpk0
+    subsegments:
+    - { name: intro_code_vpk0_bss, type: bss, vram: 0x802B5000 } # placeholder for symbolizing
+
+  - { start: 0xAA0B80, type: vpk0, align: 16, name: intro_code_vpk0 }
   - [0xAA18D3]
 
   - type: code
+    name: unk_segment_AA18E0
     start: 0xAA18E0
     vram: 0x801DC8A0
     exclusive_ram_id: level
     bss_size: 0x20
+    prioritized_segments:
+    - unk_segment_AA18E0_vpk0_bss
+    - unk_segment_AA18E0_vpk0
     subsegments:
     - [0xAA18E0, c]
     - [0xAA20A0, bin] # , data] # Image with rights notice printed on pictures
     - { start: auto, name: AA18E0, type: .bss, vram: 0x801E55D0 }
 
-  - { start: 0xAAA610, type: vpk0, align: 16 }
+  # Sentinel segment to simplify symbolizing.
+  # Ideally symbols would be grabbed directly from the vpk0 segment itself.
+  - start: 0xAAA610
+    type: code
+    align: 16
+    name: unk_segment_AA18E0_vpk0_bss
+    dir: unk_segment_AA18E0_vpk0
+    vram: 0x802B5000 # hardcoded VPK_VRAM
+    bss_size: 0x50
+    exclusive_ram_id: vpk0
+    symbol_name_format: $VRAM_unk_segment_AA18E0_vpk0
+    symbol_name_format_no_rom: $VRAM_unk_segment_AA18E0_vpk0
+    subsegments:
+    - { name: unk_segment_AA18E0_vpk0_bss, type: bss, vram: 0x802B5000 } # placeholder for symbolizing
+
+  - { start: 0xAAA610, type: vpk0, align: 16, name: unk_segment_AA18E0_vpk0 }
   - [0xAAA65B]
 
   - [0xAAA660, bin, idle_script_beach]

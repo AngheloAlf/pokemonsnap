@@ -1,6 +1,0 @@
-wrong
-
-    /* 1DD070 80196F30 8016D530 */ .word kangaskhan_tex_8016D530
-    /* 1DFF8C 80199E4C 8016D508 */ .word kangaskhan_tex_8016D508
-
-    /* 1D9004 80192EC4 80160C88 */ .word sandshrew_tex_80160C88
