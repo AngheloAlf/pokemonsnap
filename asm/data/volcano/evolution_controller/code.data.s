@@ -103,7 +103,7 @@ enddlabel D_802E3494_734694
 nonmatching D_802E34A8_7346A8
 
 dlabel D_802E34A8_7346A8
-    /* 7346A8 802E34A8 800F5490 */ .word 0x800F5490
+    /* 7346A8 802E34A8 800F5490 */ .word D_800F5490_72C40
     /* 7346AC 802E34AC 800F41D0 */ .word evolution_controller_materials
     /* 7346B0 802E34B0 800A1608 */ .word renderModelTypeDFogged
     /* 7346B4 802E34B4 802E3494 */ .word D_802E3494_734694

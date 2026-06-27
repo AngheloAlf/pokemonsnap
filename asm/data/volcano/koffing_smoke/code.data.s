@@ -57,7 +57,7 @@ enddlabel D_802E3240_734440
 nonmatching koffing_smokeData
 
 dlabel koffing_smokeData
-    /* 734454 802E3254 801140C0 */ .word 0x801140C0
+    /* 734454 802E3254 801140C0 */ .word D_801140C0_33AD40
     /* 734458 802E3258 80114150 */ .word D_80114150_33ADD0
     /* 73445C 802E325C 80359534 */ .word renderPokemonModelTypeDFogged
     /* 734460 802E3260 802E3240 */ .word D_802E3240_734440
