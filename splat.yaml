@@ -20,6 +20,7 @@ options:
   create_undefined_funcs_auto: false
   subalign: 16
   libultra_symbols: True
+  dump_symbols: True
 segments:
   - [0x000000, header, header]
   - [0x000040, bin, boot]
@@ -6593,6 +6594,7 @@ segments:
     exclusive_ram_id: level
     prioritized_segments:
     - tunnel_assets
+    - pikachu1
     - world
     subsegments:
     - [0x5DF5D0, c, main]
@@ -8235,6 +8237,7 @@ segments:
     prioritized_segments:
     - volcano_assets
     - world
+    - magikarp_textures
     subsegments:
     - [0x7272E0, c, main]
     - [0x728490, c, magmar/code]
