@@ -760,6 +760,8 @@ segments:
     vram: 0x8011B050
     bss_size: 0x20
     exclusive_ram_id: unk8011B050
+    prioritized_segments:
+    - world
     subsegments:
     - [0xA74E0, c]
 
@@ -1900,6 +1902,8 @@ segments:
     vram: 0x8012A0C0
     bss_size: 0x20
     exclusive_ram_id: unk8012A0C0
+    prioritized_segments:
+    - world
     subsegments:
     - [0x1F5E70, c]
     - [0x1F5E80]
@@ -2258,6 +2262,8 @@ segments:
     vram: 0x8012A0C0
     bss_size: 0x20
     exclusive_ram_id: unk8012A0C0
+    prioritized_segments:
+    - world
     subsegments:
     - [0x29A190, c]
 
@@ -4850,6 +4856,8 @@ segments:
     vram: 0x800FFF90
     bss_size: 0x20
     exclusive_ram_id: unk800FFF90
+    prioritized_segments:
+    - world
     subsegments:
     - [0x3F63D0, c]
 
@@ -5213,6 +5221,8 @@ segments:
     vram: 0x800F5D90
     bss_size: 0x20
     exclusive_ram_id: unk800F5D90
+    prioritized_segments:
+    - world
     subsegments:
     - [0x4A8160, c]
 
