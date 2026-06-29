@@ -417,12 +417,10 @@ symbol,0xA4800018,None,D_A4800018,None,None,None,,WORD,None,None,0x4,0x0,,False,
 new_pointer_in_data,0x8000023D
 new_pointer_in_data,0x800E18A0
 new_pointer_in_data,0x800E18C0
-new_pointer_in_data,0x800E1CA4
 new_pointer_in_data,0x800E1CB0
 new_pointer_in_data,0x800E1DD0
 new_pointer_in_data,0x800E1DE0
 new_pointer_in_data,0x800E2FF0
-new_pointer_in_data,0x800E30B0
 new_pointer_in_data,0x800E66D0
 new_pointer_in_data,0x800E6AD0
 new_pointer_in_data,0x800E80D0
@@ -433,7 +431,6 @@ new_pointer_in_data,0x800EAFB0
 new_pointer_in_data,0x800EB0C0
 new_pointer_in_data,0x800EB430
 new_pointer_in_data,0x800EB510
-new_pointer_in_data,0x800EDF78
 new_pointer_in_data,0x800F0000
 new_pointer_in_data,0x800F07A0
 new_pointer_in_data,0x800F1D10

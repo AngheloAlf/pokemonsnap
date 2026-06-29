@@ -8684,7 +8684,6 @@ E000028,None,D_E000028,None,None,4,None,True,False,True,True,None,None,None
 800E1CA0,None,func_800E1CA0_8A74C0,func,None,4,0x8A74C0,True,False,True,True,oaks_lab,8A7360,c
 800E1CA0,None,.L800E1CA0_A09230,label,None,4,0xA09230,False,False,True,True,main_menu,A08E30,c
 800E1CA4,None,func_800E1CA4_5F454,func,None,4,0x5F454,True,False,True,True,world,block,c
-800E1CA4,None,func_800E1CA4_5F454,func,None,4,0x5F454,True,False,True,True,None,None,None
 800E1CAC,None,func_800E1CAC_A0923C,func,None,4,0xA0923C,True,False,True,True,main_menu,A08E30,c
 800E1CB0,None,D_800E1CB0_AA0A60,None,None,4,0xAA0A60,True,False,True,True,intro_code,AA0650,.data
 800E1CCC,None,.L800E1CCC_8A74EC,label,None,4,0x8A74EC,False,False,True,True,oaks_lab,8A7360,c
@@ -9104,7 +9103,6 @@ E000028,None,D_E000028,None,None,4,None,True,False,True,True,None,None,None
 800E30A4,None,.L800E30A4_A0A634,label,None,4,0xA0A634,False,False,True,True,main_menu,A08E30,c
 800E30AC,None,.L800E30AC_8A88CC,label,None,4,0x8A88CC,False,False,True,True,oaks_lab,8A7360,c
 800E30B0,None,func_800E30B0_60860,func,None,4,0x60860,True,False,True,True,world,60860,c
-800E30B0,None,func_800E30B0_60860,func,None,4,0x60860,True,False,True,True,None,None,None
 800E30B8,None,func_800E30B8_8A88D8,func,None,4,0x8A88D8,True,False,True,True,oaks_lab,8A7360,c
 800E30EC,None,func_800E30EC_A0A67C,func,None,4,0xA0A67C,True,False,True,True,main_menu,A08E30,c
 800E3100,None,.L800E3100_608B0,label,None,4,0x608B0,False,False,True,True,world,60860,c

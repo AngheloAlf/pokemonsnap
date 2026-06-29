@@ -1064,6 +1064,8 @@ segments:
     vram: 0x8011CB50
     bss_size: 0x20
     exclusive_ram_id: unk8011CB50
+    prioritized_segments:
+    - world
     subsegments:
     - [auto, c, world/world]
     - [auto, c, world/world_gfx]
@@ -2519,6 +2521,8 @@ segments:
     vram: 0x800FFF90
     bss_size: 0x20
     exclusive_ram_id: unk800FFF90
+    prioritized_segments:
+    - world
     subsegments:
     - [auto, c, world/world]
     - [auto, c, world/skybox]

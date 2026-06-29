@@ -718,6 +718,8 @@ symbol,0x800F5CF8,None,D_800F5CF8_734A8,None,None,None,,None,None,None,0x4,0x0,,
 symbol,0x800F5D48,None,D_800F5D48_734F8,None,None,None,f32,FLOAT,None,None,0x4,0x0,,False,False,True,False,False,False,False,3,None,None,None,level,False,False,False,False,None,False,36,False,,False,False,False,None
 symbol,0x800F5D4C,None,D_800F5D4C_734FC,None,None,None,f32,FLOAT,None,None,0x4,0x0,,False,False,True,False,False,False,False,1,None,None,None,level,False,False,False,False,None,False,48,False,,False,False,False,None
 symbol,0x800F5D50,None,D_800F5D50_73500,None,None,None,f32,FLOAT,None,None,0x4,0x0,,False,False,True,False,False,False,False,1,None,None,None,level,False,False,False,False,None,False,64,False,,False,False,False,None
+new_pointer_in_data,0x800E1CA4
+new_pointer_in_data,0x800E30B0
 new_pointer_in_data,0x800E4FB8
 new_pointer_in_data,0x800E4FD4
 new_pointer_in_data,0x800E4FF0
